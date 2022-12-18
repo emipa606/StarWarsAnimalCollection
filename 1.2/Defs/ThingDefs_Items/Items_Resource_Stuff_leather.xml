@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="LeatherBase">
+    <defName>dewback_hide</defName>
+    <label>dewback hide</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(118,134,69)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>0.2</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(118,134,69)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>rancor_hide</defName>
+    <label>rancor hide</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(106,66,41)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.7</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(106,66,41)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>bantha_hide</defName>
+    <label>bantha hide</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(69,39,32)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.7</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(69,39,32)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>nexu_fur</defName>
+    <label>nexu fur</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(236,142,70)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>.1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>.1</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(236,142,70)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>acklay_hide</defName>
+    <label>acklay hide</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(4.3,13.3,14)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>.27</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>.18</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(4.3,13.3,14)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>tauntaun_hide</defName>
+    <label>tauntaun hide</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>.1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>.1</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>40</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(255,255,255)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>KraytDragon_hide</defName>
+    <label>krayt dragon hide</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(104,85,52)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>2.3</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>2.5</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(104,85,52)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>reek_hide</defName>
+    <label>reek hide</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(179,81,44)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>-8</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(179,81,44)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>nerf_hide</defName>
+    <label>nerf hide</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(69,39,32)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(69,39,32)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>gizka_skin</defName>
+    <label>gizka skin</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(101,116,58)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>60</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(101,116,58)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>porg_hide</defName>
+    <label>  hide</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(101,116,58)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>-5</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(101,116,58)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>vulptex_hide</defName>
+    <label>vulptex hide</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(9,36,39)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(9,36,39)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>wampa_hide</defName>
+    <label>wampa hide</label>
+    <description>Tanned, dried, skin.</description>
+    <graphicData>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>.1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>.1</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(255,255,255)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+</Defs>

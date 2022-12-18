@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>Crest</defName>
+    <label>crest</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>Spikes</defName>
+    <label>spikes</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.00</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>Club</defName>
+    <label>club</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.00</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SkullDome</defName>
+    <label>skull dome</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.00</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>LeftClaw</defName>
+    <label>left claw</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.00</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>RightClaw</defName>
+    <label>right claw</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.00</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>LeftAnimalArm</defName>
+    <label>left arm</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.00</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>RightAnimalArm</defName>
+    <label>right arm</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.00</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>Knucklehead</defName>
+    <label>knucklehead</label>
+    <hitPoints>30</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>LeftHorn</defName>
+    <label>left horn</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0.2</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>RightHorn</defName>
+    <label>right horn</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0.2</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>FrontHorn</defName>
+    <label>front horn</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0.2</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>FrontLeftFoot</defName>
+    <label>front left foot</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <alive>false</alive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>FrontRightFoot</defName>
+    <label>front right foot</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <alive>false</alive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>RearLeftFoot</defName>
+    <label>rear left foot</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <alive>false</alive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>RearRightFoot</defName>
+    <label>rear right foot</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <alive>false</alive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+</Defs>

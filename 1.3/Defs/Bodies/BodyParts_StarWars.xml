@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--===================== Claws =====================-->
+  <BodyPartDef Name="SWClawBase" Abstract="True">
+    <hitPoints>7</hitPoints>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <frostbiteVulnerability>10</frostbiteVulnerability>
+    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
+  </BodyPartDef>
+  <BodyPartDef ParentName="SWClawBase">
+    <defName>SW_Claw</defName>
+    <label>claw</label>
+    <labelShort>claw</labelShort>
+    <tags>
+      <li>MovingLimbDigit</li>
+      <li>ManipulationLimbDigit</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_LeftClaw</defName>
+    <label>left claw</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.00</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_RightClaw</defName>
+    <label>right claw</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.00</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_Spikes</defName>
+    <label>spikes</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.00</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_Club</defName>
+    <label>club</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.00</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_FrontHorn</defName>
+    <label>front horn</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0.2</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_LeftHorn</defName>
+    <label>left horn</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0.2</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_RightHorn</defName>
+    <label>right horn</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0.2</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartGroupDef>
+    <defName>SWLeftFingerClaw</defName>
+    <label>left finger claw</label>
+    <labelShort>finger claw</labelShort>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWRightFingerClaw</defName>
+    <label>right finger claw</label>
+    <labelShort>finger claw</labelShort>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWTailAttackTool</defName>
+    <label>tail</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWLeftArmClawAttackTool</defName>
+    <label>left claw</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWRightArmClawAttackTool</defName>
+    <label>right claw</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWLeftLegClawAttackTool</defName>
+    <label>left claw</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWRightLegClawAttackTool</defName>
+    <label>right claw</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWLeftLeg</defName>
+    <label>left leg</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWRightLeg</defName>
+    <label>right leg</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWHornAttackTool</defName>
+    <label>horn</label>
+  </BodyPartGroupDef>
+</Defs>

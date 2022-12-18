@@ -1,0 +1,4 @@
+# Changelog for StarWarsAnimalCollection
+
+1.4.0 - First publish
+

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Star Wars Animal Collection (Continued)</name>
+  <packageId>Mlie.StarWarsAnimalCollection</packageId>
+  <author>Beasstmann</author>
+  <url>https://github.com/emipa606/StarWarsAnimalCollection</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Beasstmanns mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1342364585
+based on the continuation by Guy
+https://steamcommunity.com/sharedfiles/filedetails/?id=2006670799
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/StarWarsAnimalCollection][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+Star Wars Animal Collection V 1.0.2059
+
+Including so far:
+
+-Krayt Dragon
+-Rancor
+-Acklay
+-Reek
+-Nexu
+-Bantha
+-Dewback
+-Tauntaun
+-Nerf
+-Gizka
+-Ronto
+-Vulptex
+-Porg
+-Frogdog
+-Wampa
+
+
+
+
+Let me know if you find any bugs or other problems within this mod.
+Also drop some comments about balancing and let me know what animal you would like to see next.
+	
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
+</ModMetaData>
