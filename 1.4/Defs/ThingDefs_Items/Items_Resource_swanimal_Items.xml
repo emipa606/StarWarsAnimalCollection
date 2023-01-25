@@ -137,14 +137,14 @@
     <graphicData>
       <color>(69,39,32)</color>
     </graphicData>
+    <statBases>
+      <StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Heat>2.2</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>40</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
     <stuffProps>
       <color>(69,39,32)</color>
-      <statFactors>
-        <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-        <ArmorRating_Heat>2.2</ArmorRating_Heat>
-        <Insulation_Cold>3.0</Insulation_Cold>
-        <Insulation_Heat>3.0</Insulation_Heat>
-      </statFactors>
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="WoolBase">
@@ -154,14 +154,14 @@
     <graphicData>
       <color>(69,39,32)</color>
     </graphicData>
+    <statBases>
+      <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Heat>2.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>38</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+    </statBases>
     <stuffProps>
       <color>(69,39,32)</color>
-      <statFactors>
-        <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-        <ArmorRating_Heat>2.2</ArmorRating_Heat>
-        <Insulation_Cold>3.0</Insulation_Cold>
-        <Insulation_Heat>3.0</Insulation_Heat>
-      </statFactors>
     </stuffProps>
   </ThingDef>
   <!-- ====== TROPHIES ====== -->

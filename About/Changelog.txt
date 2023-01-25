@@ -1,4 +1,7 @@
 # Changelog for StarWarsAnimalCollection
 
+1.4.1 - Fixed stats of the wool in the mod, slightly higher than megasloth
+
+
 1.4.0 - First publish
 
