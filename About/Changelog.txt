@@ -1,5 +1,8 @@
 # Changelog for StarWarsAnimalCollection
 
+1.4.2 - Pack animals should now appear in trade caravans
+
+
 1.4.1 - Fixed stats of the wool in the mod, slightly higher than megasloth
 
 

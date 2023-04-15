@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef/pawnGroupMakers/li/carriers</xpath>
+    <value>
+      <Nerf>3</Nerf>
+      <Reek>2</Reek>
+      <Dewback>1</Dewback>
+      <Bantha>4</Bantha>
+    </value>
+  </Operation>
+</Patch>
