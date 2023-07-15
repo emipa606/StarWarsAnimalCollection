@@ -1,5 +1,8 @@
 # Changelog for StarWarsAnimalCollection
 
+1.4.3 - Fixed the porg hide label
+
+
 1.4.2 - Pack animals should now appear in trade caravans
 
 

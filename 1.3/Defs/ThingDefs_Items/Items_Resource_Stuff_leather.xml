@@ -221,7 +221,7 @@
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
     <defName>porg_hide</defName>
-    <label>  hide</label>
+    <label>porg hide</label>
     <description>Tanned, dried, skin.</description>
     <graphicData>
       <color>(101,116,58)</color>

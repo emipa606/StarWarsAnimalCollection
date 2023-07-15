@@ -50,4 +50,4 @@ Also drop some comments about balancing and let me know what animal you would li
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2903582351]Last updated 2023-04-15
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2903582351]Last updated 2023-07-15
