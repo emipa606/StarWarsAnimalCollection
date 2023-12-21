@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="StarWarsAnimalCollection_UpdateFeatureBase">
+		<modNameReadable>StarWarsAnimalCollection</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2903582351</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="StarWarsAnimalCollection_UpdateFeatureBase">
+		<defName>StarWarsAnimalCollection_1_4_4</defName>
+		<assemblyVersion>1.4.4</assemblyVersion>
+		<content>Very large update!
+Thanks to the excellent work of Delta this update brings alot of new animals to the mod.
+These are from all around the Star Wars Galaxy. There are also added custom sounds and graphical variations.
+If you have Vanilla Expanded Framework active, some animals have added behaviours regarding food and movement.
+There are also added resources, like leathers, wool, meat and eggs, as well as skulls for trophies to collect.
+Enjoy!</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+

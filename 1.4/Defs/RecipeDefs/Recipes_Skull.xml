@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>ProcessKraytDragonSkull</defName>
+    <label>process krayt dragon skull into horns</label>
+    <description>Produces krayt dragon horns from a krayt dragon skull.</description>
+    <jobString>Processing krayt dragon skull.</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>KraytDragonSkull</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <KraytDragonHorn>2</KraytDragonHorn>
+    </products>
+    <recipeUsers>
+      <li>ButcherSpot</li>
+      <li>TableButcher</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

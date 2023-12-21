@@ -1,5 +1,9 @@
 # Changelog for StarWarsAnimalCollection
 
+1.4.4 - Huge update, thanks to Delta
+Lots of new animals, sounds and behaviours
+
+
 1.4.3 - Fixed the porg hide label
 
 

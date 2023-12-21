@@ -124,4 +124,111 @@
     <defName>SWHornAttackTool</defName>
     <label>horn</label>
   </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWToxicAppendage</defName>
+    <label>poisonous appendage</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWLeftHoof</defName>
+    <label>raised hoof</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWRightHoof</defName>
+    <label>raised hoof</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SWClaws</defName>
+    <label>claws</label>
+  </BodyPartGroupDef>
+  <BodyPartDef>
+    <defName>SW_RightWing</defName>
+    <label>right wing</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_LeftWing</defName>
+    <label>left wing</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_RightFlipper</defName>
+    <label>right flipper</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_LeftFlipper</defName>
+    <label>left flipper</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_DexterousTail</defName>
+    <label>dexterous tail</label>
+    <hitPoints>7</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbDigit</li>
+      <li>ManipulationLimbDigit</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_LeftTentacle</defName>
+    <label>left tentacle</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SW_RightTentacle</defName>
+    <label>right tentacle</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartGroupDef>
+    <defName>SWTentacleAttackTool</defName>
+    <label>thrashing tentacle</label>
+    <labelShort>tentacle</labelShort>
+  </BodyPartGroupDef>
+  <BodyPartDef>
+    <defName>SW_DorsalTentacle</defName>
+    <label>dorsal tentacle</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>6</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
 </Defs>

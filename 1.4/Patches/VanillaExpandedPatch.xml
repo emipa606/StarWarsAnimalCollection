@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Bogwing" or defName="CanCell" or defName="Dactillion" or defName="Hawkbat"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_Floating" />
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Aiwha"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingsToDig>
+                <li MayRequire="VanillaExpanded.VCEF">VCEF_RawSalmon</li>
+              </customThingsToDig>
+              <customAmountsToDig>
+                <li>1</li>
+              </customAmountsToDig>
+              <spawnForbidden>true</spawnForbidden>
+              <digOnlyOnGrowingSeason>false</digOnlyOnGrowingSeason>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="FrogDog"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingsToDig>
+                <li>Meat_MegaSpider</li>
+              </customThingsToDig>
+              <customAmountsToDig>
+                <li>5</li>
+              </customAmountsToDig>
+              <spawnForbidden>true</spawnForbidden>
+              <digOnlyOnGrowingSeason>false</digOnlyOnGrowingSeason>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Orray"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingsToDig>
+                <li>Meat_MegaSpider</li>
+              </customThingsToDig>
+              <customAmountsToDig>
+                <li>10</li>
+              </customAmountsToDig>
+              <spawnForbidden>true</spawnForbidden>
+              <digOnlyOnGrowingSeason>false</digOnlyOnGrowingSeason>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Dianoga"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
+              <customThingToEat>
+                <li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+              </customThingToEat>
+              <nutrition>1</nutrition>
+              <digThingIfMapEmpty>false</digThingIfMapEmpty>
+              <fullyDestroyThing>true</fullyDestroyThing>
+              <needsWater>false</needsWater>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Gorg"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
+              <customThingToEat>
+                <li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+              </customThingToEat>
+              <nutrition>1</nutrition>
+              <digThingIfMapEmpty>false</digThingIfMapEmpty>
+              <fullyDestroyThing>true</fullyDestroyThing>
+              <needsWater>false</needsWater>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="GraniteSlug"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
+              <customThingToEat>
+                <li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+                <li>ChunkSandstone</li>
+                <li>ChunkGranite</li>
+                <li>ChunkLimestone</li>
+                <li>ChunkSlate</li>
+                <li>ChunkMarble</li>
+                <li>ChunkSlagSteel</li>
+                <li>BlocksSandstone</li>
+                <li>BlocksLimestone</li>
+                <li>BlocksSlate</li>
+                <li>BlocksGranite</li>
+              </customThingToEat>
+              <nutrition>1</nutrition>
+              <digThingIfMapEmpty>false</digThingIfMapEmpty>
+              <fullyDestroyThing>true</fullyDestroyThing>
+              <needsWater>false</needsWater>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Kreetle"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
+              <customThingToEat>
+                <li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+              </customThingToEat>
+              <nutrition>1</nutrition>
+              <digThingIfMapEmpty>false</digThingIfMapEmpty>
+              <fullyDestroyThing>true</fullyDestroyThing>
+              <needsWater>false</needsWater>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="LavaFlea"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
+              <customThingToEat>
+                <li>ChunkSandstone</li>
+                <li>ChunkGranite</li>
+                <li>ChunkLimestone</li>
+                <li>ChunkSlate</li>
+                <li>ChunkMarble</li>
+                <li>BlocksSandstone</li>
+                <li>BlocksLimestone</li>
+                <li>BlocksSlate</li>
+                <li>BlocksGranite</li>
+              </customThingToEat>
+              <nutrition>1</nutrition>
+              <digThingIfMapEmpty>false</digThingIfMapEmpty>
+              <fullyDestroyThing>true</fullyDestroyThing>
+              <needsWater>false</needsWater>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Mynock"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
+              <customThingToEat>
+                <li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+                <li>ChunkSlagSteel</li>
+                <li>Steel</li>
+                <li>Silver</li>
+                <li>Uranium</li>
+                <li>Gold</li>
+                <li>Plasteel</li>
+                <li>ComponentIndustrial</li>
+                <li>ComponentAdvanced</li>
+              </customThingToEat>
+              <nutrition>1</nutrition>
+              <digThingIfMapEmpty>false</digThingIfMapEmpty>
+              <fullyDestroyThing>true</fullyDestroyThing>
+              <needsWater>false</needsWater>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Scurrier"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
+              <customThingToEat>
+                <li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+              </customThingToEat>
+              <nutrition>1</nutrition>
+              <digThingIfMapEmpty>false</digThingIfMapEmpty>
+              <fullyDestroyThing>true</fullyDestroyThing>
+              <needsWater>false</needsWater>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="WompRat"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
+              <customThingToEat>
+                <li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+              </customThingToEat>
+              <nutrition>1</nutrition>
+              <digThingIfMapEmpty>false</digThingIfMapEmpty>
+              <fullyDestroyThing>true</fullyDestroyThing>
+              <needsWater>false</needsWater>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Worrt"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
+              <customThingToEat>
+                <li>ChunkSandstone</li>
+                <li>ChunkGranite</li>
+                <li>ChunkLimestone</li>
+                <li>ChunkSlate</li>
+                <li>ChunkMarble</li>
+                <li>ChunkSlagSteel</li>
+              </customThingToEat>
+              <nutrition>1</nutrition>
+              <digThingIfMapEmpty>false</digThingIfMapEmpty>
+              <fullyDestroyThing>true</fullyDestroyThing>
+              <needsWater>false</needsWater>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
