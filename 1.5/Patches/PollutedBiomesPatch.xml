@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Cold biomes -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "BorealForest"]/pollutionWildAnimals</xpath>
+    <value>
+      <Rancor>0.01</Rancor>
+      <Vulptex>0.04</Vulptex>
+      <Borcatu>0.01</Borcatu>
+      <Cannok>0.01</Cannok>
+      <Dianoga>0.0</Dianoga>
+      <Gelagrub>0.0</Gelagrub>
+      <GraniteSlug>0.15</GraniteSlug>
+      <Gundark>0.01</Gundark>
+      <Hawkbat>0.0</Hawkbat>
+      <Kinrath>0.0</Kinrath>
+      <Krykna>0.08</Krykna>
+      <Kreetle>0.0</Kreetle>
+      <KwazelMaw>0.0</KwazelMaw>
+      <LavaFlea>0.0</LavaFlea>
+      <Mynock>0.15</Mynock>
+      <PaintedSpat>0.0</PaintedSpat>
+      <Scurrier>0.0</Scurrier>
+      <Skalder>0.0</Skalder>
+      <TeeMuss>0.15</TeeMuss>
+      <Vapaad>0.0</Vapaad>
+      <WompRat>0.0</WompRat>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "Tundra"]/pollutionWildAnimals</xpath>
+    <value>
+      <Rancor>0.01</Rancor>
+      <Vulptex>0.08</Vulptex>
+      <Borcatu>0.01</Borcatu>
+      <Cannok>0.01</Cannok>
+      <Dianoga>0.03</Dianoga>
+      <Gelagrub>0.0</Gelagrub>
+      <Gorg>0.0</Gorg>
+      <GraniteSlug>0.15</GraniteSlug>
+      <Gundark>0.0</Gundark>
+      <Hawkbat>0.0</Hawkbat>
+      <Kinrath>0.0</Kinrath>
+      <Krykna>0.15</Krykna>
+      <Kreetle>0.0</Kreetle>
+      <KwazelMaw>0.0</KwazelMaw>
+      <LavaFlea>0.0</LavaFlea>
+      <Mynock>0.15</Mynock>
+      <PaintedSpat>0.0</PaintedSpat>
+      <Scurrier>0.0</Scurrier>
+      <Skalder>0.0</Skalder>
+      <TeeMuss>0.08</TeeMuss>
+      <Vapaad>0.0</Vapaad>
+      <WompRat>0.0</WompRat>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "ColdBog"]/pollutionWildAnimals</xpath>
+    <value>
+      <Rancor>0.0</Rancor>
+      <Vulptex>0.0</Vulptex>
+      <Borcatu>0.01</Borcatu>
+      <Cannok>0.04</Cannok>
+      <Dianoga>0.03</Dianoga>
+      <Gelagrub>0.0</Gelagrub>
+      <Gorg>0.03</Gorg>
+      <GraniteSlug>0.15</GraniteSlug>
+      <Gundark>0.0</Gundark>
+      <Hawkbat>0.0</Hawkbat>
+      <Kinrath>0.0</Kinrath>
+      <Krykna>0.015</Krykna>
+      <Kreetle>0.0</Kreetle>
+      <KwazelMaw>0.03</KwazelMaw>
+      <LavaFlea>0.0</LavaFlea>
+      <Mynock>0.15</Mynock>
+      <PaintedSpat>0.0</PaintedSpat>
+      <Scurrier>0.0</Scurrier>
+      <Skalder>0.0</Skalder>
+      <TeeMuss>0.08</TeeMuss>
+      <Vapaad>0.0</Vapaad>
+      <WompRat>0.0</WompRat>
+    </value>
+  </Operation>
+  <!-- Temperate biomes -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "TemperateForest"]/pollutionWildAnimals</xpath>
+    <value>
+      <Rancor>0.01</Rancor>
+      <Vulptex>0.01</Vulptex>
+      <Borcatu>0.08</Borcatu>
+      <Cannok>0.04</Cannok>
+      <Dianoga>0.01</Dianoga>
+      <Gelagrub>0.01</Gelagrub>
+      <Gorg>0.15</Gorg>
+      <GraniteSlug>0.15</GraniteSlug>
+      <Gundark>0.01</Gundark>
+      <Hawkbat>0.15</Hawkbat>
+      <Kinrath>0.08</Kinrath>
+      <Krykna>0.04</Krykna>
+      <Kreetle>0.02</Kreetle>
+      <KwazelMaw>0.01</KwazelMaw>
+      <LavaFlea>0.0</LavaFlea>
+      <Mynock>0.15</Mynock>
+      <PaintedSpat>0.01</PaintedSpat>
+      <Scurrier>0.01</Scurrier>
+      <Skalder>0.01</Skalder>
+      <TeeMuss>0.04</TeeMuss>
+      <Vapaad>0.01</Vapaad>
+      <WompRat>0.01</WompRat>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "TemperateSwamp"]/pollutionWildAnimals</xpath>
+    <value>
+      <Rancor>0.01</Rancor>
+      <Vulptex>0.0</Vulptex>
+      <Borcatu>0.0</Borcatu>
+      <Cannok>0.04</Cannok>
+      <Dianoga>0.08</Dianoga>
+      <Gelagrub>0.08</Gelagrub>
+      <Gorg>0.08</Gorg>
+      <GraniteSlug>0.15</GraniteSlug>
+      <Gundark>0.01</Gundark>
+      <Hawkbat>0.01</Hawkbat>
+      <Kinrath>0.0</Kinrath>
+      <Krykna>0.04</Krykna>
+      <Kreetle>0.03</Kreetle>
+      <KwazelMaw>0.0</KwazelMaw>
+      <LavaFlea>0.0</LavaFlea>
+      <Mynock>0.15</Mynock>
+      <PaintedSpat>0.0</PaintedSpat>
+      <Scurrier>0.0</Scurrier>
+      <Skalder>0.0</Skalder>
+      <TeeMuss>0.03</TeeMuss>
+      <Vapaad>0.0</Vapaad>
+      <WompRat>0.01</WompRat>
+    </value>
+  </Operation>
+  <!-- Warm biomes -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/pollutionWildAnimals</xpath>
+    <value>
+      <Rancor>0.15</Rancor>
+      <Vulptex>0.01</Vulptex>
+      <Borcatu>0.08</Borcatu>
+      <Cannok>0.08</Cannok>
+      <Dianoga>0.03</Dianoga>
+      <Gelagrub>0.15</Gelagrub>
+      <Gorg>0.8</Gorg>
+      <GraniteSlug>0.15</GraniteSlug>
+      <Gundark>0.03</Gundark>
+      <Hawkbat>0.04</Hawkbat>
+      <Kinrath>0.08</Kinrath>
+      <Krykna>0.03</Krykna>
+      <Kreetle>0.5</Kreetle>
+      <KwazelMaw>0.04</KwazelMaw>
+      <LavaFlea>0.01</LavaFlea>
+      <Mynock>0.15</Mynock>
+      <PaintedSpat>0.08</PaintedSpat>
+      <Scurrier>0.01</Scurrier>
+      <Skalder>0.15</Skalder>
+      <TeeMuss>0.08</TeeMuss>
+      <Vapaad>0.03</Vapaad>
+      <WompRat>0.01</WompRat>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/pollutionWildAnimals</xpath>
+    <value>
+      <Rancor>0.08</Rancor>
+      <Vulptex>0.0</Vulptex>
+      <Borcatu>0.01</Borcatu>
+      <Cannok>0.08</Cannok>
+      <Dianoga>0.15</Dianoga>
+      <Gelagrub>0.08</Gelagrub>
+      <Gorg>0.15</Gorg>
+      <GraniteSlug>0.15</GraniteSlug>
+      <Gundark>0.0</Gundark>
+      <Hawkbat>0.15</Hawkbat>
+      <Kinrath>0.08</Kinrath>
+      <Krykna>0.15</Krykna>
+      <Kreetle>0.0</Kreetle>
+      <KwazelMaw>0.08</KwazelMaw>
+      <LavaFlea>0.0</LavaFlea>
+      <Mynock>0.15</Mynock>
+      <PaintedSpat>0.03</PaintedSpat>
+      <Scurrier>0.0</Scurrier>
+      <Skalder>0.0</Skalder>
+      <TeeMuss>0.02</TeeMuss>
+      <Vapaad>0.03</Vapaad>
+      <WompRat>0.01</WompRat>
+    </value>
+  </Operation>
+  <!-- Arid biomes -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "AridShrubland"]/pollutionWildAnimals</xpath>
+    <value>
+      <Rancor>0.08</Rancor>
+      <Vulptex>0.04</Vulptex>
+      <Borcatu>0.08</Borcatu>
+      <Cannok>0.04</Cannok>
+      <Dianoga>0.0</Dianoga>
+      <Gelagrub>0.0</Gelagrub>
+      <Gorg>0.06</Gorg>
+      <GraniteSlug>0.15</GraniteSlug>
+      <Gundark>0.15</Gundark>
+      <Hawkbat>0.04</Hawkbat>
+      <Kinrath>0.08</Kinrath>
+      <Krykna>0.15</Krykna>
+      <Kreetle>0.15</Kreetle>
+      <KwazelMaw>0.0</KwazelMaw>
+      <LavaFlea>0.0</LavaFlea>
+      <Mynock>0.08</Mynock>
+      <PaintedSpat>0.15</PaintedSpat>
+      <Scurrier>0.15</Scurrier>
+      <Skalder>0.08</Skalder>
+      <TeeMuss>0.02</TeeMuss>
+      <Vapaad>0.01</Vapaad>
+      <WompRat>0.8</WompRat>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "Desert"]/pollutionWildAnimals</xpath>
+    <value>
+      <Rancor>0.01</Rancor>
+      <Vulptex>0.03</Vulptex>
+      <Borcatu>0.15</Borcatu>
+      <Cannok>0.0</Cannok>
+      <Dianoga>0.0</Dianoga>
+      <Gelagrub>0.0</Gelagrub>
+      <Gorg>0.04</Gorg>
+      <GraniteSlug>0.15</GraniteSlug>
+      <Gundark>0.03</Gundark>
+      <Hawkbat>0.01</Hawkbat>
+      <Kinrath>0.01</Kinrath>
+      <Krykna>0.01</Krykna>
+      <Kreetle>0.15</Kreetle>
+      <KwazelMaw>0.0</KwazelMaw>
+      <LavaFlea>0.0</LavaFlea>
+      <Mynock>0.15</Mynock>
+      <PaintedSpat>0.01</PaintedSpat>
+      <Scurrier>0.15</Scurrier>
+      <Skalder>0.08</Skalder>
+      <TeeMuss>0.0</TeeMuss>
+      <Vapaad>0.01</Vapaad>
+      <WompRat>0.0</WompRat>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "ExtremeDesert"]/pollutionWildAnimals</xpath>
+    <value>
+      <Rancor>0.01</Rancor>
+      <Vulptex>0.03</Vulptex>
+      <Borcatu>0.8</Borcatu>
+      <Cannok>0.0</Cannok>
+      <Dianoga>0.0</Dianoga>
+      <Gelagrub>0.0</Gelagrub>
+      <Gorg>0.02</Gorg>
+      <GraniteSlug>0.15</GraniteSlug>
+      <Gundark>0.0</Gundark>
+      <Hawkbat>0.01</Hawkbat>
+      <Kinrath>0.01</Kinrath>
+      <Krykna>0.01</Krykna>
+      <Kreetle>0.15</Kreetle>
+      <KwazelMaw>0.0</KwazelMaw>
+      <LavaFlea>0.08</LavaFlea>
+      <Mynock>0.15</Mynock>
+      <PaintedSpat>0.01</PaintedSpat>
+      <Scurrier>0.15</Scurrier>
+      <Skalder>0.04</Skalder>
+      <TeeMuss>0.0</TeeMuss>
+      <Vapaad>0.01</Vapaad>
+      <WompRat>0.04</WompRat>
+    </value>
+  </Operation>
+</Patch>

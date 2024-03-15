@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ======= Basic quality thoughts ========= -->
+  <ThoughtDef>
+    <defName>AteHawkbatEgg</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate hawkbat egg</label>
+        <description>That Hawkbat egg was astonishing. Truly a dish fit for an Emperor.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+    <replaceThoughts>
+      <li>AteRawFood</li>
+    </replaceThoughts>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteGorntMeat</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate gornt meat</label>
+        <description>That was a really tasty meat. Those Gornt taste great!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

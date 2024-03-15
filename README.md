@@ -7,6 +7,13 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1342364585
 based on the continuation by Guy
 https://steamcommunity.com/sharedfiles/filedetails/?id=2006670799
 
+**Very large update!**
+Thanks to the excellent work of Delta this update brings alot of new animals to the mod.
+These are from all around the Star Wars Galaxy. There are also added custom sounds and graphical variations.
+If you have Vanilla Expanded Framework active, some animals have added behaviours regarding food and movement.
+There are also added resources, like leathers, wool, meat and eggs, as well as skulls for trophies to collect.
+Enjoy!
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	

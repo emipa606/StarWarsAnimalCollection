@@ -1,5 +1,8 @@
 # Changelog for StarWarsAnimalCollection
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.4 - Huge update, thanks to Delta
 Lots of new animals, sounds and behaviours
 
