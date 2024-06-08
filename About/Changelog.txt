@@ -1,5 +1,8 @@
 # Changelog for StarWarsAnimalCollection
 
+1.5.1 - Removed the non-working EatWeirdFood patches that blocked some animals from eating
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 
