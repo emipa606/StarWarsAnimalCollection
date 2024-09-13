@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- ====== EGGS ====== -->
   <ThingDef ParentName="EggFertBase">
@@ -1404,6 +1404,54 @@
     </tools>
     <thingCategories>
       <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>NerfHorn</defName>
+    <label>nerf horn</label>
+    <description>A horn from a Nerf, can be used as a weapon or sold for profit.</description>
+    <graphicData>
+      <texPath>swanimals/NerfHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>30</MarketValue>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <thingCategories>
+      <li>Items</li>
     </thingCategories>
     <tradeTags>
       <li>ExoticMisc</li>

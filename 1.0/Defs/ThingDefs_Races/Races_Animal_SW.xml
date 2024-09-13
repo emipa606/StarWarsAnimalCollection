@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
   <!-- ========= DEWBACK ========= -->
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
@@ -1865,6 +1865,7 @@
         <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
           <thing>
+            <thingDef>NerfHorn</thingDef>
           </thing>
           <allowFemale>true</allowFemale>
         </butcherBodyPart>

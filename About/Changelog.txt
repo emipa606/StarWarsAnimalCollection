@@ -1,5 +1,8 @@
 # Changelog for StarWarsAnimalCollection
 
+1.5.2 - Fixed missing horn for the nerf that was never implemented
+
+
 1.5.1 - Removed the non-working EatWeirdFood patches that blocked some animals from eating
 
 

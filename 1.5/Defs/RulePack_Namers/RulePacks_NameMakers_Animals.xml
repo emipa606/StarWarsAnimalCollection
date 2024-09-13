@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <RulePackDef>
     <defName>SWAnimalNamer</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;[a]</li>
+        <li>name->[a]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
