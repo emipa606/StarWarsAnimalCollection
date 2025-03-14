@@ -2612,7 +2612,7 @@
     <comps />
     <modExtensions>
       <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
-        <movementDef>PF_Movement_Aquatic</movementDef>
+        <movementDef>PF_Movement_Amphibious</movementDef>
       </li>
     </modExtensions>
     <race>
@@ -3006,7 +3006,7 @@
     </tools>
     <modExtensions>
       <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
-        <movementDef>PF_Movement_Aquatic</movementDef>
+        <movementDef>PF_Movement_Amphibious</movementDef>
       </li>
     </modExtensions>
     <race>
@@ -4490,7 +4490,7 @@
     <comps />
     <modExtensions>
       <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
-        <movementDef>PF_Movement_Aquatic</movementDef>
+        <movementDef>PF_Movement_Amphibious</movementDef>
       </li>
     </modExtensions>
     <race>
@@ -4870,7 +4870,7 @@
     </comps>
     <modExtensions>
       <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
-        <movementDef>PF_Movement_Aquatic</movementDef>
+        <movementDef>PF_Movement_Amphibious</movementDef>
       </li>
     </modExtensions>
     <race>
@@ -6844,7 +6844,7 @@
     </comps>
     <modExtensions>
       <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
-        <movementDef>PF_Movement_Aquatic</movementDef>
+        <movementDef>PF_Movement_Amphibious</movementDef>
       </li>
     </modExtensions>
     <race>
@@ -7873,7 +7873,7 @@
     </comps>
     <modExtensions>
       <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
-        <movementDef>PF_Movement_Aquatic</movementDef>
+        <movementDef>PF_Movement_Amphibious</movementDef>
       </li>
     </modExtensions>
     <race>
@@ -9140,7 +9140,7 @@
     </tools>
     <modExtensions>
       <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
-        <movementDef>PF_Movement_Aquatic</movementDef>
+        <movementDef>PF_Movement_Amphibious</movementDef>
       </li>
     </modExtensions>
     <race>
@@ -9685,7 +9685,7 @@
     </comps>
     <modExtensions>
       <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
-        <movementDef>PF_Movement_Aquatic</movementDef>
+        <movementDef>PF_Movement_Amphibious</movementDef>
       </li>
     </modExtensions>
     <race>
@@ -10254,7 +10254,7 @@
     </comps>
     <modExtensions>
       <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
-        <movementDef>PF_Movement_Aquatic</movementDef>
+        <movementDef>PF_Movement_Amphibious</movementDef>
       </li>
     </modExtensions>
     <race>

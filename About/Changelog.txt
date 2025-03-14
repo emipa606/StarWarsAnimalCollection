@@ -1,5 +1,8 @@
 # Changelog for StarWarsAnimalCollection
 
+1.5.3 - Replaced aquatic with amphibious movement when using pathfinding framework as it seems it would fit the races better
+
+
 1.5.2 - Fixed missing horn for the nerf that was never implemented
 
 
