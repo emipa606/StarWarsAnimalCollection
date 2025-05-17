@@ -3,13 +3,27 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/FactionDef/pawnGroupMakers/li/carriers</xpath>
     <value>
-      <Eopie>2</Eopie>
-      <Dewback>2</Dewback>
-      <TeeMuss>3</TeeMuss>
       <Bantha>4</Bantha>
-      <Ronto>1</Ronto>
+      <Blurrg>4</Blurrg>
+      <Bolotaur>4</Bolotaur>
+      <Bordok>4</Bordok>
+      <Dalgo>4</Dalgo>
+      <Dewback>4</Dewback>
+      <Eopie>4</Eopie>
+      <Falumpaset>3</Falumpaset>
       <Fambaa>1</Fambaa>
+      <Gelagrub>3</Gelagrub>
+      <Gualaar>2</Gualaar>
+      <HarvesterBeetle>1</HarvesterBeetle>
+      <IthorianReek>2</IthorianReek>
+      <Jamel>3</Jamel>
+      <Kybuck>4</Kybuck>
       <Mastmot>1</Mastmot>
+      <Ronto>1</Ronto>
+      <Skalder>3</Skalder>
+      <Tauntaun>4</Tauntaun>
+      <TeeMuss>4</TeeMuss>
+      <Thranta>3</Thranta>
     </value>
   </Operation>
 </Patch>

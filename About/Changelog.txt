@@ -1,5 +1,9 @@
 # Changelog for StarWarsAnimalCollection
 
+1.5.4 - Another huge update, thanks to Delta.
+55 new creatures
+
+
 1.5.3 - Replaced aquatic with amphibious movement when using pathfinding framework as it seems it would fit the races better
 
 

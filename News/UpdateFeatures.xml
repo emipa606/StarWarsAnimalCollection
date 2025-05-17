@@ -14,4 +14,16 @@ If you have Vanilla Expanded Framework active, some animals have added behaviour
 There are also added resources, like leathers, wool, meat and eggs, as well as skulls for trophies to collect.
 Enjoy!</content>
   </HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="StarWarsAnimalCollection_UpdateFeatureBase">
+		<defName>StarWarsAnimalCollection_1_5_3</defName>
+		<assemblyVersion>1.5.3</assemblyVersion>
+		<content>Another huge update!
+Delta have been hard at work with adding more creatures from the Star Wars Galaxy.
+55 new creatures
+Custom corpse textures
+Various bug-fixes
+Mod now includes over 1200 custom textures!
+Enjoy!</content>
+	</HugsLib.UpdateFeatureDef>
 </Defs>
+

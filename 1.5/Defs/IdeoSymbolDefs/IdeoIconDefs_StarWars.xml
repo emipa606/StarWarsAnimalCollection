@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Andor</defName>
+    <iconPath>UI/Ideoligions/sw_Andor</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li>Rustican</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_BankingClan</defName>
+    <iconPath>UI/Ideoligions/sw_BankingClan</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Bantha</defName>
+    <iconPath>UI/Ideoligions/sw_Bantha</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li>Rustican</li>
+    </cultures>
+    <memes>
+      <li>Rancher</li>
+      <li>AnimalPersonhood</li>
+      <li>Structure_Animist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Bothan</defName>
+    <iconPath>UI/Ideoligions/sw_Bothan</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Structure_Ideological</li>
+      <li>Structure_Animist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_BountyHunterGuild</defName>
+    <iconPath>UI/Ideoligions/sw_BountyHunterGuild</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Chimera</defName>
+    <iconPath>UI/Ideoligions/sw_Chimera</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.Csilla">OuterRim_CultureChiss</li>
+      <li MayRequire="Neronix17.OuterRim.GalacticEmpire">OuterRim_CultureNewOrder</li>
+    </cultures>
+    <memes>
+      <li>Supremacist</li>
+      <li>Collectivist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_ChissExpansion</defName>
+    <iconPath>UI/Ideoligions/sw_ChissExpansion</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.Csilla">OuterRim_CultureChiss</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Loyalist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_CommerceGuild</defName>
+    <iconPath>UI/Ideoligions/sw_CommerceGuild</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Corellia</defName>
+    <iconPath>UI/Ideoligions/sw_Corellia</iconPath>
+    <cultures>
+      <li>Rustican</li>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_CorporateSector</defName>
+    <iconPath>UI/Ideoligions/sw_CorporateSector</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_CoruscantSecurity</defName>
+    <iconPath>UI/Ideoligions/sw_CoruscantSecurity</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.GalacticRepublic">OuterRim_CultureRepublic</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_CrimeDarmanda</defName>
+    <iconPath>UI/Ideoligions/sw_CrimeDarmanda</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+      <li MayRequire="Neronix17.OuterRim.Mandalore">OuterRim_CultureMandalorian</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_CrimeExchange</defName>
+    <iconPath>UI/Ideoligions/sw_CrimeExchange</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_CrimeHuttCartel</defName>
+    <iconPath>UI/Ideoligions/sw_CrimeHuttCartel</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>HighLife</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_CrimePyke</defName>
+    <iconPath>UI/Ideoligions/sw_CrimePyke</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>HighLife</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_CrimeShadowCollective</defName>
+    <iconPath>UI/Ideoligions/sw_CrimeShadowCollective</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_CrimeZann</defName>
+    <iconPath>UI/Ideoligions/sw_CrimeZann</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_CybotGalactica</defName>
+    <iconPath>UI/Ideoligions/sw_CybotGalactica</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Transhumanist</li>
+      <li>Structure_Archist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_CzerkaCorporation</defName>
+    <iconPath>UI/Ideoligions/sw_CzerkaCorporation</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Dathomir</defName>
+    <iconPath>UI/Ideoligions/sw_Dathomir</iconPath>
+    <cultures>
+      <li>Corunan</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhuman</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_DiversityAlliance</defName>
+    <iconPath>UI/Ideoligions/sw_DiversityAlliance</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li>Rustican</li>
+    </cultures>
+    <memes>
+      <li>HumanPrimacy</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Fondor</defName>
+    <iconPath>UI/Ideoligions/sw_Fondor</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_ForceDark</defName>
+    <iconPath>UI/Ideoligions/sw_ForceDark</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_SithOrder</li>
+    </cultures>
+    <memes>
+      <li>HumanPrimacy</li>
+      <li>Supremacist</li>
+      <li>Transhumanist</li>
+      <li>Darkness</li>
+      <li>Structure_TheistAbstract</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhuman</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeding</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_ForceLight</defName>
+    <iconPath>UI/Ideoligions/sw_ForceLight</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_JediOrder</li>
+    </cultures>
+    <memes>
+      <li>NaturePrimacy</li>
+      <li>TreeConnection</li>
+      <li>FleshPurity</li>
+      <li>Structure_Animist</li>
+      <li>Structure_TheistAbstract</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_GalacticFederation</defName>
+    <iconPath>UI/Ideoligions/sw_GalacticFederation</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_CultureRebelAlliance</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Grievous</defName>
+    <iconPath>UI/Ideoligions/sw_Grievous</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Transhumanist</li>
+      <li>Supremacist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Gungan</defName>
+    <iconPath>UI/Ideoligions/sw_Gungan</iconPath>
+    <cultures>
+      <li>Corunan</li>
+    </cultures>
+    <memes>
+      <li>Rancher</li>
+      <li>TreeConnection</li>
+      <li>NaturePrimacy</li>
+      <li>AnimalPersonhood</li>
+      <li>Structure_Animist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_HapesConsortium</defName>
+    <iconPath>UI/Ideoligions/sw_HapesConsortium</iconPath>
+    <cultures>
+      <li MayRequire="Ludeon.RimWorld.Royalty">Sophian</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+      <li>FemaleSupremacy</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_HouseCalrissian</defName>
+    <iconPath>UI/Ideoligions/sw_HouseCalrissian</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+      <li>Astropolitan</li>
+      <li>Rustican</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_HouseMothma</defName>
+    <iconPath>UI/Ideoligions/sw_HouseMothma</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_CultureRebelAlliance</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_HouseOrgana</defName>
+    <iconPath>UI/Ideoligions/sw_HouseOrgana</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">Sophian</li>
+      <li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_CultureRebelAlliance</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Rancher</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_HouseRevan</defName>
+    <iconPath>UI/Ideoligions/sw_HouseRevan</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_CultureRepublicLaw</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_HouseSerenno</defName>
+    <iconPath>UI/Ideoligions/sw_HouseSerenno</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">Sophian</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Skywalker</defName>
+    <iconPath>UI/Ideoligions/sw_Skywalker</iconPath>
+    <cultures>
+      <li>Rustican</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_HouseTagge</defName>
+    <iconPath>UI/Ideoligions/sw_HouseTagge</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Hutt</defName>
+    <iconPath>UI/Ideoligions/sw_Hutt</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>HighLife</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_IndustrialAutomaton</defName>
+    <iconPath>UI/Ideoligions/sw_IndustrialAutomaton</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Transhumanist</li>
+      <li>Structure_Archist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_InfiniteEmpire</defName>
+    <iconPath>UI/Ideoligions/sw_InfiniteEmpire</iconPath>
+    <cultures>
+      <li>Corunan</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+      <li>Supremacist</li>
+      <li>Cannibal</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhuman</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Jedaii</defName>
+    <iconPath>UI/Ideoligions/sw_Jedaii</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_JediOrder</li>
+    </cultures>
+    <memes>
+      <li>NaturePrimacy</li>
+      <li>TreeConnection</li>
+      <li>FleshPurity</li>
+      <li>Structure_TheistAbstract</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_JediCrest</defName>
+    <iconPath>UI/Ideoligions/sw_JediCrest</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_JediOrder</li>
+    </cultures>
+    <memes>
+      <li>NaturePrimacy</li>
+      <li>TreeConnection</li>
+      <li>FleshPurity</li>
+      <li>Structure_TheistAbstract</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_JediDawn</defName>
+    <iconPath>UI/Ideoligions/sw_JediDawn</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_JediOrder</li>
+    </cultures>
+    <memes>
+      <li>NaturePrimacy</li>
+      <li>TreeConnection</li>
+      <li>FleshPurity</li>
+      <li>Structure_TheistAbstract</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_JediGray</defName>
+    <iconPath>UI/Ideoligions/sw_JediGray</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_JediOrder</li>
+    </cultures>
+    <memes>
+      <li>NaturePrimacy</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_JediGuard</defName>
+    <iconPath>UI/Ideoligions/sw_JediGuard</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_JediOrder</li>
+    </cultures>
+    <memes>
+      <li>NaturePrimacy</li>
+      <li>Loyalist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_JediNova</defName>
+    <iconPath>UI/Ideoligions/sw_JediNova</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_JediOrder</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Kamino</defName>
+    <iconPath>UI/Ideoligions/sw_Kamino</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.GalacticRepublic">OuterRim_CultureRepublic</li>
+    </cultures>
+    <memes>
+      <li>Transhumanist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Krayt</defName>
+    <iconPath>UI/Ideoligions/sw_Krayt</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li>Rustican</li>
+    </cultures>
+    <memes>
+      <li>Rancher</li>
+      <li>AnimalPersonhood</li>
+      <li>Structure_Animist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Kuat</defName>
+    <iconPath>UI/Ideoligions/sw_Kuat</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_MandoCrusuader</defName>
+    <iconPath>UI/Ideoligions/sw_MandoCrusuader</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li>Rustican</li>
+      <li MayRequire="Neronix17.OuterRim.Mandalore">OuterRim_CultureMandalorian</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+      <li>Supremacist</li>
+      <li>PainIsVirtue</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_MandoDeathwatch</defName>
+    <iconPath>UI/Ideoligions/sw_MandoDeathwatch</iconPath>
+    <cultures>
+      <li>Rustican</li>
+      <li>Kriminul</li>
+      <li MayRequire="Neronix17.OuterRim.Mandalore">OuterRim_CultureMandalorian</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+      <li>Supremacist</li>
+      <li>PainIsVirtue</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_MandoGuard</defName>
+    <iconPath>UI/Ideoligions/sw_MandoGuard</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.Mandalore">OuterRim_CultureMandalorian</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>Collectivist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_MandoNeo</defName>
+    <iconPath>UI/Ideoligions/sw_MandoNeo</iconPath>
+    <cultures>
+      <li>Rustican</li>
+      <li MayRequire="Neronix17.OuterRim.Mandalore">OuterRim_CultureMandalorian</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+      <li>Supremacist</li>
+      <li>PainIsVirtue</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_MandoTrue</defName>
+    <iconPath>UI/Ideoligions/sw_MandoTrue</iconPath>
+    <cultures>
+      <li>Rustican</li>
+      <li MayRequire="Neronix17.OuterRim.Mandalore">OuterRim_CultureMandalorian</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+      <li>Supremacist</li>
+      <li>PainIsVirtue</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_MandoVindicated</defName>
+    <iconPath>UI/Ideoligions/sw_MandoVindicated</iconPath>
+    <cultures>
+      <li>Rustican</li>
+      <li MayRequire="Neronix17.OuterRim.Mandalore">OuterRim_CultureMandalorian</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+      <li>Supremacist</li>
+      <li>PainIsVirtue</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_MiningGuild</defName>
+    <iconPath>UI/Ideoligions/sw_MiningGuild</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Tunneler</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_MonCalamari</defName>
+    <iconPath>UI/Ideoligions/sw_MonCalamari</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_CultureRebelAlliance</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Naboo</defName>
+    <iconPath>UI/Ideoligions/sw_Naboo</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">Sophian</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Nightsisters</defName>
+    <iconPath>UI/Ideoligions/sw_Nightsisters</iconPath>
+    <cultures>
+      <li>Corunan</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+      <li>Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhuman</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_OnderonRebel</defName>
+    <iconPath>UI/Ideoligions/sw_OnderonRebel</iconPath>
+    <cultures>
+      <li>Rustican</li>
+      <li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_CultureRebelAlliance</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_OnderonRoyalty</defName>
+    <iconPath>UI/Ideoligions/sw_OnderonRoyalty</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">Sophian</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Pantoran</defName>
+    <iconPath>UI/Ideoligions/sw_Pantoran</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Pentastar</defName>
+    <iconPath>UI/Ideoligions/sw_Pentastar</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.GalacticEmpire">OuterRim_CultureNewOrder</li>
+    </cultures>
+    <memes>
+      <li>Supremacist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_PirateFromm</defName>
+    <iconPath>UI/Ideoligions/sw_PirateFromm</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_PirateHondo</defName>
+    <iconPath>UI/Ideoligions/sw_PirateHondo</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_PirateRevenants</defName>
+    <iconPath>UI/Ideoligions/sw_PirateRevenants</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Rancor</defName>
+    <iconPath>UI/Ideoligions/sw_Rancor</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li>Rustican</li>
+    </cultures>
+    <memes>
+      <li>Rancher</li>
+      <li>AnimalPersonhood</li>
+      <li>Structure_Animist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_RebelNebula</defName>
+    <iconPath>UI/Ideoligions/sw_RebelNebula</iconPath>
+    <cultures>
+      <li>Rustican</li>
+      <li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_CultureRebelAlliance</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_RebelPartisan</defName>
+    <iconPath>UI/Ideoligions/sw_RebelPartisan</iconPath>
+    <cultures>
+      <li>Rustican</li>
+      <li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_CultureRebelAlliance</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+      <li>PainIsVirtue</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_RebelPhoenix</defName>
+    <iconPath>UI/Ideoligions/sw_RebelPhoenix</iconPath>
+    <cultures>
+      <li>Rustican</li>
+      <li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_CultureRebelAlliance</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_RepublicArmy</defName>
+    <iconPath>UI/Ideoligions/sw_RepublicArmy</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.GalacticRepublic">OuterRim_CultureRepublic</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_RepublicMedical</defName>
+    <iconPath>UI/Ideoligions/sw_RepublicMedical</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.GalacticRepublic">OuterRim_CultureRepublic</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>FleshPurity</li>
+      <li>Transhumanist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_RepublicNavy</defName>
+    <iconPath>UI/Ideoligions/sw_RepublicNavy</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.GalacticRepublic">OuterRim_CultureRepublic</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_RepublicNew</defName>
+    <iconPath>UI/Ideoligions/sw_RepublicNew</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_CultureRebelAlliance</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_RepublicOld</defName>
+    <iconPath>UI/Ideoligions/sw_RepublicOld</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_CultureRepublicLaw</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_RepublicSenate</defName>
+    <iconPath>UI/Ideoligions/sw_RepublicSenate</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.GalacticRepublic">OuterRim_CultureRepublic</li>
+    </cultures>
+    <memes>
+      <li>Loyalist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Sabaac</defName>
+    <iconPath>UI/Ideoligions/sw_Sabaac</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Sienar</defName>
+    <iconPath>UI/Ideoligions/sw_Sienar</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Neronix17.OuterRim.GalacticEmpire">OuterRim_CultureNewOrder</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_SithCrest</defName>
+    <iconPath>UI/Ideoligions/sw_SithCrest</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_SithOrder</li>
+      <li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_CultureSithIdealism</li>
+    </cultures>
+    <memes>
+      <li>Supremacist</li>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_SithDarkBrotherhood</defName>
+    <iconPath>UI/Ideoligions/sw_SithDarkBrotherhood</iconPath>
+    <cultures>
+      <li>Rustican</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_SithOrder</li>
+      <li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_CultureSithIdealism</li>
+    </cultures>
+    <memes>
+      <li>Supremacist</li>
+      <li>Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhuman</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_SithDreadlords</defName>
+    <iconPath>UI/Ideoligions/sw_SithDreadlords</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li>Rustican</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_SithOrder</li>
+      <li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_CultureSithIdealism</li>
+    </cultures>
+    <memes>
+      <li>Supremacist</li>
+      <li>Raider</li>
+      <li>Darkness</li>
+      <li>PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhuman</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeding</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_SithEternal</defName>
+    <iconPath>UI/Ideoligions/sw_SithEternal</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">Sophian</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_SithOrder</li>
+      <li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_CultureSithIdealism</li>
+    </cultures>
+    <memes>
+      <li>Supremacist</li>
+      <li>HumanPrimacy</li>
+      <li>Transhumanist</li>
+      <li>Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhuman</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_SithExarKun</defName>
+    <iconPath>UI/Ideoligions/sw_SithExarKun</iconPath>
+    <cultures>
+      <li>Rustican</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_SithOrder</li>
+      <li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_CultureSithIdealism</li>
+    </cultures>
+    <memes>
+      <li>Supremacist</li>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_SithNagaSadow</defName>
+    <iconPath>UI/Ideoligions/sw_SithNagaSadow</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li>Rustican</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_SithOrder</li>
+      <li MayRequire="Neronix17.OuterRim.OldRepublic">OuterRim_CultureSithIdealism</li>
+    </cultures>
+    <memes>
+      <li>Supremacist</li>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_SmugglersAlliance</defName>
+    <iconPath>UI/Ideoligions/sw_SmugglersAlliance</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+      <li>Rustican</li>
+    </cultures>
+    <memes>
+      <li>Individualist</li>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_TechnoUnion</defName>
+    <iconPath>UI/Ideoligions/sw_TechnoUnion</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Transhumanist</li>
+      <li>Structure_Archist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_TradeFederation</defName>
+    <iconPath>UI/Ideoligions/sw_TradeFederation</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+    </cultures>
+    <memes>
+      <li>Collectivist</li>
+      <li>Structure_Archist</li>
+      <li>Structure_Ideological</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Trandosha</defName>
+    <iconPath>UI/Ideoligions/sw_Trandosha</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+      <li>Rustican</li>
+    </cultures>
+    <memes>
+      <li>Supremacist</li>
+      <li>Raider</li>
+      <li>Structure_Animist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Vong</defName>
+    <iconPath>UI/Ideoligions/sw_Vong</iconPath>
+    <memes>
+      <li>Supremacist</li>
+      <li>FleshPurity</li>
+      <li>NaturePrimacy</li>
+      <li>Raider</li>
+      <li>Structure_Animist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Wookie</defName>
+    <iconPath>UI/Ideoligions/sw_Wookie</iconPath>
+    <cultures>
+      <li>Corunan</li>
+      <li>Rustican</li>
+      <li MayRequire="Neronix17.OuterRim.RebelAlliance">OuterRim_CultureRebelAlliance</li>
+    </cultures>
+    <memes>
+      <li>AnimalPersonhood</li>
+      <li>NaturePrimacy</li>
+      <li>TreeConnection</li>
+      <li>Collectivist</li>
+      <li>Structure_Animist</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_Yoda</defName>
+    <iconPath>UI/Ideoligions/sw_Yoda</iconPath>
+    <cultures>
+      <li>Astropolitan</li>
+      <li MayRequire="lee.theforce.psycast">Force_Culture_JediOrder</li>
+    </cultures>
+    <memes>
+      <li>NaturePrimacy</li>
+      <li>TreeConnection</li>
+      <li>FleshPurity</li>
+    </memes>
+  </IdeoIconDef>
+  <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>sw_ZygerrianEmpire</defName>
+    <iconPath>UI/Ideoligions/sw_ZygerrianEmpire</iconPath>
+    <cultures>
+      <li>Kriminul</li>
+    </cultures>
+    <memes>
+      <li>Supremacist</li>
+      <li>Raider</li>
+    </memes>
+  </IdeoIconDef>
+</Defs>

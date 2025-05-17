@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <RulePackDef>
-    <defName>SWAnimalNamer</defName>
+    <defName>SWAnimalNamerMale</defName>
     <rulePack>
       <rulesStrings>
         <li>name->[a]</li>
@@ -9,7 +9,21 @@
       <rulesRaw>
         <li Class="Rule_File">
           <keyword>a</keyword>
-          <path>SWAnimalNames/SWAnimalNames</path>
+          <path>SWAnimalNames/SWAnimalNamesMale</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>SWAnimalNamerFemale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[a]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>a</keyword>
+          <path>SWAnimalNames/SWAnimalNamesFemale</path>
         </li>
       </rulesRaw>
     </rulePack>

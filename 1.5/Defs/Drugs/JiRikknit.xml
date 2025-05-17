@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="DrugBase">
+    <defName>JiRikknit</defName>
+    <label>ji rikknit</label>
+    <description>Ji rikknit is a primitive variety of the drug family "spice" that is created from the ovum sac of the Rikknit creature native to planet New Plymto. It gives the user a brief euphoria but was not as addictive as other "spice" varieties.</description>
+    <descriptionHyperlinks>
+      <HediffDef>JiRikknitHigh</HediffDef>
+      <HediffDef>JiRikknitAddiction</HediffDef>
+      <HediffDef>JiRikknitTolerance</HediffDef>
+      <HediffDef>ChemicalDamageSevere</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>swanimals/Resource/JiRikknit</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>40</MarketValue>
+      <Mass>0.1</Mass>
+      <DeteriorationRate>10</DeteriorationRate>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.80</joy>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Processed</foodType>
+      <baseIngestTicks>150</baseIngestTicks>
+      <ingestSound>Herbivore_Eat</ingestSound>
+      <ingestEffectEat>EatVegetarian</ingestEffectEat>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.21,0,0.05)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Consume {0}</ingestCommandString>
+      <ingestReportString>Consuming {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>JiRikknitHigh</hediffDef>
+          <severity>0.5</severity>
+          <toleranceChemical>JiRikknit</toleranceChemical>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>JiRikknit</chemical>
+        <addictiveness>0.01</addictiveness>
+        <minToleranceToAddict>0.15</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
+        <needLevelOffset>0.9</needLevelOffset>
+        <isCombatEnhancingDrug>false</isCombatEnhancingDrug>
+        <listOrder>100</listOrder>
+      </li>
+    </comps>
+    <allowedArchonexusCount>20</allowedArchonexusCount>
+  </ThingDef>
+  <HediffDef>
+    <defName>JiRikknitHigh</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>high on ji rikknit</label>
+    <labelNoun>a ji rikknit high</labelNoun>
+    <description>ji rikknit in the bloodstream. It gives a strong sense of euphoria.</description>
+    <defaultLabelColor>(0.5,0.1,1.0)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.5</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>JiRikknitHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>JiRikknitHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>high on ji rikknit</label>
+        <description>I feel euphoric, I feel adrift in the flow of a "purple tide".</description>
+        <baseMoodEffect>40</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- Ji Rikknit addiction -->
+  <ChemicalDef>
+    <defName>JiRikknit</defName>
+    <label>ji rikknit</label>
+    <addictionHediff>JiRikknitAddiction</addictionHediff>
+  </ChemicalDef>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_JiRikknit</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>ji rikknit</label>
+    <description>Because of a ji rikknit addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <fallPerDay>0.15</fallPerDay>
+    <listPriority>45</listPriority>
+  </NeedDef>
+  <HediffDef ParentName="AddictionBase">
+    <defName>JiRikknitAddiction</defName>
+    <label>ji rikknit addiction</label>
+    <description>A chemical addiction to ji rikknit. Long-term presence of ji rikknit has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+\nWithout regular doses of ji rikknit, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <causesNeed>Chemical_JiRikknit</causesNeed>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.045</severityPerDay>
+        <showDaysToRecover>true</showDaysToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <capMods>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Binging_DrugExtreme</mentalState>
+            <mtbDays>40</mtbDays>
+          </li>
+          <li>
+            <mentalState>Wander_Psychotic</mentalState>
+            <mtbDays>10</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>JiRikknitWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>JiRikknitAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>ji rikknit withdrawal</label>
+        <description>Ugh, I keep hearing the sound of arboreal crustaceans in my sleep...</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>JiRikknitTolerance</defName>
+    <label>ji rikknit tolerance</label>
+    <description>A built-up tolerance to ji rikknit. The more severe this tolerance is, the more ji rikknit it takes to get the same effect.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.015</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>JiRikknit</chemical>
+      </li>
+    </comps>
+  </HediffDef>
+  <!-- Ji Rikknit Crafting -->
+  <RecipeDef>
+    <defName>MakeJiRikknit</defName>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <label>Make ji rikknit</label>
+    <description>Make ji rikknit.</description>
+    <jobString>Making ji rikknit.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <researchPrerequisite>Brewing</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RikknitOvum</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <JiRikknit>1</JiRikknit>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RikknitOvum</li>
+        <li>MedicineHerbal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <displayPriority>2000</displayPriority>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeJiRikknitBulk</defName>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <label>Make ji rikknit x4</label>
+    <description>Make bulk ji rikknit.</description>
+    <jobString>Making bulk ji rikknit.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <researchPrerequisite>Brewing</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RikknitOvum</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <JiRikknit>4</JiRikknit>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RikknitOvum</li>
+        <li>MedicineHerbal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <displayPriority>2000</displayPriority>
+  </RecipeDef>
+</Defs>

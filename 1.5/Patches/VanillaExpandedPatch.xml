@@ -7,20 +7,20 @@
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/ThingDef[defName="Bogwing" or defName="CanCell" or defName="Dactillion" or defName="Hawkbat"]/comps</xpath>
+          <xpath>Defs/ThingDef[defName="Bogwing" or defName="CanCell" or defName="Dactillion" or defName="Hawkbat" or defName="Beldon" or defName="Convor" or defName="PekoPeko" or defName="Shyrack" or defName="Thranta" or defName="Whisperbird" or defName="Drexl"]/comps</xpath>
           <value>
             <li Class="AnimalBehaviours.CompProperties_Floating" />
           </value>
         </li>
-        <li Class="PatchOperationAdd" MayRequire="VanillaExpanded.VCEF">
+        <li Class="PatchOperationAdd">
           <xpath>Defs/ThingDef[defName="Aiwha"]/comps</xpath>
           <value>
             <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
               <customThingsToDig>
-                <li>VCEF_RawSalmon</li>
+                <li>Crustapod_Meat</li>
               </customThingsToDig>
               <customAmountsToDig>
-                <li>1</li>
+                <li>10</li>
               </customAmountsToDig>
               <spawnForbidden>true</spawnForbidden>
               <digOnlyOnGrowingSeason>false</digOnlyOnGrowingSeason>
@@ -32,7 +32,22 @@
           <value>
             <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
               <customThingsToDig>
-                <li>Meat_MegaSpider</li>
+                <li>Insectile_Meat</li>
+              </customThingsToDig>
+              <customAmountsToDig>
+                <li>5</li>
+              </customAmountsToDig>
+              <spawnForbidden>true</spawnForbidden>
+              <digOnlyOnGrowingSeason>false</digOnlyOnGrowingSeason>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Strill"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingsToDig>
+                <li>Insectile_Meat</li>
               </customThingsToDig>
               <customAmountsToDig>
                 <li>5</li>
@@ -47,10 +62,25 @@
           <value>
             <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
               <customThingsToDig>
-                <li>Meat_MegaSpider</li>
+                <li>Insectile_Meat</li>
               </customThingsToDig>
               <customAmountsToDig>
                 <li>10</li>
+              </customAmountsToDig>
+              <spawnForbidden>true</spawnForbidden>
+              <digOnlyOnGrowingSeason>false</digOnlyOnGrowingSeason>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Pufferpig"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingsToDig>
+                <li>Gold</li>
+              </customThingsToDig>
+              <customAmountsToDig>
+                <li>5</li>
               </customAmountsToDig>
               <spawnForbidden>true</spawnForbidden>
               <digOnlyOnGrowingSeason>false</digOnlyOnGrowingSeason>
