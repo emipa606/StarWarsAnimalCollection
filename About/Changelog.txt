@@ -1,5 +1,8 @@
 # Changelog for StarWarsAnimalCollection
 
+1.5.5 - Added relevant animals as pennable, skipping those with trainability as making them penned blocks training
+
+
 1.5.4 - Another huge update, thanks to Delta.
 55 new creatures
 

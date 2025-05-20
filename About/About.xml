@@ -20,12 +20,141 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1342364585
 based on the continuation by Guy
 https://steamcommunity.com/sharedfiles/filedetails/?id=2006670799
 
-[b]Very large update![/b]
+[h2]Very large update![/h2]
 Thanks to the excellent work of Delta this update brings alot of new animals to the mod.
 These are from all around the Star Wars Galaxy. There are also added custom sounds and graphical variations.
-If you have Vanilla Expanded Framework active, some animals have added behaviours regarding food and movement.
-There are also added resources, like leathers, wool, meat and eggs, as well as skulls for trophies to collect.
+If you have Vanilla Expanded Framework active, some animals have added behaviors regarding food and movement.
+There are also added resources, like leathers, wool, meat, eggs and drugs; as well as skulls for trophies to collect.
 Enjoy!
+
+[h3]Updated creature list[/h3]
+[list]
+[*]Acklay
+[*]Aiwha
+[*]Akk
+[*]Anooba
+[*]Bantha
+[*]Behemoth
+[*]Beldon
+[*]Blarth
+[*]Blixus
+[*]Blurrg
+[*]Boarwolf
+[*]Bogwing
+[*]Bolotaur
+[*]Boma
+[*]Borcatu
+[*]Bordok
+[*]Brezak
+[*]Bursa
+[*]Can-Cell
+[*]Cannok
+[*]Convor
+[*]Corellian Hound
+[*]Corinathoth
+[*]Dactillion
+[*]Dalgo
+[*]Dewback
+[*]Dianoga
+[*]Drexl
+[*]Energy Spider
+[*]Eopie
+[*]Falumpaset
+[*]Fambaa
+[*]Feral Grazer
+[*]Feral Nerf
+[*]FrogDog
+[*]Gelagrub
+[*]Gizka
+[*]Gorg
+[*]Gornt
+[*]Granite Slug
+[*]Grank
+[*]Grazer
+[*]Gualaar
+[*]Gullipud
+[*]Gundark
+[*]Gutkurr
+[*]Harvester Beetle
+[*]Hawkbat
+[*]Hssiss
+[*]Insectomorph
+[*]Iriaz
+[*]Iridonian Reek
+[*]Ithorian Reek
+[*]Jakobeast
+[*]Jamel
+[*]Kaadu
+[*]Katarn
+[*]Kinrath
+[*]Kowakian Monkey Lizard
+[*]Krayt Dragon
+[*]Kreetle
+[*]Krykna
+[*]Kwazel Maw
+[*]Kwi
+[*]Kybuck
+[*]Lava Flea
+[*]Leaftail
+[*]Longtail Gorg
+[*]Loth Wolf
+[*]Lothcat
+[*]Lylek
+[*]Maalraas
+[*]Manka
+[*]Massiff
+[*]Mastiff Phalone
+[*]Mastmot
+[*]Mott
+[*]Mynock
+[*]Narglatch
+[*]Nerf
+[*]Nexu
+[*]Nuna
+[*]Orray
+[*]Painted Spat
+[*]Peko-Peko
+[*]Pikobis
+[*]Porg
+[*]Pufferpig
+[*]Qormot
+[*]Rancor
+[*]Reek
+[*]Rikknit
+[*]Roggwart
+[*]Ronto
+[*]Runyip
+[*]Rycrit
+[*]Scavrat
+[*]Scurrier
+[*]Shaak
+[*]Shiro
+[*]Shyrack
+[*]Silooth
+[*]Skalder
+[*]Stintaril
+[*]Strill
+[*]Taozin
+[*]Tauntaun
+[*]TeeMuss
+[*]Thranta
+[*]Tukata
+[*]Vapaad
+[*]Varactyl
+[*]Veermok
+[*]Voorpak
+[*]Vornskyr
+[*]Vulptex
+[*]Wampa
+[*]Warbird
+[*]Whisperbird
+[*]WompRat
+[*]Woolamander
+[*]Worrt
+[*]Wraid
+[*]Zakkeg
+[*]Zeer
+[/list]
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
@@ -44,7 +173,7 @@ Enjoy!
 Star Wars Animal Collection V 1.0.2059
 
 Including so far:
-
+[strike]
 -Krayt Dragon
 -Rancor
 -Acklay
@@ -60,9 +189,9 @@ Including so far:
 -Porg
 -Frogdog
 -Wampa
+[/strike]
 
-
-
+[b]See updated creature list at the top of the description[/b]
 
 Let me know if you find any bugs or other problems within this mod.
 Also drop some comments about balancing and let me know what animal you would like to see next.
@@ -79,5 +208,5 @@ Also drop some comments about balancing and let me know what animal you would li
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2903582351][img]https://img.shields.io/github/v/release/emipa606/StarWarsAnimalCollection?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  animals,  collection</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.4</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.5</modVersion>
 </ModMetaData>

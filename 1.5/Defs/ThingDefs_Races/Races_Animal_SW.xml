@@ -49,6 +49,7 @@
       <baseHealthScale>2.75</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
       <wildness>0.6</wildness>
+      <!-- <roamMtbDays>2</roamMtbDays> -->
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
@@ -57,7 +58,7 @@
       <packAnimal>true</packAnimal>
       <lifeExpectancy>55</lifeExpectancy>
       <leatherDef>Leather_Saurian</leatherDef>
-      <trainability>Advanced</trainability>							 
+      <trainability>Advanced</trainability>
       <meatLabel>dewback meat</meatLabel>
       <wildBiomes>
         <AridShrubland>0.02</AridShrubland>
@@ -1225,6 +1226,7 @@
       <herdAnimal>true</herdAnimal>
       <packAnimal>true</packAnimal>
       <wildness>0.6</wildness>
+      <roamMtbDays>2</roamMtbDays>
       <lifeExpectancy>20</lifeExpectancy>
       <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.5</manhunterOnDamageChance>
@@ -1696,6 +1698,7 @@
       <gestationPeriodDays>30</gestationPeriodDays>
       <packAnimal>true</packAnimal>
       <wildness>0.90</wildness>
+      <!-- <roamMtbDays>1</roamMtbDays> -->
       <manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
@@ -1887,6 +1890,7 @@
       <gestationPeriodDays>20</gestationPeriodDays>
       <packAnimal>true</packAnimal>
       <wildness>0.05</wildness>
+      <roamMtbDays>7</roamMtbDays>
       <lifeExpectancy>55</lifeExpectancy>
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.35</manhunterOnDamageChance>
@@ -2127,6 +2131,7 @@
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
       <petness>0.15</petness>
+      <roamMtbDays>3</roamMtbDays>
       <nuzzleMtbHours>12</nuzzleMtbHours>
       <lifeExpectancy>12</lifeExpectancy>
       <wildBiomes>
@@ -2300,6 +2305,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <herdAnimal>true</herdAnimal>
       <wildness>0</wildness>
+      <roamMtbDays>7</roamMtbDays>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
       <leatherDef>Leather_Mammavian</leatherDef>
@@ -3450,6 +3456,7 @@
       <foodType>OmnivoreRoughAnimal, VegetarianRoughAnimal, AnimalProduct, DendrovoreAnimal</foodType>
       <wildness>0.6</wildness>
       <petness>0.10</petness>
+      <!-- <roamMtbDays>2</roamMtbDays> -->
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
@@ -3667,6 +3674,7 @@
       <specificMeatDef>Silica_Meat</specificMeatDef>
       <bloodDef>Filth_Slime</bloodDef>
       <wildness>0.6</wildness>
+      <roamMtbDays>2</roamMtbDays>
       <canBePredatorPrey>false</canBePredatorPrey>
       <trainability>None</trainability>
       <lifeExpectancy>999</lifeExpectancy>
@@ -4408,6 +4416,7 @@
       <specificMeatDef>Reptomammal_Meat</specificMeatDef>
       <wildness>0.40</wildness>
       <petness>0.40</petness>
+      <!-- <roamMtbDays>4</roamMtbDays> -->
       <trainability>Intermediate</trainability>
       <herdAnimal>true</herdAnimal>
       <packAnimal>true</packAnimal>
@@ -4578,6 +4587,7 @@
       <useMeatFrom>Iguana</useMeatFrom>
       <wildness>0.40</wildness>
       <petness>0.80</petness>
+      <!-- <roamMtbDays>4</roamMtbDays> -->
       <trainability>Intermediate</trainability>
       <herdAnimal>true</herdAnimal>
       <packAnimal>true</packAnimal>
@@ -5098,6 +5108,7 @@
       <gestationPeriodDays>7</gestationPeriodDays>
       <wildness>0</wildness>
       <petness>0.60</petness>
+      <!-- <roamMtbDays>7</roamMtbDays> -->
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
       <trainability>Intermediate</trainability>
@@ -5798,6 +5809,7 @@
       <lifeExpectancy>6</lifeExpectancy>
       <wildness>0.30</wildness>
       <petness>0.30</petness>
+      <!-- <roamMtbDays>5</roamMtbDays> -->
       <trainability>Intermediate</trainability>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -6131,6 +6143,7 @@
       <leatherDef>Leather_Mammavian</leatherDef>
       <specificMeatDef>Mammavian_Meat</specificMeatDef>
       <wildness>0.3</wildness>
+      <!-- <roamMtbDays>5</roamMtbDays> -->
       <trainability>Intermediate</trainability>
       <lifeExpectancy>12</lifeExpectancy>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
@@ -6481,6 +6494,7 @@
       <specificMeatDef>Reptomammal_Meat</specificMeatDef>
       <gestationPeriodDays>15</gestationPeriodDays>
       <wildness>0.8</wildness>
+      <!-- <roamMtbDays>1.3</roamMtbDays> -->
       <herdAnimal>true</herdAnimal>
       <trainability>Intermediate</trainability>
       <lifeExpectancy>40</lifeExpectancy>
@@ -6843,6 +6857,7 @@
       <gestationPeriodDays>7</gestationPeriodDays>
       <wildness>0.35</wildness>
       <petness>0.6</petness>
+      <!-- <roamMtbDays>4</roamMtbDays> -->
       <manhunterOnDamageChance>0.30</manhunterOnDamageChance>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -7602,6 +7617,7 @@
       <packAnimal>true</packAnimal>
       <wildness>0.25</wildness>
       <petness>0.60</petness>
+      <roamMtbDays>5</roamMtbDays>
       <trainability>None</trainability>
       <gestationPeriodDays>7</gestationPeriodDays>
       <lifeExpectancy>34</lifeExpectancy>
@@ -7799,6 +7815,7 @@
       <packAnimal>true</packAnimal>
       <wildness>0.65</wildness>
       <petness>0.40</petness>
+      <!-- <roamMtbDays>2</roamMtbDays> -->
       <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
@@ -8001,6 +8018,7 @@
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
       <wildness>0.6</wildness>
       <petness>0.10</petness>
+      <!-- <roamMtbDays>2</roamMtbDays> -->
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
@@ -8173,6 +8191,7 @@
       <useMeatFrom>Nerf</useMeatFrom>
       <gestationPeriodDays>7</gestationPeriodDays>
       <wildness>0.6</wildness>
+      <!-- <roamMtbDays>2</roamMtbDays> -->
       <herdAnimal>true</herdAnimal>
       <trainability>Intermediate</trainability>
       <lifeExpectancy>18</lifeExpectancy>
@@ -8367,6 +8386,7 @@
       <useMeatFrom>Nerf</useMeatFrom>
       <trainability>None</trainability>
       <wildness>0.75</wildness>
+      <roamMtbDays>1.6</roamMtbDays>
       <manhunterOnDamageChance>0.1</manhunterOnDamageChance>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -8670,6 +8690,7 @@
       <fleshType>Insectoid</fleshType>
       <bloodDef>Filth_BloodInsect</bloodDef>
       <wildness>0.4</wildness>
+      <roamMtbDays>4</roamMtbDays>
       <trainability>None</trainability>
       <packAnimal>true</packAnimal>
       <herdAnimal>true</herdAnimal>
@@ -8843,6 +8864,7 @@
       <trainability>None</trainability>
       <meatLabel>gorg meat</meatLabel>
       <wildness>0</wildness>
+      <roamMtbDays>7</roamMtbDays>
       <lifeExpectancy>4</lifeExpectancy>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -9001,6 +9023,7 @@
       <baseHungerRate>0.40</baseHungerRate>
       <foodType>OmnivoreRoughAnimal, OvivoreAnimal, AnimalProduct</foodType>
       <wildness>0.0</wildness>
+      <roamMtbDays>7</roamMtbDays>
       <trainability>None</trainability>
       <leatherDef>Leather_Reptomammal</leatherDef>
       <specificMeatDef>Gornt_Meat</specificMeatDef>
@@ -9336,6 +9359,7 @@
       <bloodDef MayRequire="Ludeon.RimWorld.Biotech">Filth_SpentAcid</bloodDef>
       <specificMeatDef>Silica_Meat</specificMeatDef>
       <wildness>0.75</wildness>
+      <roamMtbDays>1.5</roamMtbDays>
       <trainability>None</trainability>
       <gestationPeriodDays>3</gestationPeriodDays>
       <lifeExpectancy>8</lifeExpectancy>
@@ -9471,6 +9495,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
       <wildness>0</wildness>
+      <roamMtbDays>7</roamMtbDays>
       <trainability>None</trainability>
       <useMeatFrom>Nerf</useMeatFrom>
       <gestationPeriodDays>6</gestationPeriodDays>
@@ -9671,6 +9696,7 @@
       <packAnimal>true</packAnimal>
       <wildness>0.75</wildness>
       <petness>0.40</petness>
+      <!-- <roamMtbDays>1.5</roamMtbDays> -->
       <trainability>Intermediate</trainability>
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
@@ -9861,6 +9887,7 @@
       <leatherDef>Leather_Light</leatherDef>
       <specificMeatDef>Gorg_Meat</specificMeatDef>
       <wildness>0.50</wildness>
+      <roamMtbDays>3</roamMtbDays>
       <lifeExpectancy>6</lifeExpectancy>
       <wildBiomes>
         <AridShrubland>0.0</AridShrubland>
@@ -10433,6 +10460,7 @@
       <fleshType>Insectoid</fleshType>
       <bloodDef>Filth_BloodInsect</bloodDef>
       <wildness>0.4</wildness>
+      <!-- <roamMtbDays>4</roamMtbDays> -->
       <trainability>Intermediate</trainability>
       <herdAnimal>true</herdAnimal>
       <packAnimal>true</packAnimal>
@@ -10604,6 +10632,7 @@
       <leatherDef>Leather_Reptavian</leatherDef>
       <specificMeatDef>Reptavian_Meat</specificMeatDef>
       <wildness>0.80</wildness>
+      <!-- <roamMtbDays>1.4</roamMtbDays> -->
       <trainability>Intermediate</trainability>
       <manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
@@ -11427,6 +11456,7 @@
       <gestationPeriodDays>15</gestationPeriodDays>
       <packAnimal>true</packAnimal>
       <wildness>0.10</wildness>
+      <roamMtbDays>6</roamMtbDays>
       <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -11601,6 +11631,7 @@
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
       <wildness>0.75</wildness>
+      <roamMtbDays>1.5</roamMtbDays>
       <gestationPeriodDays>4</gestationPeriodDays>
       <lifeExpectancy>10</lifeExpectancy>
       <wildBiomes>
@@ -11790,6 +11821,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <gestationPeriodDays>5</gestationPeriodDays>
       <wildness>0.6</wildness>
+      <roamMtbDays>2</roamMtbDays>
       <lifeExpectancy>75</lifeExpectancy>
       <trainability>None</trainability>
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
@@ -11965,6 +11997,7 @@
       <packAnimal>true</packAnimal>
       <wildness>0.10</wildness>
       <petness>0.40</petness>
+      <!-- <roamMtbDays>6</roamMtbDays> -->
       <trainability>Intermediate</trainability>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -12156,6 +12189,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <wildness>0.40</wildness>
       <petness>0.40</petness>
+      <!-- <roamMtbDays>4</roamMtbDays> -->
       <lifeExpectancy>60</lifeExpectancy>
       <leatherDef>Leather_Reptavian</leatherDef>
       <specificMeatDef>Reptavian_Meat</specificMeatDef>
@@ -13409,6 +13443,7 @@
       <foodType>VegetarianRoughAnimal, AnimalProduct</foodType>
       <wildness>0.75</wildness>
       <petness>0.40</petness>
+      <!-- <roamMtbDays>1.5</roamMtbDays> -->
       <lifeExpectancy>75</lifeExpectancy>
       <leatherDef>Leather_Saurian</leatherDef>
       <useMeatFrom>Iguana</useMeatFrom>
@@ -13572,6 +13607,7 @@
       <packAnimal>true</packAnimal>
       <herdAnimal>true</herdAnimal>
       <wildness>0.3</wildness>
+      <!-- <roamMtbDays>5</roamMtbDays> -->
       <trainability>Intermediate</trainability>
       <gestationPeriodDays>10</gestationPeriodDays>
       <lifeExpectancy>25</lifeExpectancy>
@@ -13743,6 +13779,7 @@
       <specificMeatDef>Silica_Meat</specificMeatDef>
       <bloodDef>Filth_BloodInsect</bloodDef>
       <wildness>0.4</wildness>
+      <roamMtbDays>4</roamMtbDays>
       <trainability>None</trainability>
       <herdAnimal>true</herdAnimal>
       <packAnimal>true</packAnimal>
@@ -14072,6 +14109,7 @@
       <leatherDef>Leather_Lizard</leatherDef>
       <specificMeatDef>Gorg_Meat</specificMeatDef>
       <wildness>0</wildness>
+      <roamMtbDays>7</roamMtbDays>
       <lifeExpectancy>8</lifeExpectancy>
       <wildBiomes>
         <AridShrubland>1.0</AridShrubland>
@@ -15697,6 +15735,7 @@
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
       <wildness>0.6</wildness>
       <petness>0.10</petness>
+      <!-- <roamMtbDays>2</roamMtbDays> -->
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
@@ -15917,6 +15956,7 @@
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
       <wildness>0.75</wildness>
       <petness>0.08</petness>
+      <!-- <roamMtbDays>1.5</roamMtbDays> -->
       <nuzzleMtbHours>48</nuzzleMtbHours>
       <lifeExpectancy>15</lifeExpectancy>
       <gestationPeriodDays>5</gestationPeriodDays>
@@ -16067,6 +16107,7 @@
       <bloodDef>Filth_BloodInsect</bloodDef>
       <leatherDef>Leather_Light</leatherDef>
       <wildness>0.75</wildness>
+      <roamMtbDays>1.5</roamMtbDays>
       <trainability>None</trainability>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -16468,6 +16509,7 @@
       <specificMeatDef>Reptavian_Meat</specificMeatDef>
       <herdAnimal>true</herdAnimal>
       <wildness>0.2</wildness>
+      <roamMtbDays>6</roamMtbDays>
       <trainability>None</trainability>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -16864,6 +16906,7 @@
       <foodType>CarnivoreAnimal, OvivoreAnimal, AnimalProduct</foodType>
       <wildness>0.60</wildness>
       <petness>0.01</petness>
+      <!-- <roamMtbDays>2</roamMtbDays> -->
       <lifeExpectancy>60</lifeExpectancy>
       <leatherDef>Leather_Reptavian</leatherDef>
       <specificMeatDef>Reptavian_Meat</specificMeatDef>
@@ -17060,6 +17103,7 @@
       <leatherDef>Leather_Reptavian</leatherDef>
       <specificMeatDef>Reptavian_Meat</specificMeatDef>
       <wildness>0.5</wildness>
+      <!-- <roamMtbDays>3</roamMtbDays> -->
       <canBePredatorPrey>false</canBePredatorPrey>
       <trainability>Intermediate</trainability>
       <lifeExpectancy>30</lifeExpectancy>
@@ -17267,6 +17311,7 @@
       <leatherDef>Leather_Reptavian</leatherDef>
       <specificMeatDef>Reptavian_Meat</specificMeatDef>
       <wildness>0.4</wildness>
+      <roamMtbDays>4</roamMtbDays>
       <trainability>None</trainability>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -17410,6 +17455,7 @@
       <leatherDef>Leather_Pig</leatherDef>
       <useMeatFrom>Pig</useMeatFrom>
       <wildness>0.10</wildness>
+      <roamMtbDays>7</roamMtbDays>
       <nuzzleMtbHours>30</nuzzleMtbHours>
       <lifeExpectancy>16</lifeExpectancy>
       <gestationPeriodDays>20</gestationPeriodDays>
@@ -17588,6 +17634,7 @@
       <baseHungerRate>0.30</baseHungerRate>
       <foodType>OmnivoreRoughAnimal, OvivoreAnimal, AnimalProduct</foodType>
       <wildness>0.6</wildness>
+      <roamMtbDays>2</roamMtbDays>
       <trainability>None</trainability>
       <leatherDef>Leather_Reptomammal</leatherDef>
       <specificMeatDef>Reptomammal_Meat</specificMeatDef>
@@ -17784,6 +17831,7 @@
       <bloodDef>Filth_BloodInsect</bloodDef>
       <trainability>None</trainability>
       <wildness>0.75</wildness>
+      <roamMtbDays>1.5</roamMtbDays>
       <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -18145,6 +18193,7 @@
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
       <wildness>0.4</wildness>
       <petness>0.10</petness>
+      <!-- <roamMtbDays>4</roamMtbDays> -->
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
@@ -18324,6 +18373,7 @@
       <baseHungerRate>0.30</baseHungerRate>
       <foodType>OmnivoreRoughAnimal, OvivoreAnimal, AnimalProduct</foodType>
       <wildness>0.0</wildness>
+      <roamMtbDays>7</roamMtbDays>
       <trainability>None</trainability>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -18509,6 +18559,7 @@
       <useMeatFrom>Elk</useMeatFrom>
       <gestationPeriodDays>8</gestationPeriodDays>
       <wildness>0.8</wildness>
+      <roamMtbDays>1.4</roamMtbDays>
       <herdAnimal>true</herdAnimal>
       <trainability>None</trainability>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
@@ -19046,6 +19097,7 @@
       <useMeatFrom>Elephant</useMeatFrom>
       <wildness>0.1</wildness>
       <petness>0.10</petness>
+      <roamMtbDays>7</roamMtbDays>
       <trainability>None</trainability>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -19387,6 +19439,7 @@
       <manhunterOnTameFailChance>0.75</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
       <wildness>0.75</wildness>
+      <!-- <roamMtbDays>1.5</roamMtbDays> -->
       <lifeExpectancy>5</lifeExpectancy>
       <wildBiomes>
         <AridShrubland>0.4</AridShrubland>
@@ -20358,6 +20411,7 @@
       <packAnimal>true</packAnimal>
       <wildness>0.10</wildness>
       <petness>0.30</petness>
+      <roamMtbDays>7</roamMtbDays>
       <trainability>None</trainability>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
       <nameGeneratorFemale>SWAnimalNamerFemale</nameGeneratorFemale>
@@ -20520,6 +20574,7 @@
       <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <wildness>0.40</wildness>
       <petness>0.20</petness>
+      <!-- <roamMtbDays>4</roamMtbDays> -->
       <nuzzleMtbHours>60</nuzzleMtbHours>
       <lifeExpectancy>75</lifeExpectancy>
       <trainability>Intermediate</trainability>
@@ -21347,6 +21402,7 @@
       <specificMeatDef>Reptavian_Meat</specificMeatDef>
       <wildness>0.40</wildness>
       <petness>0.80</petness>
+      <!-- <roamMtbDays>4</roamMtbDays> -->
       <trainability>Intermediate</trainability>
       <herdAnimal>true</herdAnimal>
       <packAnimal>true</packAnimal>
@@ -22333,6 +22389,7 @@
       <specificMeatDef>Reptavian_Meat</specificMeatDef>
       <wildness>0.3</wildness>
       <petness>0.3</petness>
+      <roamMtbDays>5</roamMtbDays>
       <trainability>None</trainability>
       <lifeExpectancy>15</lifeExpectancy>
       <nameGenerator>SWAnimalNamerMale</nameGenerator>
@@ -23432,6 +23489,7 @@
       <herdAnimal>true</herdAnimal>
       <wildness>0.60</wildness>
       <petness>0.20</petness>
+      <roamMtbDays>2</roamMtbDays>
       <trainability>None</trainability>
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
