@@ -25,4 +25,10 @@ Various bug-fixes
 Mod now includes over 1200 custom textures!
 Enjoy!</content>
   </HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="StarWarsAnimalCollection_UpdateFeatureBase">
+		<defName>StarWarsAnimalCollection_1_5_5</defName>
+		<assemblyVersion>1.5.5</assemblyVersion>
+		<content>This mod has been re-released for the new version of the game. This version will remain but will not be updated further.</content>
+	</HugsLib.UpdateFeatureDef>
 </Defs>
+

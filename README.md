@@ -1,4 +1,4 @@
-# [Star Wars Animal Collection (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2903582351)
+# [[Legacy] Star Wars Animal Collection (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2903582351)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -6,6 +6,10 @@ Update of Beasstmanns mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1342364585
 based on the continuation by Guy
 https://steamcommunity.com/sharedfiles/filedetails/?id=2006670799
+
+**The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md).**
+To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the new version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3497316713).
+This version will not receive any further updates.
 
 ## Very large update!
 

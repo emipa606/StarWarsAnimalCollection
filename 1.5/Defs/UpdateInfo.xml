@@ -25,4 +25,10 @@ Various bug-fixes
 Mod now includes over 1200 custom textures!
 Enjoy!</content>
   </TabulaRasa.UpdateDef>
+	<TabulaRasa.UpdateDef ParentName="StarWarsAnimalCollection_UpdateInfoBase">
+		<defName>StarWarsAnimalCollection_1_5_5</defName>
+		<date>2025/6/11</date>
+		<content>This mod has been re-released for the new version of the game. This version will remain but will not be updated further.</content>
+	</TabulaRasa.UpdateDef>
 </Defs>
+
