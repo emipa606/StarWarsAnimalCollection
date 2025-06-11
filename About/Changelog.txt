@@ -1,5 +1,8 @@
 # Changelog for StarWarsAnimalCollection
 
+1.6.0 - Mod updated for 1.6 and passed autotests
+
+
 1.5.5 - Added relevant animals as pennable, skipping those with trainability as making them penned blocks training
 
 

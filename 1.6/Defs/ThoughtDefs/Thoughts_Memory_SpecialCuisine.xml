@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ======= Basic quality thoughts ========= -->
+  <ThoughtDef>
+    <defName>AteHawkbatEgg</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate hawkbat egg</label>
+        <description>That Hawkbat egg was astonishing. Truly a dish fit for an Emperor.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+    <replaceThoughts>
+      <li>AteRawFood</li>
+    </replaceThoughts>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteRikknitOvum</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate rikknit ovum</label>
+        <description>Despite the pungent aroma, that Rikknit ovum was exquisite.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+    <replaceThoughts>
+      <li>AteRawFood</li>
+    </replaceThoughts>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteGorntMeat</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate gornt meat</label>
+        <description>That was a really tasty meat. Those Gornt taste great!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteRycritMeat</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate rycrit meat</label>
+        <description>That was some delicious meat, it can only have been Rycrit!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteCrustapodRoe</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate crustapod roe</label>
+        <description>How beautifully rich and creamy, quite the delicacy!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+    <replaceThoughts>
+      <li>AteRawFood</li>
+    </replaceThoughts>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>DrankBlueMilk</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>drank blue milk</label>
+        <description>Ah, can't argue with a bit of blue milk...</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>DrankGreenMilk</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>drank green milk</label>
+        <description>Sithspit! What karking thing made this?! It tastes like it's gone bad INSIDE the animal!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
