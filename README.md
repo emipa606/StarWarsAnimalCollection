@@ -1,4 +1,4 @@
-# [Star Wars Animal Collection (Continued)]()
+# [Star Wars Animal Collection (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3497316713)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -192,4 +192,6 @@ Also drop some comments about balancing and let me know what animal you would li
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
-  | tags:  animals,  collection
+  | tags:  animals,  collection 
+
+[![Image](https://img.shields.io/github/v/release/emipa606/StarWarsAnimalCollection?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3497316713) | tags:  animals,  collection

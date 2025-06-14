@@ -20,6 +20,19 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggDewbackUnFertilized</defName>
+    <label>dewback egg (unfert.)</label>
+    <description>An unfertilized dewback egg. It can be eaten raw, but it's much, much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <color>(206,181,140)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>40.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggRancorFertilized</defName>
     <label>rancor egg (fert.)</label>
@@ -38,6 +51,19 @@
         <hatcherPawn>Rancor</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggRancorUnFertilized</defName>
+    <label>rancor egg (unfert.)</label>
+    <description>Unfertilized Rancor egg.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggRough</texPath>
+      <color>(150,100,50)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>140.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggAcklayFertilized</defName>
@@ -58,6 +84,19 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggAcklayUnFertilized</defName>
+    <label>acklay roe (unfert.)</label>
+    <description>Unfertilized Acklay egg.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggRoe</texPath>
+      <color>(100,175,150)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>80.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggKraytDragonFertilized</defName>
     <label>krayt dragon egg (fert.)</label>
@@ -76,6 +115,19 @@
         <hatcherPawn>KraytDragon</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggKraytDragonUnFertilized</defName>
+    <label>krayt dragon egg (unfert.)</label>
+    <description>Unfertilized Krayt Dragon egg.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSpiked</texPath>
+      <color>(156,148,125)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>140.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggGizkaFertilized</defName>
@@ -96,6 +148,19 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggGizkaUnFertilized</defName>
+    <label>gizka egg (unfert.)</label>
+    <description>Unfertilized Gizka egg.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSpotted</texPath>
+      <color>(245,245,225)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>6</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggPorgFertilized</defName>
     <label>porg egg (fert.)</label>
@@ -114,6 +179,19 @@
         <hatcherPawn>Porg</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggPorgUnFertilized</defName>
+    <label>porg egg (unfert.)</label>
+    <description>Unfertilized Porg egg.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggMammavian</texPath>
+      <color>(245,245,245)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>6</MarketValue>
+    </statBases>
   </ThingDef>
   <!-- ====== WOOL ====== -->
   <ThingDef ParentName="WoolBase">
@@ -1146,6 +1224,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggAkkUnFertilized</defName>
+    <label>akk egg (unfert.)</label>
+    <description>An unfertilized akk egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggScaled</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(200,75,75)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>60.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggBeldonFertilized</defName>
     <label>beldon egg (fert.)</label>
@@ -1167,6 +1260,21 @@
         <hatcherPawn>Beldon</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggBeldonUnFertilized</defName>
+    <label>beldon egg (unfert.)</label>
+    <description>An unfertilized beldon egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSpore</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(250,100,250)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>40.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggBlixusFertilized</defName>
@@ -1190,6 +1298,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggBlixusUnFertilized</defName>
+    <label>blixus roe (unfert.)</label>
+    <description>An unfertilized blixus egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggRoe</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(100,175,250)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>50.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggBlurrgFertilized</defName>
     <label>blurrg egg (fert.)</label>
@@ -1211,6 +1334,21 @@
         <hatcherPawn>Blurrg</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggBlurrgUnFertilized</defName>
+    <label>blurrg egg (unfert.)</label>
+    <description>An unfertilized blurrg egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(245,245,245)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.75</Nutrition>
+      <MarketValue>40.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggBogwingFertilized</defName>
@@ -1234,6 +1372,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggBogwingUnFertilized</defName>
+    <label>bogwing egg (unfert.)</label>
+    <description>An unfertilized bogwing egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(150,175,175)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>10.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggBolotaurFertilized</defName>
     <label>bolotaur egg (fert.)</label>
@@ -1255,6 +1408,21 @@
         <hatcherPawn>Bolotaur</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggBolotaurUnFertilized</defName>
+    <label>bolotaur egg (unfert.)</label>
+    <description>An unfertilized bolotaur egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(100,150,0)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>20.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggBomaFertilized</defName>
@@ -1278,6 +1446,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggBomaUnFertilized</defName>
+    <label>boma egg (unfert.)</label>
+    <description>An unfertilized boma egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSpotted</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(250,250,200)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>40.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggBrezakFertilized</defName>
     <label>brezak egg (fert.)</label>
@@ -1299,6 +1482,21 @@
         <hatcherPawn>Brezak</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggBrezakUnFertilized</defName>
+    <label>brezak egg (unfert.)</label>
+    <description>An unfertilized brezak egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(250,200,125)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>30.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggCanCellFertilized</defName>
@@ -1322,6 +1520,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggCanCellUnFertilized</defName>
+    <label>can-cell egg (fert.)</label>
+    <description>An unfertilized can-cell egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggInsectile</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(0,255,175)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>15.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggConvorFertilized</defName>
     <label>convor egg (fert.)</label>
@@ -1341,6 +1554,19 @@
         <hatcherPawn>Convor</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggConvorUnFertilized</defName>
+    <label>convor egg (unfert.)</label>
+    <description>An unfertilized convor egg. It can be eaten raw, but it's much better cooked..</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggMammavian</texPath>
+      <color>(225,255,255)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggDactillionFertilized</defName>
@@ -1364,6 +1590,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggDactillionUnFertilized</defName>
+    <label>dactillion egg (unfert.)</label>
+    <description>An unfertilized dactillion egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(250,150,250)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>40.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggDrexlFertilized</defName>
     <label>drexl egg (fert.)</label>
@@ -1385,6 +1626,21 @@
         <hatcherPawn>Drexl</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggDrexlUnFertilized</defName>
+    <label>drexl egg (unfert.)</label>
+    <description>An unfertilized drexl egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggShark</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(100,50,150)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>140.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggEnergySpiderFertilized</defName>
@@ -1413,6 +1669,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggEnergySpiderUnFertilized</defName>
+    <label>energy spider egg (unfert.)</label>
+    <description>An unfertilized energy spider egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSpore</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(250,150,0)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>140.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggFambaaFertilized</defName>
     <label>fambaa egg (fert.)</label>
@@ -1434,6 +1705,21 @@
         <hatcherPawn>Fambaa</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggFambaaUnFertilized</defName>
+    <label>fambaa egg (unfert.)</label>
+    <description>An unfertilized fambaa egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggAmphispawn</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(200,250,150)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>60.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggGelagrubFertilized</defName>
@@ -1457,6 +1743,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggGelagrubUnFertilized</defName>
+    <label>gelagrub egg (unfert.)</label>
+    <description>An unfertilized gelagrub egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSpore</texPath>
+      <color>(0,225,250)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>30.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggGorgFertilized</defName>
     <label>gorg egg (fert.)</label>
@@ -1478,6 +1779,21 @@
         <hatcherPawn>Gorg</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggGorgUnFertilized</defName>
+    <label>gorg egg (unfert.)</label>
+    <description>An unfertilized gorg egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggPod</texPath>
+      <color>(100,100,175)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggGullipudFertilized</defName>
@@ -1501,6 +1817,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggGullipudUnFertilized</defName>
+    <label>gullipud egg (unfert.)</label>
+    <description>An unfertilized gullipud egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggAmphispawn</texPath>
+      <color>(250,250,0)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggGutkurrFertilized</defName>
     <label>gutkurr egg (fert.)</label>
@@ -1522,6 +1853,21 @@
         <hatcherPawn>Gutkurr</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggGutkurrUnFertilized</defName>
+    <label>gutkurr egg (unfert.)</label>
+    <description>A fertilized gutkurr egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggInsectile</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(255,125,0)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>30.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggHarvesterBeetleFertilized</defName>
@@ -1545,6 +1891,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggHarvesterBeetleUnFertilized</defName>
+    <label>harvester beetle egg (unfert.)</label>
+    <description>An unfertilized harvester beetle egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggBeetle</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(50,175,175)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>50.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggHawkbatFertilized</defName>
     <label>hawkbat egg (fert.)</label>
@@ -1564,6 +1925,27 @@
         <hatcherPawn>Hawkbat</hatcherPawn>
       </li>
     </comps>
+    <ingestible>
+      <joy>0.12</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteHawkbatEgg</tasteThought>
+      <specialThoughtAsIngredient>AteHawkbatEgg</specialThoughtAsIngredient>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggHawkbatUnFertilized</defName>
+    <label>hawkbat egg (unfert.)</label>
+    <description>An unfertilized hawkbat egg. It can be eaten raw or cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggPod</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>50.0</MarketValue>
+    </statBases>
     <ingestible>
       <joy>0.12</joy>
       <joyKind>Gluttonous</joyKind>
@@ -1594,6 +1976,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggHssissUnFertilized</defName>
+    <label>hssiss egg (unfert.)</label>
+    <description>An unfertilized hssiss egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggScaled</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(150,125,0)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>50.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggKaaduFertilized</defName>
     <label>kaadu egg (fert.)</label>
@@ -1614,6 +2011,21 @@
         <hatcherPawn>Kaadu</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggKaaduUnFertilized</defName>
+    <label>kaadu egg (unfert.)</label>
+    <description>An unfertilized kaadu egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <color>(125,100,150)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>25.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggKinrathFertilized</defName>
@@ -1637,6 +2049,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggKinrathUnFertilized</defName>
+    <label>kinrath egg (unfert.)</label>
+    <description>An unfertilized kinrath egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggNodule</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(150,150,100)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>30.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggKryknaFertilized</defName>
     <label>krykna egg (fert.)</label>
@@ -1658,6 +2085,20 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggKryknaUnFertilized</defName>
+    <label>krykna egg (unfert.)</label>
+    <description>An unfertilized kinrath egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggNodule</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>20.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggKwazelMawFertilized</defName>
     <label>kwazel maw egg (fert.)</label>
@@ -1677,6 +2118,20 @@
         <hatcherPawn>KwazelMaw</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggKwazelMawUnFertilized</defName>
+    <label>kwazel maw egg (unfert.)</label>
+    <description>An unfertilized kwazel maw egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSlime</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>50.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggKwiFertilized</defName>
@@ -1699,6 +2154,21 @@
         <hatcherPawn>Kwi</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggKwiUnFertilized</defName>
+    <label>kwi egg (unfert.)</label>
+    <description>An unfertilized kwi egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(50,100,150)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>50.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggLavaFleaFertilized</defName>
@@ -1725,6 +2195,21 @@
         <progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggLavaFleaUnFertilized</defName>
+    <label>lava flea egg (unfert.)</label>
+    <description>A unfertilized glava flea egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggBeetle</texPath>
+      <color>(100,75,75)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>30.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggLylekFertilized</defName>
@@ -1753,6 +2238,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggLylekUnFertilized</defName>
+    <label>lylek egg (unfert.)</label>
+    <description>An unfertilized lylek egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSlick</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(200,255,0)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>140.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggLongtailGorgFertilized</defName>
     <label>longtail gorg egg (fert.)</label>
@@ -1775,6 +2275,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggLongtailGorgUnFertilized</defName>
+    <label>longtail gorg egg (unfert.)</label>
+    <description>An unfertilized longtail gorg egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggPod</texPath>
+      <color>(75,150,75)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggPekopekoFertilized</defName>
     <label>peko-peko egg (fert.)</label>
@@ -1796,6 +2311,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggPekopekoUnFertilized</defName>
+    <label>peko-peko egg (unfert.)</label>
+    <description>An unfertilized peko-peko egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <color>(25,100,250)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>25.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggNunaFertilized</defName>
     <label>nuna egg (fert.)</label>
@@ -1815,6 +2345,20 @@
         <hatcherPawn>Nuna</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggNunaUnFertilized</defName>
+    <label>nuna egg (unfert.)</label>
+    <description>An unfertilized nuna egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggEaster</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggMastiffPhaloneFertilized</defName>
@@ -1838,6 +2382,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggMastiffPhaloneUnFertilized</defName>
+    <label>mastiff phalone egg (unfert.)</label>
+    <description>An unfertilized mastiff phalone egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggMammavian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(150,150,150)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>40.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggPaintedSpatFertilized</defName>
     <label>painted spat egg (fert.)</label>
@@ -1859,6 +2418,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggPaintedSpatUnFertilized</defName>
+    <label>painted spat egg (unfert.)</label>
+    <description>An unfertilized painted spat egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <color>(205,180,103)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>15.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggPikobisFertilized</defName>
     <label>pikobis egg (fert.)</label>
@@ -1879,6 +2453,21 @@
         <hatcherPawn>Pikobis</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggPikobisUnFertilized</defName>
+    <label>pikobis egg (unfert.)</label>
+    <description>An unfertilized pikobis egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <color>(255,255,155)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggRikknitFertilized</defName>
@@ -1902,6 +2491,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggRikknitUnFertilized</defName>
+    <label>rikknit roe (unfert.)</label>
+    <description>An unfertilized rikknit egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggRoe</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(175,25,75)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.25</Nutrition>
+      <MarketValue>40.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggShiroFertilized</defName>
     <label>shiro egg (fert.)</label>
@@ -1922,6 +2526,20 @@
         <hatcherPawn>Shiro</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggShiroUnFertilized</defName>
+    <label>shiro egg (unfert.)</label>
+    <description>An unfertilized shiro egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSpotted</texPath>
+      <color>(225,250,255)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>25.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggShyrackFertilized</defName>
@@ -1945,6 +2563,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggShyrackUnFertilized</defName>
+    <label>shyrack egg (unfert.)</label>
+    <description>An unfertilized shyrack egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggInsectile</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(200,50,50)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggSiloothFertilized</defName>
     <label>Silooth egg (fert.)</label>
@@ -1966,6 +2599,21 @@
         <hatcherPawn>Silooth</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggSiloothUnFertilized</defName>
+    <label>Silooth egg (unfert.)</label>
+    <description>An unfertilized silooth egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggBeetle</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(255,150,0)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>70.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggThrantaFertilized</defName>
@@ -1993,6 +2641,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggThrantaUnFertilized</defName>
+    <label>thranta egg (unfert.)</label>
+    <description>An unfertilized thranta egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggDimple</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(75,150,250)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>100.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggTaozinFertilized</defName>
     <label>taozin egg (fert.)</label>
@@ -2015,6 +2678,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggTaozinUnFertilized</defName>
+    <label>taozin egg (unfert.)</label>
+    <description>An unfertilized taozin egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSilk</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(75,100,50)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>140.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggVaractylFertilized</defName>
     <label>varactyl egg (fert.)</label>
@@ -2036,6 +2714,21 @@
         <hatcherPawn>Varactyl</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggVaractylUnFertilized</defName>
+    <label>varactyl egg (unfert.)</label>
+    <description>A fertilized varactyl egg. If all goes well, it should hatch into a baby varactyl. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(250,150,250)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>50.0</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggWarbirdFertilized</defName>
@@ -2063,6 +2756,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggWarbirdUnFertilized</defName>
+    <label>warbird egg (unfert.)</label>
+    <description>An unfertilized warbird egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(150,250,75)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>120.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggWhisperbirdFertilized</defName>
     <label>whisperbird egg (fert.)</label>
@@ -2082,6 +2790,19 @@
         <hatcherPawn>Whisperbird</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggWhisperbirdUnFertilized</defName>
+    <label>whisperbird egg (unfert.)</label>
+    <description>An unfertilized whisperbird egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <drawSize>0.5</drawSize>
+      <color>(0,255,200)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>20</MarketValue>
+    </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggWorrtFertilized</defName>
@@ -2104,6 +2825,21 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggWorrtUnFertilized</defName>
+    <label>worrt egg (unfert.)</label>
+    <description>An unfertilized worrt egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggAmphispawn</texPath>
+      <color>(250,200,150)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>25.0</MarketValue>
+    </statBases>
+  </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggWraidFertilized</defName>
     <label>wraid egg (fert.)</label>
@@ -2122,6 +2858,19 @@
         <hatcherPawn>Wraid</hatcherPawn>
       </li>
     </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggWraidUnFertilized</defName>
+    <label>wraid egg (unfert.)</label>
+    <description>An unfertilized wraid egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <color>(150, 25, 25)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>80.0</MarketValue>
+    </statBases>
   </ThingDef>
   <!-- ====== Trophies ====== -->
   <ThingDef ParentName="ResourceBase">
