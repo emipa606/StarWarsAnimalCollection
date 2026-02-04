@@ -709,7 +709,7 @@
     </statBases>
     <equippedStatOffsets>
       <PsychicSensitivityOffset>0.20</PsychicSensitivityOffset>
-      <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+      <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.1</PsychicEntropyRecoveryRate>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.5</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <stuffProps>
@@ -736,7 +736,7 @@
     </statBases>
     <equippedStatOffsets>
       <PsychicSensitivityOffset>0.20</PsychicSensitivityOffset>
-      <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+      <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.1</PsychicEntropyRecoveryRate>
     </equippedStatOffsets>
     <stuffProps>
       <color>(250,250,225)</color>
