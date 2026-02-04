@@ -1,5 +1,8 @@
 # Changelog for StarWarsAnimalCollection
 
+1.6.4 - Added missing Royalty requirement on stats, thanks Halicade
+
+
 1.6.3 - Fixed some typos
 
 
