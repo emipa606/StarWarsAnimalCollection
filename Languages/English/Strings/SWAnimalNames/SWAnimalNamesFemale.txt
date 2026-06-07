@@ -12,6 +12,7 @@ Anthami
 Anvira
 Avani
 Avara
+Aurora
 Bera
 Berend
 Biala
@@ -105,6 +106,7 @@ Praji
 Puffi
 Ratyl
 Ros
+Rora
 Rubee
 Saba
 Sabe

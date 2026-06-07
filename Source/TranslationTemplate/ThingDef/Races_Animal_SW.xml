@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: acklay -->
+  <Acklay.label>acklay</Acklay.label>
+  <!-- EN: The acklay is a non-sentient carnivore native to planet Vendaxa. Acklays have sharp claws, thick skin, and are about 3 meters tall. Due to these attributes, as well as the species' ferocity, acklays are often exported from Vendaxa to be used in gladiatorial combat. The creatures can be found on Geonosis, where they are commonly brought in to fight other creatures—and sentients—in the Petranaki arena. -->
+  <Acklay.description>The acklay is a non-sentient carnivore native to planet Vendaxa. Acklays have sharp claws, thick skin, and are about 3 meters tall. Due to these attributes, as well as the species' ferocity, acklays are often exported from Vendaxa to be used in gladiatorial combat. The creatures can be found on Geonosis, where they are commonly brought in to fight other creatures—and sentients—in the Petranaki arena.</Acklay.description>
+  <!-- EN: teeth -->
+  <Acklay.tools.teeth.label>teeth</Acklay.tools.teeth.label>
+  <!-- EN: head -->
+  <Acklay.tools.head.label>head</Acklay.tools.head.label>
+  <!-- EN: aiwha -->
+  <Aiwha.label>aiwha</Aiwha.label>
+  <!-- EN: Aiwhas could be found on several worlds where they lived in medium-size "pods," feeding on fish and other small creatures found in or around huge bodies of water. Aiwhas are sometimes sold so as to be used as mounts on worlds that have a breathable atmosphere, and could be used for performing reconnaissance, or to traverse between two outposts without any concern for the trail or terrain. -->
+  <Aiwha.description>Aiwhas could be found on several worlds where they lived in medium-size "pods," feeding on fish and other small creatures found in or around huge bodies of water. Aiwhas are sometimes sold so as to be used as mounts on worlds that have a breathable atmosphere, and could be used for performing reconnaissance, or to traverse between two outposts without any concern for the trail or terrain.</Aiwha.description>
+  <!-- EN: tail -->
+  <Aiwha.tools.tail.label>tail</Aiwha.tools.tail.label>
+  <!-- EN: head -->
+  <Aiwha.tools.head.label>head</Aiwha.tools.head.label>
+  <!-- EN: akk -->
+  <Akk.label>akk</Akk.label>
+  <!-- EN: Akk (or sometimes called 'akk hounds'), were large reptomammals native to the planet Haruun Kal. Great companions, Akk matured from pups to hounds in a relatively short time and were often used for protection due to their likelihood to form strong bonds with their master. The illegal smuggling of these loyal but dangerous creatures has lead to them being found on many worlds. -->
+  <Akk.description>Akk (or sometimes called 'akk hounds'), were large reptomammals native to the planet Haruun Kal. Great companions, Akk matured from pups to hounds in a relatively short time and were often used for protection due to their likelihood to form strong bonds with their master. The illegal smuggling of these loyal but dangerous creatures has lead to them being found on many worlds.</Akk.description>
+  <!-- EN: teeth -->
+  <Akk.tools.teeth.label>teeth</Akk.tools.teeth.label>
+  <!-- EN: tail -->
+  <Akk.tools.tail.label>tail</Akk.tools.tail.label>
+  <!-- EN: head -->
+  <Akk.tools.head.label>head</Akk.tools.head.label>
+  <!-- EN: anooba -->
+  <Anooba.label>anooba</Anooba.label>
+  <!-- EN: Anoobas were aggressive pack predators that lived throughout the Outer Rim Territories. Opportunistic hunters as well as scavengers, these wolflike canines would attack virtually anything smaller than themselves (such as scurriers). -->
+  <Anooba.description>Anoobas were aggressive pack predators that lived throughout the Outer Rim Territories. Opportunistic hunters as well as scavengers, these wolflike canines would attack virtually anything smaller than themselves (such as scurriers).</Anooba.description>
+  <!-- EN: left paw -->
+  <Anooba.tools.left_paw.label>left paw</Anooba.tools.left_paw.label>
+  <!-- EN: right paw -->
+  <Anooba.tools.right_paw.label>right paw</Anooba.tools.right_paw.label>
+  <!-- EN: head -->
+  <Anooba.tools.head.label>head</Anooba.tools.head.label>
+  <!-- EN: bantha -->
+  <Bantha.label>bantha</Bantha.label>
+  <!-- EN: Banthas are a species of large, hairy mammals with sharp, spiraling horns. They inhabit the desert planet Tatooine, though they are bred on many worlds throughout the galaxy. They are social herd animals, and are often domesticated, and used prominently, by Tusken Raiders as mounts and companionship. -->
+  <Bantha.description>Banthas are a species of large, hairy mammals with sharp, spiraling horns. They inhabit the desert planet Tatooine, though they are bred on many worlds throughout the galaxy. They are social herd animals, and are often domesticated, and used prominently, by Tusken Raiders as mounts and companionship.</Bantha.description>
+  <!-- EN: horns -->
+  <Bantha.tools.horns-0.label>horns</Bantha.tools.horns-0.label>
+  <!-- EN: horns -->
+  <Bantha.tools.horns-1.label>horns</Bantha.tools.horns-1.label>
+  <!-- EN: head -->
+  <Bantha.tools.head.label>head</Bantha.tools.head.label>
+  <!-- EN: left hoof -->
+  <Bantha.tools.left_hoof.label>left hoof</Bantha.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Bantha.tools.right_hoof.label>right hoof</Bantha.tools.right_hoof.label>
+  <!-- EN: behemoth -->
+  <Behemoth.label>behemoth</Behemoth.label>
+  <!-- EN: The Behemoths (or 'Sith war behemoths') were beasts of war used by the Sith that originated from the frozen planet Khar Dhelba. Wild war behemoths tended to travel in small groups of two to four and spent most of their existence searching for food. They were omnivorous in the sense that they ate anything they were able to find. The Behemoths were spread to various worlds with the Sith armies, either escaping or let loose  whehre they would revert back to their original feral forms. -->
+  <Behemoth.description>The Behemoths (or 'Sith war behemoths') were beasts of war used by the Sith that originated from the frozen planet Khar Dhelba. Wild war behemoths tended to travel in small groups of two to four and spent most of their existence searching for food. They were omnivorous in the sense that they ate anything they were able to find. The Behemoths were spread to various worlds with the Sith armies, either escaping or let loose  whehre they would revert back to their original feral forms.</Behemoth.description>
+  <!-- EN: tusk -->
+  <Behemoth.tools.tusk.label>tusk</Behemoth.tools.tusk.label>
+  <!-- EN: left foot -->
+  <Behemoth.tools.left_foot.label>left foot</Behemoth.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Behemoth.tools.right_foot.label>right foot</Behemoth.tools.right_foot.label>
+  <!-- EN: head -->
+  <Behemoth.tools.head.label>head</Behemoth.tools.head.label>
+  <!-- EN: beldon -->
+  <Beldon.label>beldon</Beldon.label>
+  <!-- EN: Beldons were a large cnidaria species native to the gas giant Bespin. They lived in the planet's lower atmosphere and could be found in large herds. They used the long tendrils on their bodies to gather atmospheric plankton and chemicals and so require very little direct nutrition. This variety appears to have been engineered to not only survive away from Bespin, but create useful Chemfuel and are thus very combustible. -->
+  <Beldon.description>Beldons were a large cnidaria species native to the gas giant Bespin. They lived in the planet's lower atmosphere and could be found in large herds. They used the long tendrils on their bodies to gather atmospheric plankton and chemicals and so require very little direct nutrition. This variety appears to have been engineered to not only survive away from Bespin, but create useful Chemfuel and are thus very combustible.</Beldon.description>
+  <!-- EN: left lappet -->
+  <Beldon.tools.left_lappet.label>left lappet</Beldon.tools.left_lappet.label>
+  <!-- EN: right lappet -->
+  <Beldon.tools.right_lappet.label>right lappet</Beldon.tools.right_lappet.label>
+  <!-- EN: blarth -->
+  <Blarth.label>blarth</Blarth.label>
+  <!-- EN: Blarths were medium-sized predators native to the planet Naboo named for the low burping sound that it made. Amiable and easily tamed, they were kept as a household pet and watch animal by Gungans since prehistoric times. More recently the animals had made their way to off-world pet shops on worlds such as Coruscant. -->
+  <Blarth.description>Blarths were medium-sized predators native to the planet Naboo named for the low burping sound that it made. Amiable and easily tamed, they were kept as a household pet and watch animal by Gungans since prehistoric times. More recently the animals had made their way to off-world pet shops on worlds such as Coruscant.</Blarth.description>
+  <!-- EN: left paw -->
+  <Blarth.tools.left_paw.label>left paw</Blarth.tools.left_paw.label>
+  <!-- EN: right paw -->
+  <Blarth.tools.right_paw.label>right paw</Blarth.tools.right_paw.label>
+  <!-- EN: cute teeth -->
+  <Blarth.tools.cute_teeth.label>cute teeth</Blarth.tools.cute_teeth.label>
+  <!-- EN: head -->
+  <Blarth.tools.head.label>head</Blarth.tools.head.label>
+  <!-- EN: blixus -->
+  <Blixus.label>blixus</Blixus.label>
+  <!-- EN: Blixus were rare, half-shelled crustapod creatures native to the planet Sljee. These semi-aquatic predators were known to be deadly in the swamps and lagoons they inhabit. They were known to periodically shed their exoskeleton if broken or damaged which could be harvested for useful chitin. It is believed many were accidently transplanted to various worlds as exotic display animals or pets that grew too large to contain. -->
+  <Blixus.description>Blixus were rare, half-shelled crustapod creatures native to the planet Sljee. These semi-aquatic predators were known to be deadly in the swamps and lagoons they inhabit. They were known to periodically shed their exoskeleton if broken or damaged which could be harvested for useful chitin. It is believed many were accidently transplanted to various worlds as exotic display animals or pets that grew too large to contain.</Blixus.description>
+  <!-- EN: left tentacle -->
+  <Blixus.tools.left_tentacle.label>left tentacle</Blixus.tools.left_tentacle.label>
+  <!-- EN: central tentacle -->
+  <Blixus.tools.central_tentacle.label>central tentacle</Blixus.tools.central_tentacle.label>
+  <!-- EN: right tentacle -->
+  <Blixus.tools.right_tentacle.label>right tentacle</Blixus.tools.right_tentacle.label>
+  <!-- EN: blurrg -->
+  <Blurrg.label>blurrg</Blurrg.label>
+  <!-- EN: Blurrgs were a two-legged non-sentient reptilian species that were used as beasts of burden on a number of worlds located across the galaxy. Blurrgs had two short arms that had two fingers with claws, and a thick tail that helped them balance. The creatures possessed large mouths and many sharp teeth that could chew through most materials, including grasses and weeds, though they were not strictly herbivores and were known to consume other organisms, even members of their own kind. -->
+  <Blurrg.description>Blurrgs were a two-legged non-sentient reptilian species that were used as beasts of burden on a number of worlds located across the galaxy. Blurrgs had two short arms that had two fingers with claws, and a thick tail that helped them balance. The creatures possessed large mouths and many sharp teeth that could chew through most materials, including grasses and weeds, though they were not strictly herbivores and were known to consume other organisms, even members of their own kind.</Blurrg.description>
+  <!-- EN: left claws -->
+  <Blurrg.tools.left_claws.label>left claws</Blurrg.tools.left_claws.label>
+  <!-- EN: right claws -->
+  <Blurrg.tools.right_claws.label>right claws</Blurrg.tools.right_claws.label>
+  <!-- EN: head -->
+  <Blurrg.tools.head.label>head</Blurrg.tools.head.label>
+  <!-- EN: Boar-wolf -->
+  <Boarwolf.label>Boar-wolf</Boarwolf.label>
+  <!-- EN: The boar-wolves (or 'Borra'), were a predatory animal that came from the forest moon of Endor. Boar-wolves were believed to be closer to wolves than boars physiologically speaking, and usually hunted for prey such as blurrgs. They could be trained as attack beasts and so have been exported to various worlds by criminal elements for such purposes. -->
+  <Boarwolf.description>The boar-wolves (or 'Borra'), were a predatory animal that came from the forest moon of Endor. Boar-wolves were believed to be closer to wolves than boars physiologically speaking, and usually hunted for prey such as blurrgs. They could be trained as attack beasts and so have been exported to various worlds by criminal elements for such purposes.</Boarwolf.description>
+  <!-- EN: left paw -->
+  <Boarwolf.tools.left_paw.label>left paw</Boarwolf.tools.left_paw.label>
+  <!-- EN: right paw -->
+  <Boarwolf.tools.right_paw.label>right paw</Boarwolf.tools.right_paw.label>
+  <!-- EN: head -->
+  <Boarwolf.tools.head.label>head</Boarwolf.tools.head.label>
+  <!-- EN: bogwing -->
+  <Bogwing.label>bogwing</Bogwing.label>
+  <!-- EN: The bogwing is a fast flying reptavian native to Dagobah. They could be found on a number of worlds located across the galaxy. They mostly fed on small creatures dwelling in the lower levels of tree canopies (including rodents like leaftails) to avoid larger predators. -->
+  <Bogwing.description>The bogwing is a fast flying reptavian native to Dagobah. They could be found on a number of worlds located across the galaxy. They mostly fed on small creatures dwelling in the lower levels of tree canopies (including rodents like leaftails) to avoid larger predators.</Bogwing.description>
+  <!-- EN: left clawed paw -->
+  <Bogwing.tools.left_clawed_paw.label>left clawed paw</Bogwing.tools.left_clawed_paw.label>
+  <!-- EN: right clawed paw -->
+  <Bogwing.tools.right_clawed_paw.label>right clawed paw</Bogwing.tools.right_clawed_paw.label>
+  <!-- EN: beak -->
+  <Bogwing.tools.beak.label>beak</Bogwing.tools.beak.label>
+  <!-- EN: head -->
+  <Bogwing.tools.head.label>head</Bogwing.tools.head.label>
+  <!-- EN: bolotaur -->
+  <Bolotaur.label>bolotaur</Bolotaur.label>
+  <!-- EN: The Bolotaur are a large, long-necked herbivorous reptilian creatures native to the planet Kashyyyk. They were short-lived but reproduced quickly and were a favoured mount by the Trandoshan species, which resulted in their spread to many worlds as beasts of burden and livestock. -->
+  <Bolotaur.description>The Bolotaur are a large, long-necked herbivorous reptilian creatures native to the planet Kashyyyk. They were short-lived but reproduced quickly and were a favoured mount by the Trandoshan species, which resulted in their spread to many worlds as beasts of burden and livestock.</Bolotaur.description>
+  <!-- EN: claws -->
+  <Bolotaur.tools.claws-0.label>claws</Bolotaur.tools.claws-0.label>
+  <!-- EN: claws -->
+  <Bolotaur.tools.claws-1.label>claws</Bolotaur.tools.claws-1.label>
+  <!-- EN: head -->
+  <Bolotaur.tools.head.label>head</Bolotaur.tools.head.label>
+  <!-- EN: boma -->
+  <Boma.label>boma</Boma.label>
+  <!-- EN: Bomas were ravenous beasts native to planet Onderon and its moon Dxun. In their native environment they hunted Cannoks with ease and were considered dangerous by several Mandalorian clans. They were sometimes introduced into ecosystems on other worlds where Cannoks had become established to help maintain their population. -->
+  <Boma.description>Bomas were ravenous beasts native to planet Onderon and its moon Dxun. In their native environment they hunted Cannoks with ease and were considered dangerous by several Mandalorian clans. They were sometimes introduced into ecosystems on other worlds where Cannoks had become established to help maintain their population.</Boma.description>
+  <!-- EN: tail -->
+  <Boma.tools.tail.label>tail</Boma.tools.tail.label>
+  <!-- EN: horn -->
+  <Boma.tools.horn-0.label>horn</Boma.tools.horn-0.label>
+  <!-- EN: horn -->
+  <Boma.tools.horn-1.label>horn</Boma.tools.horn-1.label>
+  <!-- EN: head -->
+  <Boma.tools.head.label>head</Boma.tools.head.label>
+  <!-- EN: Borcatu -->
+  <Borcatu.label>Borcatu</Borcatu.label>
+  <!-- EN: Borcatu were small, bad-tempered scavengers originally found on the planet of Escabar. Borcatu had a scaly, thick hide which may have evolved to help resist sandstorms. They also have sharp teeth, claws and quills to defend themselves. They had a vicious temperament, biting anyone who came near them, and often fighting and cannibalizing one another when no other food source was available. Their hardiness resulted in them spreading to various world as 'stowaways' and adapting quite successfully to a wide range of habitats. -->
+  <Borcatu.description>Borcatu were small, bad-tempered scavengers originally found on the planet of Escabar. Borcatu had a scaly, thick hide which may have evolved to help resist sandstorms. They also have sharp teeth, claws and quills to defend themselves. They had a vicious temperament, biting anyone who came near them, and often fighting and cannibalizing one another when no other food source was available. Their hardiness resulted in them spreading to various world as 'stowaways' and adapting quite successfully to a wide range of habitats.</Borcatu.description>
+  <!-- EN: left claw -->
+  <Borcatu.tools.left_claw.label>left claw</Borcatu.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Borcatu.tools.right_claw.label>right claw</Borcatu.tools.right_claw.label>
+  <!-- EN: head -->
+  <Borcatu.tools.head.label>head</Borcatu.tools.head.label>
+  <!-- EN: bordok -->
+  <Bordok.label>bordok</Bordok.label>
+  <!-- EN: The bordoks were a vaguely equine herbivore native to the forest moon of Endor. They were used on many worlds as pack animals when tamed. Bordoks were very sure-footed and, in spite of their size, capable of carrying large loads. -->
+  <Bordok.description>The bordoks were a vaguely equine herbivore native to the forest moon of Endor. They were used on many worlds as pack animals when tamed. Bordoks were very sure-footed and, in spite of their size, capable of carrying large loads.</Bordok.description>
+  <!-- EN: head -->
+  <Bordok.tools.head.label>head</Bordok.tools.head.label>
+  <!-- EN: left hoof -->
+  <Bordok.tools.left_hoof.label>left hoof</Bordok.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Bordok.tools.right_hoof.label>right hoof</Bordok.tools.right_hoof.label>
+  <!-- EN: horn -->
+  <Bordok.tools.horn.label>horn</Bordok.tools.horn.label>
+  <!-- EN: brezak -->
+  <Brezak.label>brezak</Brezak.label>
+  <!-- EN: Brezaks (also known as "Zygerrian gliding lizards"), were large carnivorous reptavians from the planet Zygerria. Their flat tail served as a rudder, and when controlled by a skilled rider, they were quite agile while in flight. Due to their prevalence within Zyggerian culture, these creatures were transplanted and established themselves on other worlds. -->
+  <Brezak.description>Brezaks (also known as "Zygerrian gliding lizards"), were large carnivorous reptavians from the planet Zygerria. Their flat tail served as a rudder, and when controlled by a skilled rider, they were quite agile while in flight. Due to their prevalence within Zyggerian culture, these creatures were transplanted and established themselves on other worlds.</Brezak.description>
+  <!-- EN: tail -->
+  <Brezak.tools.tail.label>tail</Brezak.tools.tail.label>
+  <!-- EN: claws -->
+  <Brezak.tools.claws-0.label>claws</Brezak.tools.claws-0.label>
+  <!-- EN: claws -->
+  <Brezak.tools.claws-1.label>claws</Brezak.tools.claws-1.label>
+  <!-- EN: bursa -->
+  <Bursa.label>bursa</Bursa.label>
+  <!-- EN: Bursas were a species of ursidae creatures native to planet of Naboo. They had tusked snouts and feathery tufts of brown hair on their thick-skinned bodies. They were popular as circus animals due to their intelligence, but more often than not this resulted in them escaping and forming wild populations on various temperate worlds. -->
+  <Bursa.description>Bursas were a species of ursidae creatures native to planet of Naboo. They had tusked snouts and feathery tufts of brown hair on their thick-skinned bodies. They were popular as circus animals due to their intelligence, but more often than not this resulted in them escaping and forming wild populations on various temperate worlds.</Bursa.description>
+  <!-- EN: left claw -->
+  <Bursa.tools.left_claw.label>left claw</Bursa.tools.left_claw.label>
+  <!-- EN: claw -->
+  <Bursa.tools.left_claw.labelNoLocation>claw</Bursa.tools.left_claw.labelNoLocation>
+  <!-- EN: right claw -->
+  <Bursa.tools.right_claw.label>right claw</Bursa.tools.right_claw.label>
+  <!-- EN: claw -->
+  <Bursa.tools.right_claw.labelNoLocation>claw</Bursa.tools.right_claw.labelNoLocation>
+  <!-- EN: head -->
+  <Bursa.tools.head.label>head</Bursa.tools.head.label>
+  <!-- EN: can-cell -->
+  <CanCell.label>can-cell</CanCell.label>
+  <!-- EN: Can-cells were a species of scavenging flying insectoids found on a number of planets across the galaxy (although it is believed they originated on Kashyyk). Can-Cells evolved many of their strange physical characteristics to maximise their survival in the dangerous forests and jungles they inhabit. -->
+  <CanCell.description>Can-cells were a species of scavenging flying insectoids found on a number of planets across the galaxy (although it is believed they originated on Kashyyk). Can-Cells evolved many of their strange physical characteristics to maximise their survival in the dangerous forests and jungles they inhabit.</CanCell.description>
+  <!-- EN: mandibles -->
+  <CanCell.tools.mandibles.label>mandibles</CanCell.tools.mandibles.label>
+  <!-- EN: head -->
+  <CanCell.tools.head.label>head</CanCell.tools.head.label>
+  <!-- EN: cannok -->
+  <Cannok.label>cannok</Cannok.label>
+  <!-- EN: Cannoks were small, aggressive predators native to the moon of Dxun. They had a habit of eating anything that could fit in their mouths and were known as pests, due to a high reproduction rate and notable curiosity. Cannoks were however hardy and able to survive the rigors of many worlds. -->
+  <Cannok.description>Cannoks were small, aggressive predators native to the moon of Dxun. They had a habit of eating anything that could fit in their mouths and were known as pests, due to a high reproduction rate and notable curiosity. Cannoks were however hardy and able to survive the rigors of many worlds.</Cannok.description>
+  <!-- EN: left tridactyl claw -->
+  <Cannok.tools.left_tridactyl_claw.label>left tridactyl claw</Cannok.tools.left_tridactyl_claw.label>
+  <!-- EN: right tridactyl claw -->
+  <Cannok.tools.right_tridactyl_claw.label>right tridactyl claw</Cannok.tools.right_tridactyl_claw.label>
+  <!-- EN: head -->
+  <Cannok.tools.head.label>head</Cannok.tools.head.label>
+  <!-- EN: chrysalide rancor -->
+  <ChrysalideRancor.label>chrysalide rancor</ChrysalideRancor.label>
+  <!-- EN: The chrysalide (also known as the "chrysalis beast" or "chrysalide rancor"), was a creature created from rancors and altered by Sith alchemy. It was widely believed that during ancient times, the knowledge of creating the chrysalis beast was formed by the ancient Sith race. In those early years, the creatures served the Sith Empire as pets or protectors to high-ranking officers or powerful nobles. The knowledge for creating such monsters was later encoded within holocrons and other such tomes, which were buried on Sith worlds such as Korriban. Many believed that the knowledge of creating such fearsome beasts was lost. These creatures are stronger, tougher and grow much faster than their baseline kin. As a product of unstable Sith Alchemy, offspring of this creature has will revert back to the original Rancor stock. -->
+  <ChrysalideRancor.description>The chrysalide (also known as the "chrysalis beast" or "chrysalide rancor"), was a creature created from rancors and altered by Sith alchemy. It was widely believed that during ancient times, the knowledge of creating the chrysalis beast was formed by the ancient Sith race. In those early years, the creatures served the Sith Empire as pets or protectors to high-ranking officers or powerful nobles. The knowledge for creating such monsters was later encoded within holocrons and other such tomes, which were buried on Sith worlds such as Korriban. Many believed that the knowledge of creating such fearsome beasts was lost. These creatures are stronger, tougher and grow much faster than their baseline kin. As a product of unstable Sith Alchemy, offspring of this creature has will revert back to the original Rancor stock.</ChrysalideRancor.description>
+  <!-- EN: left hand -->
+  <ChrysalideRancor.tools.left_hand.label>left hand</ChrysalideRancor.tools.left_hand.label>
+  <!-- EN: right hand -->
+  <ChrysalideRancor.tools.right_hand.label>right hand</ChrysalideRancor.tools.right_hand.label>
+  <!-- EN: teeth -->
+  <ChrysalideRancor.tools.teeth.label>teeth</ChrysalideRancor.tools.teeth.label>
+  <!-- EN: left foot -->
+  <ChrysalideRancor.tools.left_foot.label>left foot</ChrysalideRancor.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <ChrysalideRancor.tools.right_foot.label>right foot</ChrysalideRancor.tools.right_foot.label>
+  <!-- EN: head -->
+  <ChrysalideRancor.tools.head.label>head</ChrysalideRancor.tools.head.label>
+  <!-- EN: clodhopper -->
+  <Clodhopper.label>clodhopper</Clodhopper.label>
+  <!-- EN: Clodhoppers were omnivorous and dim-witted flightless avians from the planet Naboo but could be found as castaway populations on numerous worlds due to illegal egg exports. Clodhopper weren't large creatures, but they fed in swarms becoming a real menace to agriculture. They were protected by tough, durable skin. Fast-breeding, dimwitted, voracious grazers, clodhoppers would use their powerful forelegs to forage. -->
+  <Clodhopper.description>Clodhoppers were omnivorous and dim-witted flightless avians from the planet Naboo but could be found as castaway populations on numerous worlds due to illegal egg exports. Clodhopper weren't large creatures, but they fed in swarms becoming a real menace to agriculture. They were protected by tough, durable skin. Fast-breeding, dimwitted, voracious grazers, clodhoppers would use their powerful forelegs to forage.</Clodhopper.description>
+  <!-- EN: left foot -->
+  <Clodhopper.tools.left_foot.label>left foot</Clodhopper.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Clodhopper.tools.right_foot.label>right foot</Clodhopper.tools.right_foot.label>
+  <!-- EN: head -->
+  <Clodhopper.tools.head.label>head</Clodhopper.tools.head.label>
+  <!-- EN: convor -->
+  <Convor.label>convor</Convor.label>
+  <!-- EN: Convor (also known as "Trandoshan birds"), were a species of beautiful mammavian from the Wasskah moon of Hsskhor. Although Convor had short, plump bodies, they were excellent fliers. Their popularity as a pet meant they often established colonies on other worlds. -->
+  <Convor.description>Convor (also known as "Trandoshan birds"), were a species of beautiful mammavian from the Wasskah moon of Hsskhor. Although Convor had short, plump bodies, they were excellent fliers. Their popularity as a pet meant they often established colonies on other worlds.</Convor.description>
+  <!-- EN: claws -->
+  <Convor.tools.claws.label>claws</Convor.tools.claws.label>
+  <!-- EN: beak -->
+  <Convor.tools.beak.label>beak</Convor.tools.beak.label>
+  <!-- EN: head -->
+  <Convor.tools.head.label>head</Convor.tools.head.label>
+  <!-- EN: corellian hound -->
+  <CorellianHound.label>corellian hound</CorellianHound.label>
+  <!-- EN: Corellian hounds, also known as 'Sibian hounds' or 'Snarlers', were a type of stout canidae from the planet Corellia. They were quick and nimble canines used by locals for a number of tasks although they were often used for hunting and tracking. They had a vicious bark and bite, which meant they could be quite effective for protection. -->
+  <CorellianHound.description>Corellian hounds, also known as 'Sibian hounds' or 'Snarlers', were a type of stout canidae from the planet Corellia. They were quick and nimble canines used by locals for a number of tasks although they were often used for hunting and tracking. They had a vicious bark and bite, which meant they could be quite effective for protection.</CorellianHound.description>
+  <!-- EN: left claw -->
+  <CorellianHound.tools.left_claw.label>left claw</CorellianHound.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <CorellianHound.tools.right_claw.label>right claw</CorellianHound.tools.right_claw.label>
+  <!-- EN: head -->
+  <CorellianHound.tools.head.label>head</CorellianHound.tools.head.label>
+  <!-- EN: corinathoth -->
+  <Corinathoth.label>corinathoth</Corinathoth.label>
+  <!-- EN: Corinathoths were large, slow-moving herbivores native to the planet Maridun. Although large and intimidating, they were fairly harmless unless provoked. It is likely they were spread as a large game animal to several worlds due to their fearsome appearance. -->
+  <Corinathoth.description>Corinathoths were large, slow-moving herbivores native to the planet Maridun. Although large and intimidating, they were fairly harmless unless provoked. It is likely they were spread as a large game animal to several worlds due to their fearsome appearance.</Corinathoth.description>
+  <!-- EN: horn -->
+  <Corinathoth.tools.horn-0.label>horn</Corinathoth.tools.horn-0.label>
+  <!-- EN: horn -->
+  <Corinathoth.tools.horn-1.label>horn</Corinathoth.tools.horn-1.label>
+  <!-- EN: head -->
+  <Corinathoth.tools.head.label>head</Corinathoth.tools.head.label>
+  <!-- EN: dactillion -->
+  <Dactillion.label>dactillion</Dactillion.label>
+  <!-- EN: The dactillions were a reptavian native to the sinkhole world of Utapau. Dactillions shared both avian and lizard traits, with long, thin wings and thick, scaled hides. A dactillion's pair of wings allowed it to ride the thermal updrafts in a Utapau sinkhole, and its prominent limbs allowed it to scale the rocky side. An avian cousin of the speedy varactyl, the dactillion served as a mounts. -->
+  <Dactillion.description>The dactillions were a reptavian native to the sinkhole world of Utapau. Dactillions shared both avian and lizard traits, with long, thin wings and thick, scaled hides. A dactillion's pair of wings allowed it to ride the thermal updrafts in a Utapau sinkhole, and its prominent limbs allowed it to scale the rocky side. An avian cousin of the speedy varactyl, the dactillion served as a mounts.</Dactillion.description>
+  <!-- EN: claws -->
+  <Dactillion.tools.claws-0.label>claws</Dactillion.tools.claws-0.label>
+  <!-- EN: claws -->
+  <Dactillion.tools.claws-1.label>claws</Dactillion.tools.claws-1.label>
+  <!-- EN: beak -->
+  <Dactillion.tools.beak.label>beak</Dactillion.tools.beak.label>
+  <!-- EN: horns -->
+  <Dactillion.tools.horns.label>horns</Dactillion.tools.horns.label>
+  <!-- EN: dalgo -->
+  <Dalgo.label>dalgo</Dalgo.label>
+  <!-- EN: Dalgos were equine reptiles native to the planet of Onderon. Despite being carnivorous predators, they could still be domesticated and filled the same role as other beasts of burden. It is for this reason these creatures found themselves spread across many worlds. -->
+  <Dalgo.description>Dalgos were equine reptiles native to the planet of Onderon. Despite being carnivorous predators, they could still be domesticated and filled the same role as other beasts of burden. It is for this reason these creatures found themselves spread across many worlds.</Dalgo.description>
+  <!-- EN: head -->
+  <Dalgo.tools.head.label>head</Dalgo.tools.head.label>
+  <!-- EN: left hoof -->
+  <Dalgo.tools.left_hoof.label>left hoof</Dalgo.tools.left_hoof.label>
+  <!-- EN: hoof -->
+  <Dalgo.tools.left_hoof.labelNoLocation>hoof</Dalgo.tools.left_hoof.labelNoLocation>
+  <!-- EN: right hoof -->
+  <Dalgo.tools.right_hoof.label>right hoof</Dalgo.tools.right_hoof.label>
+  <!-- EN: hoof -->
+  <Dalgo.tools.right_hoof.labelNoLocation>hoof</Dalgo.tools.right_hoof.labelNoLocation>
+  <!-- EN: devourer -->
+  <Devourers.label>devourer</Devourers.label>
+  <!-- EN: Devourers were carnivorous anthropoids twisted by the dark side of the Force that were indigenous to jungle moon of Dxun. Devourers were known across many worlds for having attacked (and in some instances killed) several notable figures in galactic history who wandered into their territory. They were fierce creatures and were sometimes exported as attack animals to other worlds where escaped specimens easily established themselves in the local ecosystems. -->
+  <Devourers.description>Devourers were carnivorous anthropoids twisted by the dark side of the Force that were indigenous to jungle moon of Dxun. Devourers were known across many worlds for having attacked (and in some instances killed) several notable figures in galactic history who wandered into their territory. They were fierce creatures and were sometimes exported as attack animals to other worlds where escaped specimens easily established themselves in the local ecosystems.</Devourers.description>
+  <!-- EN: left fist -->
+  <Devourers.tools.left_fist.label>left fist</Devourers.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Devourers.tools.right_fist.label>right fist</Devourers.tools.right_fist.label>
+  <!-- EN: head -->
+  <Devourers.tools.head.label>head</Devourers.tools.head.label>
+  <!-- EN: dewback -->
+  <Dewback.label>dewback</Dewback.label>
+  <!-- EN: Dewbacks are large, four-legged, omnivorous, cold-blooded reptiles native to the Dune Sea of Tatooine. As such, they are well-adapted to the harsh desert climate. This and the fact that they can be easily domesticated make them commonly employed as beasts of burden by both the inhabitants of the desert planet and the off-worlders wandering its dunes. Due to their numerous useful traits and versatility, they are quite possibly the most respected of all the creatures native to Tatooine. -->
+  <Dewback.description>Dewbacks are large, four-legged, omnivorous, cold-blooded reptiles native to the Dune Sea of Tatooine. As such, they are well-adapted to the harsh desert climate. This and the fact that they can be easily domesticated make them commonly employed as beasts of burden by both the inhabitants of the desert planet and the off-worlders wandering its dunes. Due to their numerous useful traits and versatility, they are quite possibly the most respected of all the creatures native to Tatooine.</Dewback.description>
+  <!-- EN: tail -->
+  <Dewback.tools.tail.label>tail</Dewback.tools.tail.label>
+  <!-- EN: head -->
+  <Dewback.tools.head.label>head</Dewback.tools.head.label>
+  <!-- EN: dianoga -->
+  <Dianoga.label>dianoga</Dianoga.label>
+  <!-- EN: Dianoga originated on the planet Vodran and were large cephalopods capable of growing to great sizes. They had a single eyestalk protruding from their mollusk-like bodies, and seven suckered tentacles surrounding a fanged maw containing a sharp serrated probe. Normally these creatures were restricted to bodies of water, but this variety seems just as comfortable dragging itself around on land. -->
+  <Dianoga.description>Dianoga originated on the planet Vodran and were large cephalopods capable of growing to great sizes. They had a single eyestalk protruding from their mollusk-like bodies, and seven suckered tentacles surrounding a fanged maw containing a sharp serrated probe. Normally these creatures were restricted to bodies of water, but this variety seems just as comfortable dragging itself around on land.</Dianoga.description>
+  <!-- EN: left tentacle -->
+  <Dianoga.tools.left_tentacle.label>left tentacle</Dianoga.tools.left_tentacle.label>
+  <!-- EN: right tentacle -->
+  <Dianoga.tools.right_tentacle.label>right tentacle</Dianoga.tools.right_tentacle.label>
+  <!-- EN: Dragonsnake -->
+  <Dragonsnake.label>Dragonsnake</Dragonsnake.label>
+  <!-- EN: The dragonsnake (also spelled 'dragon snake') were a large, semi-aquatic predatory reptiles that dwelled in the muddy waters of various planets, including Dagobah and Nal Hutta. Dragonsnakes were large serpentlike beasts with sharp fangs and biolumescent spots along their backs. Although voracious, they were incapable of digesting metal (a lucky escape for some heroic droids!). The dragonsnake "Bright-Eyes" displayed a degree of extreme intelligence and cunning. -->
+  <Dragonsnake.description>The dragonsnake (also spelled 'dragon snake') were a large, semi-aquatic predatory reptiles that dwelled in the muddy waters of various planets, including Dagobah and Nal Hutta. Dragonsnakes were large serpentlike beasts with sharp fangs and biolumescent spots along their backs. Although voracious, they were incapable of digesting metal (a lucky escape for some heroic droids!). The dragonsnake "Bright-Eyes" displayed a degree of extreme intelligence and cunning.</Dragonsnake.description>
+  <!-- EN: head -->
+  <Dragonsnake.tools.head.label>head</Dragonsnake.tools.head.label>
+  <!-- EN: bodily constriction -->
+  <Dragonsnake.tools.bodily_constriction.label>bodily constriction</Dragonsnake.tools.bodily_constriction.label>
+  <!-- EN: drexl -->
+  <Drexl.label>drexl</Drexl.label>
+  <!-- EN: Drexls (also known as 'warbeasts') were reptavian winged creatures indigenous to Onderonian moon of Dxun. In early stages of Onderon history, drexls were feared predators that spread terror, attacking the primitive Onderonian villages. The creatures were later trained as mounts by the Onderonian outcasts, who came to be known as 'Beast Riders'. Their viciousness as 'warbeasts' resulted in them being unintentionally spread to numerous worlds where they readily carved out an ecological niche. -->
+  <Drexl.description>Drexls (also known as 'warbeasts') were reptavian winged creatures indigenous to Onderonian moon of Dxun. In early stages of Onderon history, drexls were feared predators that spread terror, attacking the primitive Onderonian villages. The creatures were later trained as mounts by the Onderonian outcasts, who came to be known as 'Beast Riders'. Their viciousness as 'warbeasts' resulted in them being unintentionally spread to numerous worlds where they readily carved out an ecological niche.</Drexl.description>
+  <!-- EN: left claws -->
+  <Drexl.tools.left_claws.label>left claws</Drexl.tools.left_claws.label>
+  <!-- EN: right claws -->
+  <Drexl.tools.right_claws.label>right claws</Drexl.tools.right_claws.label>
+  <!-- EN: serated tail -->
+  <Drexl.tools.serated_tail.label>serated tail</Drexl.tools.serated_tail.label>
+  <!-- EN: horned head -->
+  <Drexl.tools.horned_head.label>horned head</Drexl.tools.horned_head.label>
+  <!-- EN: energy spider -->
+  <EnergySpider.label>energy spider</EnergySpider.label>
+  <!-- EN: Energy spiders (or "spice spiders") were horrifying arachnids that inhabited the Spice Mines of Kessel. The webs that these creatures spin between their legs can be harvested as Glitterstim (a potent drug and medicinal ingredient). This variety of Energy Spider appears to have been bioengineered to survive off of Kessel but with the downside that they have massive appetites. They can however survive in extreme temperatures (both hot and cold) and they (or their product) are not aversed to the sunlight. -->
+  <EnergySpider.description>Energy spiders (or "spice spiders") were horrifying arachnids that inhabited the Spice Mines of Kessel. The webs that these creatures spin between their legs can be harvested as Glitterstim (a potent drug and medicinal ingredient). This variety of Energy Spider appears to have been bioengineered to survive off of Kessel but with the downside that they have massive appetites. They can however survive in extreme temperatures (both hot and cold) and they (or their product) are not aversed to the sunlight.</EnergySpider.description>
+  <!-- EN: tarsus spike -->
+  <EnergySpider.tools.tarsus_spike.label>tarsus spike</EnergySpider.tools.tarsus_spike.label>
+  <!-- EN: fanged pedipalps -->
+  <EnergySpider.tools.fanged_pedipalps.label>fanged pedipalps</EnergySpider.tools.fanged_pedipalps.label>
+  <!-- EN: head -->
+  <EnergySpider.tools.head.label>head</EnergySpider.tools.head.label>
+  <!-- EN: eopie -->
+  <Eopie.label>eopie</Eopie.label>
+  <!-- EN: Eopies were a species of quadrupedal mammallian herbivores native to the planet Tatooine. These tough creatures were acclimated to their homeworld's endless deserts, and as a result were domesticated and exported offworld as pack animals. The eopie's rough skin helped to protect it against the heat while its hooves were adapted to climbing rocky cliffs. -->
+  <Eopie.description>Eopies were a species of quadrupedal mammallian herbivores native to the planet Tatooine. These tough creatures were acclimated to their homeworld's endless deserts, and as a result were domesticated and exported offworld as pack animals. The eopie's rough skin helped to protect it against the heat while its hooves were adapted to climbing rocky cliffs.</Eopie.description>
+  <!-- EN: head -->
+  <Eopie.tools.head.label>head</Eopie.tools.head.label>
+  <!-- EN: left hoof -->
+  <Eopie.tools.left_hoof.label>left hoof</Eopie.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Eopie.tools.right_hoof.label>right hoof</Eopie.tools.right_hoof.label>
+  <!-- EN: falumpaset -->
+  <Falumpaset.label>falumpaset</Falumpaset.label>
+  <!-- EN: The falumpaset were a large mammalalian creature native to the planet Naboo. Their distinctive bellowing calls could be heard for kilometers around and their intelligence made them likely to form strong bonds with their handlers. Easily domesticated as beasts of burden (or sometimes war mounts), falumpasets could be found all over the galaxy. -->
+  <Falumpaset.description>The falumpaset were a large mammalalian creature native to the planet Naboo. Their distinctive bellowing calls could be heard for kilometers around and their intelligence made them likely to form strong bonds with their handlers. Easily domesticated as beasts of burden (or sometimes war mounts), falumpasets could be found all over the galaxy.</Falumpaset.description>
+  <!-- EN: head -->
+  <Falumpaset.tools.head.label>head</Falumpaset.tools.head.label>
+  <!-- EN: left hoof -->
+  <Falumpaset.tools.left_hoof.label>left hoof</Falumpaset.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Falumpaset.tools.right_hoof.label>right hoof</Falumpaset.tools.right_hoof.label>
+  <!-- EN: fambaa -->
+  <Fambaa.label>fambaa</Fambaa.label>
+  <!-- EN: Fambaas were large herbivorous amphibians most often found in swamps. Fambaas were technically amphibians but had the scaly hide of reptiles. The creatures size and usefulness when domesticated meant they were exported to many worlds as beasts of burden. -->
+  <Fambaa.description>Fambaas were large herbivorous amphibians most often found in swamps. Fambaas were technically amphibians but had the scaly hide of reptiles. The creatures size and usefulness when domesticated meant they were exported to many worlds as beasts of burden.</Fambaa.description>
+  <!-- EN: left foot -->
+  <Fambaa.tools.left_foot.label>left foot</Fambaa.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Fambaa.tools.right_foot.label>right foot</Fambaa.tools.right_foot.label>
+  <!-- EN: head -->
+  <Fambaa.tools.head.label>head</Fambaa.tools.head.label>
+  <!-- EN: fanback -->
+  <Fanback.label>fanback</Fanback.label>
+  <!-- EN: The fanback was a cold-blooded predatory amphibian from the swamps of Naboo. Each fanback had a big dorsal spine along with a sensitive snout which allowed them to hunt for fish and other small free swimming prey with ease. They lay a high number of eggs and were known to protect these nest sites by hunting any creature bold enough to attempt to eat or threaten their clutch. It's for this reason that these eggs having been sold (or collected as trophies) has resulted in populations of these animals on other worlds. -->
+  <Fanback.description>The fanback was a cold-blooded predatory amphibian from the swamps of Naboo. Each fanback had a big dorsal spine along with a sensitive snout which allowed them to hunt for fish and other small free swimming prey with ease. They lay a high number of eggs and were known to protect these nest sites by hunting any creature bold enough to attempt to eat or threaten their clutch. It's for this reason that these eggs having been sold (or collected as trophies) has resulted in populations of these animals on other worlds.</Fanback.description>
+  <!-- EN: tusk -->
+  <Fanback.tools.tusk.label>tusk</Fanback.tools.tusk.label>
+  <!-- EN: tail -->
+  <Fanback.tools.tail.label>tail</Fanback.tools.tail.label>
+  <!-- EN: left claw -->
+  <Fanback.tools.left_claw.label>left claw</Fanback.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Fanback.tools.right_claw.label>right claw</Fanback.tools.right_claw.label>
+  <!-- EN: feral grazer -->
+  <FeralGrazer.label>feral grazer</FeralGrazer.label>
+  <!-- EN: These slow-moving herbivorous mammalia were native to Alderaan. 'Feral' or 'wild' grazers were significantly leaner than the fatter and more well-fed domestic grazer; however both species were distantly related to Nerfs. Their horns, tough leathery hides and fat layers acted as an additional defense against predation. -->
+  <FeralGrazer.description>These slow-moving herbivorous mammalia were native to Alderaan. 'Feral' or 'wild' grazers were significantly leaner than the fatter and more well-fed domestic grazer; however both species were distantly related to Nerfs. Their horns, tough leathery hides and fat layers acted as an additional defense against predation.</FeralGrazer.description>
+  <!-- EN: horn -->
+  <FeralGrazer.tools.horn-0.label>horn</FeralGrazer.tools.horn-0.label>
+  <!-- EN: horn -->
+  <FeralGrazer.tools.horn-1.label>horn</FeralGrazer.tools.horn-1.label>
+  <!-- EN: head -->
+  <FeralGrazer.tools.head.label>head</FeralGrazer.tools.head.label>
+  <!-- EN: feral nerf -->
+  <FeralNerf.label>feral nerf</FeralNerf.label>
+  <!-- EN: Nerfs were a species of antlered, herbivorous mammalia found all across the galaxy. Because of the nerf's ability to easily adapt to harsh environments, several defined sub-species existed and were often referred to as 'feral' or 'wild' variants of the same animal. -->
+  <FeralNerf.description>Nerfs were a species of antlered, herbivorous mammalia found all across the galaxy. Because of the nerf's ability to easily adapt to harsh environments, several defined sub-species existed and were often referred to as 'feral' or 'wild' variants of the same animal.</FeralNerf.description>
+  <!-- EN: horns -->
+  <FeralNerf.tools.horns.label>horns</FeralNerf.tools.horns.label>
+  <!-- EN: left hoof -->
+  <FeralNerf.tools.left_hoof.label>left hoof</FeralNerf.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <FeralNerf.tools.right_hoof.label>right hoof</FeralNerf.tools.right_hoof.label>
+  <!-- EN: head -->
+  <FeralNerf.tools.head.label>head</FeralNerf.tools.head.label>
+  <!-- EN: frilled gorg -->
+  <FrilledGorg.label>frilled gorg</FrilledGorg.label>
+  <!-- EN: Frilled Gorgs, were small frilled amphibians that could be found on several planets. This subspecies was notable for the frills along it's back and tail (hence the name) and for being slightly more aggressive in nature. Their spread to others worlds is often the consequence of culinary import of either eggs or escaped live specimens. -->
+  <FrilledGorg.description>Frilled Gorgs, were small frilled amphibians that could be found on several planets. This subspecies was notable for the frills along it's back and tail (hence the name) and for being slightly more aggressive in nature. Their spread to others worlds is often the consequence of culinary import of either eggs or escaped live specimens.</FrilledGorg.description>
+  <!-- EN: claws -->
+  <FrilledGorg.tools.claws-0.label>claws</FrilledGorg.tools.claws-0.label>
+  <!-- EN: claws -->
+  <FrilledGorg.tools.claws-1.label>claws</FrilledGorg.tools.claws-1.label>
+  <!-- EN: head -->
+  <FrilledGorg.tools.head.label>head</FrilledGorg.tools.head.label>
+  <!-- EN: frog dog -->
+  <FrogDog.label>frog dog</FrogDog.label>
+  <!-- EN: Frog dogs (sometimes referred to as "frog-dogs" or "frogdogs") were a species of reptillians with both frog-like and dog-like features. The creatures hopped and waddled from place to place. Frog-dog vocalizations sounded like throaty barks and croaks. This variant was popular on planets such as At Attin due to their bright, inquisitive, loyal, and attentive nature. "At Attin frogdogs" were sought for the companionship they offered and kept as domestic pets. -->
+  <FrogDog.description>Frog dogs (sometimes referred to as "frog-dogs" or "frogdogs") were a species of reptillians with both frog-like and dog-like features. The creatures hopped and waddled from place to place. Frog-dog vocalizations sounded like throaty barks and croaks. This variant was popular on planets such as At Attin due to their bright, inquisitive, loyal, and attentive nature. "At Attin frogdogs" were sought for the companionship they offered and kept as domestic pets.</FrogDog.description>
+  <!-- EN: claws -->
+  <FrogDog.tools.claws.label>claws</FrogDog.tools.claws.label>
+  <!-- EN: head -->
+  <FrogDog.tools.head.label>head</FrogDog.tools.head.label>
+  <!-- EN: gelagrub -->
+  <Gelagrub.label>gelagrub</Gelagrub.label>
+  <!-- EN: Gelagrubs, also known as 'Felucian ground beetles', were large insectine creatures native to Felucia. This variety (with some genetic tweaking) found themselves popular for export to many Rimworlds because they remained in their useful grub-like state for their entire lives whilst also swapping out their normal phosphorescence for neutroamine production. -->
+  <Gelagrub.description>Gelagrubs, also known as 'Felucian ground beetles', were large insectine creatures native to Felucia. This variety (with some genetic tweaking) found themselves popular for export to many Rimworlds because they remained in their useful grub-like state for their entire lives whilst also swapping out their normal phosphorescence for neutroamine production.</Gelagrub.description>
+  <!-- EN: mandibles -->
+  <Gelagrub.tools.mandibles.label>mandibles</Gelagrub.tools.mandibles.label>
+  <!-- EN: head -->
+  <Gelagrub.tools.head.label>head</Gelagrub.tools.head.label>
+  <!-- EN: gizka -->
+  <Gizka.label>gizka</Gizka.label>
+  <!-- EN: Whatever their native world, their extraordinary reproduction rate led to a fair amount of gizka on many worlds, even including uncharted planets such as Lehon, finding their way from the wreckage of crashed starships. It has been alternatively postulated that they came from that planet originally, spreading along with the Infinite Empire. Their exponential population growth led to them being considered pests on almost as many worlds as they inhabited, as they commonly ate electrical wiring. They were the source for the delicacy gizka steak. -->
+  <Gizka.description>Whatever their native world, their extraordinary reproduction rate led to a fair amount of gizka on many worlds, even including uncharted planets such as Lehon, finding their way from the wreckage of crashed starships. It has been alternatively postulated that they came from that planet originally, spreading along with the Infinite Empire. Their exponential population growth led to them being considered pests on almost as many worlds as they inhabited, as they commonly ate electrical wiring. They were the source for the delicacy gizka steak.</Gizka.description>
+  <!-- EN: left foot -->
+  <Gizka.tools.left_foot.label>left foot</Gizka.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Gizka.tools.right_foot.label>right foot</Gizka.tools.right_foot.label>
+  <!-- EN: head -->
+  <Gizka.tools.head.label>head</Gizka.tools.head.label>
+  <!-- EN: gorg -->
+  <Gorg.label>gorg</Gorg.label>
+  <!-- EN: Gorgs, known as 'chubas' in Huttese, were small precocious amphibians that could be found on several planets. They were popularly favored as food by many humanoid species. Thus they became popular livestock on sparse worlds due to their high temperature tolerance, minimal food consumption and fast breeding. -->
+  <Gorg.description>Gorgs, known as 'chubas' in Huttese, were small precocious amphibians that could be found on several planets. They were popularly favored as food by many humanoid species. Thus they became popular livestock on sparse worlds due to their high temperature tolerance, minimal food consumption and fast breeding.</Gorg.description>
+  <!-- EN: claws -->
+  <Gorg.tools.claws-0.label>claws</Gorg.tools.claws-0.label>
+  <!-- EN: claws -->
+  <Gorg.tools.claws-1.label>claws</Gorg.tools.claws-1.label>
+  <!-- EN: head -->
+  <Gorg.tools.head.label>head</Gorg.tools.head.label>
+  <!-- EN: gornt -->
+  <Gornt.label>gornt</Gornt.label>
+  <!-- EN: The gornt was a domesticated, omnivorous creature native on the world of Hethar. A naturally bred gornt would grow to a meter or more long and was supported by four limbs, two small front legs and two large hind legs. Their head had a single horn and their mouths were surrounded by tendrils which they used to eat almost anything. It was introduced to many worlds as their meat was found to be sweet, juicy, and highly nutritious. -->
+  <Gornt.description>The gornt was a domesticated, omnivorous creature native on the world of Hethar. A naturally bred gornt would grow to a meter or more long and was supported by four limbs, two small front legs and two large hind legs. Their head had a single horn and their mouths were surrounded by tendrils which they used to eat almost anything. It was introduced to many worlds as their meat was found to be sweet, juicy, and highly nutritious.</Gornt.description>
+  <!-- EN: horn -->
+  <Gornt.tools.horn.label>horn</Gornt.tools.horn.label>
+  <!-- EN: head -->
+  <Gornt.tools.head.label>head</Gornt.tools.head.label>
+  <!-- EN: granite slug -->
+  <GraniteSlug.label>granite slug</GraniteSlug.label>
+  <!-- EN: The granite slug was a silica parasite native to the planet Coruscant. This small terrestrial mollusk has corrosive acidic green-gray slime blood. Its body consisted of four eyestalks, two retractable mouths, one foot, lung filaments, and suction pseudopods. One of their natural predators is the hawk-bat. -->
+  <GraniteSlug.description>The granite slug was a silica parasite native to the planet Coruscant. This small terrestrial mollusk has corrosive acidic green-gray slime blood. Its body consisted of four eyestalks, two retractable mouths, one foot, lung filaments, and suction pseudopods. One of their natural predators is the hawk-bat.</GraniteSlug.description>
+  <!-- EN: head -->
+  <GraniteSlug.tools.head.label>head</GraniteSlug.tools.head.label>
+  <!-- EN: Grank -->
+  <Grank.label>Grank</Grank.label>
+  <!-- EN: The Grank (or 'saw-toothed grank') were a medium-sized carnivore believed to have originated on the planet Naboo. They were a species of predatory scavengers with sharp teeth and powerful jaws. Despite their fearsome gnarled appearance they were very affectionate when domesticated. This made them popular pets and lead to them establishing wild populations on multiple worlds as a result. -->
+  <Grank.description>The Grank (or 'saw-toothed grank') were a medium-sized carnivore believed to have originated on the planet Naboo. They were a species of predatory scavengers with sharp teeth and powerful jaws. Despite their fearsome gnarled appearance they were very affectionate when domesticated. This made them popular pets and lead to them establishing wild populations on multiple worlds as a result.</Grank.description>
+  <!-- EN: left claw -->
+  <Grank.tools.left_claw.label>left claw</Grank.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Grank.tools.right_claw.label>right claw</Grank.tools.right_claw.label>
+  <!-- EN: head -->
+  <Grank.tools.head.label>head</Grank.tools.head.label>
+  <!-- EN: grazer -->
+  <Grazer.label>grazer</Grazer.label>
+  <!-- EN: A large, slow domesticated mammalia from Alderaan that has been selectively bred to produce huge amounts of milk. Their fat reserves function to insulate them well against a broad range of temperature. However, most of them are so adapted to farm life that they cannot survive in the wild like their feral brethren. -->
+  <Grazer.description>A large, slow domesticated mammalia from Alderaan that has been selectively bred to produce huge amounts of milk. Their fat reserves function to insulate them well against a broad range of temperature. However, most of them are so adapted to farm life that they cannot survive in the wild like their feral brethren.</Grazer.description>
+  <!-- EN: head -->
+  <Grazer.tools.head.label>head</Grazer.tools.head.label>
+  <!-- EN: greater krayt dragon -->
+  <GreaterKraytDragon.label>greater krayt dragon</GreaterKraytDragon.label>
+  <!-- EN: The greater krayt dragon was the largest species of krayt dragon, and the apex predator of the planet Tatooine. Using its ten strong legs, it literally swam through the shifting sands. This larger subspecies is both rarer and yet it was still hunted (some say foolishly as most hunts end in disaster) for the precious pearls found in their bodies and as a right of passage for certain Tusken tribes. -->
+  <GreaterKraytDragon.description>The greater krayt dragon was the largest species of krayt dragon, and the apex predator of the planet Tatooine. Using its ten strong legs, it literally swam through the shifting sands. This larger subspecies is both rarer and yet it was still hunted (some say foolishly as most hunts end in disaster) for the precious pearls found in their bodies and as a right of passage for certain Tusken tribes.</GreaterKraytDragon.description>
+  <!-- EN: front left leg -->
+  <GreaterKraytDragon.tools.front_left_leg.label>front left leg</GreaterKraytDragon.tools.front_left_leg.label>
+  <!-- EN: front right leg -->
+  <GreaterKraytDragon.tools.front_right_leg.label>front right leg</GreaterKraytDragon.tools.front_right_leg.label>
+  <!-- EN: teeth -->
+  <GreaterKraytDragon.tools.teeth.label>teeth</GreaterKraytDragon.tools.teeth.label>
+  <!-- EN: Tail -->
+  <GreaterKraytDragon.tools.Tail.label>Tail</GreaterKraytDragon.tools.Tail.label>
+  <!-- EN: head -->
+  <GreaterKraytDragon.tools.head.label>head</GreaterKraytDragon.tools.head.label>
+  <!-- EN: gualaar -->
+  <Gualaar.label>gualaar</Gualaar.label>
+  <!-- EN: The Gualaar was an ungulate species indigenous to the mountains and hills of the planet Naboo. These creatures though tricky to domesticate had both the build and strength to make them perfect beasts of burden. The Royal House of Naboo kept a herd of Gualaar that were used to carry state officials. This regal affiliation and their physical practicality meant they were exported and ultimately spread across multiple worlds. It's similarity in appearance to the legendary Thrumbo is a point of interest amongst several xenobiologists. -->
+  <Gualaar.description>The Gualaar was an ungulate species indigenous to the mountains and hills of the planet Naboo. These creatures though tricky to domesticate had both the build and strength to make them perfect beasts of burden. The Royal House of Naboo kept a herd of Gualaar that were used to carry state officials. This regal affiliation and their physical practicality meant they were exported and ultimately spread across multiple worlds. It's similarity in appearance to the legendary Thrumbo is a point of interest amongst several xenobiologists.</Gualaar.description>
+  <!-- EN: horn -->
+  <Gualaar.tools.horn.label>horn</Gualaar.tools.horn.label>
+  <!-- EN: left hoof -->
+  <Gualaar.tools.left_hoof.label>left hoof</Gualaar.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Gualaar.tools.right_hoof.label>right hoof</Gualaar.tools.right_hoof.label>
+  <!-- EN: gullipud -->
+  <Gullipud.label>gullipud</Gullipud.label>
+  <!-- EN: Gullipuds were bulky, loose-skinned, self-inflating amphibians native to the swamps of the planet Naboo. As they were small and easy prey for other animals, like pikobis, gullipuds would extend their spine to make themselves harder to catch and swallow. Due to their physical similarities to the more common gorg these creatures may have been unintentionally transported to various worlds as livestock, only to escape into the wild and establish themselves. -->
+  <Gullipud.description>Gullipuds were bulky, loose-skinned, self-inflating amphibians native to the swamps of the planet Naboo. As they were small and easy prey for other animals, like pikobis, gullipuds would extend their spine to make themselves harder to catch and swallow. Due to their physical similarities to the more common gorg these creatures may have been unintentionally transported to various worlds as livestock, only to escape into the wild and establish themselves.</Gullipud.description>
+  <!-- EN: claws -->
+  <Gullipud.tools.claws-0.label>claws</Gullipud.tools.claws-0.label>
+  <!-- EN: claws -->
+  <Gullipud.tools.claws-1.label>claws</Gullipud.tools.claws-1.label>
+  <!-- EN: head -->
+  <Gullipud.tools.head.label>head</Gullipud.tools.head.label>
+  <!-- EN: gundark -->
+  <Gundark.label>gundark</Gundark.label>
+  <!-- EN: Gundarks were fearsome anthropoids from the planet Vanqor. They were known as one of the most vicious, strong, and aggressive species in the galaxy. This ferocity resulted in them being exported across to many worlds as gladiatorial combatants or as exotic pets. They had two powerful arms used in combat and locomotion, two smaller arms for manipulation and walked on a specialised single clawed-toes. They famously had very large ears which aided in tracking and hunting prey; typically before an ambush. -->
+  <Gundark.description>Gundarks were fearsome anthropoids from the planet Vanqor. They were known as one of the most vicious, strong, and aggressive species in the galaxy. This ferocity resulted in them being exported across to many worlds as gladiatorial combatants or as exotic pets. They had two powerful arms used in combat and locomotion, two smaller arms for manipulation and walked on a specialised single clawed-toes. They famously had very large ears which aided in tracking and hunting prey; typically before an ambush.</Gundark.description>
+  <!-- EN: left arm -->
+  <Gundark.tools.left_arm.label>left arm</Gundark.tools.left_arm.label>
+  <!-- EN: right arm -->
+  <Gundark.tools.right_arm.label>right arm</Gundark.tools.right_arm.label>
+  <!-- EN: left middle claw -->
+  <Gundark.tools.left_middle_claw.label>left middle claw</Gundark.tools.left_middle_claw.label>
+  <!-- EN: right middle claw -->
+  <Gundark.tools.right_middle_claw.label>right middle claw</Gundark.tools.right_middle_claw.label>
+  <!-- EN: teeth -->
+  <Gundark.tools.teeth.label>teeth</Gundark.tools.teeth.label>
+  <!-- EN: gutkurr -->
+  <Gutkurr.label>gutkurr</Gutkurr.label>
+  <!-- EN: Gutkurrs were fierce insectile predators native to the planet Ryloth. They were aggressive and displayed very limited intelligence, however they were observed to work in small hunting packs. These traits however has made them popular game animals and "pets" for criminal organisations across the galaxy, spreading these monsterous creatures to many worlds. -->
+  <Gutkurr.description>Gutkurrs were fierce insectile predators native to the planet Ryloth. They were aggressive and displayed very limited intelligence, however they were observed to work in small hunting packs. These traits however has made them popular game animals and "pets" for criminal organisations across the galaxy, spreading these monsterous creatures to many worlds.</Gutkurr.description>
+  <!-- EN: left sickled claw -->
+  <Gutkurr.tools.left_sickled_claw.label>left sickled claw</Gutkurr.tools.left_sickled_claw.label>
+  <!-- EN: right sickled claw -->
+  <Gutkurr.tools.right_sickled_claw.label>right sickled claw</Gutkurr.tools.right_sickled_claw.label>
+  <!-- EN: beaked maw -->
+  <Gutkurr.tools.beaked_maw.label>beaked maw</Gutkurr.tools.beaked_maw.label>
+  <!-- EN: head -->
+  <Gutkurr.tools.head.label>head</Gutkurr.tools.head.label>
+  <!-- EN: harvester beetle -->
+  <HarvesterBeetle.label>harvester beetle</HarvesterBeetle.label>
+  <!-- EN: The harvester beetle were a large domesticated insectoid native to the planet Neimoidia, but were transplanted to all the Neimoidian purse worlds (as well as potential) worlds. They were large, herbivorous and were able to carry heavy loads on their swept backs. In the absence of their 'hive queens' pheremones, these animals have become feral but they still make excellent beasts of burden and can be milked for insect jelly. -->
+  <HarvesterBeetle.description>The harvester beetle were a large domesticated insectoid native to the planet Neimoidia, but were transplanted to all the Neimoidian purse worlds (as well as potential) worlds. They were large, herbivorous and were able to carry heavy loads on their swept backs. In the absence of their 'hive queens' pheremones, these animals have become feral but they still make excellent beasts of burden and can be milked for insect jelly.</HarvesterBeetle.description>
+  <!-- EN: mandibles -->
+  <HarvesterBeetle.tools.mandibles.label>mandibles</HarvesterBeetle.tools.mandibles.label>
+  <!-- EN: head -->
+  <HarvesterBeetle.tools.head.label>head</HarvesterBeetle.tools.head.label>
+  <!-- EN: hawk-bat -->
+  <Hawkbat.label>hawk-bat</Hawkbat.label>
+  <!-- EN: Hawk-bats were predatory reptavians with a curved beak and leathery wings that could be found on urbanized worlds like Coruscant and Taris. To get on a hawk-bat's bad side could be very dangerous. As a result, very few lived in captivity. Though they favored granite slugs, hawk-bats would feed on almost anything smaller than themselves. When they hatched from their eggs, young hawk-bats had scaly green skin and were precocial, meaning they were fully independent and able to hunt upon the day of hatching. Upon reaching maturity, the hawk-bat would shed its green skin and emerge with mature purplish-gray skin. -->
+  <Hawkbat.description>Hawk-bats were predatory reptavians with a curved beak and leathery wings that could be found on urbanized worlds like Coruscant and Taris. To get on a hawk-bat's bad side could be very dangerous. As a result, very few lived in captivity. Though they favored granite slugs, hawk-bats would feed on almost anything smaller than themselves. When they hatched from their eggs, young hawk-bats had scaly green skin and were precocial, meaning they were fully independent and able to hunt upon the day of hatching. Upon reaching maturity, the hawk-bat would shed its green skin and emerge with mature purplish-gray skin.</Hawkbat.description>
+  <!-- EN: tail -->
+  <Hawkbat.tools.tail.label>tail</Hawkbat.tools.tail.label>
+  <!-- EN: beak -->
+  <Hawkbat.tools.beak.label>beak</Hawkbat.tools.beak.label>
+  <!-- EN: head -->
+  <Hawkbat.tools.head.label>head</Hawkbat.tools.head.label>
+  <!-- EN: horax -->
+  <Horax.label>horax</Horax.label>
+  <!-- EN: Horaxes were colossal, slow reptiles native to the planet Nelvaan. They were capable of growing to huge sizes thanks to the low gravity of their homeworld. Their powerfully muscled frames were covered in thick, knobby, blue skin which provided excellent defence. The mouth of the horax contained many sharp teeth, the most prominent being the four enormous saber-like fangs that protruded from its maw. At the end of the beasts' snouts was a pair of shovel-like horns used to uproot entire trees in search of small prey. Their sale and export to other worlds as juveniles as gladiatorial beasts often resulted in the specimens outgrowing their containment and escaping to form wild populations. -->
+  <Horax.description>Horaxes were colossal, slow reptiles native to the planet Nelvaan. They were capable of growing to huge sizes thanks to the low gravity of their homeworld. Their powerfully muscled frames were covered in thick, knobby, blue skin which provided excellent defence. The mouth of the horax contained many sharp teeth, the most prominent being the four enormous saber-like fangs that protruded from its maw. At the end of the beasts' snouts was a pair of shovel-like horns used to uproot entire trees in search of small prey. Their sale and export to other worlds as juveniles as gladiatorial beasts often resulted in the specimens outgrowing their containment and escaping to form wild populations.</Horax.description>
+  <!-- EN: left foot -->
+  <Horax.tools.left_foot.label>left foot</Horax.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Horax.tools.right_foot.label>right foot</Horax.tools.right_foot.label>
+  <!-- EN: head -->
+  <Horax.tools.head.label>head</Horax.tools.head.label>
+  <!-- EN: spiked club-tail -->
+  <Horax.tools.spiked_clubtail.label>spiked club-tail</Horax.tools.spiked_clubtail.label>
+  <!-- EN: hrumph -->
+  <Hrumph.label>hrumph</Hrumph.label>
+  <!-- EN: The hrumphs were powerful, thick-necked herbivores native to planet Naboo, but also found on other worlds like Aargonar. Hrumphs received their name from the loud, deep, guttural sounds they produced. They had four long horns for defense and for the protection of their two long, sensitive ears. They were not choosy about their food which made them hardy enough to survive on many other worlds. -->
+  <Hrumph.description>The hrumphs were powerful, thick-necked herbivores native to planet Naboo, but also found on other worlds like Aargonar. Hrumphs received their name from the loud, deep, guttural sounds they produced. They had four long horns for defense and for the protection of their two long, sensitive ears. They were not choosy about their food which made them hardy enough to survive on many other worlds.</Hrumph.description>
+  <!-- EN: left hoof -->
+  <Hrumph.tools.left_hoof.label>left hoof</Hrumph.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Hrumph.tools.right_hoof.label>right hoof</Hrumph.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Hrumph.tools.head.label>head</Hrumph.tools.head.label>
+  <!-- EN: hssiss -->
+  <Hssiss.label>hssiss</Hssiss.label>
+  <!-- EN: Hssiss (or "dark side dragons") were a poisnous reptile native to the planet Ambria. They were slow but aggressive ambush predators that preferred to live near bodies of water. Hssiss could be found all over the galaxy, especially on worlds where the "dark side" was strong (with most being descended from those brought by the many historical "Sith" armies). -->
+  <Hssiss.description>Hssiss (or "dark side dragons") were a poisnous reptile native to the planet Ambria. They were slow but aggressive ambush predators that preferred to live near bodies of water. Hssiss could be found all over the galaxy, especially on worlds where the "dark side" was strong (with most being descended from those brought by the many historical "Sith" armies).</Hssiss.description>
+  <!-- EN: poisonous fangs -->
+  <Hssiss.tools.poisonous_fangs.label>poisonous fangs</Hssiss.tools.poisonous_fangs.label>
+  <!-- EN: tusk -->
+  <Hssiss.tools.tusk.label>tusk</Hssiss.tools.tusk.label>
+  <!-- EN: tail -->
+  <Hssiss.tools.tail.label>tail</Hssiss.tools.tail.label>
+  <!-- EN: left claw -->
+  <Hssiss.tools.left_claw.label>left claw</Hssiss.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Hssiss.tools.right_claw.label>right claw</Hssiss.tools.right_claw.label>
+  <!-- EN: igitz -->
+  <Igitz.label>igitz</Igitz.label>
+  <!-- EN: Igitz were a species of small amphibians hailing from the planet Naboo. Those blue-skinned, omnivorous critters dwelled in the planet's many dense swamps. Because of the environment in which they had evolved, the igitz were well-adapted to both land and water: while their front paws were clawed for treading on land, their hindquarters were finned, allowing it speed when in water. The igitz were a popular pet in most Gungan civilizations and this lead to the species becoming present on other worlds. -->
+  <Igitz.description>Igitz were a species of small amphibians hailing from the planet Naboo. Those blue-skinned, omnivorous critters dwelled in the planet's many dense swamps. Because of the environment in which they had evolved, the igitz were well-adapted to both land and water: while their front paws were clawed for treading on land, their hindquarters were finned, allowing it speed when in water. The igitz were a popular pet in most Gungan civilizations and this lead to the species becoming present on other worlds.</Igitz.description>
+  <!-- EN: left paw -->
+  <Igitz.tools.left_paw.label>left paw</Igitz.tools.left_paw.label>
+  <!-- EN: right paw -->
+  <Igitz.tools.right_paw.label>right paw</Igitz.tools.right_paw.label>
+  <!-- EN: fish teeth -->
+  <Igitz.tools.fish_teeth.label>fish teeth</Igitz.tools.fish_teeth.label>
+  <!-- EN: head -->
+  <Igitz.tools.head.label>head</Igitz.tools.head.label>
+  <!-- EN: insectomorph -->
+  <Insectomorph.label>insectomorph</Insectomorph.label>
+  <!-- EN: Insectomorphs were insectoids from the planet Malastare. These easily domesticated omnivores were often used by the Dugs on their homeworld as battle mounts. Despite their unusual appearance they have been able to flourish as livestock on multiple worlds due to their rapid growth and hardiness. -->
+  <Insectomorph.description>Insectomorphs were insectoids from the planet Malastare. These easily domesticated omnivores were often used by the Dugs on their homeworld as battle mounts. Despite their unusual appearance they have been able to flourish as livestock on multiple worlds due to their rapid growth and hardiness.</Insectomorph.description>
+  <!-- EN: teeth -->
+  <Insectomorph.tools.teeth.label>teeth</Insectomorph.tools.teeth.label>
+  <!-- EN: left foot -->
+  <Insectomorph.tools.left_foot.label>left foot</Insectomorph.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Insectomorph.tools.right_foot.label>right foot</Insectomorph.tools.right_foot.label>
+  <!-- EN: head -->
+  <Insectomorph.tools.head.label>head</Insectomorph.tools.head.label>
+  <!-- EN: iriaz -->
+  <Iriaz.label>iriaz</Iriaz.label>
+  <!-- EN: Iriaz were docile creatures from the grassland planet Dantooine. While not normally aggressive, they could attack if provoked. They were a prey of choice for local hunters (and natural predators alike) given that they were a relatively common creature; furthering their export to many planets. -->
+  <Iriaz.description>Iriaz were docile creatures from the grassland planet Dantooine. While not normally aggressive, they could attack if provoked. They were a prey of choice for local hunters (and natural predators alike) given that they were a relatively common creature; furthering their export to many planets.</Iriaz.description>
+  <!-- EN: left hoof -->
+  <Iriaz.tools.left_hoof.label>left hoof</Iriaz.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Iriaz.tools.right_hoof.label>right hoof</Iriaz.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Iriaz.tools.head.label>head</Iriaz.tools.head.label>
+  <!-- EN: iridonian reek -->
+  <IridonianReek.label>iridonian reek</IridonianReek.label>
+  <!-- EN: Reek could be found on the planets Iridonia, Kashyyyk, Ithor, Codian Moon, Tatooine and Saleucami (to name just a few). Various subspecies invariably sprung up as the base stock adapted to new environments. The Iridonian Reek was bred as a 'war mount' by the Iridonian Zabraks. Instead of giving them a meat diet, the Iridonian reeks were given a natural diet consisting of plant matter to keep them fierce and strong with natural vigor, which also turned a reek's skin gray. Adapted to Iridonia, their skin could resist sharp and blunt weapon attacks during battle. The Iridonian reek's horns were much sharper and longer than those of other reeks. -->
+  <IridonianReek.description>Reek could be found on the planets Iridonia, Kashyyyk, Ithor, Codian Moon, Tatooine and Saleucami (to name just a few). Various subspecies invariably sprung up as the base stock adapted to new environments. The Iridonian Reek was bred as a 'war mount' by the Iridonian Zabraks. Instead of giving them a meat diet, the Iridonian reeks were given a natural diet consisting of plant matter to keep them fierce and strong with natural vigor, which also turned a reek's skin gray. Adapted to Iridonia, their skin could resist sharp and blunt weapon attacks during battle. The Iridonian reek's horns were much sharper and longer than those of other reeks.</IridonianReek.description>
+  <!-- EN: horn -->
+  <IridonianReek.tools.horn-0.label>horn</IridonianReek.tools.horn-0.label>
+  <!-- EN: horn -->
+  <IridonianReek.tools.horn-1.label>horn</IridonianReek.tools.horn-1.label>
+  <!-- EN: horn -->
+  <IridonianReek.tools.horn-2.label>horn</IridonianReek.tools.horn-2.label>
+  <!-- EN: head -->
+  <IridonianReek.tools.head.label>head</IridonianReek.tools.head.label>
+  <!-- EN: front left hoof -->
+  <IridonianReek.tools.front_left_hoof.label>front left hoof</IridonianReek.tools.front_left_hoof.label>
+  <!-- EN: front right hoof -->
+  <IridonianReek.tools.front_right_hoof.label>front right hoof</IridonianReek.tools.front_right_hoof.label>
+  <!-- EN: ithorian reek -->
+  <IthorianReek.label>ithorian reek</IthorianReek.label>
+  <!-- EN: Reek could be found on the planets Iridonia, Kashyyyk, Ithor, Codian Moon, Tatooine and Saleucami (to name just a few). Various subspecies invariably sprung up as the base stock adapted to new environments. The Ithorian Reek were used as plow animals by the Ithorians and were larger and stronger than those found on Ylesia. Their horns were also smaller because of the lack of hostility between this subspecies. -->
+  <IthorianReek.description>Reek could be found on the planets Iridonia, Kashyyyk, Ithor, Codian Moon, Tatooine and Saleucami (to name just a few). Various subspecies invariably sprung up as the base stock adapted to new environments. The Ithorian Reek were used as plow animals by the Ithorians and were larger and stronger than those found on Ylesia. Their horns were also smaller because of the lack of hostility between this subspecies.</IthorianReek.description>
+  <!-- EN: horn -->
+  <IthorianReek.tools.horn-0.label>horn</IthorianReek.tools.horn-0.label>
+  <!-- EN: horn -->
+  <IthorianReek.tools.horn-1.label>horn</IthorianReek.tools.horn-1.label>
+  <!-- EN: horn -->
+  <IthorianReek.tools.horn-2.label>horn</IthorianReek.tools.horn-2.label>
+  <!-- EN: head -->
+  <IthorianReek.tools.head.label>head</IthorianReek.tools.head.label>
+  <!-- EN: front left hoof -->
+  <IthorianReek.tools.front_left_hoof.label>front left hoof</IthorianReek.tools.front_left_hoof.label>
+  <!-- EN: front right hoof -->
+  <IthorianReek.tools.front_right_hoof.label>front right hoof</IthorianReek.tools.front_right_hoof.label>
+  <!-- EN: jakobeast -->
+  <Jakobeast.label>jakobeast</Jakobeast.label>
+  <!-- EN: Jakobeasts were polar herd animals found in the tundras of icy planets in the Outer Rim. Jakobeasts were domesticated primarily for their meat, milk, and fur. While excellent livestock, they were ill-suited to serve as mounts, guards, or attack animals. . Jakobeasts were introduced by colonists that sought herd animals capable of defending themselves. As a result of the settlers' efforts, the creatures spread to hundreds of worlds, occasionally surviving long after the settlers themselves had vanished into history. Wild jakobeasts were hunted for their horns, which supposedly possess mysterious properties. -->
+  <Jakobeast.description>Jakobeasts were polar herd animals found in the tundras of icy planets in the Outer Rim. Jakobeasts were domesticated primarily for their meat, milk, and fur. While excellent livestock, they were ill-suited to serve as mounts, guards, or attack animals. . Jakobeasts were introduced by colonists that sought herd animals capable of defending themselves. As a result of the settlers' efforts, the creatures spread to hundreds of worlds, occasionally surviving long after the settlers themselves had vanished into history. Wild jakobeasts were hunted for their horns, which supposedly possess mysterious properties.</Jakobeast.description>
+  <!-- EN: left tusk -->
+  <Jakobeast.tools.left_tusk.label>left tusk</Jakobeast.tools.left_tusk.label>
+  <!-- EN: right tusk -->
+  <Jakobeast.tools.right_tusk.label>right tusk</Jakobeast.tools.right_tusk.label>
+  <!-- EN: horns -->
+  <Jakobeast.tools.horns.label>horns</Jakobeast.tools.horns.label>
+  <!-- EN: head -->
+  <Jakobeast.tools.head.label>head</Jakobeast.tools.head.label>
+  <!-- EN: left paw -->
+  <Jakobeast.tools.left_paw.label>left paw</Jakobeast.tools.left_paw.label>
+  <!-- EN: right paw -->
+  <Jakobeast.tools.right_paw.label>right paw</Jakobeast.tools.right_paw.label>
+  <!-- EN: Jamel -->
+  <Jamel.label>Jamel</Jamel.label>
+  <!-- EN: Jamel were a slow moving reptomammal creature native to the planet Utapau. Jamels were one of the many creatures used as beasts of burden on their planet of origin and exported offworld for such purposes. Their natural resilience meant they made great livestock even in harsh environments. -->
+  <Jamel.description>Jamel were a slow moving reptomammal creature native to the planet Utapau. Jamels were one of the many creatures used as beasts of burden on their planet of origin and exported offworld for such purposes. Their natural resilience meant they made great livestock even in harsh environments.</Jamel.description>
+  <!-- EN: head -->
+  <Jamel.tools.head.label>head</Jamel.tools.head.label>
+  <!-- EN: left hoof -->
+  <Jamel.tools.left_hoof.label>left hoof</Jamel.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Jamel.tools.right_hoof.label>right hoof</Jamel.tools.right_hoof.label>
+  <!-- EN: jimvu -->
+  <Jimvu.label>jimvu</Jimvu.label>
+  <!-- EN: The jimvu were native to the grasslands of the planet Naboo. The jimvu was an agile, six-legged, ungulate-like reptile whose best defense was its swiftness. Their main predators were the veermok and narglatch. They were exported as a prey species on various worlds where typically large predators where hunted for sport. -->
+  <Jimvu.description>The jimvu were native to the grasslands of the planet Naboo. The jimvu was an agile, six-legged, ungulate-like reptile whose best defense was its swiftness. Their main predators were the veermok and narglatch. They were exported as a prey species on various worlds where typically large predators where hunted for sport.</Jimvu.description>
+  <!-- EN: head -->
+  <Jimvu.tools.head.label>head</Jimvu.tools.head.label>
+  <!-- EN: left hoof -->
+  <Jimvu.tools.left_hoof.label>left hoof</Jimvu.tools.left_hoof.label>
+  <!-- EN: hoof -->
+  <Jimvu.tools.left_hoof.labelNoLocation>hoof</Jimvu.tools.left_hoof.labelNoLocation>
+  <!-- EN: right hoof -->
+  <Jimvu.tools.right_hoof.label>right hoof</Jimvu.tools.right_hoof.label>
+  <!-- EN: hoof -->
+  <Jimvu.tools.right_hoof.labelNoLocation>hoof</Jimvu.tools.right_hoof.labelNoLocation>
+  <!-- EN: Jungle Rancor -->
+  <JungleRancor.label>Jungle Rancor</JungleRancor.label>
+  <!-- EN: Jungle rancors were a colossal subspecies of the more common rancor that had evolved on the planet Felucia, but existed on other worlds through suspected "exotic egg sales" and poaching. This subspecies had extreme sexual dimorphism, with the males (referred to as "rancor bulls") being pale whitish grey, having 4 short facial-tusks used for display and an elongated tail for balance. The females were a regal shade of navy blue with webbed hands and had additional layers of thick almost testudine-like growths on their backs (presumably to help avoid predation as juveniles). It's believed this subspecies of rancor was able to grow too such colossal sizes due to it's consumption of the local "fungal trees" on their native Felucia, supplementing it's otherwise carnivorous diet in times of prey sparsity. -->
+  <JungleRancor.description>Jungle rancors were a colossal subspecies of the more common rancor that had evolved on the planet Felucia, but existed on other worlds through suspected "exotic egg sales" and poaching. This subspecies had extreme sexual dimorphism, with the males (referred to as "rancor bulls") being pale whitish grey, having 4 short facial-tusks used for display and an elongated tail for balance. The females were a regal shade of navy blue with webbed hands and had additional layers of thick almost testudine-like growths on their backs (presumably to help avoid predation as juveniles). It's believed this subspecies of rancor was able to grow too such colossal sizes due to it's consumption of the local "fungal trees" on their native Felucia, supplementing it's otherwise carnivorous diet in times of prey sparsity.</JungleRancor.description>
+  <!-- EN: left hand -->
+  <JungleRancor.tools.left_hand.label>left hand</JungleRancor.tools.left_hand.label>
+  <!-- EN: right hand -->
+  <JungleRancor.tools.right_hand.label>right hand</JungleRancor.tools.right_hand.label>
+  <!-- EN: teeth -->
+  <JungleRancor.tools.teeth.label>teeth</JungleRancor.tools.teeth.label>
+  <!-- EN: left foot -->
+  <JungleRancor.tools.left_foot.label>left foot</JungleRancor.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <JungleRancor.tools.right_foot.label>right foot</JungleRancor.tools.right_foot.label>
+  <!-- EN: head -->
+  <JungleRancor.tools.head.label>head</JungleRancor.tools.head.label>
+  <!-- EN: kaadu -->
+  <Kaadu.label>kaadu</Kaadu.label>
+  <!-- EN: Kaadu were large, flightless reptavians that inhabited the swamps of the planets Naboo, Obredaan as well as the moon of Rori. They had sharp hearing and a keen sense of smell and adults of the species had distinct markings to distinguish gender. Kaadu were known to be fearless; consequently many were domesticated as steeds during times of conflict, or as patrol animals. This versatility made them a popular export to other worlds as both livestock and mount. -->
+  <Kaadu.description>Kaadu were large, flightless reptavians that inhabited the swamps of the planets Naboo, Obredaan as well as the moon of Rori. They had sharp hearing and a keen sense of smell and adults of the species had distinct markings to distinguish gender. Kaadu were known to be fearless; consequently many were domesticated as steeds during times of conflict, or as patrol animals. This versatility made them a popular export to other worlds as both livestock and mount.</Kaadu.description>
+  <!-- EN: foot -->
+  <Kaadu.tools.foot.label>foot</Kaadu.tools.foot.label>
+  <!-- EN: beak -->
+  <Kaadu.tools.beak.label>beak</Kaadu.tools.beak.label>
+  <!-- EN: head -->
+  <Kaadu.tools.head.label>head</Kaadu.tools.head.label>
+  <!-- EN: katarn -->
+  <Katarn.label>katarn</Katarn.label>
+  <!-- EN: A katarn was a predatory quadruped reptomammal native to the planet Kashyyyk. Katarns had slender bodies with rodent-like tails, and narrow faces leading back to a cartilaginous ridge protecting their neck and shoulders. Katarns were creatures of great importance in the Wookiees' culture. The Wookiees, who called the katarn the "Old Prince", hunted them in their hrrtayyk ceremony. They were a popular animal for export offworld due to their ferocity. -->
+  <Katarn.description>A katarn was a predatory quadruped reptomammal native to the planet Kashyyyk. Katarns had slender bodies with rodent-like tails, and narrow faces leading back to a cartilaginous ridge protecting their neck and shoulders. Katarns were creatures of great importance in the Wookiees' culture. The Wookiees, who called the katarn the "Old Prince", hunted them in their hrrtayyk ceremony. They were a popular animal for export offworld due to their ferocity.</Katarn.description>
+  <!-- EN: left claw -->
+  <Katarn.tools.left_claw.label>left claw</Katarn.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Katarn.tools.right_claw.label>right claw</Katarn.tools.right_claw.label>
+  <!-- EN: razorfangs -->
+  <Katarn.tools.razorfangs.label>razorfangs</Katarn.tools.razorfangs.label>
+  <!-- EN: head -->
+  <Katarn.tools.head.label>head</Katarn.tools.head.label>
+  <!-- EN: kell dragon -->
+  <KellDragon.label>kell dragon</KellDragon.label>
+  <!-- EN: Kell dragons (also known as 'kell drakes') were were hardy, thick skinned creatures from the mountainous planet Rinderga. They were related to the much larger krayt dragons indigenous to Tatooine, but unlike their larger cousins were comfortable in both deserts and tundra. Kell dragons were believed to have been chemically altered by Sith Alchemy from the original krayt stock for use as effective 'guard beasts' for their tombs and facilities. As a result they also became popular with criminal organisations and these creatures could be found across the galaxy (on planets such as Ruusan, Dromund Kaas, and Arkania to name a few). -->
+  <KellDragon.description>Kell dragons (also known as 'kell drakes') were were hardy, thick skinned creatures from the mountainous planet Rinderga. They were related to the much larger krayt dragons indigenous to Tatooine, but unlike their larger cousins were comfortable in both deserts and tundra. Kell dragons were believed to have been chemically altered by Sith Alchemy from the original krayt stock for use as effective 'guard beasts' for their tombs and facilities. As a result they also became popular with criminal organisations and these creatures could be found across the galaxy (on planets such as Ruusan, Dromund Kaas, and Arkania to name a few).</KellDragon.description>
+  <!-- EN: front left claws -->
+  <KellDragon.tools.front_left_claws.label>front left claws</KellDragon.tools.front_left_claws.label>
+  <!-- EN: front right claws -->
+  <KellDragon.tools.front_right_claws.label>front right claws</KellDragon.tools.front_right_claws.label>
+  <!-- EN: teeth -->
+  <KellDragon.tools.teeth.label>teeth</KellDragon.tools.teeth.label>
+  <!-- EN: spiked tail -->
+  <KellDragon.tools.spiked_tail.label>spiked tail</KellDragon.tools.spiked_tail.label>
+  <!-- EN: head -->
+  <KellDragon.tools.head.label>head</KellDragon.tools.head.label>
+  <!-- EN: kinrath -->
+  <Kinrath.label>kinrath</Kinrath.label>
+  <!-- EN: Kinrath were a species of large, non-sentient arachnoids found on Dantooine, Kashyyyk, and several other planets. Kinrath had four legs and a leg-like, poisonous appendage coming out of their faces that they used to attack prey or other perceived enemies. All kinrath were blind but could sense heat which allowed them to navigate their way around and identify potential threats. -->
+  <Kinrath.description>Kinrath were a species of large, non-sentient arachnoids found on Dantooine, Kashyyyk, and several other planets. Kinrath had four legs and a leg-like, poisonous appendage coming out of their faces that they used to attack prey or other perceived enemies. All kinrath were blind but could sense heat which allowed them to navigate their way around and identify potential threats.</Kinrath.description>
+  <!-- EN: poisonous stinger appendage -->
+  <Kinrath.tools.poisonous_stinger_appendage.label>poisonous stinger appendage</Kinrath.tools.poisonous_stinger_appendage.label>
+  <!-- EN: head -->
+  <Kinrath.tools.head.label>head</Kinrath.tools.head.label>
+  <!-- EN: k'lor'slug -->
+  <Klorslug.label>k'lor'slug</Klorslug.label>
+  <!-- EN: K'lor'slugs were poisonous vermiforms native to the swamps of planet Noe'ha'on, but could be found in sizable populations on other worlds (including Korriban and Taris). They were known to invade the darkest spots on unsanitary space vehicles and breed (aiding in their spread to new planets). Because of their notoriety as an aggressive and deadly species (especially among the spacers who encountered them aboard their starships) they were used as a holomonster playing piece in the popular strategy game, dejarik. -->
+  <Klorslug.description>K'lor'slugs were poisonous vermiforms native to the swamps of planet Noe'ha'on, but could be found in sizable populations on other worlds (including Korriban and Taris). They were known to invade the darkest spots on unsanitary space vehicles and breed (aiding in their spread to new planets). Because of their notoriety as an aggressive and deadly species (especially among the spacers who encountered them aboard their starships) they were used as a holomonster playing piece in the popular strategy game, dejarik.</Klorslug.description>
+  <!-- EN: poisonous tail-stinger -->
+  <Klorslug.tools.poisonous_tailstinger.label>poisonous tail-stinger</Klorslug.tools.poisonous_tailstinger.label>
+  <!-- EN: circular teeth -->
+  <Klorslug.tools.circular_teeth.label>circular teeth</Klorslug.tools.circular_teeth.label>
+  <!-- EN: head -->
+  <Klorslug.tools.head.label>head</Klorslug.tools.head.label>
+  <!-- EN: kowakian monkey-lizard -->
+  <KowakianMonkeyLizard.label>kowakian monkey-lizard</KowakianMonkeyLizard.label>
+  <!-- EN: Kowakian monkey-lizards were a bipedal reptillian primate species native to a jungle-like Outer Rim planet called Kowak. Their intelligence and cunning made them popular exports as exotic pets, with some specimens escaping and establishing wild colonies. -->
+  <KowakianMonkeyLizard.description>Kowakian monkey-lizards were a bipedal reptillian primate species native to a jungle-like Outer Rim planet called Kowak. Their intelligence and cunning made them popular exports as exotic pets, with some specimens escaping and establishing wild colonies.</KowakianMonkeyLizard.description>
+  <!-- EN: left fist -->
+  <KowakianMonkeyLizard.tools.left_fist.label>left fist</KowakianMonkeyLizard.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <KowakianMonkeyLizard.tools.right_fist.label>right fist</KowakianMonkeyLizard.tools.right_fist.label>
+  <!-- EN: head -->
+  <KowakianMonkeyLizard.tools.head.label>head</KowakianMonkeyLizard.tools.head.label>
+  <!-- EN: krayt dragon -->
+  <KraytDragon.label>krayt dragon</KraytDragon.label>
+  <!-- EN: Krayt dragons are large, carnivorous reptiles from Tatooine, a desert planet in the galaxy's Outer Rim Territories. They come in two native subspecies and, despite their fierceness, are hunted for the valuable skulls. -->
+  <KraytDragon.description>Krayt dragons are large, carnivorous reptiles from Tatooine, a desert planet in the galaxy's Outer Rim Territories. They come in two native subspecies and, despite their fierceness, are hunted for the valuable skulls.</KraytDragon.description>
+  <!-- EN: front left leg -->
+  <KraytDragon.tools.front_left_leg.label>front left leg</KraytDragon.tools.front_left_leg.label>
+  <!-- EN: front right leg -->
+  <KraytDragon.tools.front_right_leg.label>front right leg</KraytDragon.tools.front_right_leg.label>
+  <!-- EN: teeth -->
+  <KraytDragon.tools.teeth.label>teeth</KraytDragon.tools.teeth.label>
+  <!-- EN: Tail -->
+  <KraytDragon.tools.Tail.label>Tail</KraytDragon.tools.Tail.label>
+  <!-- EN: head -->
+  <KraytDragon.tools.head.label>head</KraytDragon.tools.head.label>
+  <!-- EN: kreetle -->
+  <Kreetle.label>kreetle</Kreetle.label>
+  <!-- EN: Kreetle were a fast breeding arthropod native to the planet Tatooine. They were was often found in cities, homes, and other urban areas and were universally considered a pest. They gave birth to young in the form of maggot-like larvae. Kreetles thrived on dead creatures, garbage and vegetable remains (including waste). They were found on many worlds having stowed away in supplies and once escaping establishing themselves in the wild. -->
+  <Kreetle.description>Kreetle were a fast breeding arthropod native to the planet Tatooine. They were was often found in cities, homes, and other urban areas and were universally considered a pest. They gave birth to young in the form of maggot-like larvae. Kreetles thrived on dead creatures, garbage and vegetable remains (including waste). They were found on many worlds having stowed away in supplies and once escaping establishing themselves in the wild.</Kreetle.description>
+  <!-- EN: mandibles -->
+  <Kreetle.tools.mandibles.label>mandibles</Kreetle.tools.mandibles.label>
+  <!-- EN: head -->
+  <Kreetle.tools.head.label>head</Kreetle.tools.head.label>
+  <!-- EN: krykna -->
+  <Krykna.label>krykna</Krykna.label>
+  <!-- EN: Krykna were predatory, non-sentient, spider-like creatures native to the planet Atollon. They were resistant to heat based damage and were highly tempramental, making them extremely difficult to tame. -->
+  <Krykna.description>Krykna were predatory, non-sentient, spider-like creatures native to the planet Atollon. They were resistant to heat based damage and were highly tempramental, making them extremely difficult to tame.</Krykna.description>
+  <!-- EN: beak -->
+  <Krykna.tools.beak.label>beak</Krykna.tools.beak.label>
+  <!-- EN: head -->
+  <Krykna.tools.head.label>head</Krykna.tools.head.label>
+  <!-- EN: kwazel maw -->
+  <KwazelMaw.label>kwazel maw</KwazelMaw.label>
+  <!-- EN: Kwazel Maw were giant aquatic slugs from the planet Rodia. They were a slow predatory creatures with remarkably tough hides that relied on ambush. Despite naturally inhabiting swamps, it appeared Kwazel Maw were equally comfortable on land. Their presence on other planets remains a mystery, although it is speculated that the eggs of these creatures may have been sold offworld as form of 'caviar' by unscrupulous rodian merchants. -->
+  <KwazelMaw.description>Kwazel Maw were giant aquatic slugs from the planet Rodia. They were a slow predatory creatures with remarkably tough hides that relied on ambush. Despite naturally inhabiting swamps, it appeared Kwazel Maw were equally comfortable on land. Their presence on other planets remains a mystery, although it is speculated that the eggs of these creatures may have been sold offworld as form of 'caviar' by unscrupulous rodian merchants.</KwazelMaw.description>
+  <!-- EN: head -->
+  <KwazelMaw.tools.head.label>head</KwazelMaw.tools.head.label>
+  <!-- EN: Kwi -->
+  <Kwi.label>Kwi</Kwi.label>
+  <!-- EN: The Kwi were large, bipedal saurians native to the planet Dathomir. They were herbivorous and yet remarkably sociable and intelligent. They were believed to be the degenerated descendants of the saurian 'Kwa' race. How they arrived on the various worlds they populated is unknown; perhaps they are the long descendants of the pan-galactic 'Kwa' or maybe they are just escaped circus specimens. -->
+  <Kwi.description>The Kwi were large, bipedal saurians native to the planet Dathomir. They were herbivorous and yet remarkably sociable and intelligent. They were believed to be the degenerated descendants of the saurian 'Kwa' race. How they arrived on the various worlds they populated is unknown; perhaps they are the long descendants of the pan-galactic 'Kwa' or maybe they are just escaped circus specimens.</Kwi.description>
+  <!-- EN: left claws -->
+  <Kwi.tools.left_claws.label>left claws</Kwi.tools.left_claws.label>
+  <!-- EN: right claws -->
+  <Kwi.tools.right_claws.label>right claws</Kwi.tools.right_claws.label>
+  <!-- EN: teeth -->
+  <Kwi.tools.teeth.label>teeth</Kwi.tools.teeth.label>
+  <!-- EN: tail -->
+  <Kwi.tools.tail.label>tail</Kwi.tools.tail.label>
+  <!-- EN: head -->
+  <Kwi.tools.head.label>head</Kwi.tools.head.label>
+  <!-- EN: kybuck -->
+  <Kybuck.label>kybuck</Kybuck.label>
+  <!-- EN: Kybucks were bipedal ungulates native to the planet Kashyyyk, and similar in appearance to the tauntauns of Hoth. These herding pack animals were fast and sociable, which made domestication and export offworld common. -->
+  <Kybuck.description>Kybucks were bipedal ungulates native to the planet Kashyyyk, and similar in appearance to the tauntauns of Hoth. These herding pack animals were fast and sociable, which made domestication and export offworld common.</Kybuck.description>
+  <!-- EN: left hoof -->
+  <Kybuck.tools.left_hoof.label>left hoof</Kybuck.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Kybuck.tools.right_hoof.label>right hoof</Kybuck.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Kybuck.tools.head.label>head</Kybuck.tools.head.label>
+  <!-- EN: lava flea -->
+  <LavaFlea.label>lava flea</LavaFlea.label>
+  <!-- EN: Lava fleas were large arthropods native to the planet Mustafar. As larval crystalline worms, lava fleas were able to feed on rocks. The lava flea would then continue digesting rocks and other nutrients, shedding its protective shell with time. Lava fleas were also very suitable mounts and exported as such to worlds with inhospital climates to other creatures. -->
+  <LavaFlea.description>Lava fleas were large arthropods native to the planet Mustafar. As larval crystalline worms, lava fleas were able to feed on rocks. The lava flea would then continue digesting rocks and other nutrients, shedding its protective shell with time. Lava fleas were also very suitable mounts and exported as such to worlds with inhospital climates to other creatures.</LavaFlea.description>
+  <!-- EN: trunked maw -->
+  <LavaFlea.tools.trunked_maw.label>trunked maw</LavaFlea.tools.trunked_maw.label>
+  <!-- EN: head -->
+  <LavaFlea.tools.head.label>head</LavaFlea.tools.head.label>
+  <!-- EN: leaf-tail -->
+  <Leaftail.label>leaf-tail</Leaftail.label>
+  <!-- EN: Leaf-tails were a small rodent species native to the planet Dagobah. A non-sentient species of winged rodent, leaf-tails had membranous leaf-like tails that aided in balance and camouflage. -->
+  <Leaftail.description>Leaf-tails were a small rodent species native to the planet Dagobah. A non-sentient species of winged rodent, leaf-tails had membranous leaf-like tails that aided in balance and camouflage.</Leaftail.description>
+  <!-- EN: left claw -->
+  <Leaftail.tools.left_claw.label>left claw</Leaftail.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Leaftail.tools.right_claw.label>right claw</Leaftail.tools.right_claw.label>
+  <!-- EN: head -->
+  <Leaftail.tools.head.label>head</Leaftail.tools.head.label>
+  <!-- EN: longtail gorg -->
+  <LongtailGorg.label>longtail gorg</LongtailGorg.label>
+  <!-- EN: Longtail Gorgs, were small tailed amphibians that could be found on several planets. This subspecies was slightly larger than the usual and had a tail (hence the name) and could lay unfertilized eggs. Their spread can be attributed to this variety being a favoured snack among the Hutt species. -->
+  <LongtailGorg.description>Longtail Gorgs, were small tailed amphibians that could be found on several planets. This subspecies was slightly larger than the usual and had a tail (hence the name) and could lay unfertilized eggs. Their spread can be attributed to this variety being a favoured snack among the Hutt species.</LongtailGorg.description>
+  <!-- EN: claws -->
+  <LongtailGorg.tools.claws-0.label>claws</LongtailGorg.tools.claws-0.label>
+  <!-- EN: claws -->
+  <LongtailGorg.tools.claws-1.label>claws</LongtailGorg.tools.claws-1.label>
+  <!-- EN: head -->
+  <LongtailGorg.tools.head.label>head</LongtailGorg.tools.head.label>
+  <!-- EN: loth-cat -->
+  <Lothcat.label>loth-cat</Lothcat.label>
+  <!-- EN: Loth-cats were a non-sentient feline species from the planet Lothal. They were small, temperamental creatures, and while at times friendly, were still able hunters with sharp teeth and claws. They were often kept as pets. -->
+  <Lothcat.description>Loth-cats were a non-sentient feline species from the planet Lothal. They were small, temperamental creatures, and while at times friendly, were still able hunters with sharp teeth and claws. They were often kept as pets.</Lothcat.description>
+  <!-- EN: left claw -->
+  <Lothcat.tools.left_claw.label>left claw</Lothcat.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Lothcat.tools.right_claw.label>right claw</Lothcat.tools.right_claw.label>
+  <!-- EN: head -->
+  <Lothcat.tools.head.label>head</Lothcat.tools.head.label>
+  <!-- EN: loth-wolf -->
+  <LothWolf.label>loth-wolf</LothWolf.label>
+  <!-- EN: Loth-wolves were a predatory canidae species from the planet Lothal with a strong historical connection to the "light side of the force". Due to their intelligence and ability to co-ordinate as a pack there is specualtion as to how "sentient" these creatures truly are. They were believed extinct by most xenobiologists, so how they got here is a mystery. -->
+  <LothWolf.description>Loth-wolves were a predatory canidae species from the planet Lothal with a strong historical connection to the "light side of the force". Due to their intelligence and ability to co-ordinate as a pack there is specualtion as to how "sentient" these creatures truly are. They were believed extinct by most xenobiologists, so how they got here is a mystery.</LothWolf.description>
+  <!-- EN: left claw -->
+  <LothWolf.tools.left_claw.label>left claw</LothWolf.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <LothWolf.tools.right_claw.label>right claw</LothWolf.tools.right_claw.label>
+  <!-- EN: head -->
+  <LothWolf.tools.head.label>head</LothWolf.tools.head.label>
+  <!-- EN: lylek -->
+  <Lylek.label>lylek</Lylek.label>
+  <!-- EN: The lylek was the most dangerous predator indigenous to the planet of Ryloth. It's strange biology made it one of the few creatures able to survive in the harsh heat of the Bright Lands. These dangerous creatures were popular exotic pets with certain criminal organisations and subsequently were transported to various worlds. -->
+  <Lylek.description>The lylek was the most dangerous predator indigenous to the planet of Ryloth. It's strange biology made it one of the few creatures able to survive in the harsh heat of the Bright Lands. These dangerous creatures were popular exotic pets with certain criminal organisations and subsequently were transported to various worlds.</Lylek.description>
+  <!-- EN: left tentacle -->
+  <Lylek.tools.left_tentacle.label>left tentacle</Lylek.tools.left_tentacle.label>
+  <!-- EN: right tentacle -->
+  <Lylek.tools.right_tentacle.label>right tentacle</Lylek.tools.right_tentacle.label>
+  <!-- EN: poison stinger -->
+  <Lylek.tools.poison_stinger.label>poison stinger</Lylek.tools.poison_stinger.label>
+  <!-- EN: teeth -->
+  <Lylek.tools.teeth.label>teeth</Lylek.tools.teeth.label>
+  <!-- EN: head -->
+  <Lylek.tools.head.label>head</Lylek.tools.head.label>
+  <!-- EN: maalraas -->
+  <Maalraas.label>maalraas</Maalraas.label>
+  <!-- EN: Maalraas (or 'Nighthunters') were a non-sentient species of predatory quadrupeds of unknown planetary origin. Maalraas hunted in packs, primarily preying upon cannoks and other small creatures. It is believed they used "the force" to assist in camouflaging themselves from both predator and prey. For a time they had heightened popularity with several crime syndicates as attack beasts which resulted in the species being spread to numerous worlds. -->
+  <Maalraas.description>Maalraas (or 'Nighthunters') were a non-sentient species of predatory quadrupeds of unknown planetary origin. Maalraas hunted in packs, primarily preying upon cannoks and other small creatures. It is believed they used "the force" to assist in camouflaging themselves from both predator and prey. For a time they had heightened popularity with several crime syndicates as attack beasts which resulted in the species being spread to numerous worlds.</Maalraas.description>
+  <!-- EN: left paw -->
+  <Maalraas.tools.left_paw.label>left paw</Maalraas.tools.left_paw.label>
+  <!-- EN: right paw -->
+  <Maalraas.tools.right_paw.label>right paw</Maalraas.tools.right_paw.label>
+  <!-- EN: head -->
+  <Maalraas.tools.head.label>head</Maalraas.tools.head.label>
+  <!-- EN: manka -->
+  <Manka.label>manka</Manka.label>
+  <!-- EN: Manka (or 'manka cats') were a large predatory feline species native to the planets Tython and Alderaan. Fur-covered quad-tusked quadrupeds, 'manka cats' were considered dangerous by most sentients who encountered them and were often hunted for safety reasons as well as for resources (their tusks were known to have unusual curative properties). Manka cat populations were present on numerous worlds in the Outer Rim Territories (including Kashyyyk) and some tribes have been observed domesticating these creatures as fearsome attack beasts. -->
+  <Manka.description>Manka (or 'manka cats') were a large predatory feline species native to the planets Tython and Alderaan. Fur-covered quad-tusked quadrupeds, 'manka cats' were considered dangerous by most sentients who encountered them and were often hunted for safety reasons as well as for resources (their tusks were known to have unusual curative properties). Manka cat populations were present on numerous worlds in the Outer Rim Territories (including Kashyyyk) and some tribes have been observed domesticating these creatures as fearsome attack beasts.</Manka.description>
+  <!-- EN: tusks -->
+  <Manka.tools.tusks.label>tusks</Manka.tools.tusks.label>
+  <!-- EN: left claw -->
+  <Manka.tools.left_claw.label>left claw</Manka.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Manka.tools.right_claw.label>right claw</Manka.tools.right_claw.label>
+  <!-- EN: razor-fangs -->
+  <Manka.tools.razorfangs.label>razor-fangs</Manka.tools.razorfangs.label>
+  <!-- EN: head -->
+  <Manka.tools.head.label>head</Manka.tools.head.label>
+  <!-- EN: marsh haunt -->
+  <MarshHaunt.label>marsh haunt</MarshHaunt.label>
+  <!-- EN: A marsh haunt was a 'Force-using' red-eyed creature that was native to the planet Abraxim, but they could be found on many worlds in the Mid and Outer Rim. The marsh haunt had dull, peeling, gray-green skin, camouflaging it in the swampy terrains in which it primarily lived. Its bipedal stance and skull set deeply between its shoulders gave its silhouette the appearance of a humanoid lacking a head. Marsh haunts would occasionally leave their swampy homes to scavenge and acquire small prey in civilized areas. While non-sentient, they could crudely create a terrifying screech using the Force to terrify both potential predators and prey. -->
+  <MarshHaunt.description>A marsh haunt was a 'Force-using' red-eyed creature that was native to the planet Abraxim, but they could be found on many worlds in the Mid and Outer Rim. The marsh haunt had dull, peeling, gray-green skin, camouflaging it in the swampy terrains in which it primarily lived. Its bipedal stance and skull set deeply between its shoulders gave its silhouette the appearance of a humanoid lacking a head. Marsh haunts would occasionally leave their swampy homes to scavenge and acquire small prey in civilized areas. While non-sentient, they could crudely create a terrifying screech using the Force to terrify both potential predators and prey.</MarshHaunt.description>
+  <!-- EN: left fist -->
+  <MarshHaunt.tools.left_fist.label>left fist</MarshHaunt.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <MarshHaunt.tools.right_fist.label>right fist</MarshHaunt.tools.right_fist.label>
+  <!-- EN: head -->
+  <MarshHaunt.tools.head.label>head</MarshHaunt.tools.head.label>
+  <!-- EN: massiff -->
+  <Massiff.label>massiff</Massiff.label>
+  <!-- EN: Massiffs were reptilian creatures found on both Geonosis and Tatooine, although it's planet of origin is unknown. Massiffs were reptiles that had coarse skin, large jaws, toothy mouths, big dark eyes and a line of hard spikes along their backs. Canine in appearance with an armored hide, the beasts could be domesticated and used for sentry and guard tasks and were often exported to other worlds for this purpose. -->
+  <Massiff.description>Massiffs were reptilian creatures found on both Geonosis and Tatooine, although it's planet of origin is unknown. Massiffs were reptiles that had coarse skin, large jaws, toothy mouths, big dark eyes and a line of hard spikes along their backs. Canine in appearance with an armored hide, the beasts could be domesticated and used for sentry and guard tasks and were often exported to other worlds for this purpose.</Massiff.description>
+  <!-- EN: left claw -->
+  <Massiff.tools.left_claw.label>left claw</Massiff.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Massiff.tools.right_claw.label>right claw</Massiff.tools.right_claw.label>
+  <!-- EN: head -->
+  <Massiff.tools.head.label>head</Massiff.tools.head.label>
+  <!-- EN: mastiff phalone -->
+  <MastiffPhalone.label>mastiff phalone</MastiffPhalone.label>
+  <!-- EN: Mastiff phalone were carnivorous flightless avians native to the savannas of Maridun. The mastiff phalones had turkey-like heads with a sharp beak and a mane of large brown feathers which males of the species used in courtship displays. Mastiff phalones descended from flying creatures, with their wings evolved back into powerful limbs and tended to hunt in packs of two to four. They were popular big game animals due to their speed and ferocity and were exported to various worlds for such purposes. -->
+  <MastiffPhalone.description>Mastiff phalone were carnivorous flightless avians native to the savannas of Maridun. The mastiff phalones had turkey-like heads with a sharp beak and a mane of large brown feathers which males of the species used in courtship displays. Mastiff phalones descended from flying creatures, with their wings evolved back into powerful limbs and tended to hunt in packs of two to four. They were popular big game animals due to their speed and ferocity and were exported to various worlds for such purposes.</MastiffPhalone.description>
+  <!-- EN: beak -->
+  <MastiffPhalone.tools.beak.label>beak</MastiffPhalone.tools.beak.label>
+  <!-- EN: left claw -->
+  <MastiffPhalone.tools.left_claw.label>left claw</MastiffPhalone.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <MastiffPhalone.tools.right_claw.label>right claw</MastiffPhalone.tools.right_claw.label>
+  <!-- EN: head -->
+  <MastiffPhalone.tools.head.label>head</MastiffPhalone.tools.head.label>
+  <!-- EN: mastmot -->
+  <Mastmot.label>mastmot</Mastmot.label>
+  <!-- EN: Mastmots (sometimes called 'motmots') were massive, thick-furred, quadrupedal ungulates. Being herd-dwelling herbivores, they lived on the harsh, frigid world of Toola. The indigenous Whiphid people hunted the mastmots, using the body parts for food, clothing, shelter, and tools. It is from this that the animal would often find itself exported to other worlds where Whipids would or did inhabit. However the mastmots could be domesticated as tremendous beasts of burden or mighty warbeasts. -->
+  <Mastmot.description>Mastmots (sometimes called 'motmots') were massive, thick-furred, quadrupedal ungulates. Being herd-dwelling herbivores, they lived on the harsh, frigid world of Toola. The indigenous Whiphid people hunted the mastmots, using the body parts for food, clothing, shelter, and tools. It is from this that the animal would often find itself exported to other worlds where Whipids would or did inhabit. However the mastmots could be domesticated as tremendous beasts of burden or mighty warbeasts.</Mastmot.description>
+  <!-- EN: tusk -->
+  <Mastmot.tools.tusk.label>tusk</Mastmot.tools.tusk.label>
+  <!-- EN: horn -->
+  <Mastmot.tools.horn.label>horn</Mastmot.tools.horn.label>
+  <!-- EN: left foot -->
+  <Mastmot.tools.left_foot.label>left foot</Mastmot.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Mastmot.tools.right_foot.label>right foot</Mastmot.tools.right_foot.label>
+  <!-- EN: mawvorr -->
+  <Mawvorr.label>mawvorr</Mawvorr.label>
+  <!-- EN: Mawvorr (also known as'crysfangs'), were a vibrant mammalian species native to the planet Voss. These brightly coloured chitinous creatures were predatory in nature but could be the right skill forms bonds with skilled handlers. They became popular in the exotic pet trade due to their striking appearance, which ultimately resulted in their spread to other worlds. -->
+  <Mawvorr.description>Mawvorr (also known as'crysfangs'), were a vibrant mammalian species native to the planet Voss. These brightly coloured chitinous creatures were predatory in nature but could be the right skill forms bonds with skilled handlers. They became popular in the exotic pet trade due to their striking appearance, which ultimately resulted in their spread to other worlds.</Mawvorr.description>
+  <!-- EN: left claw -->
+  <Mawvorr.tools.left_claw.label>left claw</Mawvorr.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Mawvorr.tools.right_claw.label>right claw</Mawvorr.tools.right_claw.label>
+  <!-- EN: head -->
+  <Mawvorr.tools.head.label>head</Mawvorr.tools.head.label>
+  <!-- EN: mott -->
+  <Mott.label>mott</Mott.label>
+  <!-- EN: Motts were medium sized, semi-aquatic herbivores native to the swamps of Naboo. They ate a wide variety of vegetation and were a primary source of food for most swamp predators. Fortunately, motts had a high reproduction rate. -->
+  <Mott.description>Motts were medium sized, semi-aquatic herbivores native to the swamps of Naboo. They ate a wide variety of vegetation and were a primary source of food for most swamp predators. Fortunately, motts had a high reproduction rate.</Mott.description>
+  <!-- EN: left claw -->
+  <Mott.tools.left_claw.label>left claw</Mott.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Mott.tools.right_claw.label>right claw</Mott.tools.right_claw.label>
+  <!-- EN: head -->
+  <Mott.tools.head.label>head</Mott.tools.head.label>
+  <!-- EN: mudhorn -->
+  <Mudhorn.label>mudhorn</Mudhorn.label>
+  <!-- EN: Mudhorns were large horned creatures that originated from the planet Arvala-7. The eggs of mudhorns were considered a delicacy by Jawas. It was this reason that populations of these creatures were established on other worlds as a result of unscrupulous bartering deals. -->
+  <Mudhorn.description>Mudhorns were large horned creatures that originated from the planet Arvala-7. The eggs of mudhorns were considered a delicacy by Jawas. It was this reason that populations of these creatures were established on other worlds as a result of unscrupulous bartering deals.</Mudhorn.description>
+  <!-- EN: horn -->
+  <Mudhorn.tools.horn.label>horn</Mudhorn.tools.horn.label>
+  <!-- EN: head -->
+  <Mudhorn.tools.head.label>head</Mudhorn.tools.head.label>
+  <!-- EN: mynock -->
+  <Mynock.label>mynock</Mynock.label>
+  <!-- EN: Mynocks were silicon-based parasitical organisms found across the galaxy. They were considered parasites by pilots and starport personnel. Their strange metabolism allowed them to digest various metals and components for nutritional value. -->
+  <Mynock.description>Mynocks were silicon-based parasitical organisms found across the galaxy. They were considered parasites by pilots and starport personnel. Their strange metabolism allowed them to digest various metals and components for nutritional value.</Mynock.description>
+  <!-- EN: head -->
+  <Mynock.tools.head.label>head</Mynock.tools.head.label>
+  <!-- EN: narglatch -->
+  <Narglatch.label>narglatch</Narglatch.label>
+  <!-- EN: The Narglatch was a stealthy apex predator which could be found in diverse environments, such as the swamps of Naboo or the frozen tundras of Orto Plutonia. The narglatch male had additional fleshy spikes, while females were smoother and slightly smaller. They both had non-retractable claws and a fan-like tail that acted as a rudder during high-speed chases and turns. The narglatch also had densely padded feet that made for silent footfalls. -->
+  <Narglatch.description>The Narglatch was a stealthy apex predator which could be found in diverse environments, such as the swamps of Naboo or the frozen tundras of Orto Plutonia. The narglatch male had additional fleshy spikes, while females were smoother and slightly smaller. They both had non-retractable claws and a fan-like tail that acted as a rudder during high-speed chases and turns. The narglatch also had densely padded feet that made for silent footfalls.</Narglatch.description>
+  <!-- EN: left claw -->
+  <Narglatch.tools.left_claw.label>left claw</Narglatch.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Narglatch.tools.right_claw.label>right claw</Narglatch.tools.right_claw.label>
+  <!-- EN: head -->
+  <Narglatch.tools.head.label>head</Narglatch.tools.head.label>
+  <!-- EN: neebray -->
+  <Neebray.label>neebray</Neebray.label>
+  <!-- EN: Neebray were flying, limbless creatures which varied greatly in size and habitat. They could be found on many worlds, such as Rugosa, Rishi moon, and Tatooine. There are several species of neebray, varying in size and appearance but all were tolerant to the vacuum of space. -->
+  <Neebray.description>Neebray were flying, limbless creatures which varied greatly in size and habitat. They could be found on many worlds, such as Rugosa, Rishi moon, and Tatooine. There are several species of neebray, varying in size and appearance but all were tolerant to the vacuum of space.</Neebray.description>
+  <!-- EN: head -->
+  <Neebray.tools.head.label>head</Neebray.tools.head.label>
+  <!-- EN: bite -->
+  <Neebray.tools.bite.label>bite</Neebray.tools.bite.label>
+  <!-- EN: nerf -->
+  <Nerf.label>nerf</Nerf.label>
+  <!-- EN: Nerfs were a species of furry, non-sentient animals raised for their milk, meat, and hide. They could be found on a variety of planets across the galaxy, from Alderaan to Lothal. Despite their usefulness, nerfs were often regarded as disgusting because of their strong body odor. -->
+  <Nerf.description>Nerfs were a species of furry, non-sentient animals raised for their milk, meat, and hide. They could be found on a variety of planets across the galaxy, from Alderaan to Lothal. Despite their usefulness, nerfs were often regarded as disgusting because of their strong body odor.</Nerf.description>
+  <!-- EN: horns -->
+  <Nerf.tools.horns.label>horns</Nerf.tools.horns.label>
+  <!-- EN: left hoof -->
+  <Nerf.tools.left_hoof.label>left hoof</Nerf.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Nerf.tools.right_hoof.label>right hoof</Nerf.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Nerf.tools.head.label>head</Nerf.tools.head.label>
+  <!-- EN: nexu -->
+  <Nexu.label>nexu</Nexu.label>
+  <!-- EN: Nexu's are agile predators with four red eyes and sharp quills. They have infrared vision and are 4.51 meters long. Typically 0.94 meters tall, nexus possess sharp teeth and claws, as well as long tails. It's light build allows it to remain highly agile and difficult to hit. -->
+  <Nexu.description>Nexu's are agile predators with four red eyes and sharp quills. They have infrared vision and are 4.51 meters long. Typically 0.94 meters tall, nexus possess sharp teeth and claws, as well as long tails. It's light build allows it to remain highly agile and difficult to hit.</Nexu.description>
+  <!-- EN: left claw -->
+  <Nexu.tools.left_claw.label>left claw</Nexu.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Nexu.tools.right_claw.label>right claw</Nexu.tools.right_claw.label>
+  <!-- EN: teeth -->
+  <Nexu.tools.teeth.label>teeth</Nexu.tools.teeth.label>
+  <!-- EN: tail -->
+  <Nexu.tools.tail.label>tail</Nexu.tools.tail.label>
+  <!-- EN: nuna -->
+  <Nuna.label>nuna</Nuna.label>
+  <!-- EN: Nuna (commonly called 'swamp turkeys'), were reptavian gamebirds native to the planet Naboo. Nuna were diminutive bipeds, mostly covered in scaly skin and sporting a distinctive dorsal ridge. They possessed a notably prominent jutting jaw and two large wattles hanging from either side of their mouths. They were transported as livestock as well as a game animal, allowing for wild populations on other worlds. -->
+  <Nuna.description>Nuna (commonly called 'swamp turkeys'), were reptavian gamebirds native to the planet Naboo. Nuna were diminutive bipeds, mostly covered in scaly skin and sporting a distinctive dorsal ridge. They possessed a notably prominent jutting jaw and two large wattles hanging from either side of their mouths. They were transported as livestock as well as a game animal, allowing for wild populations on other worlds.</Nuna.description>
+  <!-- EN: claws -->
+  <Nuna.tools.claws.label>claws</Nuna.tools.claws.label>
+  <!-- EN: beak -->
+  <Nuna.tools.beak.label>beak</Nuna.tools.beak.label>
+  <!-- EN: head -->
+  <Nuna.tools.head.label>head</Nuna.tools.head.label>
+  <!-- EN: ollopom -->
+  <Ollopom.label>ollopom</Ollopom.label>
+  <!-- EN: Ollopoms were squat, gentle herbivores native to the swamps of the planet Naboo. A species of six-legged aquatic rodent, they were often mistaken for water plants. These short, gentle, dense, green-furred rodents were camouflaged to blend in with the Pom Petals whose edges they fed upon. On their underside, they had gnawing teeth and three pairs of paddle-like claws. Their flukes were used as rudders. -->
+  <Ollopom.description>Ollopoms were squat, gentle herbivores native to the swamps of the planet Naboo. A species of six-legged aquatic rodent, they were often mistaken for water plants. These short, gentle, dense, green-furred rodents were camouflaged to blend in with the Pom Petals whose edges they fed upon. On their underside, they had gnawing teeth and three pairs of paddle-like claws. Their flukes were used as rudders.</Ollopom.description>
+  <!-- EN: claws -->
+  <Ollopom.tools.claws-0.label>claws</Ollopom.tools.claws-0.label>
+  <!-- EN: claws -->
+  <Ollopom.tools.claws-1.label>claws</Ollopom.tools.claws-1.label>
+  <!-- EN: bite -->
+  <Ollopom.tools.bite.label>bite</Ollopom.tools.bite.label>
+  <!-- EN: head -->
+  <Ollopom.tools.head.label>head</Ollopom.tools.head.label>
+  <!-- EN: orray -->
+  <Orray.label>orray</Orray.label>
+  <!-- EN: Orrays were leathery-skinned reptilian quadrupeds native to the planet Geonosis. The orray had great strength and a quick gait; making it a popular pack animal when domesticated (especially on arid worlds). The orrays used their long snouts to root for insects in time of food scarcity. -->
+  <Orray.description>Orrays were leathery-skinned reptilian quadrupeds native to the planet Geonosis. The orray had great strength and a quick gait; making it a popular pack animal when domesticated (especially on arid worlds). The orrays used their long snouts to root for insects in time of food scarcity.</Orray.description>
+  <!-- EN: left claw -->
+  <Orray.tools.left_claw.label>left claw</Orray.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Orray.tools.right_claw.label>right claw</Orray.tools.right_claw.label>
+  <!-- EN: head -->
+  <Orray.tools.head.label>head</Orray.tools.head.label>
+  <!-- EN: painted spat -->
+  <PaintedSpat.label>painted spat</PaintedSpat.label>
+  <!-- EN: The painted spat was an avian predator believed to have originated on the planet Talus. A mutated variant (possibly from toxic exposure), this creature was larger, stronger and more resistant than other spat subspecies. -->
+  <PaintedSpat.description>The painted spat was an avian predator believed to have originated on the planet Talus. A mutated variant (possibly from toxic exposure), this creature was larger, stronger and more resistant than other spat subspecies.</PaintedSpat.description>
+  <!-- EN: foot -->
+  <PaintedSpat.tools.foot.label>foot</PaintedSpat.tools.foot.label>
+  <!-- EN: beak -->
+  <PaintedSpat.tools.beak.label>beak</PaintedSpat.tools.beak.label>
+  <!-- EN: head -->
+  <PaintedSpat.tools.head.label>head</PaintedSpat.tools.head.label>
+  <!-- EN: Peko-peko -->
+  <PekoPeko.label>Peko-peko</PekoPeko.label>
+  <!-- EN: Peko-pekos were large colourful reptavians whose raucous squawks that carried over long distances. They were native to the Gungan swamps of the planet Naboo, but another breed was known to live on Nal Hutta. Their vibrant colours and vocal emulation made them popular as pets and they were exported to multiple worlds. Their skin contained a mild toxin which meant most predators ignored them (allowing for wild populations to establish themselves with ease). -->
+  <PekoPeko.description>Peko-pekos were large colourful reptavians whose raucous squawks that carried over long distances. They were native to the Gungan swamps of the planet Naboo, but another breed was known to live on Nal Hutta. Their vibrant colours and vocal emulation made them popular as pets and they were exported to multiple worlds. Their skin contained a mild toxin which meant most predators ignored them (allowing for wild populations to establish themselves with ease).</PekoPeko.description>
+  <!-- EN: left wing claws -->
+  <PekoPeko.tools.left_wing_claws.label>left wing claws</PekoPeko.tools.left_wing_claws.label>
+  <!-- EN: wing claws -->
+  <PekoPeko.tools.wing_claws.label>wing claws</PekoPeko.tools.wing_claws.label>
+  <!-- EN: strong beak -->
+  <PekoPeko.tools.strong_beak.label>strong beak</PekoPeko.tools.strong_beak.label>
+  <!-- EN: head -->
+  <PekoPeko.tools.head.label>head</PekoPeko.tools.head.label>
+  <!-- EN: pikobis -->
+  <Pikobis.label>pikobis</Pikobis.label>
+  <!-- EN: Pikobi were fast-moving, flightless reptavians which were native to the swamps of Naboo and the jungles of Onderon. Pikobis also had long, pointed beaks lined with sharp teeth that were used to spear and hold onto slippery prey which it usually swallowed in one gulp. Due to their small size they were often able to hide as stowaways aboard large cargo ships, surviving by scavenging and escaping to multiple planets. -->
+  <Pikobis.description>Pikobi were fast-moving, flightless reptavians which were native to the swamps of Naboo and the jungles of Onderon. Pikobis also had long, pointed beaks lined with sharp teeth that were used to spear and hold onto slippery prey which it usually swallowed in one gulp. Due to their small size they were often able to hide as stowaways aboard large cargo ships, surviving by scavenging and escaping to multiple planets.</Pikobis.description>
+  <!-- EN: claws -->
+  <Pikobis.tools.claws.label>claws</Pikobis.tools.claws.label>
+  <!-- EN: beak -->
+  <Pikobis.tools.beak.label>beak</Pikobis.tools.beak.label>
+  <!-- EN: head -->
+  <Pikobis.tools.head.label>head</Pikobis.tools.head.label>
+  <!-- EN: porg -->
+  <Porg.label>porg</Porg.label>
+  <!-- EN: The Porg. -->
+  <Porg.description>The Porg.</Porg.description>
+  <!-- EN: claws -->
+  <Porg.tools.claws.label>claws</Porg.tools.claws.label>
+  <!-- EN: beak -->
+  <Porg.tools.beak.label>beak</Porg.tools.beak.label>
+  <!-- EN: head -->
+  <Porg.tools.head.label>head</Porg.tools.head.label>
+  <!-- EN: Pufferpig -->
+  <Pufferpig.label>Pufferpig</Pufferpig.label>
+  <!-- EN: Pufferpigs were a non-sentient, herbivorous porcine species native to the planet Kyryll. Puffer pigs were occasionally bred for their meat, which was consumable by several sentient species and resulted in the animal being exported to numerous planets. The true value of a Puffer pig was it's ability to sniff out certain precious metals. -->
+  <Pufferpig.description>Pufferpigs were a non-sentient, herbivorous porcine species native to the planet Kyryll. Puffer pigs were occasionally bred for their meat, which was consumable by several sentient species and resulted in the animal being exported to numerous planets. The true value of a Puffer pig was it's ability to sniff out certain precious metals.</Pufferpig.description>
+  <!-- EN: head tusk -->
+  <Pufferpig.tools.head_tusk.label>head tusk</Pufferpig.tools.head_tusk.label>
+  <!-- EN: head -->
+  <Pufferpig.tools.head.label>head</Pufferpig.tools.head.label>
+  <!-- EN: qormot -->
+  <Qormot.label>qormot</Qormot.label>
+  <!-- EN: Qormots were omnivorous forest creatures from the planet Yeshocq. During the mating season their ferocity increased, usually making anyone bold (or foolish) enough to stray into Qormot territory a likely target. However, much to the dismay of the game hunters who exported these creatures to various worlds, their seasonal aggression diminished heavily when transplanted. -->
+  <Qormot.description>Qormots were omnivorous forest creatures from the planet Yeshocq. During the mating season their ferocity increased, usually making anyone bold (or foolish) enough to stray into Qormot territory a likely target. However, much to the dismay of the game hunters who exported these creatures to various worlds, their seasonal aggression diminished heavily when transplanted.</Qormot.description>
+  <!-- EN: left claw -->
+  <Qormot.tools.left_claw.label>left claw</Qormot.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Qormot.tools.right_claw.label>right claw</Qormot.tools.right_claw.label>
+  <!-- EN: quills -->
+  <Qormot.tools.quills.label>quills</Qormot.tools.quills.label>
+  <!-- EN: head -->
+  <Qormot.tools.head.label>head</Qormot.tools.head.label>
+  <!-- EN: Rancor -->
+  <Rancor.label>Rancor</Rancor.label>
+  <!-- EN: Rancors were large carnivorous reptomammals native to the planet of Dathomir. Standing around five meters tall, with their long arms, immense jaws, and armored hides that could withstand blaster fire, they are formidable predators. A subspecies known as the jungle rancor populates the planets Felucia and Teth. -->
+  <Rancor.description>Rancors were large carnivorous reptomammals native to the planet of Dathomir. Standing around five meters tall, with their long arms, immense jaws, and armored hides that could withstand blaster fire, they are formidable predators. A subspecies known as the jungle rancor populates the planets Felucia and Teth.</Rancor.description>
+  <!-- EN: left hand -->
+  <Rancor.tools.left_hand.label>left hand</Rancor.tools.left_hand.label>
+  <!-- EN: right hand -->
+  <Rancor.tools.right_hand.label>right hand</Rancor.tools.right_hand.label>
+  <!-- EN: teeth -->
+  <Rancor.tools.teeth.label>teeth</Rancor.tools.teeth.label>
+  <!-- EN: left foot -->
+  <Rancor.tools.left_foot.label>left foot</Rancor.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Rancor.tools.right_foot.label>right foot</Rancor.tools.right_foot.label>
+  <!-- EN: head -->
+  <Rancor.tools.head.label>head</Rancor.tools.head.label>
+  <!-- EN: raxshir -->
+  <Raxshir.label>raxshir</Raxshir.label>
+  <!-- EN: Raxshir (also referred to as 'sabertooths') were a large predatory felines with bony cranial crests that were native to the pine forests of the planet Shili. It's striped fur help camouflage it when stalking prey and it was a natural predator to the agile kybuck. Their significance within Togrutan culture has resulted in the export of this creature to many of the worlds in which they themselves have settled. -->
+  <Raxshir.description>Raxshir (also referred to as 'sabertooths') were a large predatory felines with bony cranial crests that were native to the pine forests of the planet Shili. It's striped fur help camouflage it when stalking prey and it was a natural predator to the agile kybuck. Their significance within Togrutan culture has resulted in the export of this creature to many of the worlds in which they themselves have settled.</Raxshir.description>
+  <!-- EN: left claw -->
+  <Raxshir.tools.left_claw.label>left claw</Raxshir.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Raxshir.tools.right_claw.label>right claw</Raxshir.tools.right_claw.label>
+  <!-- EN: head -->
+  <Raxshir.tools.head.label>head</Raxshir.tools.head.label>
+  <!-- EN: reek -->
+  <Reek.label>reek</Reek.label>
+  <!-- EN: Reeks are large, muscular quadrupeds native to the planet Ylesia. Their sprawling posture and immense weight make them relatively slow-moving. They sport two large cheek horns that can be used for head-locking in combat with another Reek as a show of dominance. -->
+  <Reek.description>Reeks are large, muscular quadrupeds native to the planet Ylesia. Their sprawling posture and immense weight make them relatively slow-moving. They sport two large cheek horns that can be used for head-locking in combat with another Reek as a show of dominance.</Reek.description>
+  <!-- EN: horn -->
+  <Reek.tools.horn-0.label>horn</Reek.tools.horn-0.label>
+  <!-- EN: horn -->
+  <Reek.tools.horn-1.label>horn</Reek.tools.horn-1.label>
+  <!-- EN: horn -->
+  <Reek.tools.horn-2.label>horn</Reek.tools.horn-2.label>
+  <!-- EN: head -->
+  <Reek.tools.head.label>head</Reek.tools.head.label>
+  <!-- EN: front left hoof -->
+  <Reek.tools.front_left_hoof.label>front left hoof</Reek.tools.front_left_hoof.label>
+  <!-- EN: front right hoof -->
+  <Reek.tools.front_right_hoof.label>front right hoof</Reek.tools.front_right_hoof.label>
+  <!-- EN: rikknit -->
+  <Rikknit.label>rikknit</Rikknit.label>
+  <!-- EN: The rikknit were an arboreal crustacean native to the planet New Plympto. Female rikknit had ovum sacs connected to their abdomens, which when removed via butchery were considered a delicacy. Harvested ovum sacs could also be processed into an addictive substance called ji rikknit. It is likely these creatures are escaped livestock that have since gone on to establish wild populations. -->
+  <Rikknit.description>The rikknit were an arboreal crustacean native to the planet New Plympto. Female rikknit had ovum sacs connected to their abdomens, which when removed via butchery were considered a delicacy. Harvested ovum sacs could also be processed into an addictive substance called ji rikknit. It is likely these creatures are escaped livestock that have since gone on to establish wild populations.</Rikknit.description>
+  <!-- EN: left claw -->
+  <Rikknit.tools.left_claw.label>left claw</Rikknit.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Rikknit.tools.right_claw.label>right claw</Rikknit.tools.right_claw.label>
+  <!-- EN: tail -->
+  <Rikknit.tools.tail.label>tail</Rikknit.tools.tail.label>
+  <!-- EN: head -->
+  <Rikknit.tools.head.label>head</Rikknit.tools.head.label>
+  <!-- EN: roggwart -->
+  <Roggwart.label>roggwart</Roggwart.label>
+  <!-- EN: Roggwarts were large, predatory beasts with sizeable populations on the planets Mustafar, Vendaxa, and Guiteica. These creatures were incredibly heat resistant and had an aggressive nature. Typically, only those taken from the most young of age are able to be trained as pets or guardians. Roggwarts were a favorite pet of the Kaleesh warriors and thus populations were able to establish themselves on many worlds in Wild Space as a consequence of the movements of these warrior peoples. -->
+  <Roggwart.description>Roggwarts were large, predatory beasts with sizeable populations on the planets Mustafar, Vendaxa, and Guiteica. These creatures were incredibly heat resistant and had an aggressive nature. Typically, only those taken from the most young of age are able to be trained as pets or guardians. Roggwarts were a favorite pet of the Kaleesh warriors and thus populations were able to establish themselves on many worlds in Wild Space as a consequence of the movements of these warrior peoples.</Roggwart.description>
+  <!-- EN: left arm claws -->
+  <Roggwart.tools.left_arm_claws.label>left arm claws</Roggwart.tools.left_arm_claws.label>
+  <!-- EN: right arm claws -->
+  <Roggwart.tools.right_arm_claws.label>right arm claws</Roggwart.tools.right_arm_claws.label>
+  <!-- EN: teeth -->
+  <Roggwart.tools.teeth.label>teeth</Roggwart.tools.teeth.label>
+  <!-- EN: trident-tipped tail -->
+  <Roggwart.tools.tridenttipped_tail.label>trident-tipped tail</Roggwart.tools.tridenttipped_tail.label>
+  <!-- EN: cranial horns -->
+  <Roggwart.tools.cranial_horns.label>cranial horns</Roggwart.tools.cranial_horns.label>
+  <!-- EN: ronto -->
+  <Ronto.label>ronto</Ronto.label>
+  <!-- EN: Ronto were large, quadruped mammals that were commonly used as beasts of burden on Tatooine. They were known for their loyalty and strength, being able to carry heavy cargo. Their tolerance to heat and relatively low food consuption made them a popular export to arid worlds as beasts of burden. -->
+  <Ronto.description>Ronto were large, quadruped mammals that were commonly used as beasts of burden on Tatooine. They were known for their loyalty and strength, being able to carry heavy cargo. Their tolerance to heat and relatively low food consuption made them a popular export to arid worlds as beasts of burden.</Ronto.description>
+  <!-- EN: left foot -->
+  <Ronto.tools.left_foot.label>left foot</Ronto.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Ronto.tools.right_foot.label>right foot</Ronto.tools.right_foot.label>
+  <!-- EN: head -->
+  <Ronto.tools.head.label>head</Ronto.tools.head.label>
+  <!-- EN: runyip -->
+  <Runyip.label>runyip</Runyip.label>
+  <!-- EN: Runyip or Yavin Runyip were a species of squat quadrupeds from the moon Yavin 4. The creatures had antlered heads with a flexible nose. Their coats had a characteristic pattern of black or dark brown stripes on a whitish background. It is believed this striation made them a popular game animal for export to other worlds. -->
+  <Runyip.description>Runyip or Yavin Runyip were a species of squat quadrupeds from the moon Yavin 4. The creatures had antlered heads with a flexible nose. Their coats had a characteristic pattern of black or dark brown stripes on a whitish background. It is believed this striation made them a popular game animal for export to other worlds.</Runyip.description>
+  <!-- EN: left hoof -->
+  <Runyip.tools.left_hoof.label>left hoof</Runyip.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Runyip.tools.right_hoof.label>right hoof</Runyip.tools.right_hoof.label>
+  <!-- EN: horn -->
+  <Runyip.tools.horn.label>horn</Runyip.tools.horn.label>
+  <!-- EN: head -->
+  <Runyip.tools.head.label>head</Runyip.tools.head.label>
+  <!-- EN: rycrit -->
+  <Rycrit.label>rycrit</Rycrit.label>
+  <!-- EN: Rycrits were hardy herd animals native to Ryloth. Twi'leks raised them for their hides, and as a source of meat (which is universally considered to be delicious). Their sharp teeth and hooves as well as their multiple nostrils were adaptations for dealing with Ryloths extreme weather and vicious predators. The cultural, culinary and practical significance of the Rycrit meant they could be found on numerous worlds as both domestic and wild stock. -->
+  <Rycrit.description>Rycrits were hardy herd animals native to Ryloth. Twi'leks raised them for their hides, and as a source of meat (which is universally considered to be delicious). Their sharp teeth and hooves as well as their multiple nostrils were adaptations for dealing with Ryloths extreme weather and vicious predators. The cultural, culinary and practical significance of the Rycrit meant they could be found on numerous worlds as both domestic and wild stock.</Rycrit.description>
+  <!-- EN: left claws -->
+  <Rycrit.tools.left_claws.label>left claws</Rycrit.tools.left_claws.label>
+  <!-- EN: right claws -->
+  <Rycrit.tools.right_claws.label>right claws</Rycrit.tools.right_claws.label>
+  <!-- EN: head -->
+  <Rycrit.tools.head.label>head</Rycrit.tools.head.label>
+  <!-- EN: Scavrats -->
+  <Scavrat.label>Scavrats</Scavrat.label>
+  <!-- EN: Scavrats were large, omnivorous rodents of unknown planetary origin albeit common enough on multiple worlds that they were considered pests. They were often mistaken for the Tattooinian Womp Rat, but the big behavioural distinction here being that they were not predatory and far more sociable creatures despite their strange appearance. -->
+  <Scavrat.description>Scavrats were large, omnivorous rodents of unknown planetary origin albeit common enough on multiple worlds that they were considered pests. They were often mistaken for the Tattooinian Womp Rat, but the big behavioural distinction here being that they were not predatory and far more sociable creatures despite their strange appearance.</Scavrat.description>
+  <!-- EN: left claw -->
+  <Scavrat.tools.left_claw.label>left claw</Scavrat.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Scavrat.tools.right_claw.label>right claw</Scavrat.tools.right_claw.label>
+  <!-- EN: head -->
+  <Scavrat.tools.head.label>head</Scavrat.tools.head.label>
+  <!-- EN: scurrier -->
+  <Scurrier.label>scurrier</Scurrier.label>
+  <!-- EN: The scurrier was a rodent native to the planet Tatooine. They were fast breeding, curious omnivores that many considered a pest. The males could be distinguished from females by their curved display horns. They were known to find their way aboard docked freighters and transports, thus propagating the scurrier population across the galaxy. -->
+  <Scurrier.description>The scurrier was a rodent native to the planet Tatooine. They were fast breeding, curious omnivores that many considered a pest. The males could be distinguished from females by their curved display horns. They were known to find their way aboard docked freighters and transports, thus propagating the scurrier population across the galaxy.</Scurrier.description>
+  <!-- EN: left claw -->
+  <Scurrier.tools.left_claw.label>left claw</Scurrier.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Scurrier.tools.right_claw.label>right claw</Scurrier.tools.right_claw.label>
+  <!-- EN: head -->
+  <Scurrier.tools.head.label>head</Scurrier.tools.head.label>
+  <!-- EN: shaak -->
+  <Shaak.label>shaak</Shaak.label>
+  <!-- EN: Shaaks were plump pachydermoid herd animals native to the planet of Naboo. Shaaks were often raised for their meat, and had large, rotund bodies. Due to their high rate of reproduction they were often sold offworld in livestock markets. -->
+  <Shaak.description>Shaaks were plump pachydermoid herd animals native to the planet of Naboo. Shaaks were often raised for their meat, and had large, rotund bodies. Due to their high rate of reproduction they were often sold offworld in livestock markets.</Shaak.description>
+  <!-- EN: head -->
+  <Shaak.tools.head.label>head</Shaak.tools.head.label>
+  <!-- EN: left hoof -->
+  <Shaak.tools.left_hoof.label>left hoof</Shaak.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Shaak.tools.right_hoof.label>right hoof</Shaak.tools.right_hoof.label>
+  <!-- EN: shiro -->
+  <Shiro.label>shiro</Shiro.label>
+  <!-- EN: Shiros were hard-shelled, benign, slow-moving reptiles native to the planet of Naboo. A Shiro's main defense was to retract its head, legs and tail into its spiny shell. The Shiro's low metabolism meant it could be transported over long journeys and understandably the species was spread to many worlds. -->
+  <Shiro.description>Shiros were hard-shelled, benign, slow-moving reptiles native to the planet of Naboo. A Shiro's main defense was to retract its head, legs and tail into its spiny shell. The Shiro's low metabolism meant it could be transported over long journeys and understandably the species was spread to many worlds.</Shiro.description>
+  <!-- EN: beak -->
+  <Shiro.tools.beak.label>beak</Shiro.tools.beak.label>
+  <!-- EN: head -->
+  <Shiro.tools.head.label>head</Shiro.tools.head.label>
+  <!-- EN: shiro-trap -->
+  <ShiroTrap.label>shiro-trap</ShiroTrap.label>
+  <!-- EN: The Shiro-trap was native to planet Naboo and was not entirely a separate creature, but in fact a symbiotic pairing of a Tooke-trap plant and a Shiro. The plant disguised the animal, while the Shiro provided the plant a form of locomotion. The plant influences the animal host in one other interesting way by making the generally herbivorous Shiro into a more active predator to repel would be herbivores. Any offspring this creature has will hatch as the non-symbiote version of the Shiro. -->
+  <ShiroTrap.description>The Shiro-trap was native to planet Naboo and was not entirely a separate creature, but in fact a symbiotic pairing of a Tooke-trap plant and a Shiro. The plant disguised the animal, while the Shiro provided the plant a form of locomotion. The plant influences the animal host in one other interesting way by making the generally herbivorous Shiro into a more active predator to repel would be herbivores. Any offspring this creature has will hatch as the non-symbiote version of the Shiro.</ShiroTrap.description>
+  <!-- EN: beak -->
+  <ShiroTrap.tools.beak.label>beak</ShiroTrap.tools.beak.label>
+  <!-- EN: tooke-trap -->
+  <ShiroTrap.tools.tooketrap.label>tooke-trap</ShiroTrap.tools.tooketrap.label>
+  <!-- EN: head -->
+  <ShiroTrap.tools.head.label>head</ShiroTrap.tools.head.label>
+  <!-- EN: shyrack -->
+  <Shyrack.label>shyrack</Shyrack.label>
+  <!-- EN: Shyracks were large, bat-like avian creatures with razor like teeth native to the caves of the planet Korriban. While ungainly and slow-moving without eyes, Shyracks were potentially dangerous pests, especially when they converged as a flock on an opponent. It's believed these creatures were spread to various planets as "live prey" for the others beasts in Sith armies (such as the Tuk'ata). -->
+  <Shyrack.description>Shyracks were large, bat-like avian creatures with razor like teeth native to the caves of the planet Korriban. While ungainly and slow-moving without eyes, Shyracks were potentially dangerous pests, especially when they converged as a flock on an opponent. It's believed these creatures were spread to various planets as "live prey" for the others beasts in Sith armies (such as the Tuk'ata).</Shyrack.description>
+  <!-- EN: left scythe claw -->
+  <Shyrack.tools.left_scythe_claw.label>left scythe claw</Shyrack.tools.left_scythe_claw.label>
+  <!-- EN: right scythe claw -->
+  <Shyrack.tools.right_scythe_claw.label>right scythe claw</Shyrack.tools.right_scythe_claw.label>
+  <!-- EN: tail -->
+  <Shyrack.tools.tail.label>tail</Shyrack.tools.tail.label>
+  <!-- EN: silooth -->
+  <Silooth.label>silooth</Silooth.label>
+  <!-- EN: The silooth were a large 'Sithspawn' acid spitting beetle bred by the Sith Empire for use as a warbeast. Silooth were ferocious creatures using their powerful mandibles to crush their prey or tear down trees and buildings. They were spread to numerous worlds either intentionally or accidentally by the Sith. These descendents whilst not as large and ferocious (another process of feral regression in the absence of their 'Sith masters') are still formidable. -->
+  <Silooth.description>The silooth were a large 'Sithspawn' acid spitting beetle bred by the Sith Empire for use as a warbeast. Silooth were ferocious creatures using their powerful mandibles to crush their prey or tear down trees and buildings. They were spread to numerous worlds either intentionally or accidentally by the Sith. These descendents whilst not as large and ferocious (another process of feral regression in the absence of their 'Sith masters') are still formidable.</Silooth.description>
+  <!-- EN: mandibles -->
+  <Silooth.tools.mandibles.label>mandibles</Silooth.tools.mandibles.label>
+  <!-- EN: head horn -->
+  <Silooth.tools.head_horn.label>head horn</Silooth.tools.head_horn.label>
+  <!-- EN: front left claw -->
+  <Silooth.tools.front_left_claw.label>front left claw</Silooth.tools.front_left_claw.label>
+  <!-- EN: front right claw -->
+  <Silooth.tools.front_right_claw.label>front right claw</Silooth.tools.front_right_claw.label>
+  <!-- EN: skalder -->
+  <Skalder.label>skalder</Skalder.label>
+  <!-- EN: The skalder were a mammalian desert species of herbivorous quadrupeds native to the plains of the planet Florrum. They were not normally ridden by sentient beings, but were surprisingly fast if such a feat was managed. They made exceptional pack animals, even in toxic environments and so were exported by pirate bands for use offworld. -->
+  <Skalder.description>The skalder were a mammalian desert species of herbivorous quadrupeds native to the plains of the planet Florrum. They were not normally ridden by sentient beings, but were surprisingly fast if such a feat was managed. They made exceptional pack animals, even in toxic environments and so were exported by pirate bands for use offworld.</Skalder.description>
+  <!-- EN: tusk -->
+  <Skalder.tools.tusk.label>tusk</Skalder.tools.tusk.label>
+  <!-- EN: left foot -->
+  <Skalder.tools.left_foot.label>left foot</Skalder.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Skalder.tools.right_foot.label>right foot</Skalder.tools.right_foot.label>
+  <!-- EN: head -->
+  <Skalder.tools.head.label>head</Skalder.tools.head.label>
+  <!-- EN: sketto -->
+  <Sketto.label>sketto</Sketto.label>
+  <!-- EN: Skettos were carnivorous flying reptiles that dwelled in the caverns of the planet Tatooine. Only emerging at daybreak and twilight, they possessed many rods in their eyes to assist their vision in low-light conditions as they ate airborne insects. Though reptilian, they were warm-blooded and gave birth to a single offspring at a time. Their small size and lower metabolism made them excellent stowaways and populations easily established themselves on other worlds. -->
+  <Sketto.description>Skettos were carnivorous flying reptiles that dwelled in the caverns of the planet Tatooine. Only emerging at daybreak and twilight, they possessed many rods in their eyes to assist their vision in low-light conditions as they ate airborne insects. Though reptilian, they were warm-blooded and gave birth to a single offspring at a time. Their small size and lower metabolism made them excellent stowaways and populations easily established themselves on other worlds.</Sketto.description>
+  <!-- EN: left clawed paw -->
+  <Sketto.tools.left_clawed_paw.label>left clawed paw</Sketto.tools.left_clawed_paw.label>
+  <!-- EN: right clawed paw -->
+  <Sketto.tools.right_clawed_paw.label>right clawed paw</Sketto.tools.right_clawed_paw.label>
+  <!-- EN: beak -->
+  <Sketto.tools.beak.label>beak</Sketto.tools.beak.label>
+  <!-- EN: head -->
+  <Sketto.tools.head.label>head</Sketto.tools.head.label>
+  <!-- EN: snoruuk -->
+  <Snoruuk.label>snoruuk</Snoruuk.label>
+  <!-- EN: Snoruuks were mobile mushrooms found on the planet Gamorr. They could be herded and were the favourite livestock of the Gamorreans, which resulted in their transplantation to other worlds. -->
+  <Snoruuk.description>Snoruuks were mobile mushrooms found on the planet Gamorr. They could be herded and were the favourite livestock of the Gamorreans, which resulted in their transplantation to other worlds.</Snoruuk.description>
+  <!-- EN: head -->
+  <Snoruuk.tools.head.label>head</Snoruuk.tools.head.label>
+  <!-- EN: squall -->
+  <Squall.label>squall</Squall.label>
+  <!-- EN: Squalls were small lagomorphs originally from the planet Chandrila. Squall instinctively seemed to want to be around other non-predatory creatures of any species, including sentient species. When in the company of other creatures, they typically begged for food or raided unguarded food stores. In the Core Worlds, squalls were renowned for their cuteness, and even further out, most beings found it hard to see them as anything but adorable. Squalls were common pets with most young girls either having one or wanting one, expediting their spread across the galaxy. -->
+  <Squall.description>Squalls were small lagomorphs originally from the planet Chandrila. Squall instinctively seemed to want to be around other non-predatory creatures of any species, including sentient species. When in the company of other creatures, they typically begged for food or raided unguarded food stores. In the Core Worlds, squalls were renowned for their cuteness, and even further out, most beings found it hard to see them as anything but adorable. Squalls were common pets with most young girls either having one or wanting one, expediting their spread across the galaxy.</Squall.description>
+  <!-- EN: left claws -->
+  <Squall.tools.left_claws.label>left claws</Squall.tools.left_claws.label>
+  <!-- EN: right claws -->
+  <Squall.tools.right_claws.label>right claws</Squall.tools.right_claws.label>
+  <!-- EN: head -->
+  <Squall.tools.head.label>head</Squall.tools.head.label>
+  <!-- EN: stintaril -->
+  <Stintaril.label>stintaril</Stintaril.label>
+  <!-- EN: The stintarils were a species of rapacious arboreal rodents native to the moon Yavin 4. They were predators and their prey mainly consisted of woolamanders and whisper birds, but could and would hunt other small to medium sized creatures. The metabolism of the stintaril was extremely high, and they had to eat often. It's very likely these voracious predators were introduced and established themselves as a form of pest control on several worlds. -->
+  <Stintaril.description>The stintarils were a species of rapacious arboreal rodents native to the moon Yavin 4. They were predators and their prey mainly consisted of woolamanders and whisper birds, but could and would hunt other small to medium sized creatures. The metabolism of the stintaril was extremely high, and they had to eat often. It's very likely these voracious predators were introduced and established themselves as a form of pest control on several worlds.</Stintaril.description>
+  <!-- EN: left claw -->
+  <Stintaril.tools.left_claw.label>left claw</Stintaril.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Stintaril.tools.right_claw.label>right claw</Stintaril.tools.right_claw.label>
+  <!-- EN: head -->
+  <Stintaril.tools.head.label>head</Stintaril.tools.head.label>
+  <!-- EN: strill -->
+  <Strill.label>strill</Strill.label>
+  <!-- EN: Strills were a species of highly intelligent, six-legged carnivorous mammals native to the planet Mandalore. They had folds of leathery skin between their legs which allowed them to glide short distances with sufficient updraft and they purportedly had a very distinct (often unpleasant) smell. A number of Mandalorians took to keeping strills (or 'striile' in Mando'a) as pets, making use of their naturally ferocious predatory instincts as hunting animals. This resulted in small Strill populations being found on numerous worlds where Mandalorians were or had been. -->
+  <Strill.description>Strills were a species of highly intelligent, six-legged carnivorous mammals native to the planet Mandalore. They had folds of leathery skin between their legs which allowed them to glide short distances with sufficient updraft and they purportedly had a very distinct (often unpleasant) smell. A number of Mandalorians took to keeping strills (or 'striile' in Mando'a) as pets, making use of their naturally ferocious predatory instincts as hunting animals. This resulted in small Strill populations being found on numerous worlds where Mandalorians were or had been.</Strill.description>
+  <!-- EN: left claw -->
+  <Strill.tools.left_claw.label>left claw</Strill.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Strill.tools.right_claw.label>right claw</Strill.tools.right_claw.label>
+  <!-- EN: head -->
+  <Strill.tools.head.label>head</Strill.tools.head.label>
+  <!-- EN: tach -->
+  <Tach.label>tach</Tach.label>
+  <!-- EN: The tach were a species tree-dwelling primates native to the planet Kashyyyk. A friendly creature, the tach could often be found on the ground searching for overripe fruits. They were exported to various worlds by unscrupulous business enterprises harvest their brain glands for use in the production of expensive Tarisian ale. -->
+  <Tach.description>The tach were a species tree-dwelling primates native to the planet Kashyyyk. A friendly creature, the tach could often be found on the ground searching for overripe fruits. They were exported to various worlds by unscrupulous business enterprises harvest their brain glands for use in the production of expensive Tarisian ale.</Tach.description>
+  <!-- EN: left fist -->
+  <Tach.tools.left_fist.label>left fist</Tach.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Tach.tools.right_fist.label>right fist</Tach.tools.right_fist.label>
+  <!-- EN: head -->
+  <Tach.tools.head.label>head</Tach.tools.head.label>
+  <!-- EN: taozin -->
+  <Taozin.label>taozin</Taozin.label>
+  <!-- EN: The Taozin (also known as a 'force dragon') was a giant predatory annelid with many arms and legs native to the jungle moon of Va'art. Finding their way all over the galaxy, Taozin were thought to be extinct but this may in fact be due to their highly elusive nature. They produce an rare curiosity from their skin when butchered known as a 'Taozin nodule'. -->
+  <Taozin.description>The Taozin (also known as a 'force dragon') was a giant predatory annelid with many arms and legs native to the jungle moon of Va'art. Finding their way all over the galaxy, Taozin were thought to be extinct but this may in fact be due to their highly elusive nature. They produce an rare curiosity from their skin when butchered known as a 'Taozin nodule'.</Taozin.description>
+  <!-- EN: spiked-tail -->
+  <Taozin.tools.spikedtail.label>spiked-tail</Taozin.tools.spikedtail.label>
+  <!-- EN: left claws -->
+  <Taozin.tools.left_claws.label>left claws</Taozin.tools.left_claws.label>
+  <!-- EN: right claws -->
+  <Taozin.tools.right_claws.label>right claws</Taozin.tools.right_claws.label>
+  <!-- EN: insectoid maw -->
+  <Taozin.tools.insectoid_maw.label>insectoid maw</Taozin.tools.insectoid_maw.label>
+  <!-- EN: head -->
+  <Taozin.tools.head.label>head</Taozin.tools.head.label>
+  <!-- EN: tauntaun -->
+  <Tauntaun.label>tauntaun</Tauntaun.label>
+  <!-- EN: Tauntauns are a species of omnivorous reptomammals who are indigenous to the icy planet of Hoth. Tauntauns were commonly used as pack animals during the Rebel Alliance's stay at Hoth. Tauntauns were also used as patrol mounts when it was learned that the Rebel Alliance's own vehicles could not cope with the very cold weather. -->
+  <Tauntaun.description>Tauntauns are a species of omnivorous reptomammals who are indigenous to the icy planet of Hoth. Tauntauns were commonly used as pack animals during the Rebel Alliance's stay at Hoth. Tauntauns were also used as patrol mounts when it was learned that the Rebel Alliance's own vehicles could not cope with the very cold weather.</Tauntaun.description>
+  <!-- EN: left claws -->
+  <Tauntaun.tools.left_claws.label>left claws</Tauntaun.tools.left_claws.label>
+  <!-- EN: right claws -->
+  <Tauntaun.tools.right_claws.label>right claws</Tauntaun.tools.right_claws.label>
+  <!-- EN: teeth -->
+  <Tauntaun.tools.teeth.label>teeth</Tauntaun.tools.teeth.label>
+  <!-- EN: head -->
+  <Tauntaun.tools.head.label>head</Tauntaun.tools.head.label>
+  <!-- EN: tee muss -->
+  <TeeMuss.label>tee muss</TeeMuss.label>
+  <!-- EN: Tee-muss were a species of domesticated farm animals native to the jungle planet Onderon. They were found on various worlds around the galaxy due to escape from domestic populations. -->
+  <TeeMuss.description>Tee-muss were a species of domesticated farm animals native to the jungle planet Onderon. They were found on various worlds around the galaxy due to escape from domestic populations.</TeeMuss.description>
+  <!-- EN: head -->
+  <TeeMuss.tools.head.label>head</TeeMuss.tools.head.label>
+  <!-- EN: left hoof -->
+  <TeeMuss.tools.left_hoof.label>left hoof</TeeMuss.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <TeeMuss.tools.right_hoof.label>right hoof</TeeMuss.tools.right_hoof.label>
+  <!-- EN: tet'niss crab -->
+  <TetnissCrab.label>tet'niss crab</TetnissCrab.label>
+  <!-- EN: Tet'niss crabs were a species of large trash crab that lived on the planet Lanupa. Specialised glands on their shell would secrete a sticky substance which allowed the creature to attach pieces of scrap metal to their body for additional defense from predation. Sometimes this resulted in the creatures being mistaken for scrap and transported to other worlds for processing only for them wander off and establish new populations. -->
+  <TetnissCrab.description>Tet'niss crabs were a species of large trash crab that lived on the planet Lanupa. Specialised glands on their shell would secrete a sticky substance which allowed the creature to attach pieces of scrap metal to their body for additional defense from predation. Sometimes this resulted in the creatures being mistaken for scrap and transported to other worlds for processing only for them wander off and establish new populations.</TetnissCrab.description>
+  <!-- EN: head -->
+  <TetnissCrab.tools.head.label>head</TetnissCrab.tools.head.label>
+  <!-- EN: thranta -->
+  <Thranta.label>thranta</Thranta.label>
+  <!-- EN: Thrantas were a group of flying animals originally found on the planet Alderaan. While there were multiple species and breeds varying in size and functions, most thrantas served as air transport. Populations of wild thranta were established on numerous worlds (like Bespin) where the air pollution was low. -->
+  <Thranta.description>Thrantas were a group of flying animals originally found on the planet Alderaan. While there were multiple species and breeds varying in size and functions, most thrantas served as air transport. Populations of wild thranta were established on numerous worlds (like Bespin) where the air pollution was low.</Thranta.description>
+  <!-- EN: tail -->
+  <Thranta.tools.tail.label>tail</Thranta.tools.tail.label>
+  <!-- EN: head -->
+  <Thranta.tools.head.label>head</Thranta.tools.head.label>
+  <!-- EN: tibidee -->
+  <Tibidee.label>tibidee</Tibidee.label>
+  <!-- EN: Tibidees were giant silicon-based creature native to Stygeon Prime, though they could also be found on other mountainous Outer Rim planets (such as Oosalon). Though normally gentle, tibidees would attack anything they felt was threatening. -->
+  <Tibidee.description>Tibidees were giant silicon-based creature native to Stygeon Prime, though they could also be found on other mountainous Outer Rim planets (such as Oosalon). Though normally gentle, tibidees would attack anything they felt was threatening.</Tibidee.description>
+  <!-- EN: left claws -->
+  <Tibidee.tools.left_claws.label>left claws</Tibidee.tools.left_claws.label>
+  <!-- EN: right claws -->
+  <Tibidee.tools.right_claws.label>right claws</Tibidee.tools.right_claws.label>
+  <!-- EN: head -->
+  <Tibidee.tools.head.label>head</Tibidee.tools.head.label>
+  <!-- EN: tail -->
+  <Tibidee.tools.tail.label>tail</Tibidee.tools.tail.label>
+  <!-- EN: tooke -->
+  <Tooke.label>tooke</Tooke.label>
+  <!-- EN: Tooke were small, hopping rodents native to the planet Naboo. They were nocturnal by nature and like all rodents, the tooke had a high reproductive rate and they generally fed on nuts and berries. They were a common pest animal that spread readily to many worlds including Stoga, where predators like the worrt would gorge themselves immobile consuming them. Even a carnivorous plant (the so-called the 'tooke-trap') had evolved to target these creatures by emitting it's mating pheremone; however the rodents were usually agile enough to escape. -->
+  <Tooke.description>Tooke were small, hopping rodents native to the planet Naboo. They were nocturnal by nature and like all rodents, the tooke had a high reproductive rate and they generally fed on nuts and berries. They were a common pest animal that spread readily to many worlds including Stoga, where predators like the worrt would gorge themselves immobile consuming them. Even a carnivorous plant (the so-called the 'tooke-trap') had evolved to target these creatures by emitting it's mating pheremone; however the rodents were usually agile enough to escape.</Tooke.description>
+  <!-- EN: left claw -->
+  <Tooke.tools.left_claw.label>left claw</Tooke.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Tooke.tools.right_claw.label>right claw</Tooke.tools.right_claw.label>
+  <!-- EN: head -->
+  <Tooke.tools.head.label>head</Tooke.tools.head.label>
+  <!-- EN: torton -->
+  <Torton.label>torton</Torton.label>
+  <!-- EN: Tortons were huge predatory estudines that were believed to have originated on Naboo's moon of Rori, but identical such specimens existed on other worlds such as the Tortur from the planet Talus. Their tough shells made them formidable foes in angered, however their bulk made them slow and cumbersome. -->
+  <Torton.description>Tortons were huge predatory estudines that were believed to have originated on Naboo's moon of Rori, but identical such specimens existed on other worlds such as the Tortur from the planet Talus. Their tough shells made them formidable foes in angered, however their bulk made them slow and cumbersome.</Torton.description>
+  <!-- EN: horn -->
+  <Torton.tools.horn.label>horn</Torton.tools.horn.label>
+  <!-- EN: left foot -->
+  <Torton.tools.left_foot.label>left foot</Torton.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Torton.tools.right_foot.label>right foot</Torton.tools.right_foot.label>
+  <!-- EN: head -->
+  <Torton.tools.head.label>head</Torton.tools.head.label>
+  <!-- EN: tuk'ata -->
+  <Tukata.label>tuk'ata</Tukata.label>
+  <!-- EN: The tuk'ata (or 'Sith hounds'), were used for thousands of years to guard the tombs of the Dark Lords of the Sith on the planet Korriban. Tuk'ata were unusually intelligent and were even rumoured to communicate with one another through means unknown. It was claimed that originally the species were non-violent grazing animals before being corrupted by Sith alchemy experiments that awakened latent parts of their brain which transformed them into unnatural abominations (or 'Sithspawn'). Many small populations of these creatures were able to establish themselves on various worlds having escaped captivity from Sith armies they were indentured to. -->
+  <Tukata.description>The tuk'ata (or 'Sith hounds'), were used for thousands of years to guard the tombs of the Dark Lords of the Sith on the planet Korriban. Tuk'ata were unusually intelligent and were even rumoured to communicate with one another through means unknown. It was claimed that originally the species were non-violent grazing animals before being corrupted by Sith alchemy experiments that awakened latent parts of their brain which transformed them into unnatural abominations (or 'Sithspawn'). Many small populations of these creatures were able to establish themselves on various worlds having escaped captivity from Sith armies they were indentured to.</Tukata.description>
+  <!-- EN: left claw -->
+  <Tukata.tools.left_claw.label>left claw</Tukata.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Tukata.tools.right_claw.label>right claw</Tukata.tools.right_claw.label>
+  <!-- EN: poisonous fangs -->
+  <Tukata.tools.poisonous_fangs.label>poisonous fangs</Tukata.tools.poisonous_fangs.label>
+  <!-- EN: tail stinger -->
+  <Tukata.tools.tail_stinger.label>tail stinger</Tukata.tools.tail_stinger.label>
+  <!-- EN: head -->
+  <Tukata.tools.head.label>head</Tukata.tools.head.label>
+  <!-- EN: tusk cat -->
+  <TuskCat.label>tusk cat</TuskCat.label>
+  <!-- EN: The tusk cat were large feline predators from the worlds of Naboo and its moon Rori. Tusk cats had a large pair of distinct tusks growing from their lower jaws. This put them at morphological odds with many tusked animals which often featured tusks growing from the upper jaw. A second, less-noticeable pair of tusk-like fleshy appendages grew from their cheekbones. Despite their predatory nature, tusk cats could be tamed by humans of Naboo for a variety of uses, notably as mounts which resulted in their spread to various worlds as part of the pack animal trade. -->
+  <TuskCat.description>The tusk cat were large feline predators from the worlds of Naboo and its moon Rori. Tusk cats had a large pair of distinct tusks growing from their lower jaws. This put them at morphological odds with many tusked animals which often featured tusks growing from the upper jaw. A second, less-noticeable pair of tusk-like fleshy appendages grew from their cheekbones. Despite their predatory nature, tusk cats could be tamed by humans of Naboo for a variety of uses, notably as mounts which resulted in their spread to various worlds as part of the pack animal trade.</TuskCat.description>
+  <!-- EN: left claw -->
+  <TuskCat.tools.left_claw.label>left claw</TuskCat.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <TuskCat.tools.right_claw.label>right claw</TuskCat.tools.right_claw.label>
+  <!-- EN: head -->
+  <TuskCat.tools.head.label>head</TuskCat.tools.head.label>
+  <!-- EN: urusai -->
+  <Urusai.label>urusai</Urusai.label>
+  <!-- EN: Urusai were winged reptavians native to the desert planet Tatooine. They were predominantly opportunistic scavengers of carrion that would use the thermal currents of their homeworld to travel far and wide in search of an easy meal. Their tolerance to harsh climates and propensity to be clean, efficive corpse disposal meant they were spread to numerous worlds by various corporate and criminal organisations. -->
+  <Urusai.description>Urusai were winged reptavians native to the desert planet Tatooine. They were predominantly opportunistic scavengers of carrion that would use the thermal currents of their homeworld to travel far and wide in search of an easy meal. Their tolerance to harsh climates and propensity to be clean, efficive corpse disposal meant they were spread to numerous worlds by various corporate and criminal organisations.</Urusai.description>
+  <!-- EN: claws -->
+  <Urusai.tools.claws.label>claws</Urusai.tools.claws.label>
+  <!-- EN: beak -->
+  <Urusai.tools.beak.label>beak</Urusai.tools.beak.label>
+  <!-- EN: head -->
+  <Urusai.tools.head.label>head</Urusai.tools.head.label>
+  <!-- EN: uvak -->
+  <Uvak.label>uvak</Uvak.label>
+  <!-- EN: Uvak were a large, membranous-winged reptavian species with sharp beaks. They were native to the planet of Kesh, where they were used by the indigenous Keshiri as pack animals and mounts. It's was believed that the deities known as the "Skyborn" may have transplanted these creatures to other worlds before disappearing into Keshiri mythology. -->
+  <Uvak.description>Uvak were a large, membranous-winged reptavian species with sharp beaks. They were native to the planet of Kesh, where they were used by the indigenous Keshiri as pack animals and mounts. It's was believed that the deities known as the "Skyborn" may have transplanted these creatures to other worlds before disappearing into Keshiri mythology.</Uvak.description>
+  <!-- EN: claws -->
+  <Uvak.tools.claws-0.label>claws</Uvak.tools.claws-0.label>
+  <!-- EN: claws -->
+  <Uvak.tools.claws-1.label>claws</Uvak.tools.claws-1.label>
+  <!-- EN: beak -->
+  <Uvak.tools.beak.label>beak</Uvak.tools.beak.label>
+  <!-- EN: horns -->
+  <Uvak.tools.horns.label>horns</Uvak.tools.horns.label>
+  <!-- EN: vapaad -->
+  <Vapaad.label>vapaad</Vapaad.label>
+  <!-- EN: The vapaad, was a large predatory creature native to the world of Sarapin and its moons. Vaapads were brown ball-shaped, tripod creatures with two yellow eyes and multiple tentacles used to kill prey. A vaapad attacked by striking its prey with its toxic tentacles so quickly that they were nothing but a blur to the naked eye. They were exported offworld for use in exotic gladiatorial arenas. -->
+  <Vapaad.description>The vapaad, was a large predatory creature native to the world of Sarapin and its moons. Vaapads were brown ball-shaped, tripod creatures with two yellow eyes and multiple tentacles used to kill prey. A vaapad attacked by striking its prey with its toxic tentacles so quickly that they were nothing but a blur to the naked eye. They were exported offworld for use in exotic gladiatorial arenas.</Vapaad.description>
+  <!-- EN: left toxic tentacle -->
+  <Vapaad.tools.left_toxic_tentacle-0.label>left toxic tentacle</Vapaad.tools.left_toxic_tentacle-0.label>
+  <!-- EN: right toxic tentacle -->
+  <Vapaad.tools.right_toxic_tentacle-0.label>right toxic tentacle</Vapaad.tools.right_toxic_tentacle-0.label>
+  <!-- EN: left toxic tentacle -->
+  <Vapaad.tools.left_toxic_tentacle-1.label>left toxic tentacle</Vapaad.tools.left_toxic_tentacle-1.label>
+  <!-- EN: right toxic tentacle -->
+  <Vapaad.tools.right_toxic_tentacle-1.label>right toxic tentacle</Vapaad.tools.right_toxic_tentacle-1.label>
+  <!-- EN: varactyl -->
+  <Varactyl.label>varactyl</Varactyl.label>
+  <!-- EN: Varactyls, also known as 'dragonmounts', were reptavian herbivores native to the planet Utapau, though some specimens found their way to other worlds (such as Kashyyyk and Belsavis) as their eggs were easily transported by Black-marketeers. They had beaked faces and long, powerful tails and not only could a varactyl run very fast, but their feet were adapted with tiny hairlike structures that allowed them to climb the rocky walls of sinkholes. -->
+  <Varactyl.description>Varactyls, also known as 'dragonmounts', were reptavian herbivores native to the planet Utapau, though some specimens found their way to other worlds (such as Kashyyyk and Belsavis) as their eggs were easily transported by Black-marketeers. They had beaked faces and long, powerful tails and not only could a varactyl run very fast, but their feet were adapted with tiny hairlike structures that allowed them to climb the rocky walls of sinkholes.</Varactyl.description>
+  <!-- EN: claws -->
+  <Varactyl.tools.claws-0.label>claws</Varactyl.tools.claws-0.label>
+  <!-- EN: claws -->
+  <Varactyl.tools.claws-1.label>claws</Varactyl.tools.claws-1.label>
+  <!-- EN: beak -->
+  <Varactyl.tools.beak.label>beak</Varactyl.tools.beak.label>
+  <!-- EN: head -->
+  <Varactyl.tools.head.label>head</Varactyl.tools.head.label>
+  <!-- EN: veermok -->
+  <Veermok.label>veermok</Veermok.label>
+  <!-- EN: Veermoks were a ferocious species of clawed and fanged primates native to the planet Naboo (but with sizeable populations on both Eriadau and Xirl). Living in swamps and moist woodlands, veermoks were arboreal creatures. They were also solitary and aggressive creatures, spending the majority of their lives without others of their kind. Their popularity amongst big game hunters meant they were exported and established on multiple worlds in the Mid and Outer Rim. -->
+  <Veermok.description>Veermoks were a ferocious species of clawed and fanged primates native to the planet Naboo (but with sizeable populations on both Eriadau and Xirl). Living in swamps and moist woodlands, veermoks were arboreal creatures. They were also solitary and aggressive creatures, spending the majority of their lives without others of their kind. Their popularity amongst big game hunters meant they were exported and established on multiple worlds in the Mid and Outer Rim.</Veermok.description>
+  <!-- EN: left fist -->
+  <Veermok.tools.left_fist.label>left fist</Veermok.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Veermok.tools.right_fist.label>right fist</Veermok.tools.right_fist.label>
+  <!-- EN: head -->
+  <Veermok.tools.head.label>head</Veermok.tools.head.label>
+  <!-- EN: voorpak -->
+  <Voorpak.label>voorpak</Voorpak.label>
+  <!-- EN: Voorpaks were a non-sentient but still quite smart species of puffy-looking mammalians that were native to the planet of Naboo. Diminutive carnivores, voorpaks were much beloved by many due to their cuteness and as pets which in turn led to their export to many other worlds. -->
+  <Voorpak.description>Voorpaks were a non-sentient but still quite smart species of puffy-looking mammalians that were native to the planet of Naboo. Diminutive carnivores, voorpaks were much beloved by many due to their cuteness and as pets which in turn led to their export to many other worlds.</Voorpak.description>
+  <!-- EN: left claw -->
+  <Voorpak.tools.left_claw.label>left claw</Voorpak.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Voorpak.tools.right_claw.label>right claw</Voorpak.tools.right_claw.label>
+  <!-- EN: head -->
+  <Voorpak.tools.head.label>head</Voorpak.tools.head.label>
+  <!-- EN: vornskyr -->
+  <Vornskyr.label>vornskyr</Vornskyr.label>
+  <!-- EN: The vornskr were a pack hunting canine beast native to the forest planet Myrkr. Vornskrs were primarily nocturnal hunters, and used their whip-like, mildly venomous tails to stun prey before finishing it off with their teeth. They were popular attack beasts and pets within several criminal organisations and thus they were spread to numerous worlds as a result. -->
+  <Vornskyr.description>The vornskr were a pack hunting canine beast native to the forest planet Myrkr. Vornskrs were primarily nocturnal hunters, and used their whip-like, mildly venomous tails to stun prey before finishing it off with their teeth. They were popular attack beasts and pets within several criminal organisations and thus they were spread to numerous worlds as a result.</Vornskyr.description>
+  <!-- EN: whip-like tail -->
+  <Vornskyr.tools.whiplike_tail.label>whip-like tail</Vornskyr.tools.whiplike_tail.label>
+  <!-- EN: left paw -->
+  <Vornskyr.tools.left_paw.label>left paw</Vornskyr.tools.left_paw.label>
+  <!-- EN: right paw -->
+  <Vornskyr.tools.right_paw.label>right paw</Vornskyr.tools.right_paw.label>
+  <!-- EN: head -->
+  <Vornskyr.tools.head.label>head</Vornskyr.tools.head.label>
+  <!-- EN: vulptex -->
+  <Vulptex.label>vulptex</Vulptex.label>
+  <!-- EN: Vulptices were a non-sentient species of omnivorous and gregarious canids from the mineral world Crait. They were distinguished by their coats made up of white crystalline bristles. -->
+  <Vulptex.description>Vulptices were a non-sentient species of omnivorous and gregarious canids from the mineral world Crait. They were distinguished by their coats made up of white crystalline bristles.</Vulptex.description>
+  <!-- EN: left claw -->
+  <Vulptex.tools.left_claw.label>left claw</Vulptex.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Vulptex.tools.right_claw.label>right claw</Vulptex.tools.right_claw.label>
+  <!-- EN: cute little teeth -->
+  <Vulptex.tools.cute_little_teeth.label>cute little teeth</Vulptex.tools.cute_little_teeth.label>
+  <!-- EN: head -->
+  <Vulptex.tools.head.label>head</Vulptex.tools.head.label>
+  <!-- EN: Wampa -->
+  <Wampa.label>Wampa</Wampa.label>
+  <!-- EN: wampa were a carnivorous, white-furred species which dwelled on the snow-clad planet Hoth. -->
+  <Wampa.description>wampa were a carnivorous, white-furred species which dwelled on the snow-clad planet Hoth.</Wampa.description>
+  <!-- EN: left leg -->
+  <Wampa.tools.left_leg.label>left leg</Wampa.tools.left_leg.label>
+  <!-- EN: right leg -->
+  <Wampa.tools.right_leg.label>right leg</Wampa.tools.right_leg.label>
+  <!-- EN: teeth -->
+  <Wampa.tools.teeth.label>teeth</Wampa.tools.teeth.label>
+  <!-- EN: head -->
+  <Wampa.tools.head.label>head</Wampa.tools.head.label>
+  <!-- EN: left claw -->
+  <Wampa.tools.left_claw.label>left claw</Wampa.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Wampa.tools.right_claw.label>right claw</Wampa.tools.right_claw.label>
+  <!-- EN: Warbird -->
+  <Warbird.label>Warbird</Warbird.label>
+  <!-- EN: The Warbird (or 'Sith warbird') was a species of huge flightless avian from the frigid planet Khar Delba. Sith warbirds were notorious for their bad temper and they typically used their large size to ram down their prey and gore them with their serrated beaks. After the end of the Great Sith War, Sith warbirds continued to be found throughout the galaxy, with survivors of the conflict breeding on worlds where battles had been fought by the Sith. These wild-once-more warbirds were prone to terrorizing local forms of wildlife that posed little threat to them. -->
+  <Warbird.description>The Warbird (or 'Sith warbird') was a species of huge flightless avian from the frigid planet Khar Delba. Sith warbirds were notorious for their bad temper and they typically used their large size to ram down their prey and gore them with their serrated beaks. After the end of the Great Sith War, Sith warbirds continued to be found throughout the galaxy, with survivors of the conflict breeding on worlds where battles had been fought by the Sith. These wild-once-more warbirds were prone to terrorizing local forms of wildlife that posed little threat to them.</Warbird.description>
+  <!-- EN: serrated beak -->
+  <Warbird.tools.serrated_beak.label>serrated beak</Warbird.tools.serrated_beak.label>
+  <!-- EN: left claws -->
+  <Warbird.tools.left_claws.label>left claws</Warbird.tools.left_claws.label>
+  <!-- EN: right claws -->
+  <Warbird.tools.right_claws.label>right claws</Warbird.tools.right_claws.label>
+  <!-- EN: head -->
+  <Warbird.tools.head.label>head</Warbird.tools.head.label>
+  <!-- EN: tail -->
+  <Warbird.tools.tail.label>tail</Warbird.tools.tail.label>
+  <!-- EN: war wyrm -->
+  <WarWyrm.label>war wyrm</WarWyrm.label>
+  <!-- EN: The war wyrm (or sometimes called the 'sith wyrm') were a truly colossal creature believed to have been created on the fourth moon of Yavin where one such creature lived in a large subterranean lair beneath a Massassi temple. The war wyrm was originally an infant exogorth that had been mutated and warped by Sith alchemy. They were very rare and very large and several specimens were believed to have been left behind by Sith armies on various worlds having fulfilled their roles as apex siege beasts. -->
+  <WarWyrm.description>The war wyrm (or sometimes called the 'sith wyrm') were a truly colossal creature believed to have been created on the fourth moon of Yavin where one such creature lived in a large subterranean lair beneath a Massassi temple. The war wyrm was originally an infant exogorth that had been mutated and warped by Sith alchemy. They were very rare and very large and several specimens were believed to have been left behind by Sith armies on various worlds having fulfilled their roles as apex siege beasts.</WarWyrm.description>
+  <!-- EN: head -->
+  <WarWyrm.tools.head.label>head</WarWyrm.tools.head.label>
+  <!-- EN: serpentine tail -->
+  <WarWyrm.tools.serpentine_tail.label>serpentine tail</WarWyrm.tools.serpentine_tail.label>
+  <!-- EN: whisperbird -->
+  <Whisperbird.label>whisperbird</Whisperbird.label>
+  <!-- EN: Whisper birds were energetic avians native to the moon Yavin 4. They were known for their radiant plumage and gained their name due to their seemingly noiseless flight. They used their dexterous tongue to emit their sweet, low-pitched song or call. These traits made them popular pets with avian enthausiasts and wild populations soon appeared from escapees on numerous worlds (even on polluted worlds like Coruscant). -->
+  <Whisperbird.description>Whisper birds were energetic avians native to the moon Yavin 4. They were known for their radiant plumage and gained their name due to their seemingly noiseless flight. They used their dexterous tongue to emit their sweet, low-pitched song or call. These traits made them popular pets with avian enthausiasts and wild populations soon appeared from escapees on numerous worlds (even on polluted worlds like Coruscant).</Whisperbird.description>
+  <!-- EN: claws -->
+  <Whisperbird.tools.claws.label>claws</Whisperbird.tools.claws.label>
+  <!-- EN: beak -->
+  <Whisperbird.tools.beak.label>beak</Whisperbird.tools.beak.label>
+  <!-- EN: head -->
+  <Whisperbird.tools.head.label>head</Whisperbird.tools.head.label>
+  <!-- EN: womp rat -->
+  <WompRat.label>womp rat</WompRat.label>
+  <!-- EN: Womp rats were large, omnivorous rodents native to Tatooine that were widely considered to be pests. While womp rats were opportunists and fond of carrion, they were also predators. Although their normal prey included smaller animals, such as scurriers. -->
+  <WompRat.description>Womp rats were large, omnivorous rodents native to Tatooine that were widely considered to be pests. While womp rats were opportunists and fond of carrion, they were also predators. Although their normal prey included smaller animals, such as scurriers.</WompRat.description>
+  <!-- EN: left claw -->
+  <WompRat.tools.left_claw.label>left claw</WompRat.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <WompRat.tools.right_claw.label>right claw</WompRat.tools.right_claw.label>
+  <!-- EN: head -->
+  <WompRat.tools.head.label>head</WompRat.tools.head.label>
+  <!-- EN: woolamander -->
+  <Woolamander.label>woolamander</Woolamander.label>
+  <!-- EN: Woolamanders were curious social creatures that originated on the jungle moon of Yavin 4. They fed on fruit and other vegetation that would ferment in their pot-bellies. Colouful primate often made for exotic pets and these sociable animals were spread to multiple worlds where upon escaping wild populations soon established themselves. -->
+  <Woolamander.description>Woolamanders were curious social creatures that originated on the jungle moon of Yavin 4. They fed on fruit and other vegetation that would ferment in their pot-bellies. Colouful primate often made for exotic pets and these sociable animals were spread to multiple worlds where upon escaping wild populations soon established themselves.</Woolamander.description>
+  <!-- EN: left fist -->
+  <Woolamander.tools.left_fist.label>left fist</Woolamander.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Woolamander.tools.right_fist.label>right fist</Woolamander.tools.right_fist.label>
+  <!-- EN: head -->
+  <Woolamander.tools.head.label>head</Woolamander.tools.head.label>
+  <!-- EN: worrt -->
+  <Worrt.label>worrt</Worrt.label>
+  <!-- EN: The Worrt was an amphibious creature native to the planet Tatooine, though they could also be found on other worlds (including Nal Hutta and Phaeda). Worrts were omnivorous, but was also known to attempt to eat rocks and metal objects. They used their long, prehensile tongue to catch smaller prey, such as gorgs, but were known to also attack creatures larger than itself. -->
+  <Worrt.description>The Worrt was an amphibious creature native to the planet Tatooine, though they could also be found on other worlds (including Nal Hutta and Phaeda). Worrts were omnivorous, but was also known to attempt to eat rocks and metal objects. They used their long, prehensile tongue to catch smaller prey, such as gorgs, but were known to also attack creatures larger than itself.</Worrt.description>
+  <!-- EN: webbed foot -->
+  <Worrt.tools.webbed_foot-0.label>webbed foot</Worrt.tools.webbed_foot-0.label>
+  <!-- EN: webbed foot -->
+  <Worrt.tools.webbed_foot-1.label>webbed foot</Worrt.tools.webbed_foot-1.label>
+  <!-- EN: prehensile tongue -->
+  <Worrt.tools.prehensile_tongue.label>prehensile tongue</Worrt.tools.prehensile_tongue.label>
+  <!-- EN: head -->
+  <Worrt.tools.head.label>head</Worrt.tools.head.label>
+  <!-- EN: wraid -->
+  <Wraid.label>wraid</Wraid.label>
+  <!-- EN: Wraids were large reptilian creatures found on many desert planets across the galaxy (including but not limited to Tatooine, Ruhnuk, Korriban and even Tython). They were carnivorous creatures, relying on scavening and ambush to find their prey. Wraids were often over hunted for their valuable hides, causing their populations to spike and fall. -->
+  <Wraid.description>Wraids were large reptilian creatures found on many desert planets across the galaxy (including but not limited to Tatooine, Ruhnuk, Korriban and even Tython). They were carnivorous creatures, relying on scavening and ambush to find their prey. Wraids were often over hunted for their valuable hides, causing their populations to spike and fall.</Wraid.description>
+  <!-- EN: left claw -->
+  <Wraid.tools.left_claw.label>left claw</Wraid.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Wraid.tools.right_claw.label>right claw</Wraid.tools.right_claw.label>
+  <!-- EN: teeth -->
+  <Wraid.tools.teeth.label>teeth</Wraid.tools.teeth.label>
+  <!-- EN: head -->
+  <Wraid.tools.head.label>head</Wraid.tools.head.label>
+  <!-- EN: wyyyschokk -->
+  <Wyyyschokk.label>wyyyschokk</Wyyyschokk.label>
+  <!-- EN: Wyyyschokk were a species of gigantic spider that lived on the planet Kashyyyk. Both highly intelligent and extremely hostile, they could ensnare prey by casting webbing at them. -->
+  <Wyyyschokk.description>Wyyyschokk were a species of gigantic spider that lived on the planet Kashyyyk. Both highly intelligent and extremely hostile, they could ensnare prey by casting webbing at them.</Wyyyschokk.description>
+  <!-- EN: fanged chelicerae -->
+  <Wyyyschokk.tools.fanged_chelicerae.label>fanged chelicerae</Wyyyschokk.tools.fanged_chelicerae.label>
+  <!-- EN: fanged pedipalp -->
+  <Wyyyschokk.tools.fanged_pedipalp-0.label>fanged pedipalp</Wyyyschokk.tools.fanged_pedipalp-0.label>
+  <!-- EN: fanged pedipalp -->
+  <Wyyyschokk.tools.fanged_pedipalp-1.label>fanged pedipalp</Wyyyschokk.tools.fanged_pedipalp-1.label>
+  <!-- EN: head -->
+  <Wyyyschokk.tools.head.label>head</Wyyyschokk.tools.head.label>
+  <!-- EN: yobshrimp -->
+  <Yobshrimp.label>yobshrimp</Yobshrimp.label>
+  <!-- EN: Yobshrimp were a carnivorous crustacean native to the shallow waters of the planet Naboo. These clawed creatures were typically preyed upon by animals such as Blarths and larger scalefish. Some considered this animal a delicacy and many fishing families cultivated the yobshrimp for consumption which resulted in it's dispersal to various worlds. -->
+  <Yobshrimp.description>Yobshrimp were a carnivorous crustacean native to the shallow waters of the planet Naboo. These clawed creatures were typically preyed upon by animals such as Blarths and larger scalefish. Some considered this animal a delicacy and many fishing families cultivated the yobshrimp for consumption which resulted in it's dispersal to various worlds.</Yobshrimp.description>
+  <!-- EN: head -->
+  <Yobshrimp.tools.head.label>head</Yobshrimp.tools.head.label>
+  <!-- EN: zakkeg -->
+  <Zakkeg.label>zakkeg</Zakkeg.label>
+  <!-- EN: Zakkegs were rare alpha-predators indigenous to the moon of Dxun. They were huge, armoured quadrupeds, typically solitary and territorial. Even Mandalorians were impressed by someone who killed one, and one could gain great honor for proving one's success. Due to this, several Mandalorian clans and big game hunters exported these creatures to numerous worlds to provide a ready supply of the beasts. -->
+  <Zakkeg.description>Zakkegs were rare alpha-predators indigenous to the moon of Dxun. They were huge, armoured quadrupeds, typically solitary and territorial. Even Mandalorians were impressed by someone who killed one, and one could gain great honor for proving one's success. Due to this, several Mandalorian clans and big game hunters exported these creatures to numerous worlds to provide a ready supply of the beasts.</Zakkeg.description>
+  <!-- EN: left claws -->
+  <Zakkeg.tools.left_claws.label>left claws</Zakkeg.tools.left_claws.label>
+  <!-- EN: right claws -->
+  <Zakkeg.tools.right_claws.label>right claws</Zakkeg.tools.right_claws.label>
+  <!-- EN: head -->
+  <Zakkeg.tools.head.label>head</Zakkeg.tools.head.label>
+  <!-- EN: tail -->
+  <Zakkeg.tools.tail.label>tail</Zakkeg.tools.tail.label>
+  <!-- EN: zeer -->
+  <Zeer.label>zeer</Zeer.label>
+  <!-- EN: The Zeer were a species of long-necked herbivorous animals of unknown planetary origin. They were sociable herd animals. Their exotic appearance made them popular in both galactic zoological exhibits and circuses, ultimately leading to their spread to multiple worlds in order to supply demand. -->
+  <Zeer.description>The Zeer were a species of long-necked herbivorous animals of unknown planetary origin. They were sociable herd animals. Their exotic appearance made them popular in both galactic zoological exhibits and circuses, ultimately leading to their spread to multiple worlds in order to supply demand.</Zeer.description>
+  <!-- EN: horn -->
+  <Zeer.tools.horn.label>horn</Zeer.tools.horn.label>
+  <!-- EN: left hoof -->
+  <Zeer.tools.left_hoof.label>left hoof</Zeer.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Zeer.tools.right_hoof.label>right hoof</Zeer.tools.right_hoof.label>
+</LanguageData>

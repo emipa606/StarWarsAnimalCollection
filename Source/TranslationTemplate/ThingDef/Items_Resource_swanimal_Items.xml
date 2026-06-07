@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: acklay claw -->
+  <AcklayClaw.label>acklay claw</AcklayClaw.label>
+  <!-- EN: The raw claws of an acklay creature. These claws are noted to be quite delicious when eaten cooked. -->
+  <AcklayClaw.description>The raw claws of an acklay creature. These claws are noted to be quite delicious when eaten cooked.</AcklayClaw.description>
+  <!-- EN: anthropoid meat -->
+  <Anthropoid_Meat.label>anthropoid meat</Anthropoid_Meat.label>
+  <!-- EN: A piece of meat from a anthropoid creature. -->
+  <Anthropoid_Meat.description>A piece of meat from a anthropoid creature.</Anthropoid_Meat.description>
+  <!-- EN: bantha meat -->
+  <Bantha_Meat.label>bantha meat</Bantha_Meat.label>
+  <!-- EN: A piece of meat from a bantha. -->
+  <Bantha_Meat.description>A piece of meat from a bantha.</Bantha_Meat.description>
+  <!-- EN: bantha horn -->
+  <BanthaHorn.label>bantha horn</BanthaHorn.label>
+  <!-- EN: A bantha's horn. Good enough to fend off some enemies. Comes as at least a pair, so not as valuable as other horns out there. -->
+  <BanthaHorn.description>A bantha's horn. Good enough to fend off some enemies. Comes as at least a pair, so not as valuable as other horns out there.</BanthaHorn.description>
+  <!-- EN: point -->
+  <BanthaHorn.tools.point.label>point</BanthaHorn.tools.point.label>
+  <!-- EN: base -->
+  <BanthaHorn.tools.base.label>base</BanthaHorn.tools.base.label>
+  <!-- EN: behemoth skull -->
+  <BehemothSkull.label>behemoth skull</BehemothSkull.label>
+  <!-- EN: A behemoth skull. These fearsome trophies were often displayed to show-off hunting prowess. -->
+  <BehemothSkull.description>A behemoth skull. These fearsome trophies were often displayed to show-off hunting prowess.</BehemothSkull.description>
+  <!-- EN: blue milk -->
+  <BlueMilk.label>blue milk</BlueMilk.label>
+  <!-- EN: Blue milk from a bantha. -->
+  <BlueMilk.description>Blue milk from a bantha.</BlueMilk.description>
+  <!-- EN: cameloid meat -->
+  <Cameloid_Meat.label>cameloid meat</Cameloid_Meat.label>
+  <!-- EN: A piece of meat from a cameloid. -->
+  <Cameloid_Meat.description>A piece of meat from a cameloid.</Cameloid_Meat.description>
+  <!-- EN: chrysalide heart -->
+  <ChrysalideHeart.label>chrysalide heart</ChrysalideHeart.label>
+  <!-- EN: The raw heart of an chrysalide creature. These heart when eaten often empowers the consumer and gives a sense of elevated euphoria. -->
+  <ChrysalideHeart.description>The raw heart of an chrysalide creature. These heart when eaten often empowers the consumer and gives a sense of elevated euphoria.</ChrysalideHeart.description>
+  <!-- EN: crustapod meat -->
+  <Crustapod_Meat.label>crustapod meat</Crustapod_Meat.label>
+  <!-- EN: A piece of meat from a crustapod. -->
+  <Crustapod_Meat.description>A piece of meat from a crustapod.</Crustapod_Meat.description>
+  <!-- EN: acklay roe (fert.) -->
+  <EggAcklayFertilized.label>acklay roe (fert.)</EggAcklayFertilized.label>
+  <!-- EN: Fertilized Acklay egg. -->
+  <EggAcklayFertilized.description>Fertilized Acklay egg.</EggAcklayFertilized.description>
+  <!-- EN: acklay roe (unfert.) -->
+  <EggAcklayUnFertilized.label>acklay roe (unfert.)</EggAcklayUnFertilized.label>
+  <!-- EN: Unfertilized Acklay egg. -->
+  <EggAcklayUnFertilized.description>Unfertilized Acklay egg.</EggAcklayUnFertilized.description>
+  <!-- EN: akk egg (fert.) -->
+  <EggAkkFertilized.label>akk egg (fert.)</EggAkkFertilized.label>
+  <!-- EN: A fertilized akk egg. If all goes well, it should hatch into a baby akk. It can be eaten raw, but it's much better cooked. -->
+  <EggAkkFertilized.description>A fertilized akk egg. If all goes well, it should hatch into a baby akk. It can be eaten raw, but it's much better cooked.</EggAkkFertilized.description>
+  <!-- EN: akk egg (unfert.) -->
+  <EggAkkUnFertilized.label>akk egg (unfert.)</EggAkkUnFertilized.label>
+  <!-- EN: An unfertilized akk egg. It can be eaten raw, but it's much better cooked. -->
+  <EggAkkUnFertilized.description>An unfertilized akk egg. It can be eaten raw, but it's much better cooked.</EggAkkUnFertilized.description>
+  <!-- EN: amphispawn egg (unfert.) -->
+  <EggAmphispawnUnfertilized.label>amphispawn egg (unfert.)</EggAmphispawnUnfertilized.label>
+  <!-- EN: An unfertilized "jelly"-like amphispawn egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggAmphispawnUnfertilized.description>An unfertilized "jelly"-like amphispawn egg. It can be eaten raw, but it's much, much better cooked.</EggAmphispawnUnfertilized.description>
+  <!-- EN: beldon egg (fert.) -->
+  <EggBeldonFertilized.label>beldon egg (fert.)</EggBeldonFertilized.label>
+  <!-- EN: A fertilized beldon egg. If all goes well, it should hatch into a baby beldon. It can be eaten raw, but it's much better cooked. -->
+  <EggBeldonFertilized.description>A fertilized beldon egg. If all goes well, it should hatch into a baby beldon. It can be eaten raw, but it's much better cooked.</EggBeldonFertilized.description>
+  <!-- EN: beldon egg (unfert.) -->
+  <EggBeldonUnFertilized.label>beldon egg (unfert.)</EggBeldonUnFertilized.label>
+  <!-- EN: An unfertilized beldon egg. It can be eaten raw, but it's much better cooked. -->
+  <EggBeldonUnFertilized.description>An unfertilized beldon egg. It can be eaten raw, but it's much better cooked.</EggBeldonUnFertilized.description>
+  <!-- EN: blixus roe (fert.) -->
+  <EggBlixusFertilized.label>blixus roe (fert.)</EggBlixusFertilized.label>
+  <!-- EN: A fertilized blixus egg. If all goes well, it should hatch into a baby blixus. It can be eaten raw, but it's much better cooked. -->
+  <EggBlixusFertilized.description>A fertilized blixus egg. If all goes well, it should hatch into a baby blixus. It can be eaten raw, but it's much better cooked.</EggBlixusFertilized.description>
+  <!-- EN: blixus roe (unfert.) -->
+  <EggBlixusUnFertilized.label>blixus roe (unfert.)</EggBlixusUnFertilized.label>
+  <!-- EN: An unfertilized blixus egg. It can be eaten raw, but it's much better cooked. -->
+  <EggBlixusUnFertilized.description>An unfertilized blixus egg. It can be eaten raw, but it's much better cooked.</EggBlixusUnFertilized.description>
+  <!-- EN: blurrg egg (fert.) -->
+  <EggBlurrgFertilized.label>blurrg egg (fert.)</EggBlurrgFertilized.label>
+  <!-- EN: A fertilized blurrg egg. If all goes well, it should hatch into a baby blurrg. It can be eaten raw, but it's much better cooked. -->
+  <EggBlurrgFertilized.description>A fertilized blurrg egg. If all goes well, it should hatch into a baby blurrg. It can be eaten raw, but it's much better cooked.</EggBlurrgFertilized.description>
+  <!-- EN: blurrg egg (unfert.) -->
+  <EggBlurrgUnFertilized.label>blurrg egg (unfert.)</EggBlurrgUnFertilized.label>
+  <!-- EN: An unfertilized blurrg egg. It can be eaten raw, but it's much better cooked. -->
+  <EggBlurrgUnFertilized.description>An unfertilized blurrg egg. It can be eaten raw, but it's much better cooked.</EggBlurrgUnFertilized.description>
+  <!-- EN: bogwing egg (fert.) -->
+  <EggBogwingFertilized.label>bogwing egg (fert.)</EggBogwingFertilized.label>
+  <!-- EN: A fertilized bogwing egg. If all goes well, it should hatch into a baby bogwing. It can be eaten raw, but it's much better cooked. -->
+  <EggBogwingFertilized.description>A fertilized bogwing egg. If all goes well, it should hatch into a baby bogwing. It can be eaten raw, but it's much better cooked.</EggBogwingFertilized.description>
+  <!-- EN: bogwing egg (unfert.) -->
+  <EggBogwingUnFertilized.label>bogwing egg (unfert.)</EggBogwingUnFertilized.label>
+  <!-- EN: An unfertilized bogwing egg. It can be eaten raw, but it's much better cooked. -->
+  <EggBogwingUnFertilized.description>An unfertilized bogwing egg. It can be eaten raw, but it's much better cooked.</EggBogwingUnFertilized.description>
+  <!-- EN: bolotaur egg (fert.) -->
+  <EggBolotaurFertilized.label>bolotaur egg (fert.)</EggBolotaurFertilized.label>
+  <!-- EN: A fertilized bolotaur egg. If all goes well, it should hatch into a baby bolotaur. It can be eaten raw, but it's much better cooked. -->
+  <EggBolotaurFertilized.description>A fertilized bolotaur egg. If all goes well, it should hatch into a baby bolotaur. It can be eaten raw, but it's much better cooked.</EggBolotaurFertilized.description>
+  <!-- EN: bolotaur egg (unfert.) -->
+  <EggBolotaurUnFertilized.label>bolotaur egg (unfert.)</EggBolotaurUnFertilized.label>
+  <!-- EN: An unfertilized bolotaur egg. It can be eaten raw, but it's much better cooked. -->
+  <EggBolotaurUnFertilized.description>An unfertilized bolotaur egg. It can be eaten raw, but it's much better cooked.</EggBolotaurUnFertilized.description>
+  <!-- EN: boma egg (fert.) -->
+  <EggBomaFertilized.label>boma egg (fert.)</EggBomaFertilized.label>
+  <!-- EN: A fertilized boma egg. If all goes well, it should hatch into a baby boma. It can be eaten raw, but it's much better cooked. -->
+  <EggBomaFertilized.description>A fertilized boma egg. If all goes well, it should hatch into a baby boma. It can be eaten raw, but it's much better cooked.</EggBomaFertilized.description>
+  <!-- EN: boma egg (unfert.) -->
+  <EggBomaUnFertilized.label>boma egg (unfert.)</EggBomaUnFertilized.label>
+  <!-- EN: An unfertilized boma egg. It can be eaten raw, but it's much better cooked. -->
+  <EggBomaUnFertilized.description>An unfertilized boma egg. It can be eaten raw, but it's much better cooked.</EggBomaUnFertilized.description>
+  <!-- EN: brezak egg (fert.) -->
+  <EggBrezakFertilized.label>brezak egg (fert.)</EggBrezakFertilized.label>
+  <!-- EN: A fertilized brezak egg. If all goes well, it should hatch into a baby brezak. It can be eaten raw, but it's much better cooked. -->
+  <EggBrezakFertilized.description>A fertilized brezak egg. If all goes well, it should hatch into a baby brezak. It can be eaten raw, but it's much better cooked.</EggBrezakFertilized.description>
+  <!-- EN: brezak egg (unfert.) -->
+  <EggBrezakUnFertilized.label>brezak egg (unfert.)</EggBrezakUnFertilized.label>
+  <!-- EN: An unfertilized brezak egg. It can be eaten raw, but it's much better cooked. -->
+  <EggBrezakUnFertilized.description>An unfertilized brezak egg. It can be eaten raw, but it's much better cooked.</EggBrezakUnFertilized.description>
+  <!-- EN: can-cell egg (fert.) -->
+  <EggCanCellFertilized.label>can-cell egg (fert.)</EggCanCellFertilized.label>
+  <!-- EN: A fertilized can-cell egg. If all goes well, it should hatch into a baby can-cell. It can be eaten raw, but it's much better cooked. -->
+  <EggCanCellFertilized.description>A fertilized can-cell egg. If all goes well, it should hatch into a baby can-cell. It can be eaten raw, but it's much better cooked.</EggCanCellFertilized.description>
+  <!-- EN: can-cell egg (unfert.) -->
+  <EggCanCellUnFertilized.label>can-cell egg (unfert.)</EggCanCellUnFertilized.label>
+  <!-- EN: An unfertilized can-cell egg. It can be eaten raw, but it's much better cooked. -->
+  <EggCanCellUnFertilized.description>An unfertilized can-cell egg. It can be eaten raw, but it's much better cooked.</EggCanCellUnFertilized.description>
+  <!-- EN: chrysalide rancor egg (fert.) -->
+  <EggChrysalideRancorFertilized.label>chrysalide rancor egg (fert.)</EggChrysalideRancorFertilized.label>
+  <!-- EN: A fertilized chrysalide rancor egg. If all goes well, it should hatch into a baby chrysalide rancor. It can be eaten raw, but it's much better cooked. -->
+  <EggChrysalideRancorFertilized.description>A fertilized chrysalide rancor egg. If all goes well, it should hatch into a baby chrysalide rancor. It can be eaten raw, but it's much better cooked.</EggChrysalideRancorFertilized.description>
+  <!-- EN: chrysalide rancor egg (unfert.) -->
+  <EggChrysalideRancorUnFertilized.label>chrysalide rancor egg (unfert.)</EggChrysalideRancorUnFertilized.label>
+  <!-- EN: An unfertilized chrysalide rancor egg. It can be eaten raw, but it's much better cooked. -->
+  <EggChrysalideRancorUnFertilized.description>An unfertilized chrysalide rancor egg. It can be eaten raw, but it's much better cooked.</EggChrysalideRancorUnFertilized.description>
+  <!-- EN: clodhopper egg (fert.) -->
+  <EggClodhopperFertilized.label>clodhopper egg (fert.)</EggClodhopperFertilized.label>
+  <!-- EN: Fertilized clodhopper egg. -->
+  <EggClodhopperFertilized.description>Fertilized clodhopper egg.</EggClodhopperFertilized.description>
+  <!-- EN: clodhopper egg (unfert.) -->
+  <EggClodhopperUnFertilized.label>clodhopper egg (unfert.)</EggClodhopperUnFertilized.label>
+  <!-- EN: An unfertilized clodhopper egg. It can be eaten raw, but it's much better cooked -->
+  <EggClodhopperUnFertilized.description>An unfertilized clodhopper egg. It can be eaten raw, but it's much better cooked</EggClodhopperUnFertilized.description>
+  <!-- EN: convor egg (fert.) -->
+  <EggConvorFertilized.label>convor egg (fert.)</EggConvorFertilized.label>
+  <!-- EN: A fertilized convor egg. If all goes well, it should hatch into a baby convor. It can be eaten raw, but it's much better cooked.. -->
+  <EggConvorFertilized.description>A fertilized convor egg. If all goes well, it should hatch into a baby convor. It can be eaten raw, but it's much better cooked..</EggConvorFertilized.description>
+  <!-- EN: convor egg (unfert.) -->
+  <EggConvorUnFertilized.label>convor egg (unfert.)</EggConvorUnFertilized.label>
+  <!-- EN: An unfertilized convor egg. It can be eaten raw, but it's much better cooked. -->
+  <EggConvorUnFertilized.description>An unfertilized convor egg. It can be eaten raw, but it's much better cooked.</EggConvorUnFertilized.description>
+  <!-- EN: dactillion egg (fert.) -->
+  <EggDactillionFertilized.label>dactillion egg (fert.)</EggDactillionFertilized.label>
+  <!-- EN: A fertilized dactillion egg. If all goes well, it should hatch into a baby dactillion. It can be eaten raw, but it's much better cooked. -->
+  <EggDactillionFertilized.description>A fertilized dactillion egg. If all goes well, it should hatch into a baby dactillion. It can be eaten raw, but it's much better cooked.</EggDactillionFertilized.description>
+  <!-- EN: dactillion egg (unfert.) -->
+  <EggDactillionUnFertilized.label>dactillion egg (unfert.)</EggDactillionUnFertilized.label>
+  <!-- EN: An unfertilized dactillion egg. It can be eaten raw, but it's much better cooked. -->
+  <EggDactillionUnFertilized.description>An unfertilized dactillion egg. It can be eaten raw, but it's much better cooked.</EggDactillionUnFertilized.description>
+  <!-- EN: dewback egg (fert.) -->
+  <EggDewbackFertilized.label>dewback egg (fert.)</EggDewbackFertilized.label>
+  <!-- EN: Fertilized Dewback egg. -->
+  <EggDewbackFertilized.description>Fertilized Dewback egg.</EggDewbackFertilized.description>
+  <!-- EN: dewback egg (unfert.) -->
+  <EggDewbackUnFertilized.label>dewback egg (unfert.)</EggDewbackUnFertilized.label>
+  <!-- EN: An unfertilized dewback egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggDewbackUnFertilized.description>An unfertilized dewback egg. It can be eaten raw, but it's much, much better cooked.</EggDewbackUnFertilized.description>
+  <!-- EN: dragonsnake egg (fert.) -->
+  <EggDragonsnakeFertilized.label>dragonsnake egg (fert.)</EggDragonsnakeFertilized.label>
+  <!-- EN: A fertilized dragonsnake egg. If all goes well, it should hatch into a baby dragonsnake. It can be eaten raw, but it's much better cooked. -->
+  <EggDragonsnakeFertilized.description>A fertilized dragonsnake egg. If all goes well, it should hatch into a baby dragonsnake. It can be eaten raw, but it's much better cooked.</EggDragonsnakeFertilized.description>
+  <!-- EN: dragonsnake egg (unfert.) -->
+  <EggDragonsnakeUnFertilized.label>dragonsnake egg (unfert.)</EggDragonsnakeUnFertilized.label>
+  <!-- EN: An unfertilized dragonsnake egg. It can be eaten raw, but it's much better cooked. -->
+  <EggDragonsnakeUnFertilized.description>An unfertilized dragonsnake egg. It can be eaten raw, but it's much better cooked.</EggDragonsnakeUnFertilized.description>
+  <!-- EN: drexl egg (fert.) -->
+  <EggDrexlFertilized.label>drexl egg (fert.)</EggDrexlFertilized.label>
+  <!-- EN: A fertilized drexl egg. If all goes well, it should hatch into a baby drexl. It can be eaten raw, but it's much better cooked. -->
+  <EggDrexlFertilized.description>A fertilized drexl egg. If all goes well, it should hatch into a baby drexl. It can be eaten raw, but it's much better cooked.</EggDrexlFertilized.description>
+  <!-- EN: drexl egg (unfert.) -->
+  <EggDrexlUnFertilized.label>drexl egg (unfert.)</EggDrexlUnFertilized.label>
+  <!-- EN: An unfertilized drexl egg. It can be eaten raw, but it's much better cooked. -->
+  <EggDrexlUnFertilized.description>An unfertilized drexl egg. It can be eaten raw, but it's much better cooked.</EggDrexlUnFertilized.description>
+  <!-- EN: energy spider egg (fert.) -->
+  <EggEnergySpiderFertilized.label>energy spider egg (fert.)</EggEnergySpiderFertilized.label>
+  <!-- EN: A fertilized energy spider egg. If all goes well, it should hatch into a baby energy spider. It can be eaten raw, but it's much better cooked. -->
+  <EggEnergySpiderFertilized.description>A fertilized energy spider egg. If all goes well, it should hatch into a baby energy spider. It can be eaten raw, but it's much better cooked.</EggEnergySpiderFertilized.description>
+  <!-- EN: energy spider egg (unfert.) -->
+  <EggEnergySpiderUnFertilized.label>energy spider egg (unfert.)</EggEnergySpiderUnFertilized.label>
+  <!-- EN: An unfertilized energy spider egg. It can be eaten raw, but it's much better cooked. -->
+  <EggEnergySpiderUnFertilized.description>An unfertilized energy spider egg. It can be eaten raw, but it's much better cooked.</EggEnergySpiderUnFertilized.description>
+  <!-- EN: fambaa egg (fert.) -->
+  <EggFambaaFertilized.label>fambaa egg (fert.)</EggFambaaFertilized.label>
+  <!-- EN: A fertilized fambaa egg. If all goes well, it should hatch into a baby fambaa. It can be eaten raw, but it's much better cooked. -->
+  <EggFambaaFertilized.description>A fertilized fambaa egg. If all goes well, it should hatch into a baby fambaa. It can be eaten raw, but it's much better cooked.</EggFambaaFertilized.description>
+  <!-- EN: fambaa egg (unfert.) -->
+  <EggFambaaUnFertilized.label>fambaa egg (unfert.)</EggFambaaUnFertilized.label>
+  <!-- EN: An unfertilized fambaa egg. It can be eaten raw, but it's much better cooked. -->
+  <EggFambaaUnFertilized.description>An unfertilized fambaa egg. It can be eaten raw, but it's much better cooked.</EggFambaaUnFertilized.description>
+  <!-- EN: fanback egg (fert.) -->
+  <EggFanbackFertilized.label>fanback egg (fert.)</EggFanbackFertilized.label>
+  <!-- EN: A fertilized fanback egg. If all goes well, it should hatch into a baby fanback. It can be eaten raw, but it's much better cooked. -->
+  <EggFanbackFertilized.description>A fertilized fanback egg. If all goes well, it should hatch into a baby fanback. It can be eaten raw, but it's much better cooked.</EggFanbackFertilized.description>
+  <!-- EN: fanback egg (unfert.) -->
+  <EggFanbackUnFertilized.label>fanback egg (unfert.)</EggFanbackUnFertilized.label>
+  <!-- EN: An unfertilized fanback egg. It can be eaten raw, but it's much better cooked. -->
+  <EggFanbackUnFertilized.description>An unfertilized fanback egg. It can be eaten raw, but it's much better cooked.</EggFanbackUnFertilized.description>
+  <!-- EN: frilled gorg egg (fert.) -->
+  <EggFrilledGorgFertilized.label>frilled gorg egg (fert.)</EggFrilledGorgFertilized.label>
+  <!-- EN: A fertilized frilled gorg egg. If all goes well, it should hatch into a baby frilled gorg. It can be eaten raw, but it's much better cooked. -->
+  <EggFrilledGorgFertilized.description>A fertilized frilled gorg egg. If all goes well, it should hatch into a baby frilled gorg. It can be eaten raw, but it's much better cooked.</EggFrilledGorgFertilized.description>
+  <!-- EN: frilled gorg egg (unfert.) -->
+  <EggFrilledGorgUnFertilized.label>frilled gorg egg (unfert.)</EggFrilledGorgUnFertilized.label>
+  <!-- EN: An unfertilized frilled gorg egg. It can be eaten raw, but it's much better cooked. -->
+  <EggFrilledGorgUnFertilized.description>An unfertilized frilled gorg egg. It can be eaten raw, but it's much better cooked.</EggFrilledGorgUnFertilized.description>
+  <!-- EN: gelagrub egg (fert.) -->
+  <EggGelagrubFertilized.label>gelagrub egg (fert.)</EggGelagrubFertilized.label>
+  <!-- EN: A fertilized gelagrub egg. If all goes well, it should hatch into a baby gelagrub. It can be eaten raw, but it's much better cooked. -->
+  <EggGelagrubFertilized.description>A fertilized gelagrub egg. If all goes well, it should hatch into a baby gelagrub. It can be eaten raw, but it's much better cooked.</EggGelagrubFertilized.description>
+  <!-- EN: gelagrub egg (unfert.) -->
+  <EggGelagrubUnFertilized.label>gelagrub egg (unfert.)</EggGelagrubUnFertilized.label>
+  <!-- EN: An unfertilized gelagrub egg. It can be eaten raw, but it's much better cooked. -->
+  <EggGelagrubUnFertilized.description>An unfertilized gelagrub egg. It can be eaten raw, but it's much better cooked.</EggGelagrubUnFertilized.description>
+  <!-- EN: gizka egg (fert.) -->
+  <EggGizkaFertilized.label>gizka egg (fert.)</EggGizkaFertilized.label>
+  <!-- EN: Fertilized Gizka egg. -->
+  <EggGizkaFertilized.description>Fertilized Gizka egg.</EggGizkaFertilized.description>
+  <!-- EN: gizka egg (unfert.) -->
+  <EggGizkaUnFertilized.label>gizka egg (unfert.)</EggGizkaUnFertilized.label>
+  <!-- EN: Unfertilized Gizka egg. -->
+  <EggGizkaUnFertilized.description>Unfertilized Gizka egg.</EggGizkaUnFertilized.description>
+  <!-- EN: gorg egg (fert.) -->
+  <EggGorgFertilized.label>gorg egg (fert.)</EggGorgFertilized.label>
+  <!-- EN: A fertilized gorg egg. If all goes well, it should hatch into a baby gorg. It can be eaten raw, but it's much better cooked. -->
+  <EggGorgFertilized.description>A fertilized gorg egg. If all goes well, it should hatch into a baby gorg. It can be eaten raw, but it's much better cooked.</EggGorgFertilized.description>
+  <!-- EN: gorg egg (unfert.) -->
+  <EggGorgUnFertilized.label>gorg egg (unfert.)</EggGorgUnFertilized.label>
+  <!-- EN: An unfertilized gorg egg. It can be eaten raw, but it's much better cooked. -->
+  <EggGorgUnFertilized.description>An unfertilized gorg egg. It can be eaten raw, but it's much better cooked.</EggGorgUnFertilized.description>
+  <!-- EN: greater krayt dragon egg (fert.) -->
+  <EggGreaterKraytDragonFertilized.label>greater krayt dragon egg (fert.)</EggGreaterKraytDragonFertilized.label>
+  <!-- EN: A fertilized greater krayt dragon egg. If all goes well, it should hatch into a baby greater krayt dragon. It can be eaten raw, but it's much better cooked. -->
+  <EggGreaterKraytDragonFertilized.description>A fertilized greater krayt dragon egg. If all goes well, it should hatch into a baby greater krayt dragon. It can be eaten raw, but it's much better cooked.</EggGreaterKraytDragonFertilized.description>
+  <!-- EN: greater krayt dragon egg (unfert.) -->
+  <EggGreaterKraytDragonUnFertilized.label>greater krayt dragon egg (unfert.)</EggGreaterKraytDragonUnFertilized.label>
+  <!-- EN: An unfertilized greater krayt dragon egg. It can be eaten raw, but it's much better cooked. -->
+  <EggGreaterKraytDragonUnFertilized.description>An unfertilized greater krayt dragon egg. It can be eaten raw, but it's much better cooked.</EggGreaterKraytDragonUnFertilized.description>
+  <!-- EN: gullipud egg (fert.) -->
+  <EggGullipudFertilized.label>gullipud egg (fert.)</EggGullipudFertilized.label>
+  <!-- EN: A fertilized gullipud egg. If all goes well, it should hatch into a baby gullipud. It can be eaten raw, but it's much better cooked. -->
+  <EggGullipudFertilized.description>A fertilized gullipud egg. If all goes well, it should hatch into a baby gullipud. It can be eaten raw, but it's much better cooked.</EggGullipudFertilized.description>
+  <!-- EN: gullipud egg (unfert.) -->
+  <EggGullipudUnFertilized.label>gullipud egg (unfert.)</EggGullipudUnFertilized.label>
+  <!-- EN: An unfertilized gullipud egg. It can be eaten raw, but it's much better cooked. -->
+  <EggGullipudUnFertilized.description>An unfertilized gullipud egg. It can be eaten raw, but it's much better cooked.</EggGullipudUnFertilized.description>
+  <!-- EN: gutkurr egg (fert.) -->
+  <EggGutkurrFertilized.label>gutkurr egg (fert.)</EggGutkurrFertilized.label>
+  <!-- EN: A fertilized gutkurr egg. If all goes well, it should hatch into a baby gutkurr. It can be eaten raw, but it's much better cooked. -->
+  <EggGutkurrFertilized.description>A fertilized gutkurr egg. If all goes well, it should hatch into a baby gutkurr. It can be eaten raw, but it's much better cooked.</EggGutkurrFertilized.description>
+  <!-- EN: gutkurr egg (unfert.) -->
+  <EggGutkurrUnFertilized.label>gutkurr egg (unfert.)</EggGutkurrUnFertilized.label>
+  <!-- EN: A fertilized gutkurr egg. It can be eaten raw, but it's much better cooked. -->
+  <EggGutkurrUnFertilized.description>A fertilized gutkurr egg. It can be eaten raw, but it's much better cooked.</EggGutkurrUnFertilized.description>
+  <!-- EN: harvester beetle egg (fert.) -->
+  <EggHarvesterBeetleFertilized.label>harvester beetle egg (fert.)</EggHarvesterBeetleFertilized.label>
+  <!-- EN: A fertilized harvester beetle egg. If all goes well, it should hatch into a baby harvester beetle. It can be eaten raw, but it's much better cooked. -->
+  <EggHarvesterBeetleFertilized.description>A fertilized harvester beetle egg. If all goes well, it should hatch into a baby harvester beetle. It can be eaten raw, but it's much better cooked.</EggHarvesterBeetleFertilized.description>
+  <!-- EN: harvester beetle egg (unfert.) -->
+  <EggHarvesterBeetleUnFertilized.label>harvester beetle egg (unfert.)</EggHarvesterBeetleUnFertilized.label>
+  <!-- EN: An unfertilized harvester beetle egg. It can be eaten raw, but it's much better cooked. -->
+  <EggHarvesterBeetleUnFertilized.description>An unfertilized harvester beetle egg. It can be eaten raw, but it's much better cooked.</EggHarvesterBeetleUnFertilized.description>
+  <!-- EN: hawkbat egg (fert.) -->
+  <EggHawkbatFertilized.label>hawkbat egg (fert.)</EggHawkbatFertilized.label>
+  <!-- EN: A fertilized hawkbat egg. If all goes well, it should hatch into a baby hawkbat. It can be eaten raw or cooked. -->
+  <EggHawkbatFertilized.description>A fertilized hawkbat egg. If all goes well, it should hatch into a baby hawkbat. It can be eaten raw or cooked.</EggHawkbatFertilized.description>
+  <!-- EN: hawkbat egg (unfert.) -->
+  <EggHawkbatUnFertilized.label>hawkbat egg (unfert.)</EggHawkbatUnFertilized.label>
+  <!-- EN: An unfertilized hawkbat egg. It can be eaten raw or cooked. -->
+  <EggHawkbatUnFertilized.description>An unfertilized hawkbat egg. It can be eaten raw or cooked.</EggHawkbatUnFertilized.description>
+  <!-- EN: horax egg (fert.) -->
+  <EggHoraxFertilized.label>horax egg (fert.)</EggHoraxFertilized.label>
+  <!-- EN: A fertilized horax egg. If all goes well, it should hatch into a baby horax. It can be eaten raw, but it's much better cooked. -->
+  <EggHoraxFertilized.description>A fertilized horax egg. If all goes well, it should hatch into a baby horax. It can be eaten raw, but it's much better cooked.</EggHoraxFertilized.description>
+  <!-- EN: horax egg (unfert.) -->
+  <EggHoraxUnFertilized.label>horax egg (unfert.)</EggHoraxUnFertilized.label>
+  <!-- EN: An unfertilized frilled horax egg. It can be eaten raw, but it's much better cooked. -->
+  <EggHoraxUnFertilized.description>An unfertilized frilled horax egg. It can be eaten raw, but it's much better cooked.</EggHoraxUnFertilized.description>
+  <!-- EN: hssiss egg (fert.) -->
+  <EggHssissFertilized.label>hssiss egg (fert.)</EggHssissFertilized.label>
+  <!-- EN: A fertilized hssiss egg. If all goes well, it should hatch into a baby hssiss. It can be eaten raw, but it's much better cooked. -->
+  <EggHssissFertilized.description>A fertilized hssiss egg. If all goes well, it should hatch into a baby hssiss. It can be eaten raw, but it's much better cooked.</EggHssissFertilized.description>
+  <!-- EN: hssiss egg (unfert.) -->
+  <EggHssissUnFertilized.label>hssiss egg (unfert.)</EggHssissUnFertilized.label>
+  <!-- EN: An unfertilized hssiss egg. It can be eaten raw, but it's much better cooked. -->
+  <EggHssissUnFertilized.description>An unfertilized hssiss egg. It can be eaten raw, but it's much better cooked.</EggHssissUnFertilized.description>
+  <!-- EN: igitz egg (fert.) -->
+  <EggIgitzFertilized.label>igitz egg (fert.)</EggIgitzFertilized.label>
+  <!-- EN: A fertilized igitz egg. If all goes well, it should hatch into a baby igitz. It can be eaten raw, but it's much better cooked. -->
+  <EggIgitzFertilized.description>A fertilized igitz egg. If all goes well, it should hatch into a baby igitz. It can be eaten raw, but it's much better cooked.</EggIgitzFertilized.description>
+  <!-- EN: igitz egg (unfert.) -->
+  <EggIgitzUnFertilized.label>igitz egg (unfert.)</EggIgitzUnFertilized.label>
+  <!-- EN: An unfertilized igitz egg. It can be eaten raw, but it's much better cooked. -->
+  <EggIgitzUnFertilized.description>An unfertilized igitz egg. It can be eaten raw, but it's much better cooked.</EggIgitzUnFertilized.description>
+  <!-- EN: insectile egg (unfert.) -->
+  <EggInsectileUnfertilized.label>insectile egg (unfert.)</EggInsectileUnfertilized.label>
+  <!-- EN: An unfertilized insectile egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggInsectileUnfertilized.description>An unfertilized insectile egg. It can be eaten raw, but it's much, much better cooked.</EggInsectileUnfertilized.description>
+  <!-- EN: jungle rancor egg (fert.) -->
+  <EggJungleRancorFertilized.label>jungle rancor egg (fert.)</EggJungleRancorFertilized.label>
+  <!-- EN: A fertilized jungle rancor egg. If all goes well, it should hatch into a baby jungle rancor. It can be eaten raw, but it's much better cooked. -->
+  <EggJungleRancorFertilized.description>A fertilized jungle rancor egg. If all goes well, it should hatch into a baby jungle rancor. It can be eaten raw, but it's much better cooked.</EggJungleRancorFertilized.description>
+  <!-- EN: jungle rancor egg (unfert.) -->
+  <EggJungleRancorUnFertilized.label>jungle rancor egg (unfert.)</EggJungleRancorUnFertilized.label>
+  <!-- EN: An unfertilized jungle rancor egg. It can be eaten raw, but it's much better cooked. -->
+  <EggJungleRancorUnFertilized.description>An unfertilized jungle rancor egg. It can be eaten raw, but it's much better cooked.</EggJungleRancorUnFertilized.description>
+  <!-- EN: kaadu egg (fert.) -->
+  <EggKaaduFertilized.label>kaadu egg (fert.)</EggKaaduFertilized.label>
+  <!-- EN: A fertilized kaadu egg. If all goes well, it should hatch into a baby kaadu. It can be eaten raw, but it's much better cooked. -->
+  <EggKaaduFertilized.description>A fertilized kaadu egg. If all goes well, it should hatch into a baby kaadu. It can be eaten raw, but it's much better cooked.</EggKaaduFertilized.description>
+  <!-- EN: kaadu egg (unfert.) -->
+  <EggKaaduUnFertilized.label>kaadu egg (unfert.)</EggKaaduUnFertilized.label>
+  <!-- EN: An unfertilized kaadu egg. It can be eaten raw, but it's much better cooked. -->
+  <EggKaaduUnFertilized.description>An unfertilized kaadu egg. It can be eaten raw, but it's much better cooked.</EggKaaduUnFertilized.description>
+  <!-- EN: kell dragon egg (fert.) -->
+  <EggKellDragonFertilized.label>kell dragon egg (fert.)</EggKellDragonFertilized.label>
+  <!-- EN: A fertilized kell dragon egg. If all goes well, it should hatch into a baby kell dragon. It can be eaten raw, but it's much better cooked. -->
+  <EggKellDragonFertilized.description>A fertilized kell dragon egg. If all goes well, it should hatch into a baby kell dragon. It can be eaten raw, but it's much better cooked.</EggKellDragonFertilized.description>
+  <!-- EN: kell dragon egg (unfert.) -->
+  <EggKellDragonUnFertilized.label>kell dragon egg (unfert.)</EggKellDragonUnFertilized.label>
+  <!-- EN: An unfertilized kell dragon egg. It can be eaten raw, but it's much better cooked. -->
+  <EggKellDragonUnFertilized.description>An unfertilized kell dragon egg. It can be eaten raw, but it's much better cooked.</EggKellDragonUnFertilized.description>
+  <!-- EN: kinrath egg (fert.) -->
+  <EggKinrathFertilized.label>kinrath egg (fert.)</EggKinrathFertilized.label>
+  <!-- EN: A fertilized kinrath egg. If all goes well, it should hatch into a baby kinrath. It can be eaten raw, but it's much better cooked. -->
+  <EggKinrathFertilized.description>A fertilized kinrath egg. If all goes well, it should hatch into a baby kinrath. It can be eaten raw, but it's much better cooked.</EggKinrathFertilized.description>
+  <!-- EN: kinrath egg (unfert.) -->
+  <EggKinrathUnFertilized.label>kinrath egg (unfert.)</EggKinrathUnFertilized.label>
+  <!-- EN: An unfertilized kinrath egg. It can be eaten raw, but it's much better cooked. -->
+  <EggKinrathUnFertilized.description>An unfertilized kinrath egg. It can be eaten raw, but it's much better cooked.</EggKinrathUnFertilized.description>
+  <!-- EN: k'lor'slug egg (fert.) -->
+  <EggKlorslugFertilized.label>k'lor'slug egg (fert.)</EggKlorslugFertilized.label>
+  <!-- EN: A fertilized k'lor'slug egg. If all goes well, it should hatch into a baby k'lor'slug. It can be eaten raw, but it's much better cooked. -->
+  <EggKlorslugFertilized.description>A fertilized k'lor'slug egg. If all goes well, it should hatch into a baby k'lor'slug. It can be eaten raw, but it's much better cooked.</EggKlorslugFertilized.description>
+  <!-- EN: k'lor'slug egg (unfert.) -->
+  <EggKlorslugUnFertilized.label>k'lor'slug egg (unfert.)</EggKlorslugUnFertilized.label>
+  <!-- EN: An unfertilized k'lor'slug egg. It can be eaten raw, but it's much better cooked. -->
+  <EggKlorslugUnFertilized.description>An unfertilized k'lor'slug egg. It can be eaten raw, but it's much better cooked.</EggKlorslugUnFertilized.description>
+  <!-- EN: krayt dragon egg (fert.) -->
+  <EggKraytDragonFertilized.label>krayt dragon egg (fert.)</EggKraytDragonFertilized.label>
+  <!-- EN: Fertilized Krayt Dragon egg. -->
+  <EggKraytDragonFertilized.description>Fertilized Krayt Dragon egg.</EggKraytDragonFertilized.description>
+  <!-- EN: krayt dragon egg (unfert.) -->
+  <EggKraytDragonUnFertilized.label>krayt dragon egg (unfert.)</EggKraytDragonUnFertilized.label>
+  <!-- EN: Unfertilized Krayt Dragon egg. -->
+  <EggKraytDragonUnFertilized.description>Unfertilized Krayt Dragon egg.</EggKraytDragonUnFertilized.description>
+  <!-- EN: krykna egg (fert.) -->
+  <EggKryknaFertilized.label>krykna egg (fert.)</EggKryknaFertilized.label>
+  <!-- EN: A fertilized kinrath egg. If all goes well, it should hatch into a baby krykna. It can be eaten raw, but it's much better cooked. -->
+  <EggKryknaFertilized.description>A fertilized kinrath egg. If all goes well, it should hatch into a baby krykna. It can be eaten raw, but it's much better cooked.</EggKryknaFertilized.description>
+  <!-- EN: krykna egg (unfert.) -->
+  <EggKryknaUnFertilized.label>krykna egg (unfert.)</EggKryknaUnFertilized.label>
+  <!-- EN: An unfertilized kinrath egg. It can be eaten raw, but it's much better cooked. -->
+  <EggKryknaUnFertilized.description>An unfertilized kinrath egg. It can be eaten raw, but it's much better cooked.</EggKryknaUnFertilized.description>
+  <!-- EN: kwazel maw egg (fert.) -->
+  <EggKwazelMawFertilized.label>kwazel maw egg (fert.)</EggKwazelMawFertilized.label>
+  <!-- EN: A fertilized kwazel maw egg. If all goes well, it should hatch into a baby kwazel maw. It can be eaten raw, but it's much better cooked. -->
+  <EggKwazelMawFertilized.description>A fertilized kwazel maw egg. If all goes well, it should hatch into a baby kwazel maw. It can be eaten raw, but it's much better cooked.</EggKwazelMawFertilized.description>
+  <!-- EN: kwazel maw egg (unfert.) -->
+  <EggKwazelMawUnFertilized.label>kwazel maw egg (unfert.)</EggKwazelMawUnFertilized.label>
+  <!-- EN: An unfertilized kwazel maw egg. It can be eaten raw, but it's much better cooked. -->
+  <EggKwazelMawUnFertilized.description>An unfertilized kwazel maw egg. It can be eaten raw, but it's much better cooked.</EggKwazelMawUnFertilized.description>
+  <!-- EN: kwi egg (fert.) -->
+  <EggKwiFertilized.label>kwi egg (fert.)</EggKwiFertilized.label>
+  <!-- EN: A fertilized kwi egg. If all goes well, it should hatch into a baby kwi. It can be eaten raw, but it's much better cooked. -->
+  <EggKwiFertilized.description>A fertilized kwi egg. If all goes well, it should hatch into a baby kwi. It can be eaten raw, but it's much better cooked.</EggKwiFertilized.description>
+  <!-- EN: kwi egg (unfert.) -->
+  <EggKwiUnFertilized.label>kwi egg (unfert.)</EggKwiUnFertilized.label>
+  <!-- EN: An unfertilized kwi egg. It can be eaten raw, but it's much better cooked. -->
+  <EggKwiUnFertilized.description>An unfertilized kwi egg. It can be eaten raw, but it's much better cooked.</EggKwiUnFertilized.description>
+  <!-- EN: lava flea egg (fert.) -->
+  <EggLavaFleaFertilized.label>lava flea egg (fert.)</EggLavaFleaFertilized.label>
+  <!-- EN: A fertilized glava flea egg. If all goes well, it should hatch into a baby lava flea. It can be eaten raw, but it's much better cooked. -->
+  <EggLavaFleaFertilized.description>A fertilized glava flea egg. If all goes well, it should hatch into a baby lava flea. It can be eaten raw, but it's much better cooked.</EggLavaFleaFertilized.description>
+  <!-- EN: lava flea egg (unfert.) -->
+  <EggLavaFleaUnFertilized.label>lava flea egg (unfert.)</EggLavaFleaUnFertilized.label>
+  <!-- EN: A unfertilized glava flea egg. It can be eaten raw, but it's much better cooked. -->
+  <EggLavaFleaUnFertilized.description>A unfertilized glava flea egg. It can be eaten raw, but it's much better cooked.</EggLavaFleaUnFertilized.description>
+  <!-- EN: longtail gorg egg (fert.) -->
+  <EggLongtailGorgFertilized.label>longtail gorg egg (fert.)</EggLongtailGorgFertilized.label>
+  <!-- EN: A fertilized longtail gorg egg. If all goes well, it should hatch into a baby longtail gorg. It can be eaten raw, but it's much better cooked. -->
+  <EggLongtailGorgFertilized.description>A fertilized longtail gorg egg. If all goes well, it should hatch into a baby longtail gorg. It can be eaten raw, but it's much better cooked.</EggLongtailGorgFertilized.description>
+  <!-- EN: longtail gorg egg (unfert.) -->
+  <EggLongtailGorgUnFertilized.label>longtail gorg egg (unfert.)</EggLongtailGorgUnFertilized.label>
+  <!-- EN: An unfertilized longtail gorg egg. It can be eaten raw, but it's much better cooked. -->
+  <EggLongtailGorgUnFertilized.description>An unfertilized longtail gorg egg. It can be eaten raw, but it's much better cooked.</EggLongtailGorgUnFertilized.description>
+  <!-- EN: lylek egg (fert.) -->
+  <EggLylekFertilized.label>lylek egg (fert.)</EggLylekFertilized.label>
+  <!-- EN: A fertilized lylek egg. If all goes well, it should hatch into a baby lylek. It can be eaten raw, but it's much better cooked. -->
+  <EggLylekFertilized.description>A fertilized lylek egg. If all goes well, it should hatch into a baby lylek. It can be eaten raw, but it's much better cooked.</EggLylekFertilized.description>
+  <!-- EN: lylek egg (unfert.) -->
+  <EggLylekUnFertilized.label>lylek egg (unfert.)</EggLylekUnFertilized.label>
+  <!-- EN: An unfertilized lylek egg. It can be eaten raw, but it's much better cooked. -->
+  <EggLylekUnFertilized.description>An unfertilized lylek egg. It can be eaten raw, but it's much better cooked.</EggLylekUnFertilized.description>
+  <!-- EN: Mammavian egg (unfert.) -->
+  <EggMammavianUnfertilized.label>Mammavian egg (unfert.)</EggMammavianUnfertilized.label>
+  <!-- EN: Unfertilized mammavian egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggMammavianUnfertilized.description>Unfertilized mammavian egg. It can be eaten raw, but it's much, much better cooked.</EggMammavianUnfertilized.description>
+  <!-- EN: mastiff phalone egg (fert.) -->
+  <EggMastiffPhaloneFertilized.label>mastiff phalone egg (fert.)</EggMastiffPhaloneFertilized.label>
+  <!-- EN: A fertilized mastiff phalone egg. If all goes well, it should hatch into a baby mastiff phalone. It can be eaten raw, but it's much better cooked. -->
+  <EggMastiffPhaloneFertilized.description>A fertilized mastiff phalone egg. If all goes well, it should hatch into a baby mastiff phalone. It can be eaten raw, but it's much better cooked.</EggMastiffPhaloneFertilized.description>
+  <!-- EN: mastiff phalone egg (unfert.) -->
+  <EggMastiffPhaloneUnFertilized.label>mastiff phalone egg (unfert.)</EggMastiffPhaloneUnFertilized.label>
+  <!-- EN: An unfertilized mastiff phalone egg. It can be eaten raw, but it's much better cooked. -->
+  <EggMastiffPhaloneUnFertilized.description>An unfertilized mastiff phalone egg. It can be eaten raw, but it's much better cooked.</EggMastiffPhaloneUnFertilized.description>
+  <!-- EN: mudhorn egg (fert.) -->
+  <EggMudhornFertilized.label>mudhorn egg (fert.)</EggMudhornFertilized.label>
+  <!-- EN: A fertilized mudhorn egg. If all goes well, it should hatch into a baby mudhorn. It can be eaten raw or cooked. -->
+  <EggMudhornFertilized.description>A fertilized mudhorn egg. If all goes well, it should hatch into a baby mudhorn. It can be eaten raw or cooked.</EggMudhornFertilized.description>
+  <!-- EN: mudhorn egg (unfert.) -->
+  <EggMudhornUnFertilized.label>mudhorn egg (unfert.)</EggMudhornUnFertilized.label>
+  <!-- EN: An unfertilized mudhorn egg. It can be eaten raw or cooked. -->
+  <EggMudhornUnFertilized.description>An unfertilized mudhorn egg. It can be eaten raw or cooked.</EggMudhornUnFertilized.description>
+  <!-- EN: nuna egg (fert.) -->
+  <EggNunaFertilized.label>nuna egg (fert.)</EggNunaFertilized.label>
+  <!-- EN: A fertilized nuna egg. If all goes well, it should hatch into a baby nuna. It can be eaten raw, but it's much better cooked. -->
+  <EggNunaFertilized.description>A fertilized nuna egg. If all goes well, it should hatch into a baby nuna. It can be eaten raw, but it's much better cooked.</EggNunaFertilized.description>
+  <!-- EN: nuna egg (unfert.) -->
+  <EggNunaUnFertilized.label>nuna egg (unfert.)</EggNunaUnFertilized.label>
+  <!-- EN: An unfertilized nuna egg. It can be eaten raw, but it's much better cooked. -->
+  <EggNunaUnFertilized.description>An unfertilized nuna egg. It can be eaten raw, but it's much better cooked.</EggNunaUnFertilized.description>
+  <!-- EN: painted spat egg (fert.) -->
+  <EggPaintedSpatFertilized.label>painted spat egg (fert.)</EggPaintedSpatFertilized.label>
+  <!-- EN: A fertilized painted spat egg. If all goes well, it should hatch into a baby painted spat. It can be eaten raw, but it's much better cooked. -->
+  <EggPaintedSpatFertilized.description>A fertilized painted spat egg. If all goes well, it should hatch into a baby painted spat. It can be eaten raw, but it's much better cooked.</EggPaintedSpatFertilized.description>
+  <!-- EN: painted spat egg (unfert.) -->
+  <EggPaintedSpatUnFertilized.label>painted spat egg (unfert.)</EggPaintedSpatUnFertilized.label>
+  <!-- EN: An unfertilized painted spat egg. It can be eaten raw, but it's much better cooked. -->
+  <EggPaintedSpatUnFertilized.description>An unfertilized painted spat egg. It can be eaten raw, but it's much better cooked.</EggPaintedSpatUnFertilized.description>
+  <!-- EN: peko-peko egg (fert.) -->
+  <EggPekopekoFertilized.label>peko-peko egg (fert.)</EggPekopekoFertilized.label>
+  <!-- EN: A fertilized peko-peko egg. If all goes well, it should hatch into a baby peko-peko. It can be eaten raw, but it's much better cooked. -->
+  <EggPekopekoFertilized.description>A fertilized peko-peko egg. If all goes well, it should hatch into a baby peko-peko. It can be eaten raw, but it's much better cooked.</EggPekopekoFertilized.description>
+  <!-- EN: peko-peko egg (unfert.) -->
+  <EggPekopekoUnFertilized.label>peko-peko egg (unfert.)</EggPekopekoUnFertilized.label>
+  <!-- EN: An unfertilized peko-peko egg. It can be eaten raw, but it's much better cooked. -->
+  <EggPekopekoUnFertilized.description>An unfertilized peko-peko egg. It can be eaten raw, but it's much better cooked.</EggPekopekoUnFertilized.description>
+  <!-- EN: pikobis egg (fert.) -->
+  <EggPikobisFertilized.label>pikobis egg (fert.)</EggPikobisFertilized.label>
+  <!-- EN: A fertilized pikobis egg. If all goes well, it should hatch into a baby pikobis. It can be eaten raw, but it's much better cooked. -->
+  <EggPikobisFertilized.description>A fertilized pikobis egg. If all goes well, it should hatch into a baby pikobis. It can be eaten raw, but it's much better cooked.</EggPikobisFertilized.description>
+  <!-- EN: pikobis egg (unfert.) -->
+  <EggPikobisUnFertilized.label>pikobis egg (unfert.)</EggPikobisUnFertilized.label>
+  <!-- EN: An unfertilized pikobis egg. It can be eaten raw, but it's much better cooked. -->
+  <EggPikobisUnFertilized.description>An unfertilized pikobis egg. It can be eaten raw, but it's much better cooked.</EggPikobisUnFertilized.description>
+  <!-- EN: pod egg (unfert.) -->
+  <EggPodUnfertilized.label>pod egg (unfert.)</EggPodUnfertilized.label>
+  <!-- EN: An unfertilized "pod"-like egg with a leathery shell. It can be eaten raw, but it's much, much better cooked. -->
+  <EggPodUnfertilized.description>An unfertilized "pod"-like egg with a leathery shell. It can be eaten raw, but it's much, much better cooked.</EggPodUnfertilized.description>
+  <!-- EN: porg egg (fert.) -->
+  <EggPorgFertilized.label>porg egg (fert.)</EggPorgFertilized.label>
+  <!-- EN: Fertilized Porg egg. -->
+  <EggPorgFertilized.description>Fertilized Porg egg.</EggPorgFertilized.description>
+  <!-- EN: porg egg (unfert.) -->
+  <EggPorgUnFertilized.label>porg egg (unfert.)</EggPorgUnFertilized.label>
+  <!-- EN: Unfertilized Porg egg. -->
+  <EggPorgUnFertilized.description>Unfertilized Porg egg.</EggPorgUnFertilized.description>
+  <!-- EN: rancor egg (fert.) -->
+  <EggRancorFertilized.label>rancor egg (fert.)</EggRancorFertilized.label>
+  <!-- EN: Fertilized Rancor egg. -->
+  <EggRancorFertilized.description>Fertilized Rancor egg.</EggRancorFertilized.description>
+  <!-- EN: rancor egg (unfert.) -->
+  <EggRancorUnFertilized.label>rancor egg (unfert.)</EggRancorUnFertilized.label>
+  <!-- EN: Unfertilized Rancor egg. -->
+  <EggRancorUnFertilized.description>Unfertilized Rancor egg.</EggRancorUnFertilized.description>
+  <!-- EN: reptavian egg (unfert.) -->
+  <EggReptavianUnfertilized.label>reptavian egg (unfert.)</EggReptavianUnfertilized.label>
+  <!-- EN: An unfertilized reptavian egg. It can be eaten raw, but it's much, much better cooked. -->
+  <EggReptavianUnfertilized.description>An unfertilized reptavian egg. It can be eaten raw, but it's much, much better cooked.</EggReptavianUnfertilized.description>
+  <!-- EN: rikknit roe (fert.) -->
+  <EggRikknitFertilized.label>rikknit roe (fert.)</EggRikknitFertilized.label>
+  <!-- EN: A fertilized rikknit egg. If all goes well, it should hatch into a baby rikknit. It can be eaten raw, but it's much better cooked. -->
+  <EggRikknitFertilized.description>A fertilized rikknit egg. If all goes well, it should hatch into a baby rikknit. It can be eaten raw, but it's much better cooked.</EggRikknitFertilized.description>
+  <!-- EN: rikknit roe (unfert.) -->
+  <EggRikknitUnFertilized.label>rikknit roe (unfert.)</EggRikknitUnFertilized.label>
+  <!-- EN: An unfertilized rikknit egg. It can be eaten raw, but it's much better cooked. -->
+  <EggRikknitUnFertilized.description>An unfertilized rikknit egg. It can be eaten raw, but it's much better cooked.</EggRikknitUnFertilized.description>
+  <!-- EN: crustapod roe (unfert.) -->
+  <EggRoeUnfertilized.label>crustapod roe (unfert.)</EggRoeUnfertilized.label>
+  <!-- EN: Unfertilized crustapod roe. It can be eaten raw, but it's much, much better cooked. -->
+  <EggRoeUnfertilized.description>Unfertilized crustapod roe. It can be eaten raw, but it's much, much better cooked.</EggRoeUnfertilized.description>
+  <!-- EN: shiro egg (fert.) -->
+  <EggShiroFertilized.label>shiro egg (fert.)</EggShiroFertilized.label>
+  <!-- EN: A fertilized shiro egg. If all goes well, it should hatch into a baby shiro. It can be eaten raw, but it's much better cooked. -->
+  <EggShiroFertilized.description>A fertilized shiro egg. If all goes well, it should hatch into a baby shiro. It can be eaten raw, but it's much better cooked.</EggShiroFertilized.description>
+  <!-- EN: shiro-trap egg (fert.) -->
+  <EggShiroTrapFertilized.label>shiro-trap egg (fert.)</EggShiroTrapFertilized.label>
+  <!-- EN: A fertilized shiro-trap egg. If all goes well, it should develop into a baby shiro-trap. It can be eaten raw, but it's much better cooked. -->
+  <EggShiroTrapFertilized.description>A fertilized shiro-trap egg. If all goes well, it should develop into a baby shiro-trap. It can be eaten raw, but it's much better cooked.</EggShiroTrapFertilized.description>
+  <!-- EN: shiro-trap egg (unfert.) -->
+  <EggShiroTrapUnFertilized.label>shiro-trap egg (unfert.)</EggShiroTrapUnFertilized.label>
+  <!-- EN: An unfertilized shiro-trap egg. It can be eaten raw, but it's much better cooked. -->
+  <EggShiroTrapUnFertilized.description>An unfertilized shiro-trap egg. It can be eaten raw, but it's much better cooked.</EggShiroTrapUnFertilized.description>
+  <!-- EN: shiro egg (unfert.) -->
+  <EggShiroUnFertilized.label>shiro egg (unfert.)</EggShiroUnFertilized.label>
+  <!-- EN: An unfertilized shiro egg. It can be eaten raw, but it's much better cooked. -->
+  <EggShiroUnFertilized.description>An unfertilized shiro egg. It can be eaten raw, but it's much better cooked.</EggShiroUnFertilized.description>
+  <!-- EN: shyrack egg (fert.) -->
+  <EggShyrackFertilized.label>shyrack egg (fert.)</EggShyrackFertilized.label>
+  <!-- EN: A fertilized shyrack egg. If all goes well, it should hatch into a baby shyrack. It can be eaten raw, but it's much better cooked. -->
+  <EggShyrackFertilized.description>A fertilized shyrack egg. If all goes well, it should hatch into a baby shyrack. It can be eaten raw, but it's much better cooked.</EggShyrackFertilized.description>
+  <!-- EN: shyrack egg (unfert.) -->
+  <EggShyrackUnFertilized.label>shyrack egg (unfert.)</EggShyrackUnFertilized.label>
+  <!-- EN: An unfertilized shyrack egg. It can be eaten raw, but it's much better cooked. -->
+  <EggShyrackUnFertilized.description>An unfertilized shyrack egg. It can be eaten raw, but it's much better cooked.</EggShyrackUnFertilized.description>
+  <!-- EN: Silooth egg (fert.) -->
+  <EggSiloothFertilized.label>Silooth egg (fert.)</EggSiloothFertilized.label>
+  <!-- EN: A fertilized silooth egg. If all goes well, it should hatch into a baby silooth. It can be eaten raw, but it's much better cooked. -->
+  <EggSiloothFertilized.description>A fertilized silooth egg. If all goes well, it should hatch into a baby silooth. It can be eaten raw, but it's much better cooked.</EggSiloothFertilized.description>
+  <!-- EN: Silooth egg (unfert.) -->
+  <EggSiloothUnFertilized.label>Silooth egg (unfert.)</EggSiloothUnFertilized.label>
+  <!-- EN: An unfertilized silooth egg. It can be eaten raw, but it's much better cooked. -->
+  <EggSiloothUnFertilized.description>An unfertilized silooth egg. It can be eaten raw, but it's much better cooked.</EggSiloothUnFertilized.description>
+  <!-- EN: snoruuk spore (fert.) -->
+  <EggSnoruukFertilized.label>snoruuk spore (fert.)</EggSnoruukFertilized.label>
+  <!-- EN: A fertilized snoruuk spore. If all goes well, it should develop into a baby snoruuk. It can be eaten raw, but it's much better cooked. -->
+  <EggSnoruukFertilized.description>A fertilized snoruuk spore. If all goes well, it should develop into a baby snoruuk. It can be eaten raw, but it's much better cooked.</EggSnoruukFertilized.description>
+  <!-- EN: snoruuk spore (unfert.) -->
+  <EggSnoruukUnFertilized.label>snoruuk spore (unfert.)</EggSnoruukUnFertilized.label>
+  <!-- EN: An unfertilized snoruuk spore. It can be eaten raw, but it's much better cooked. -->
+  <EggSnoruukUnFertilized.description>An unfertilized snoruuk spore. It can be eaten raw, but it's much better cooked.</EggSnoruukUnFertilized.description>
+  <!-- EN: taozin egg (fert.) -->
+  <EggTaozinFertilized.label>taozin egg (fert.)</EggTaozinFertilized.label>
+  <!-- EN: A fertilized taozin egg. If all goes well, it should hatch into a baby taozin. It can be eaten raw, but it's much better cooked. -->
+  <EggTaozinFertilized.description>A fertilized taozin egg. If all goes well, it should hatch into a baby taozin. It can be eaten raw, but it's much better cooked.</EggTaozinFertilized.description>
+  <!-- EN: taozin egg (unfert.) -->
+  <EggTaozinUnFertilized.label>taozin egg (unfert.)</EggTaozinUnFertilized.label>
+  <!-- EN: An unfertilized taozin egg. It can be eaten raw, but it's much better cooked. -->
+  <EggTaozinUnFertilized.description>An unfertilized taozin egg. It can be eaten raw, but it's much better cooked.</EggTaozinUnFertilized.description>
+  <!-- EN: tet'niss crab roe (fert.) -->
+  <EggTetnissCrabFertilized.label>tet'niss crab roe (fert.)</EggTetnissCrabFertilized.label>
+  <!-- EN: A fertilized tet'niss crab egg. If all goes well, it should hatch into a baby tet'niss crab. It can be eaten raw, but it's much better cooked. -->
+  <EggTetnissCrabFertilized.description>A fertilized tet'niss crab egg. If all goes well, it should hatch into a baby tet'niss crab. It can be eaten raw, but it's much better cooked.</EggTetnissCrabFertilized.description>
+  <!-- EN: tet'niss crab roe (unfert.) -->
+  <EggTetnissCrabUnFertilized.label>tet'niss crab roe (unfert.)</EggTetnissCrabUnFertilized.label>
+  <!-- EN: An unfertilized tet'niss crab egg. It can be eaten raw, but it's much better cooked. -->
+  <EggTetnissCrabUnFertilized.description>An unfertilized tet'niss crab egg. It can be eaten raw, but it's much better cooked.</EggTetnissCrabUnFertilized.description>
+  <!-- EN: thranta egg (fert.) -->
+  <EggThrantaFertilized.label>thranta egg (fert.)</EggThrantaFertilized.label>
+  <!-- EN: A fertilized thranta egg. If all goes well, it should hatch into a baby thranta. It can be eaten raw, but it's much better cooked. -->
+  <EggThrantaFertilized.description>A fertilized thranta egg. If all goes well, it should hatch into a baby thranta. It can be eaten raw, but it's much better cooked.</EggThrantaFertilized.description>
+  <!-- EN: thranta egg (unfert.) -->
+  <EggThrantaUnFertilized.label>thranta egg (unfert.)</EggThrantaUnFertilized.label>
+  <!-- EN: An unfertilized thranta egg. It can be eaten raw, but it's much better cooked. -->
+  <EggThrantaUnFertilized.description>An unfertilized thranta egg. It can be eaten raw, but it's much better cooked.</EggThrantaUnFertilized.description>
+  <!-- EN: torton egg (fert.) -->
+  <EggTortonFertilized.label>torton egg (fert.)</EggTortonFertilized.label>
+  <!-- EN: A fertilized torton egg. If all goes well, it should hatch into a baby torton. It can be eaten raw, but it's much better cooked. -->
+  <EggTortonFertilized.description>A fertilized torton egg. If all goes well, it should hatch into a baby torton. It can be eaten raw, but it's much better cooked.</EggTortonFertilized.description>
+  <!-- EN: torton egg (unfert.) -->
+  <EggTortonUnFertilized.label>torton egg (unfert.)</EggTortonUnFertilized.label>
+  <!-- EN: An unfertilized torton egg. It can be eaten raw, but it's much better cooked. -->
+  <EggTortonUnFertilized.description>An unfertilized torton egg. It can be eaten raw, but it's much better cooked.</EggTortonUnFertilized.description>
+  <!-- EN: urusai egg (fert.) -->
+  <EggUrusaiFertilized.label>urusai egg (fert.)</EggUrusaiFertilized.label>
+  <!-- EN: A fertilized urusai egg. If all goes well, it should hatch into a baby urusai. It can be eaten raw, but it's much better cooked. -->
+  <EggUrusaiFertilized.description>A fertilized urusai egg. If all goes well, it should hatch into a baby urusai. It can be eaten raw, but it's much better cooked.</EggUrusaiFertilized.description>
+  <!-- EN: urusai egg (unfert.) -->
+  <EggUrusaiUnFertilized.label>urusai egg (unfert.)</EggUrusaiUnFertilized.label>
+  <!-- EN: An unfertilized urusai egg. It can be eaten raw, but it's much better cooked. -->
+  <EggUrusaiUnFertilized.description>An unfertilized urusai egg. It can be eaten raw, but it's much better cooked.</EggUrusaiUnFertilized.description>
+  <!-- EN: uvak egg (fert.) -->
+  <EggUvakFertilized.label>uvak egg (fert.)</EggUvakFertilized.label>
+  <!-- EN: A fertilized uvak egg. If all goes well, it should hatch into a baby uvak. It can be eaten raw, but it's much better cooked. -->
+  <EggUvakFertilized.description>A fertilized uvak egg. If all goes well, it should hatch into a baby uvak. It can be eaten raw, but it's much better cooked.</EggUvakFertilized.description>
+  <!-- EN: uvak egg (unfert.) -->
+  <EggUvakUnFertilized.label>uvak egg (unfert.)</EggUvakUnFertilized.label>
+  <!-- EN: An unfertilized uvak egg. It can be eaten raw, but it's much better cooked. -->
+  <EggUvakUnFertilized.description>An unfertilized uvak egg. It can be eaten raw, but it's much better cooked.</EggUvakUnFertilized.description>
+  <!-- EN: varactyl egg (fert.) -->
+  <EggVaractylFertilized.label>varactyl egg (fert.)</EggVaractylFertilized.label>
+  <!-- EN: A fertilized varactyl egg. If all goes well, it should hatch into a baby varactyl. It can be eaten raw, but it's much better cooked. -->
+  <EggVaractylFertilized.description>A fertilized varactyl egg. If all goes well, it should hatch into a baby varactyl. It can be eaten raw, but it's much better cooked.</EggVaractylFertilized.description>
+  <!-- EN: varactyl egg (unfert.) -->
+  <EggVaractylUnFertilized.label>varactyl egg (unfert.)</EggVaractylUnFertilized.label>
+  <!-- EN: A fertilized varactyl egg. If all goes well, it should hatch into a baby varactyl. It can be eaten raw, but it's much better cooked. -->
+  <EggVaractylUnFertilized.description>A fertilized varactyl egg. If all goes well, it should hatch into a baby varactyl. It can be eaten raw, but it's much better cooked.</EggVaractylUnFertilized.description>
+  <!-- EN: warbird egg (fert.) -->
+  <EggWarbirdFertilized.label>warbird egg (fert.)</EggWarbirdFertilized.label>
+  <!-- EN: A fertilized warbird egg. If all goes well, it should hatch into a baby warbird. It can be eaten raw, but it's much better cooked. -->
+  <EggWarbirdFertilized.description>A fertilized warbird egg. If all goes well, it should hatch into a baby warbird. It can be eaten raw, but it's much better cooked.</EggWarbirdFertilized.description>
+  <!-- EN: warbird egg (unfert.) -->
+  <EggWarbirdUnFertilized.label>warbird egg (unfert.)</EggWarbirdUnFertilized.label>
+  <!-- EN: An unfertilized warbird egg. It can be eaten raw, but it's much better cooked. -->
+  <EggWarbirdUnFertilized.description>An unfertilized warbird egg. It can be eaten raw, but it's much better cooked.</EggWarbirdUnFertilized.description>
+  <!-- EN: whisperbird egg (fert.) -->
+  <EggWhisperbirdFertilized.label>whisperbird egg (fert.)</EggWhisperbirdFertilized.label>
+  <!-- EN: A fertilized whisperbird egg. If all goes well, it should hatch into a baby whisperbird. It can be eaten raw, but it's much better cooked.. -->
+  <EggWhisperbirdFertilized.description>A fertilized whisperbird egg. If all goes well, it should hatch into a baby whisperbird. It can be eaten raw, but it's much better cooked..</EggWhisperbirdFertilized.description>
+  <!-- EN: whisperbird egg (unfert.) -->
+  <EggWhisperbirdUnFertilized.label>whisperbird egg (unfert.)</EggWhisperbirdUnFertilized.label>
+  <!-- EN: An unfertilized whisperbird egg. It can be eaten raw, but it's much better cooked. -->
+  <EggWhisperbirdUnFertilized.description>An unfertilized whisperbird egg. It can be eaten raw, but it's much better cooked.</EggWhisperbirdUnFertilized.description>
+  <!-- EN: worrt egg (fert.) -->
+  <EggWorrtFertilized.label>worrt egg (fert.)</EggWorrtFertilized.label>
+  <!-- EN: A fertilized worrt egg. If all goes well, it should hatch into a baby worrt. It can be eaten raw, but it's much better cooked. -->
+  <EggWorrtFertilized.description>A fertilized worrt egg. If all goes well, it should hatch into a baby worrt. It can be eaten raw, but it's much better cooked.</EggWorrtFertilized.description>
+  <!-- EN: worrt egg (unfert.) -->
+  <EggWorrtUnFertilized.label>worrt egg (unfert.)</EggWorrtUnFertilized.label>
+  <!-- EN: An unfertilized worrt egg. It can be eaten raw, but it's much better cooked. -->
+  <EggWorrtUnFertilized.description>An unfertilized worrt egg. It can be eaten raw, but it's much better cooked.</EggWorrtUnFertilized.description>
+  <!-- EN: wraid egg (fert.) -->
+  <EggWraidFertilized.label>wraid egg (fert.)</EggWraidFertilized.label>
+  <!-- EN: A fertilized wraid egg. If all goes well, it should hatch into a baby wraid. It can be eaten raw, but it's much better cooked. -->
+  <EggWraidFertilized.description>A fertilized wraid egg. If all goes well, it should hatch into a baby wraid. It can be eaten raw, but it's much better cooked.</EggWraidFertilized.description>
+  <!-- EN: wraid egg (unfert.) -->
+  <EggWraidUnFertilized.label>wraid egg (unfert.)</EggWraidUnFertilized.label>
+  <!-- EN: An unfertilized wraid egg. It can be eaten raw, but it's much better cooked. -->
+  <EggWraidUnFertilized.description>An unfertilized wraid egg. It can be eaten raw, but it's much better cooked.</EggWraidUnFertilized.description>
+  <!-- EN: wyyyschokk egg (fert.) -->
+  <EggWyyyschokkFertilized.label>wyyyschokk egg (fert.)</EggWyyyschokkFertilized.label>
+  <!-- EN: A fertilized wyyyschokk egg. If all goes well, it should hatch into a baby wyyyschokk. It can be eaten raw, but it's much better cooked. -->
+  <EggWyyyschokkFertilized.description>A fertilized wyyyschokk egg. If all goes well, it should hatch into a baby wyyyschokk. It can be eaten raw, but it's much better cooked.</EggWyyyschokkFertilized.description>
+  <!-- EN: wyyyschokk egg (unfert.) -->
+  <EggWyyyschokkUnFertilized.label>wyyyschokk egg (unfert.)</EggWyyyschokkUnFertilized.label>
+  <!-- EN: An unfertilized wyyyschokk egg. It can be eaten raw, but it's much better cooked. -->
+  <EggWyyyschokkUnFertilized.description>An unfertilized wyyyschokk egg. It can be eaten raw, but it's much better cooked.</EggWyyyschokkUnFertilized.description>
+  <!-- EN: yobshrimp roe (fert.) -->
+  <EggYobshrimpFertilized.label>yobshrimp roe (fert.)</EggYobshrimpFertilized.label>
+  <!-- EN: A fertilized yobshrimp egg. If all goes well, it should hatch into a baby yobshrimp. It can be eaten raw, but it's much better cooked. -->
+  <EggYobshrimpFertilized.description>A fertilized yobshrimp egg. If all goes well, it should hatch into a baby yobshrimp. It can be eaten raw, but it's much better cooked.</EggYobshrimpFertilized.description>
+  <!-- EN: yobshrimp roe (unfert.) -->
+  <EggYobshrimpUnFertilized.label>yobshrimp roe (unfert.)</EggYobshrimpUnFertilized.label>
+  <!-- EN: An unfertilized yobshrimp egg. It can be eaten raw, but it's much better cooked. -->
+  <EggYobshrimpUnFertilized.description>An unfertilized yobshrimp egg. It can be eaten raw, but it's much better cooked.</EggYobshrimpUnFertilized.description>
+  <!-- EN: felinoid meat -->
+  <Felinoid_Meat.label>felinoid meat</Felinoid_Meat.label>
+  <!-- EN: A piece of meat from a felinoid. -->
+  <Felinoid_Meat.description>A piece of meat from a felinoid.</Felinoid_Meat.description>
+  <!-- EN: gorg meat -->
+  <Gorg_Meat.label>gorg meat</Gorg_Meat.label>
+  <!-- EN: A piece of meat from an amphibian. -->
+  <Gorg_Meat.description>A piece of meat from an amphibian.</Gorg_Meat.description>
+  <!-- EN: gornt meat -->
+  <Gornt_Meat.label>gornt meat</Gornt_Meat.label>
+  <!-- EN: A piece of meat from a gornt. It is reputed to taste exceptional and commands a price that matches the fact. -->
+  <Gornt_Meat.description>A piece of meat from a gornt. It is reputed to taste exceptional and commands a price that matches the fact.</Gornt_Meat.description>
+  <!-- EN: green milk -->
+  <GreenMilk.label>green milk</GreenMilk.label>
+  <!-- EN: Green milk from a reek. The high tannin content makes this milk quite bitter, but it can be cooked to remove the taste. -->
+  <GreenMilk.description>Green milk from a reek. The high tannin content makes this milk quite bitter, but it can be cooked to remove the taste.</GreenMilk.description>
+  <!-- EN: gundark skull -->
+  <GundarkSkull.label>gundark skull</GundarkSkull.label>
+  <!-- EN: A gundark skull. These fearsome trophies were often displayed to show-off hunting prowess. -->
+  <GundarkSkull.description>A gundark skull. These fearsome trophies were often displayed to show-off hunting prowess.</GundarkSkull.description>
+  <!-- EN: horax maw -->
+  <HoraxMaw.label>horax maw</HoraxMaw.label>
+  <!-- EN: The upper maw and horn of a mighty Horax. It holds great significance in Nelvaanian culture as its presence tells of a successful Horax hunt. -->
+  <HoraxMaw.description>The upper maw and horn of a mighty Horax. It holds great significance in Nelvaanian culture as its presence tells of a successful Horax hunt.</HoraxMaw.description>
+  <!-- EN: insectile meat -->
+  <Insectile_Meat.label>insectile meat</Insectile_Meat.label>
+  <!-- EN: A piece of meat from an insectile. -->
+  <Insectile_Meat.description>A piece of meat from an insectile.</Insectile_Meat.description>
+  <!-- EN: jakobeast horn -->
+  <JakobeastHorn.label>jakobeast horn</JakobeastHorn.label>
+  <!-- EN: A horn from a Jakobeast. While somewhat unwieldy as a melee weapon, it is beautiful and sells for a decent price due to it's "mysterious properties". -->
+  <JakobeastHorn.description>A horn from a Jakobeast. While somewhat unwieldy as a melee weapon, it is beautiful and sells for a decent price due to it's "mysterious properties".</JakobeastHorn.description>
+  <!-- EN: point -->
+  <JakobeastHorn.tools.point.label>point</JakobeastHorn.tools.point.label>
+  <!-- EN: base -->
+  <JakobeastHorn.tools.base.label>base</JakobeastHorn.tools.base.label>
+  <!-- EN: krayt meat -->
+  <Krayt_Meat.label>krayt meat</Krayt_Meat.label>
+  <!-- EN: A piece of meat from a large reptiloid. -->
+  <Krayt_Meat.description>A piece of meat from a large reptiloid.</Krayt_Meat.description>
+  <!-- EN: krayt dragon horn -->
+  <KraytDragonHorn.label>krayt dragon horn</KraytDragonHorn.label>
+  <!-- EN: A krayt dragon's horn. Good enough to fend off some enemies. A valuable and potentially useful weapon if needed. -->
+  <KraytDragonHorn.description>A krayt dragon's horn. Good enough to fend off some enemies. A valuable and potentially useful weapon if needed.</KraytDragonHorn.description>
+  <!-- EN: point -->
+  <KraytDragonHorn.tools.point.label>point</KraytDragonHorn.tools.point.label>
+  <!-- EN: base -->
+  <KraytDragonHorn.tools.base.label>base</KraytDragonHorn.tools.base.label>
+  <!-- EN: krayt dragon skull -->
+  <KraytDragonSkull.label>krayt dragon skull</KraytDragonSkull.label>
+  <!-- EN: A krayt dragon skull. Not only is it intimidating but its presence tells of a great hunt. -->
+  <KraytDragonSkull.description>A krayt dragon skull. Not only is it intimidating but its presence tells of a great hunt.</KraytDragonSkull.description>
+  <!-- EN: krayt pearl -->
+  <KraytPearl.label>krayt pearl</KraytPearl.label>
+  <!-- EN: A krayt pearl from the stomach of a greater krayt dragon. This is a relic of a truly legendary hunt. -->
+  <KraytPearl.description>A krayt pearl from the stomach of a greater krayt dragon. This is a relic of a truly legendary hunt.</KraytPearl.description>
+  <!-- EN: bantha fur -->
+  <Leather_Bantha.label>bantha fur</Leather_Bantha.label>
+  <!-- EN: Tanned, dried, bantha fur. Not the toughest material, but very insulative against the heat. -->
+  <Leather_Bantha.description>Tanned, dried, bantha fur. Not the toughest material, but very insulative against the heat.</Leather_Bantha.description>
+  <!-- EN: bright fur -->
+  <Leather_Bright.label>bright fur</Leather_Bright.label>
+  <!-- EN: The pelt of an creature typically associated with the "lightside". This beautiful fur protects very well and is believed to increase ones "connection to the force". -->
+  <Leather_Bright.description>The pelt of an creature typically associated with the "lightside". This beautiful fur protects very well and is believed to increase ones "connection to the force".</Leather_Bright.description>
+  <!-- EN: crustapod chitin -->
+  <Leather_Crustapod.label>crustapod chitin</Leather_Crustapod.label>
+  <!-- EN: Tanned, dried, crustapod chitin. Durable, but lacks insulation. -->
+  <Leather_Crustapod.description>Tanned, dried, crustapod chitin. Durable, but lacks insulation.</Leather_Crustapod.description>
+  <!-- EN: dark hide -->
+  <Leather_Dark.label>dark hide</Leather_Dark.label>
+  <!-- EN: The pelt of an creature typically associated with the "darkside". This tough skin protects very well and is believed to increase ones "connection to the force". -->
+  <Leather_Dark.description>The pelt of an creature typically associated with the "darkside". This tough skin protects very well and is believed to increase ones "connection to the force".</Leather_Dark.description>
+  <!-- EN: fambaa hide -->
+  <Leather_Fambaa.label>fambaa hide</Leather_Fambaa.label>
+  <!-- EN: The pelt of an Fambaa. Harvested from a large, hardy animal. This thick skin protects very well. -->
+  <Leather_Fambaa.description>The pelt of an Fambaa. Harvested from a large, hardy animal. This thick skin protects very well.</Leather_Fambaa.description>
+  <!-- EN: felinoid fur -->
+  <Leather_Felinoid.label>felinoid fur</Leather_Felinoid.label>
+  <!-- EN: Tanned, dried, felinoid fur. Soft and beautiful. -->
+  <Leather_Felinoid.description>Tanned, dried, felinoid fur. Soft and beautiful.</Leather_Felinoid.description>
+  <!-- EN: gundark pelt -->
+  <Leather_Gundark.label>gundark pelt</Leather_Gundark.label>
+  <!-- EN: The pelt of a Gundark. Harvested from a large, predatory animal. This hide protects reasonably well and is quite beautiful. -->
+  <Leather_Gundark.description>The pelt of a Gundark. Harvested from a large, predatory animal. This hide protects reasonably well and is quite beautiful.</Leather_Gundark.description>
+  <!-- EN: horax hide -->
+  <Leather_Horax.label>horax hide</Leather_Horax.label>
+  <!-- EN: Tanned, dried, Horax hide. Strong, durable and pricey. -->
+  <Leather_Horax.description>Tanned, dried, Horax hide. Strong, durable and pricey.</Leather_Horax.description>
+  <!-- EN: insectile hide -->
+  <Leather_Insectile.label>insectile hide</Leather_Insectile.label>
+  <!-- EN: Tanned, dried, insectile skin. It is suprisingly tough but insulates poorly. -->
+  <Leather_Insectile.description>Tanned, dried, insectile skin. It is suprisingly tough but insulates poorly.</Leather_Insectile.description>
+  <!-- EN: insectine chitin -->
+  <Leather_Insectine.label>insectine chitin</Leather_Insectine.label>
+  <!-- EN: The shell of a insectine. It provides decent protection and insulates well against the cold. -->
+  <Leather_Insectine.description>The shell of a insectine. It provides decent protection and insulates well against the cold.</Leather_Insectine.description>
+  <!-- EN: krayt hide -->
+  <Leather_KraytDragon.label>krayt hide</Leather_KraytDragon.label>
+  <!-- EN: Tanned, dried, krayt dragon scales. Exceptionally strong and commands a hefty price. -->
+  <Leather_KraytDragon.description>Tanned, dried, krayt dragon scales. Exceptionally strong and commands a hefty price.</Leather_KraytDragon.description>
+  <!-- EN: lava flea chitin -->
+  <Leather_LavaFlea.label>lava flea chitin</Leather_LavaFlea.label>
+  <!-- EN: The shell of a Lava Flea. It is exceptionally resistant to high temperature, but only provide average protection. -->
+  <Leather_LavaFlea.description>The shell of a Lava Flea. It is exceptionally resistant to high temperature, but only provide average protection.</Leather_LavaFlea.description>
+  <!-- EN: mammavian hide -->
+  <Leather_Mammavian.label>mammavian hide</Leather_Mammavian.label>
+  <!-- EN: Tanned, dried, skin. It is quite insulative. -->
+  <Leather_Mammavian.description>Tanned, dried, skin. It is quite insulative.</Leather_Mammavian.description>
+  <!-- EN: nerf hide -->
+  <Leather_Nerf.label>nerf hide</Leather_Nerf.label>
+  <!-- EN: Tanned, dried, nerf hide. A popular clothing textile. -->
+  <Leather_Nerf.description>Tanned, dried, nerf hide. A popular clothing textile.</Leather_Nerf.description>
+  <!-- EN: rancor hide -->
+  <Leather_Rancor.label>rancor hide</Leather_Rancor.label>
+  <!-- EN: Tanned, dried, Rancor hide. Strong, durable and pricey. -->
+  <Leather_Rancor.description>Tanned, dried, Rancor hide. Strong, durable and pricey.</Leather_Rancor.description>
+  <!-- EN: reptavian hide -->
+  <Leather_Reptavian.label>reptavian hide</Leather_Reptavian.label>
+  <!-- EN: Tanned, dried, skin. It is tough and somewhat beautiful. -->
+  <Leather_Reptavian.description>Tanned, dried, skin. It is tough and somewhat beautiful.</Leather_Reptavian.description>
+  <!-- EN: reptomammal fur -->
+  <Leather_ReptoFur.label>reptomammal fur</Leather_ReptoFur.label>
+  <!-- EN: Tanned, dried, reptomammal fur. Smells bad but at least it insulates against the cold. -->
+  <Leather_ReptoFur.description>Tanned, dried, reptomammal fur. Smells bad but at least it insulates against the cold.</Leather_ReptoFur.description>
+  <!-- EN: reptomammal hide -->
+  <Leather_Reptomammal.label>reptomammal hide</Leather_Reptomammal.label>
+  <!-- EN: Tanned, dried, skin. It is tough and insulative. -->
+  <Leather_Reptomammal.description>Tanned, dried, skin. It is tough and insulative.</Leather_Reptomammal.description>
+  <!-- EN: roggwart hide -->
+  <Leather_Roggwart.label>roggwart hide</Leather_Roggwart.label>
+  <!-- EN: The pelt of a Roggwart. Harvested from a large, predatory animal. This hide protects reasonably well and is heat resistant. -->
+  <Leather_Roggwart.description>The pelt of a Roggwart. Harvested from a large, predatory animal. This hide protects reasonably well and is heat resistant.</Leather_Roggwart.description>
+  <!-- EN: ronto hide -->
+  <Leather_Ronto.label>ronto hide</Leather_Ronto.label>
+  <!-- EN: The pelt of an Ronto. Harvested from a large, hardy animal. This thick skin protects very well. -->
+  <Leather_Ronto.description>The pelt of an Ronto. Harvested from a large, hardy animal. This thick skin protects very well.</Leather_Ronto.description>
+  <!-- EN: rycrit hide -->
+  <Leather_Rycrit.label>rycrit hide</Leather_Rycrit.label>
+  <!-- EN: The hide of an Rycrit. Known for it's insulative properties above it protective ones. -->
+  <Leather_Rycrit.description>The hide of an Rycrit. Known for it's insulative properties above it protective ones.</Leather_Rycrit.description>
+  <!-- EN: saurian hide -->
+  <Leather_Saurian.label>saurian hide</Leather_Saurian.label>
+  <!-- EN: Tanned, dried, saurian skin. It has an unusual beauty. -->
+  <Leather_Saurian.description>Tanned, dried, saurian skin. It has an unusual beauty.</Leather_Saurian.description>
+  <!-- EN: soft fur -->
+  <Leather_SoftFur.label>soft fur</Leather_SoftFur.label>
+  <!-- EN: Tanned, dried, soft fur. Soft, insulating and beautiful. -->
+  <Leather_SoftFur.description>Tanned, dried, soft fur. Soft, insulating and beautiful.</Leather_SoftFur.description>
+  <!-- EN: testudine chitin -->
+  <Leather_Testudine.label>testudine chitin</Leather_Testudine.label>
+  <!-- EN: The shell of a testudine. It provides excellent protection but does not insulate well. -->
+  <Leather_Testudine.description>The shell of a testudine. It provides excellent protection but does not insulate well.</Leather_Testudine.description>
+  <!-- EN: heavy hide -->
+  <Leather_Tough.label>heavy hide</Leather_Tough.label>
+  <!-- EN: Tanned, dried, skin. It won't keep you warm but it is reasonably durable. -->
+  <Leather_Tough.description>Tanned, dried, skin. It won't keep you warm but it is reasonably durable.</Leather_Tough.description>
+  <!-- EN: vapaad chitin -->
+  <Leather_Vapaad.label>vapaad chitin</Leather_Vapaad.label>
+  <!-- EN: The shell of a Vapaad. It is exceptionally resistant to high temperature and provides decent protection. -->
+  <Leather_Vapaad.description>The shell of a Vapaad. It is exceptionally resistant to high temperature and provides decent protection.</Leather_Vapaad.description>
+  <!-- EN: wampa pelt -->
+  <Leather_Wampa.label>wampa pelt</Leather_Wampa.label>
+  <!-- EN: Tanned, dried, wampa pelt. Reasonable protection and keeps you warm. -->
+  <Leather_Wampa.description>Tanned, dried, wampa pelt. Reasonable protection and keeps you warm.</Leather_Wampa.description>
+  <!-- EN: wraidskin -->
+  <Leather_Wraid.label>wraidskin</Leather_Wraid.label>
+  <!-- EN: The hide of an Wraid. Harvested from a large, hardy animal. This thick skin protects well and command a decent price. -->
+  <Leather_Wraid.description>The hide of an Wraid. Harvested from a large, hardy animal. This thick skin protects well and command a decent price.</Leather_Wraid.description>
+  <!-- EN: zakkeg hide -->
+  <Leather_Zakkeg.label>zakkeg hide</Leather_Zakkeg.label>
+  <!-- EN: The pelt of a Zakkeg. Harvested from a large, predatory animal. This hide protects very well but isn't insulative. -->
+  <Leather_Zakkeg.description>The pelt of a Zakkeg. Harvested from a large, predatory animal. This hide protects very well but isn't insulative.</Leather_Zakkeg.description>
+  <!-- EN: mammavian meat -->
+  <Mammavian_Meat.label>mammavian meat</Mammavian_Meat.label>
+  <!-- EN: A piece of meat from a mammavian. -->
+  <Mammavian_Meat.description>A piece of meat from a mammavian.</Mammavian_Meat.description>
+  <!-- EN: manka tooth -->
+  <MankaTooth.label>manka tooth</MankaTooth.label>
+  <!-- EN: A manka cats tooth. While not ideal as a melee weapon, it's true value comes in the strange curative properties experienced when held. -->
+  <MankaTooth.description>A manka cats tooth. While not ideal as a melee weapon, it's true value comes in the strange curative properties experienced when held.</MankaTooth.description>
+  <!-- EN: point -->
+  <MankaTooth.tools.point.label>point</MankaTooth.tools.point.label>
+  <!-- EN: base -->
+  <MankaTooth.tools.base.label>base</MankaTooth.tools.base.label>
+  <!-- EN: mastmot tusk -->
+  <MastmotTusk.label>mastmot tusk</MastmotTusk.label>
+  <!-- EN: An mastmot tusk. While somewhat unwieldy as a melee weapon, it can still be deadly. -->
+  <MastmotTusk.description>An mastmot tusk. While somewhat unwieldy as a melee weapon, it can still be deadly.</MastmotTusk.description>
+  <!-- EN: point -->
+  <MastmotTusk.tools.point.label>point</MastmotTusk.tools.point.label>
+  <!-- EN: base -->
+  <MastmotTusk.tools.base.label>base</MastmotTusk.tools.base.label>
+  <!-- EN: mudhorn skull -->
+  <MudhornSkull.label>mudhorn skull</MudhornSkull.label>
+  <!-- EN: A mudhorn skull. These fearsome trophies were often displayed to show-off hunting prowess. -->
+  <MudhornSkull.description>A mudhorn skull. These fearsome trophies were often displayed to show-off hunting prowess.</MudhornSkull.description>
+  <!-- EN: nerf meat -->
+  <Nerf_Meat.label>nerf meat</Nerf_Meat.label>
+  <!-- EN: A piece of meat from a nerf. -->
+  <Nerf_Meat.description>A piece of meat from a nerf.</Nerf_Meat.description>
+  <!-- EN: nerf horn -->
+  <NerfHorn.label>nerf horn</NerfHorn.label>
+  <!-- EN: A horn from a Nerf, can be used as a weapon or sold for profit. -->
+  <NerfHorn.description>A horn from a Nerf, can be used as a weapon or sold for profit.</NerfHorn.description>
+  <!-- EN: point -->
+  <NerfHorn.tools.point.label>point</NerfHorn.tools.point.label>
+  <!-- EN: base -->
+  <NerfHorn.tools.base.label>base</NerfHorn.tools.base.label>
+  <!-- EN: nexu tongue -->
+  <NexuTongue.label>nexu tongue</NexuTongue.label>
+  <!-- EN: The raw tongue of a nexu creature. These tongues are considered an exotic delicacy when eaten cooked. -->
+  <NexuTongue.description>The raw tongue of a nexu creature. These tongues are considered an exotic delicacy when eaten cooked.</NexuTongue.description>
+  <!-- EN: pachydermoid meat -->
+  <Pachydermoid_Meat.label>pachydermoid meat</Pachydermoid_Meat.label>
+  <!-- EN: A piece of meat from a pachydermoid. -->
+  <Pachydermoid_Meat.description>A piece of meat from a pachydermoid.</Pachydermoid_Meat.description>
+  <!-- EN: rancor meat -->
+  <Rancor_Meat.label>rancor meat</Rancor_Meat.label>
+  <!-- EN: A piece of meat from a rancor. -->
+  <Rancor_Meat.description>A piece of meat from a rancor.</Rancor_Meat.description>
+  <!-- EN: rancor skull -->
+  <RancorSkull.label>rancor skull</RancorSkull.label>
+  <!-- EN: A rancor skull. Not only is it intimidating and beautiful at the same time, it speaks volumes . -->
+  <RancorSkull.description>A rancor skull. Not only is it intimidating and beautiful at the same time, it speaks volumes .</RancorSkull.description>
+  <!-- EN: rancor tooth -->
+  <RancorTooth.label>rancor tooth</RancorTooth.label>
+  <!-- EN: A rancors tooth. Good enough to fend off some enemies.  A valuable and potentially useful weapon if needed. -->
+  <RancorTooth.description>A rancors tooth. Good enough to fend off some enemies.  A valuable and potentially useful weapon if needed.</RancorTooth.description>
+  <!-- EN: point -->
+  <RancorTooth.tools.point.label>point</RancorTooth.tools.point.label>
+  <!-- EN: base -->
+  <RancorTooth.tools.base.label>base</RancorTooth.tools.base.label>
+  <!-- EN: reptavian meat -->
+  <Reptavian_Meat.label>reptavian meat</Reptavian_Meat.label>
+  <!-- EN: A piece of meat from a reptavian. -->
+  <Reptavian_Meat.description>A piece of meat from a reptavian.</Reptavian_Meat.description>
+  <!-- EN: reptomammal meat -->
+  <Reptomammal_Meat.label>reptomammal meat</Reptomammal_Meat.label>
+  <!-- EN: A piece of meat from a reptomammal. -->
+  <Reptomammal_Meat.description>A piece of meat from a reptomammal.</Reptomammal_Meat.description>
+  <!-- EN: rikknit ovum -->
+  <RikknitOvum.label>rikknit ovum</RikknitOvum.label>
+  <!-- EN: The raw ovum sac of a rikknit creature. These are considered a delicacy when eaten, but they can be processed into an addictive substance called ji rikknit. -->
+  <RikknitOvum.description>The raw ovum sac of a rikknit creature. These are considered a delicacy when eaten, but they can be processed into an addictive substance called ji rikknit.</RikknitOvum.description>
+  <!-- EN: rodentia meat -->
+  <Rodentia_Meat.label>rodentia meat</Rodentia_Meat.label>
+  <!-- EN: A piece of meat from a rodent. -->
+  <Rodentia_Meat.description>A piece of meat from a rodent.</Rodentia_Meat.description>
+  <!-- EN: ronto meat -->
+  <Ronto_Meat.label>ronto meat</Ronto_Meat.label>
+  <!-- EN: A piece of meat from a ronto. -->
+  <Ronto_Meat.description>A piece of meat from a ronto.</Ronto_Meat.description>
+  <!-- EN: rycrit meat -->
+  <Rycrit_Meat.label>rycrit meat</Rycrit_Meat.label>
+  <!-- EN: A piece of meat from a rycrit. It is reputed to taste great and is a staple of Rylothian cuisine. -->
+  <Rycrit_Meat.description>A piece of meat from a rycrit. It is reputed to taste great and is a staple of Rylothian cuisine.</Rycrit_Meat.description>
+  <!-- EN: sarlacci spore -->
+  <SarlacciSpore.label>sarlacci spore</SarlacciSpore.label>
+  <!-- EN: The spore of a sarlacc creature. It appears dormant and whilst ugly, it is no less valuable as a naturally occuring curiosity. -->
+  <SarlacciSpore.description>The spore of a sarlacc creature. It appears dormant and whilst ugly, it is no less valuable as a naturally occuring curiosity.</SarlacciSpore.description>
+  <!-- EN: saurian meat -->
+  <Saurian_Meat.label>saurian meat</Saurian_Meat.label>
+  <!-- EN: A piece of meat from a saurian. -->
+  <Saurian_Meat.description>A piece of meat from a saurian.</Saurian_Meat.description>
+  <!-- EN: silica meat -->
+  <Silica_Meat.label>silica meat</Silica_Meat.label>
+  <!-- EN: A piece of meat from a silicon based life form. -->
+  <Silica_Meat.description>A piece of meat from a silicon based life form.</Silica_Meat.description>
+  <!-- EN: skalder tusk -->
+  <SkalderTusk.label>skalder tusk</SkalderTusk.label>
+  <!-- EN: A skalder tusk. While somewhat unwieldy as a melee weapon, it can still be deadly. -->
+  <SkalderTusk.description>A skalder tusk. While somewhat unwieldy as a melee weapon, it can still be deadly.</SkalderTusk.description>
+  <!-- EN: point -->
+  <SkalderTusk.tools.point.label>point</SkalderTusk.tools.point.label>
+  <!-- EN: base -->
+  <SkalderTusk.tools.base.label>base</SkalderTusk.tools.base.label>
+  <!-- EN: tach gland -->
+  <TachGland.label>tach gland</TachGland.label>
+  <!-- EN: The raw gland extracted from the brain of a tach creature. They should generally not be eaten (but can be cooked) but instead they are can be used to produce tarisian ale. -->
+  <TachGland.description>The raw gland extracted from the brain of a tach creature. They should generally not be eaten (but can be cooked) but instead they are can be used to produce tarisian ale.</TachGland.description>
+  <!-- EN: taozin nodule -->
+  <TaozinNodule.label>taozin nodule</TaozinNodule.label>
+  <!-- EN: A Taozin nodule is a piece of carapace with unusual properties. This rare curiosity has the ability make the holder "difficult to percieve in the force". -->
+  <TaozinNodule.description>A Taozin nodule is a piece of carapace with unusual properties. This rare curiosity has the ability make the holder "difficult to percieve in the force".</TaozinNodule.description>
+  <!-- EN: tender meat -->
+  <Tender_Meat.label>tender meat</Tender_Meat.label>
+  <!-- EN: A piece of tender, fatty meat from a generally sedentary creature. -->
+  <Tender_Meat.description>A piece of tender, fatty meat from a generally sedentary creature.</Tender_Meat.description>
+  <!-- EN: tough meat -->
+  <Tough_Meat.label>tough meat</Tough_Meat.label>
+  <!-- EN: A piece of tough, chewy meat from a generally active creature. -->
+  <Tough_Meat.description>A piece of tough, chewy meat from a generally active creature.</Tough_Meat.description>
+  <!-- EN: tuk'ata tail spike -->
+  <TukataSpike.label>tuk'ata tail spike</TukataSpike.label>
+  <!-- EN: The poisonous tail spike of a Tuk'ata. Good enough to fend off most living enemies. -->
+  <TukataSpike.description>The poisonous tail spike of a Tuk'ata. Good enough to fend off most living enemies.</TukataSpike.description>
+  <!-- EN: point -->
+  <TukataSpike.tools.point.label>point</TukataSpike.tools.point.label>
+  <!-- EN: edge -->
+  <TukataSpike.tools.edge.label>edge</TukataSpike.tools.edge.label>
+  <!-- EN: base -->
+  <TukataSpike.tools.base.label>base</TukataSpike.tools.base.label>
+  <!-- EN: wampa skull -->
+  <WampaSkull.label>wampa skull</WampaSkull.label>
+  <!-- EN: A wampa skull. These fearsome trophies were often displayed to show-off hunting prowess. -->
+  <WampaSkull.description>A wampa skull. These fearsome trophies were often displayed to show-off hunting prowess.</WampaSkull.description>
+  <!-- EN: war wyrm skull -->
+  <WarWyrmSkull.label>war wyrm skull</WarWyrmSkull.label>
+  <!-- EN: A war wyrm skull. This is a relic of a truly legendary hunt. -->
+  <WarWyrmSkull.description>A war wyrm skull. This is a relic of a truly legendary hunt.</WarWyrmSkull.description>
+  <!-- EN: bantha wool -->
+  <WoolBantha.label>bantha wool</WoolBantha.label>
+  <!-- EN: Soft, light and provides very good insulation. Wool clothes can keep the body warm even in extreme conditions. -->
+  <WoolBantha.description>Soft, light and provides very good insulation. Wool clothes can keep the body warm even in extreme conditions.</WoolBantha.description>
+  <!-- EN: coarse wool -->
+  <WoolCoarse.label>coarse wool</WoolCoarse.label>
+  <!-- EN: While somewhat coarse, this wool offers some insulation. -->
+  <WoolCoarse.description>While somewhat coarse, this wool offers some insulation.</WoolCoarse.description>
+  <!-- EN: mastmot wool -->
+  <WoolMastmot.label>mastmot wool</WoolMastmot.label>
+  <!-- EN: While somewhat matted, mastmot wool's interlocking fibers make it exceptionally warm. -->
+  <WoolMastmot.description>While somewhat matted, mastmot wool's interlocking fibers make it exceptionally warm.</WoolMastmot.description>
+  <!-- EN: nerf wool -->
+  <WoolNerf.label>nerf wool</WoolNerf.label>
+  <!-- EN: Soft, light and provides very good insulation. Wool clothes can keep the body warm even in extreme conditions. -->
+  <WoolNerf.description>Soft, light and provides very good insulation. Wool clothes can keep the body warm even in extreme conditions.</WoolNerf.description>
+  <!-- EN: taozin silk -->
+  <WoolTaozin.label>taozin silk</WoolTaozin.label>
+  <!-- EN: Sticky insectoid silk-wool squeezed from a taozins labial glands, it offers reasonable insulation and unusually decreases ones "connection to the force". -->
+  <WoolTaozin.description>Sticky insectoid silk-wool squeezed from a taozins labial glands, it offers reasonable insulation and unusually decreases ones "connection to the force".</WoolTaozin.description>
+  <!-- EN: wyyyschokk silk -->
+  <WoolWyyyschokk.label>wyyyschokk silk</WoolWyyyschokk.label>
+  <!-- EN: Sticky insectoid silk-wool squeezed from a wyyyschokk labial glands, it offers reasonable insulation and is resilient. -->
+  <WoolWyyyschokk.description>Sticky insectoid silk-wool squeezed from a wyyyschokk labial glands, it offers reasonable insulation and is resilient.</WoolWyyyschokk.description>
+</LanguageData>

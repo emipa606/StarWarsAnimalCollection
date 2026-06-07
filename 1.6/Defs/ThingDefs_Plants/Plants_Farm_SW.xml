@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=========================== Plants ==============================-->
+  <ThingDef Name="Plant_Bloddle" ParentName="PlantBase">
+    <defName>Plant_Bloddle</defName>
+    <label>bloddle plant</label>
+    <description>Bloddle was a tasty bulb vegetable grown in the hydroponic gardens and was a popular crop on Tatooine (although it could be found on several worlds). It could be used to enhance the flavor of other foods and was commonly grown for such purposes.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>swplants/Bloddle</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <immatureGraphicPath>swplants/Bloddle_Immature</immatureGraphicPath>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>16</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawBloddle</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>4</growDays>
+      <visualSizeRange>0.3~0.6</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_Bubblespore" ParentName="PlantBase">
+    <defName>Plant_Bubblespore</defName>
+    <label>bubble spore plant</label>
+    <description>Bubble spore was a species of fast-growing plant that were native to the swamps of Naboo. Santhe Industries and TaggeCo were interested in studying the peculiar properties of the bubble spore, testing several strains of them off-world with limited success. This variant found agricultural success as an alternative starter in alcohol production or as anmimal feed.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>swplants/BubbleSpore</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <immatureGraphicPath>swplants/BubbleSpore_Immature</immatureGraphicPath>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawBubblespore</harvestedThingDef>
+      <drugForHarvestPurposes>True</drugForHarvestPurposes>
+      <harvestYield>16</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>3</growDays>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_Chakroot" ParentName="PlantBase">
+    <defName>Plant_Chakroot</defName>
+    <label>chak-root plant</label>
+    <description>Chak-root was a flavorful red root plant that grew in the marshlands of the planet Erysthes, but was also be found on Naboo (amongst others where it was exported). The sale of this plant carried high taxes, so it was a favorite of smugglers who often developed a taste for it themselves.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>swplants/Chakroot</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <immatureGraphicPath>swplants/Chakroot_Immature</immatureGraphicPath>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawChakroot</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>4</growDays>
+      <visualSizeRange>0.5~1.5</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_Dantuber" ParentName="PlantBase">
+    <defName>Plant_Dantuber</defName>
+    <label>dantuber plant</label>
+    <description>A large tuber vegtable from the planet Dantooine. It was a popular crop grown for the "Dantooine Spring Abundance Festival". It's low yield was countered by it's high nutrition value and it became a popular root vegetable on other worlds.</description>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Nutrition>0.5</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>swplants/Dantuber</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <immatureGraphicPath>swplants/Dantuber_Immature</immatureGraphicPath>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawDantuber</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>5</growDays>
+      <visualSizeRange>0.5~1.25</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_FelucianGlowspore" ParentName="TreeBase">
+    <defName>Plant_FelucianGlowspore</defName>
+    <label>felucian glowspore</label>
+    <description>A giant floral tree from the jungle planet of Felucia that produces edible blue foliage. It has been genetically engineered to from it's baseline poisonous spore variant to make it's floral growths edible and allowing it to survive in slightly less-warm climates.</description>
+    <graphicData>
+      <texPath>swplants/FelucianGlowspore</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.15)</volume>
+        <offset>(0,0,-0.38)</offset>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <statBases>
+      <Beauty>20</Beauty>
+      <BeautyOutdoors>20</BeautyOutdoors>
+      <Nutrition>2.0</Nutrition>
+    </statBases>
+    <minifiedDef>MinifiedTree</minifiedDef>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <growDays>10</growDays>
+      <visualSizeRange>1~3</visualSizeRange>
+      <sowMinSkill>8</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites Inherit="False">
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.15</topWindExposure>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <immatureGraphicPath>swplants/FelucianGlowspore_Immature</immatureGraphicPath>
+      <leaflessGraphicPath>swplants/FelucianGlowspore_Leafless</leaflessGraphicPath>
+      <snowOverlayGraphicPath>swplants/FelucianGlowspore_Snowy</snowOverlayGraphicPath>
+      <leaflessSnowOverlayGraphicPath>swplants/FelucianGlowspore_LeaflessSnowy</leaflessSnowOverlayGraphicPath>
+      <immatureSnowOverlayGraphicPath>swplants/FelucianGlowspore_ImmatureSnowy</immatureSnowOverlayGraphicPath>
+      <harvestWork>300</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <forceIsTree>true</forceIsTree>
+      <harvestYield>50</harvestYield>
+      <harvestedThingDef>RawFelucianLettuce</harvestedThingDef>
+      <harvestFailable>true</harvestFailable>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <maxGrowthTemperature>75</maxGrowthTemperature>
+    </plant>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>7</glowRadius>
+        <glowColor>(0,255,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef Name="Plant_HubbaGourd" ParentName="PlantBase">
+    <defName>Plant_HubbaGourd</defName>
+    <label>hubba gourd</label>
+    <description>A hardy gourd crop native to the planet Tatooine. It was popular with both the Jawa and Tusken people and was a major staple in their diet. It was soon exported to other worlds with arid evironments where it thrived in such harsh conditions.</description>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>swplants/HubbaGourd</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <immatureGraphicPath>swplants/HubbaGourd_Immature</immatureGraphicPath>
+      <fertilitySensitivity>0.8</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawHubbaGourd</harvestedThingDef>
+      <harvestYield>2</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>3</growDays>
+      <visualSizeRange>0.5~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+      <maxGrowthTemperature>75</maxGrowthTemperature>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_HydenockTree" ParentName="TreeBase">
+    <defName>Plant_HydenockTree</defName>
+    <label>hydenock tree</label>
+    <description>The hydenock was a species of reddish, curving trees native to planet Alderaan, whose bark produced a dye which could be harvested in large amounts.</description>
+    <graphicData>
+      <texPath>swplants/HydenockTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <statBases>
+      <Beauty>15</Beauty>
+      <BeautyOutdoors>15</BeautyOutdoors>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <minifiedDef>MinifiedTree</minifiedDef>
+    <ingestible />
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <growDays>10</growDays>
+      <visualSizeRange>1~2</visualSizeRange>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites Inherit="False">
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.15</topWindExposure>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <immatureGraphicPath>swplants/HydenockTree_Immature</immatureGraphicPath>
+      <snowOverlayGraphicPath>swplants/HydenockTree_Snowy</snowOverlayGraphicPath>
+      <immatureSnowOverlayGraphicPath>swplants/HydenockTree_ImmatureSnowy</immatureSnowOverlayGraphicPath>
+      <harvestWork>310</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <forceIsTree>true</forceIsTree>
+      <harvestYield>30</harvestYield>
+      <harvestedThingDef>Dye</harvestedThingDef>
+      <harvestFailable>true</harvestFailable>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_JoganTree" ParentName="TreeBase">
+    <defName>Plant_JoganTree</defName>
+    <label>jogan tree</label>
+    <description>Jogan trees were the source of the popular jogan fruit. There were jogan tree orchards on the planet Lothal but the popularity of the fruit resulted in the trees being spread across the galaxy.</description>
+    <graphicData>
+      <texPath>swplants/JoganTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.15)</volume>
+        <offset>(0,0,-0.38)</offset>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <statBases>
+      <Beauty>10</Beauty>
+      <BeautyOutdoors>10</BeautyOutdoors>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <minifiedDef>MinifiedTree</minifiedDef>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.8</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <growDays>10</growDays>
+      <visualSizeRange>1~2</visualSizeRange>
+      <sowMinSkill>6</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites Inherit="False">
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.15</topWindExposure>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <immatureGraphicPath>swplants/JoganTree_Immature</immatureGraphicPath>
+      <snowOverlayGraphicPath>swplants/JoganTree_Snowy</snowOverlayGraphicPath>
+      <immatureSnowOverlayGraphicPath>swplants/JoganTree_ImmatureSnowy</immatureSnowOverlayGraphicPath>
+      <harvestWork>280</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <forceIsTree>true</forceIsTree>
+      <harvestYield>40</harvestYield>
+      <harvestedThingDef>RawJoganFruit</harvestedThingDef>
+      <harvestFailable>true</harvestFailable>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_ManaxFungus" ParentName="PlantBase">
+    <defName>Plant_ManaxFungus</defName>
+    <label>manax fungus</label>
+    <description>Manax fungus is native to the planet Neimoidia and the surrounding "purse worlds" (such as Deko Neimoidia), usually Manax trees are grown and mulched down to feed this photosynthetic fungus. This variant has been selected to grow without such a requirement (albeit at the cost of significantly reduced yield).</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>swplants/ManaxFungus</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.8</fertilityMin>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <maxMeshCount>16</maxMeshCount>
+      <immatureGraphicPath>swplants/ManaxFungus_Immature</immatureGraphicPath>
+      <growDays>15</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawManaxFungus</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~0.75</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_Meiloorun" ParentName="PlantBase">
+    <defName>Plant_Meiloorun</defName>
+    <label>meiloorun plant</label>
+    <description>The meiloorun plant is known as meiloorun melon or simply meiloorun. Meilooruns were sold throughout the galaxy and were a popular food either raw or as a culinary ingredient.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>swplants/Meiloorun</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <immatureGraphicPath>swplants/Meiloorun_Immature</immatureGraphicPath>
+      <fertilitySensitivity>0.8</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawMeiloorun</harvestedThingDef>
+      <harvestYield>3</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>10</growDays>
+      <visualSizeRange>0.7~1.3</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_MujaFruit" ParentName="PlantBase">
+    <defName>Plant_MujaFruit</defName>
+    <label>muja fruit bush</label>
+    <description>A low bush-like plant that yields delicious muja berries, it was found across the galaxy due it's ease of growth and univerally enjoyed flavour. Muja fruit are delicious even when raw.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>swplants/MujaFruit</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.55, 0.2, 0.2)</volume>
+        <offset>(0,0,-0.25)</offset>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>30</pathCost>
+    <ingestible />
+    <plant>
+      <growDays>5</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawMujaFruit</harvestedThingDef>
+      <harvestYield>8</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <immatureGraphicPath>swplants/MujaFruit_Immature</immatureGraphicPath>
+      <snowOverlayGraphicPath>swplants/MujaFruit_Snowy</snowOverlayGraphicPath>
+      <immatureSnowOverlayGraphicPath>swplants/MujaFruit_Snowy</immatureSnowOverlayGraphicPath>
+      <visualSizeRange>0.7~1.5</visualSizeRange>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_MunchFungus" ParentName="CavePlantBase">
+    <defName>Plant_MunchFungus</defName>
+    <label>munch-fungus</label>
+    <description>Munch-fungus was a species of edible cave mushroom that grew in abundance on the planet Ryloth. One of several fungal strains that contributed to the traditional diet of the indigenous Twi'leks, munch-fungus was a versatile food that could be cooked in a variety of culinary dishes. Possessed of a naturally spongy consistency and bland flavor, munch-fungus could nevertheless be prepared and seasoned to suit a multitude of tastes. It could also be worked into a tasty munch-fungus bread especially by an experienced cook.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>swplants/MunchFungus</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.3, 0.13)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.8</fertilitySensitivity>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawMunchFungus</harvestedThingDef>
+      <harvestYield>20</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0</topWindExposure>
+      <immatureGraphicPath>swplants/MunchFungus_Immature</immatureGraphicPath>
+      <growDays>7</growDays>
+      <cavePlantWeight>0</cavePlantWeight>
+      <visualSizeRange>0.3~0.65</visualSizeRange>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+      <pollution>Any</pollution>
+      <maxMeshCount>9</maxMeshCount>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_Nysyllin" ParentName="PlantBase">
+    <defName>Plant_Nysyllin</defName>
+    <label>nysyllin plant</label>
+    <description>The Nysillin plants also known as nysillim was a healing herb grown as a common crop plant across the galaxy.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>swplants/Nysillin</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.8</fertilityMin>
+      <fertilitySensitivity>0.8</fertilitySensitivity>
+      <maxMeshCount>9</maxMeshCount>
+      <immatureGraphicPath>swplants/Nysillin_Immature</immatureGraphicPath>
+      <growDays>10</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <drugForHarvestPurposes>True</drugForHarvestPurposes>
+      <harvestedThingDef>RawNysyllin</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.7~1.3</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <maxGrowthTemperature>75</maxGrowthTemperature>
+    </plant>
+  </ThingDef>
+  <ThingDef Name="Plant_TookeTrap" ParentName="PlantBase">
+    <defName>Plant_TookeTrap</defName>
+    <label>tooke-trap plant</label>
+    <description>Tooke-trap plants were a species of carnivorous plant that were native to the swamps of Naboo. This strain was selected for it's beauty but there were rumours of larger more aggressive variants that could eat small animals like the Tooke (for which the plant got it's name).</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>20</Beauty>
+      <BeautyOutdoors>20</BeautyOutdoors>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>swplants/TookeTrap</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
+    <ingestible />
+    <plant>
+      <growDays>3</growDays>
+      <growMinGlow>0.1</growMinGlow>
+      <growOptimalGlow>1.0</growOptimalGlow>
+      <allowAutoCut>false</allowAutoCut>
+      <immatureGraphicPath>swplants/TookeTrap_Immature</immatureGraphicPath>
+      <harvestTag>Standard</harvestTag>
+      <drugForHarvestPurposes>True</drugForHarvestPurposes>
+      <harvestedThingDef>RawTookeTrapRoot</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.1</growMinGlow>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+      <wildOrder>2</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+  <!--=========================== Raw Crops ==============================-->
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawBloddle</defName>
+    <label>bloddle</label>
+    <description>Raw bloddle. An aromatic root vegetable used in many culinary dishes for it's strong flavour.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/Bloddle</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteRawFood</tasteThought>
+      <specialThoughtAsIngredient>AteBloddle</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>RawBubblespore</defName>
+    <label>bubble spore</label>
+    <description>Raw bubble spore. A flavoring and preserving agent that can be used to as a fast growing alternative to hops or as animal feed.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/BubbleSpore</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>1.5</Flammability>
+      <Nutrition>0.5</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+      <optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawChakroot</defName>
+    <label>chak-root</label>
+    <description>Raw chak-root. An aromatic root vegetable used in many culinary dishes for it's unique flavour.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/Chakroot</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteRawFood</tasteThought>
+      <specialThoughtAsIngredient>AteChakroot</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawDantuber</defName>
+    <label>dantuber</label>
+    <description>Raw dantuber. A nutritionally dense tuber that originated on the planet Dantooine.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/Dantuber</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Nutrition>0.5</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteRawFood</tasteThought>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawFelucianLettuce</defName>
+    <label>felucian-lettuce</label>
+    <description>Raw felucian-lettuce. Popular in salads across the galaxy.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/FelucianGlowspore</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteRawFood</tasteThought>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawHubbaGourd</defName>
+    <label>hubba gourd</label>
+    <description>Raw hubba gourd. A keystone crop for both the Tusken and Jawa people of Tatooine as it can stay edible for a long time without refrigeration.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/HubbaGourd</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteRawFood</tasteThought>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawJoganFruit</defName>
+    <label>jogan fruit</label>
+    <description>Raw jogan fruit. A distinct fruit that was desired for it's characteristic flavour.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/JoganFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.6</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteJoganFruit</tasteThought>
+      <specialThoughtAsIngredient>AteJoganFruit</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawManaxFungus</defName>
+    <label>manax-fungus</label>
+    <description>Raw manax-fungus. An expensive photosynthetic fungus crop originally from the planet Neimoidia which sells for a high price and has a unique flavour profile.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/ManaxFungus</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>15.0</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>Fungus</foodType>
+      <joy>0.12</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteManaxFungus</tasteThought>
+      <specialThoughtAsIngredient>AteManaxFungus</specialThoughtAsIngredient>
+      <preferability>RawTasty</preferability>
+    </ingestible>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+      </mergeCompatibilityTags>
+    </ingredient>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawMeiloorun</defName>
+    <label>meiloorun</label>
+    <description>Raw meiloorun. A popular fruit that was desired for it's juicy flavour.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/Meiloorun</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.6</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteMeiloorun</tasteThought>
+      <specialThoughtAsIngredient>AteMeiloorun</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawMujaFruit</defName>
+    <label>muja fruit</label>
+    <description>Raw muja fruit. A common fruit found across the galaxy that had a distinctive taste was enjoyed by many.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/MujaFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <tasteThought>AteMujaFruit</tasteThought>
+      <specialThoughtAsIngredient>AteMujaFruit</specialThoughtAsIngredient>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawMunchFungus</defName>
+    <label>munch-fungus</label>
+    <description>Raw munch-fungus. A fungus crop from the planet Ryloth that could be cooked into tasty meals or turned into munch-fungus bread.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/MunchFungus</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.6</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>Fungus</foodType>
+      <tasteThought>AteRawMunchFungus</tasteThought>
+      <specialThoughtAsIngredient>AteMunchFungus</specialThoughtAsIngredient>
+    </ingestible>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+      </mergeCompatibilityTags>
+    </ingredient>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>RawNysyllin</defName>
+    <label>nysyllin</label>
+    <description>Raw nysyllin pods plant. Can be refined into large quantities of primitive medicine.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/Nysyllin</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <Flammability>1.3</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>45</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>RawTookeTrapRoot</defName>
+    <label>tooke-trap root</label>
+    <description>Raw tooke-trap root. Can be used to make a shiro-trap symbiote or as emergency animal feed.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>swresource/PlantFoodRaw/TookeTrapRoot</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>1.3</Flammability>
+      <Nutrition>1.0</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+      <optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  <!--=========================== Wild Crops ==============================-->
+  <ThingDef ParentName="Plant_Bubblespore">
+    <defName>Plant_Bubblespore_Wild</defName>
+    <label>wild bubble spore plant</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <sowTags Inherit="False" />
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="Plant_Chakroot">
+    <defName>Plant_Chakroot_Wild</defName>
+    <label>wild chak-root plant</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <sowTags Inherit="False" />
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="Plant_Dantuber">
+    <defName>Plant_Dantuber_Wild</defName>
+    <label>wild dantuber plant</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <sowTags Inherit="False" />
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="Plant_HubbaGourd">
+    <defName>Plant_HubbaGourd_Wild</defName>
+    <label>wild hubba gourd plant</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <sowTags Inherit="False" />
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="Plant_Meiloorun">
+    <defName>Plant_Meiloorun_Wild</defName>
+    <label>wild meiloorun plant</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <sowTags Inherit="False" />
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="Plant_MujaFruit">
+    <defName>Plant_MujaFruit_Wild</defName>
+    <label>wild muja fruit bush</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <sowTags Inherit="False" />
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="Plant_MunchFungus">
+    <defName>Plant_MunchFungus_Wild</defName>
+    <label>wild munch-fungus</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <sowTags Inherit="False" />
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="Plant_Nysyllin">
+    <defName>Plant_Nysyllin_Wild</defName>
+    <label>wild nysyllin plant</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <sowTags Inherit="False" />
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="Plant_FelucianGlowspore">
+    <defName>Plant_FelucianGlowspore_Wild</defName>
+    <label>wild felucian glowspore</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>150</wildClusterWeight>
+      <sowTags Inherit="False" />
+      <sowResearchPrerequisites Inherit="False" />
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="Plant_HydenockTree">
+    <defName>Plant_HydenockTree_Wild</defName>
+    <label>wild hydenock tree</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>150</wildClusterWeight>
+      <sowTags Inherit="False" />
+      <sowResearchPrerequisites Inherit="False" />
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="Plant_JoganTree">
+    <defName>Plant_JoganTree_Wild</defName>
+    <label>wild jogan tree</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>150</wildClusterWeight>
+      <sowTags Inherit="False" />
+      <sowResearchPrerequisites Inherit="False" />
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="Plant_TookeTrap">
+    <defName>Plant_TookeTrap_Wild</defName>
+    <label>wild tooke-trap plant</label>
+    <neverMultiSelect>false</neverMultiSelect>
+    <plant>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>150</wildClusterWeight>
+      <sowTags Inherit="False" />
+      <sowResearchPrerequisites Inherit="False" />
+    </plant>
+  </ThingDef>
+  <!--=========================== Landmarks ==============================-->
+  <TileMutatorDef ParentName="WildPlants_Base" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>WildGalacticPlants</defName>
+    <description>This area can grow a large number of {0}s.</description>
+    <workerClass>TileMutatorWorker_WildPlants</workerClass>
+    <chanceOnNonLandmarkTile>0.03</chanceOnNonLandmarkTile>
+    <biomeWhitelist>
+      <li>AridShrubland</li>
+      <li>BorealForest</li>
+      <li>ColdBog</li>
+      <li>GlacialPlain</li>
+      <li>Grasslands</li>
+      <li>LavaField</li>
+      <li>TemperateForest</li>
+      <li>TemperateSwamp</li>
+      <li>TropicalRainforest</li>
+      <li>TropicalSwamp</li>
+      <li>Tundra</li>
+    </biomeWhitelist>
+    <plantKinds>
+      <li>Plant_Chakroot_Wild</li>
+      <li>Plant_Meiloorun_Wild</li>
+      <li>Plant_MujaFruit_Wild</li>
+      <li>Plant_JoganTree_Wild</li>
+      <li>Plant_Nysyllin_Wild</li>
+    </plantKinds>
+  </TileMutatorDef>
+  <TileMutatorDef ParentName="WildPlants_Base" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>WildRylothPlants</defName>
+    <description>When enough spores have settled, this area can grow a large number of {0}s.</description>
+    <workerClass>TileMutatorWorker_WildPlants</workerClass>
+    <chanceOnNonLandmarkTile>0.03</chanceOnNonLandmarkTile>
+    <biomeWhitelist>
+      <li>Glowforest</li>
+    </biomeWhitelist>
+    <plantKinds>
+      <li>Plant_MunchFungus_Wild</li>
+    </plantKinds>
+  </TileMutatorDef>
+  <TileMutatorDef ParentName="WildPlants_Base" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>WildTattooinePlants</defName>
+    <description>When enough moisture condenses, this area can grow a large number of {0}s.</description>
+    <workerClass>TileMutatorWorker_WildPlants</workerClass>
+    <chanceOnNonLandmarkTile>0.03</chanceOnNonLandmarkTile>
+    <biomeWhitelist>
+      <li>AridShrubland</li>
+      <li>Desert</li>
+      <li>ExtremeDesert</li>
+    </biomeWhitelist>
+    <plantKinds>
+      <li>Plant_HubbaGourd_Wild</li>
+    </plantKinds>
+  </TileMutatorDef>
+  <TileMutatorDef ParentName="WildPlants_Base" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>WildNabooPlants</defName>
+    <description>When enough spores have settled, this area can grow a large number of {0}s.</description>
+    <workerClass>TileMutatorWorker_WildPlants</workerClass>
+    <chanceOnNonLandmarkTile>0.03</chanceOnNonLandmarkTile>
+    <biomeWhitelist>
+      <li>ColdBog</li>
+      <li>TemperateSwamp</li>
+      <li>TropicalSwamp</li>
+    </biomeWhitelist>
+    <plantKinds>
+      <li>Plant_Bubblespore_Wild</li>
+      <li>Plant_TookeTrap_Wild</li>
+    </plantKinds>
+  </TileMutatorDef>
+  <TileMutatorDef ParentName="WildPlants_Base" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>WildDantooinePlants</defName>
+    <description>When enough light is available, this area can grow a large number of {0}s.</description>
+    <workerClass>TileMutatorWorker_WildPlants</workerClass>
+    <chanceOnNonLandmarkTile>0.03</chanceOnNonLandmarkTile>
+    <biomeWhitelist>
+      <li>AridShrubland</li>
+      <li>Grasslands</li>
+      <li>Tundra</li>
+    </biomeWhitelist>
+    <plantKinds>
+      <li>Plant_Dantuber_Wild</li>
+    </plantKinds>
+  </TileMutatorDef>
+  <TileMutatorDef ParentName="WildPlants_Base" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>WildAlderaanPlants</defName>
+    <description>This area can grow a large number of {0}s.</description>
+    <workerClass>TileMutatorWorker_WildPlants</workerClass>
+    <chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+    <biomeWhitelist>
+      <li>TemperateForest</li>
+      <li>TemperateSwamp</li>
+      <li>ColdBog</li>
+      <li>BorealForest</li>
+      <li>TropicalSwamp</li>
+      <li>TropicalRainforest</li>
+    </biomeWhitelist>
+    <plantKinds>
+      <li>Plant_HydenockTree_Wild</li>
+    </plantKinds>
+  </TileMutatorDef>
+  <TileMutatorDef ParentName="WildPlants_Base" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>WildFelucianPlants</defName>
+    <description>This area can grow a large number of {0}s.</description>
+    <workerClass>TileMutatorWorker_WildPlants</workerClass>
+    <chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+    <biomeWhitelist>
+      <li>TropicalRainforest</li>
+      <li>TropicalSwamp</li>
+    </biomeWhitelist>
+    <plantKinds>
+      <li>Plant_FelucianGlowspore_Wild</li>
+    </plantKinds>
+  </TileMutatorDef>
+</Defs>

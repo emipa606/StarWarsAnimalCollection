@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>ProcessShiroEgg</defName>
+    <label>Process shiro-trap egg</label>
+    <description>Combine a shiro egg with a tooke trap to make a shiro-trap egg. Produces a shiro-trap egg from 1 fertilized shiro egg and 1 tooke-trap.</description>
+    <jobString>Processing shiro egg.</jobString>
+    <workAmount>200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Harvest_Standard</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EggShiroFertilized</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawTookeTrapRoot</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EggShiroFertilized</li>
+        <li>RawTookeTrapRoot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <EggShiroTrapFertilized>1</EggShiroTrapFertilized>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

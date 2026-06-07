@@ -10,7 +10,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2006670799
 **The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md)**.
 To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2903582351).
 
-If you want to set what dinos can spawn in each biome, please use [Choose Wild Animal Spawns](https://steamcommunity.com/sharedfiles/filedetails/?id=2564042934)
+If you want to set what animals can spawn in each biome, please use [Choose Wild Animal Spawns](https://steamcommunity.com/sharedfiles/filedetails/?id=2564042934)
 
 ## Very large update!
 
@@ -20,8 +20,9 @@ If you have Vanilla Expanded Framework active, some animals have added behaviors
 There are also added resources, like leathers, wool, meat, eggs and drugs; as well as skulls for trophies to collect.
 Enjoy!
 
-### Updated creature list
+### Updated content
 
+**Animals**
 
 
 - Acklay
@@ -44,21 +45,27 @@ Enjoy!
 - Bursa
 - Can-Cell
 - Cannok
+- Chrysalide Rancor
+- Clodhopper
 - Convor
 - Corellian Hound
 - Corinathoth
 - Dactillion
 - Dalgo
+- Devourer
 - Dewback
 - Dianoga
+- Dragonsnake
 - Drexl
 - Energy Spider
 - Eopie
 - Falumpaset
 - Fambaa
+- Fanback
 - Feral Grazer
 - Feral Nerf
-- FrogDog
+- Frilled Gorg
+- Frog Dog
 - Gelagrub
 - Gizka
 - Gorg
@@ -66,22 +73,30 @@ Enjoy!
 - Granite Slug
 - Grank
 - Grazer
+- Greater Krayt Dragon
 - Gualaar
 - Gullipud
 - Gundark
 - Gutkurr
 - Harvester Beetle
 - Hawkbat
+- Horax
+- Hrumph
 - Hssiss
+- Igitz
 - Insectomorph
 - Iriaz
 - Iridonian Reek
 - Ithorian Reek
 - Jakobeast
 - Jamel
+- Jimvu
+- JungleRancor
 - Kaadu
 - Katarn
+- Kell Dragon
 - Kinrath
+- K'lor'slug
 - Kowakian Monkey Lizard
 - Krayt Dragon
 - Kreetle
@@ -97,15 +112,20 @@ Enjoy!
 - Lylek
 - Maalraas
 - Manka
+- Marsh Haunt
 - Massiff
 - Mastiff Phalone
 - Mastmot
+- Mawvorr
 - Mott
+- Mudhorn
 - Mynock
 - Narglatch
+- Neebray
 - Nerf
 - Nexu
 - Nuna
+- Ollopom
 - Orray
 - Painted Spat
 - Peko-Peko
@@ -114,6 +134,7 @@ Enjoy!
 - Pufferpig
 - Qormot
 - Rancor
+- Raxshir
 - Reek
 - Rikknit
 - Roggwart
@@ -124,16 +145,28 @@ Enjoy!
 - Scurrier
 - Shaak
 - Shiro
+- Shiro-Trap
 - Shyrack
 - Silooth
 - Skalder
+- Sketto
+- Snoruuk
+- Squall
 - Stintaril
 - Strill
+- Tach
 - Taozin
 - Tauntaun
-- TeeMuss
+- Tee-Muss
+- Tet'niss Crab
 - Thranta
+- Tibidee
+- Tooke
+- Torton
 - Tukata
+- Tusk Cat
+- Urusai
+- Uvak
 - Vapaad
 - Varactyl
 - Veermok
@@ -141,14 +174,62 @@ Enjoy!
 - Vornskyr
 - Vulptex
 - Wampa
+- War Wyrm
 - Warbird
 - Whisperbird
-- WompRat
+- Womp Rat
 - Woolamander
 - Worrt
 - Wraid
+- Wyyyschokk
+- Yobshrimp
 - Zakkeg
 - Zeer
+
+
+
+**Plants**
+
+
+- Bloddle
+- Bubble Spore
+- Chakroot
+- Dantuber
+- Felucian Glowbulb
+- Hubba Gourd
+- Hydenock
+- Jogan Tree
+- Manax Fungus
+- Meiloorun
+- Muja Fruit
+- Munch-Fungus
+- Nysllin
+- Tooke-trap
+
+
+
+**Fish (Odyssey Resource)**
+
+
+- Burra
+- Dactopus
+- Daggert
+- Doshian Jelly
+- Faa
+- Fleek Eel
+- Laa
+- Nyork
+- Paddy Frog
+- Ray
+- See
+- Sink-Crab
+
+
+
+**Special (Odyssey Landmark)**
+
+
+- Sarlacc
 
 
 

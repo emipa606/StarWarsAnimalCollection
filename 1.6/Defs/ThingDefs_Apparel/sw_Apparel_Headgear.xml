@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelArmorHelmetReconBase">
+    <defName>sw_Apparel_KrathWarMask</defName>
+    <label>krath war mask</label>
+    <description>An artistically terrifying war mask recreated in the style of the Krath. The Krath were a secret society from the Empress Teta system that was already famous for it's toxic carbonite mines and deadly war droids, both influences can be seen in the primitive aesthetic of this item.\n\n"The design similarity to a certain 'Space General' is purely coincidental".</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>swapparel/KrathWarMask/KrathWarMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <StuffEffectMultiplierArmor>0.8</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.8</VacuumResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>ReconArmor</researchPrerequisite>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <displayPriority>200</displayPriority>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>30</Plasteel>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Mouth</li>
+      </bodyPartGroups>
+      <wornGraphicPath>swapparel/KrathWarMask/KrathWarMask</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

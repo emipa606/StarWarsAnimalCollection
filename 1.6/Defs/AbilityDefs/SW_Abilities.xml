@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_AcidSpew</defName>
+    <label>acid spew</label>
+    <description>Spray offensive stomach acid all over the target area. The acid will stick to targets and burn them.</description>
+    <iconPath>UI/Abilities/Ability_AnimalAcidSpray</iconPath>
+    <cooldownTicksRange>2500</cooldownTicksRange>
+    <!-- 1 hours -->
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <requireLineOfSight>true</requireLineOfSight>
+      <range>8.9</range>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>true</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_AcidSpew</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+      <li Class="CompProperties_AbilitySprayLiquid" MayRequire="Ludeon.RimWorld.Biotech">
+        <projectileDef>Proj_Acid</projectileDef>
+        <numCellsToHit>18</numCellsToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+      </li>
+    </comps>
+  </AbilityDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_AcidSpew</defName>
+    <label>acid spew</label>
+    <description>Command the creature to spray an acidic at a target. Once trained, the creature will spew acid on command.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_AcidSpew</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>SW_Leap</defName>
+    <label>animal leap</label>
+    <description>Jump to a distant location using strong hind legs.</description>
+    <iconPath>UI/Abilities/Ability_AnimalLeap</iconPath>
+    <cooldownTicksRange>25000</cooldownTicksRange>
+    <!-- 1 hours -->
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <hostile>false</hostile>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityJump</verbClass>
+      <label>leap</label>
+      <violent>false</violent>
+      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+      <warmupTime>0.5</warmupTime>
+      <range>19.9</range>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>Ability_Leap_Air</soundCast>
+      <soundLanding>Ability_Leap_Land</soundLanding>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_Leap</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+    </comps>
+    <jobDef>CastJump</jobDef>
+  </AbilityDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>SW_Leap</defName>
+    <label>animal leap</label>
+    <description>Command the creature to jump to a distant location using strong hind legs.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_Leap</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>SW_ToxicSpew</defName>
+    <label>defensive vomiting</label>
+    <description>Launch the contents of a creatures toxic stomach cavity. Upon impact, the vomit will combust and release tox gas for several seconds.</description>
+    <iconPath>UI/Abilities/Ability_AnimalToxicSpew</iconPath>
+    <cooldownTicksRange>20000</cooldownTicksRange>
+    <!-- 8 hours -->
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8.9</range>
+      <warmupTime>0.5</warmupTime>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>true</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_ToxicSpew</trainableDef>
+        <aiCanCastWithoutTrainable>false</aiCanCastWithoutTrainable>
+      </li>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>Bullet_AnimalToxbomb</projectileDef>
+      </li>
+      <li Class="CompProperties_AbilitySprayLiquid" MayRequire="Ludeon.RimWorld.Biotech">
+        <projectileDef>Proj_Acid</projectileDef>
+        <numCellsToHit>18</numCellsToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef ParentName="BaseBullet" MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>Bullet_AnimalToxbomb</defName>
+    <label>toxic vomit</label>
+    <graphicData>
+      <texPath>Things/Projectile/Acid</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>25</speed>
+      <damageDef>ToxGas</damageDef>
+      <explosionRadius>3.9</explosionRadius>
+      <explosionRadiusDisplayPadding>2</explosionRadiusDisplayPadding>
+      <postExplosionGasType>ToxGas</postExplosionGasType>
+      <arcHeightFactor>0.4</arcHeightFactor>
+      <shadowSize>0</shadowSize>
+      <filth>Filth_Slime</filth>
+      <filthCount>1</filthCount>
+      <filthChance>0.25</filthChance>
+    </projectile>
+  </ThingDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>SW_ToxicSpew</defName>
+    <label>defensive vomiting</label>
+    <description>Command the creature to vomit a toxic gas bolus on an area.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_ToxicSpew</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_WebShot</defName>
+    <label>web shot</label>
+    <description>Use the creatures spinneret to launch a blob of hardened webbing, damaging and stunning a target.</description>
+    <iconPath>UI/Abilities/Ability_AnimalWeb</iconPath>
+    <cooldownTicksRange>2500</cooldownTicksRange>
+    <!-- 1 hours -->
+    <displayOrder>200</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8.9</range>
+      <warmupTime>0.5</warmupTime>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>Ability_WebShot</soundCast>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetLocations>false</canTargetLocations>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetEntities>true</canTargetEntities>
+        <canTargetSubhumans>False</canTargetSubhumans>
+        <canTargetMechs>true</canTargetMechs>
+        <canTargetSelf>false</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_WebShot</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>SW_Webbed</hediffDef>
+        <replaceExisting>true</replaceExisting>
+      </li>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>SW_WebShotprojectile</projectileDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>SW_WebShotprojectile</defName>
+    <label>shot web</label>
+    <graphicData>
+      <texPath>UI/Abilities/WebShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBase>1</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+  <HediffDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Webbed</defName>
+    <label>webbed</label>
+    <description>This person has been webbed by a creature.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>2500</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_RecoveryThought">
+        <thought>Webbed</thought>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.7</postFactor>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_WebShot</defName>
+    <label>web shot</label>
+    <description>Command the creature to shoot a blob of hardened silk webbing at a target.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_WebShot</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_ForcePush</defName>
+    <label>force push blast</label>
+    <description>Use the creatures innate force connection to send a blast of force energy, damaging and stunning a target.</description>
+    <iconPath>UI/Abilities/Ability_AnimalForcePush</iconPath>
+    <cooldownTicksRange>20000</cooldownTicksRange>
+    <!-- 8 hours -->
+    <displayOrder>200</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8.9</range>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>Ability_Force</soundCast>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetLocations>false</canTargetLocations>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetBuildings>true</canTargetBuildings>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetEntities>true</canTargetEntities>
+        <canTargetSubhumans>False</canTargetSubhumans>
+        <canTargetMechs>true</canTargetMechs>
+        <canTargetSelf>false</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_ForcePush</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>SW_ForcePushprojectile</projectileDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef ParentName="BaseBullet" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_ForcePushprojectile</defName>
+    <label>force blast</label>
+    <graphicData>
+      <texPath>UI/Abilities/ForcePush</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Blunt</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBase>1</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>25</speed>
+    </projectile>
+  </ThingDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_ForcePush</defName>
+    <label>force push</label>
+    <description>Command the creature to shoot a force energy blast at a target.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_ForcePush</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Rampage</defName>
+    <label>rampage</label>
+    <description>The creatures goes into a heightened physical state fueled by adrenaline. This strengthens them past normal limits but makes them go manhunter and will attack anyone. This state will last for 3 hours.</description>
+    <iconPath>UI/Abilities/Ability_AnimalRampage</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <!-- 24 hours -->
+    <targetRequired>false</targetRequired>
+    <displayOrder>200</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <statBases>
+      <Ability_Duration>120</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>Ability_Beserk</soundCast>
+      <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_Rampage</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+      <li Class="CompProperties_AbilityEffecterOnCaster">
+        <effecterDef>WarTrumpet</effecterDef>
+        <maintainTicks>20</maintainTicks>
+      </li>
+      <li Class="CompProperties_AbilityGiveMentalState">
+        <compClass>CompAbilityEffect_GiveMentalState</compClass>
+        <stateDef>Manhunter</stateDef>
+      </li>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>SW_Rampage</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Rampage</defName>
+    <label>rampage</label>
+    <description>Reverted by fierce instincts this creature has driven itself into a adrenlaline fuelled manhunting rage. Every muscle is at peak performance and it has become numb to damage for a short time.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.1</painFactor>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.5</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>0.5</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.5</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.5</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <isBad>false</isBad>
+  </HediffDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Rampage</defName>
+    <label>rampage</label>
+    <description>Command the creature to go into a heightened physical state.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_Rampage</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_SwarmCall</defName>
+    <label>swarm call</label>
+    <description>This creature can cause nearby animal to temporarily turn manhunter by directing a subsonic Force imbued screech at them. This mental state will last for 3 hours.</description>
+    <iconPath>UI/Abilities/Ability_AnimalSwarmCall</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <!-- 24 hours -->
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <warmupStartSound>Ability_SwarmCall_Warmup</warmupStartSound>
+    <statBases>
+      <Ability_Duration>120</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <range>24.9</range>
+      <requireLineOfSight>true</requireLineOfSight>
+      <targetParams>
+        <canTargetAnimals>True</canTargetAnimals>
+        <canTargetHumans>False</canTargetHumans>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetEntities>False</canTargetEntities>
+        <canTargetSubhumans>False</canTargetSubhumans>
+        <canTargetLocations>False</canTargetLocations>
+        <canTargetSelf>False</canTargetSelf>
+      </targetParams>
+      <soundCast>Ability_SwarmCall</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveMentalState">
+        <compClass>CompAbilityEffect_GiveMentalState</compClass>
+        <stateDef>Manhunter</stateDef>
+      </li>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_SwarmCall</trainableDef>
+        <aiCanCastWithoutTrainable>false</aiCanCastWithoutTrainable>
+      </li>
+    </comps>
+  </AbilityDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_SwarmCall</defName>
+    <label>swarm call</label>
+    <description>Command the creature to emit a swarm call that turns a single target manhunter.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_SwarmCall</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_ForceInvisibility</defName>
+    <label>force invisibility</label>
+    <description>This creature can use the force to manipulate the visual centers of everyone nearby, rendering them unable to perceived for a short time.</description>
+    <iconPath>UI/Abilities/Ability_AnimalForceInvisibility</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <!-- 6 hours -->
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <targetRequired>false</targetRequired>
+    <statBases>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>Ability_Force</soundCast>
+      <requireLineOfSight>false</requireLineOfSight>
+      <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>PsychicInvisibility</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <durationSecondsOverride>20~30</durationSecondsOverride>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_ForceInvisibility</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+    </comps>
+  </AbilityDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_ForceInvisibility</defName>
+    <label>force invisibility</label>
+    <description>Command the creature to harness their innate force connection turn themselves invisible for a short time.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_ForceInvisibility</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Calamity</defName>
+    <label>calamity</label>
+    <description>Release a powerful roar which has a chance to cause hostile humans and animals to tremble in fear, reducing their movement speed and manipulation; usually resulting in calamity on the battlefield.</description>
+    <iconPath>UI/Abilities/Ability_AnimalCalamity</iconPath>
+    <cooldownTicksRange>7500</cooldownTicksRange>
+    <!-- 3 hours -->
+    <stunTargetWhileCasting>True</stunTargetWhileCasting>
+    <targetRequired>false</targetRequired>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <statBases>
+      <Ability_EffectRadius>23.9</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>23.9</range>
+      <warmupTime>0.5</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>Ability_Calamity</soundCast>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetEntities>False</canTargetEntities>
+        <canTargetSubhumans>False</canTargetSubhumans>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityEffect">
+        <compClass>CompAbilityEffect_OnlyTargetHostiles</compClass>
+      </li>
+      <li Class="CompProperties_AbilityGiveMentalState">
+        <compClass>CompAbilityEffect_GiveMentalState</compClass>
+        <stateDef>Terror</stateDef>
+      </li>
+      <li Class="CompProperties_AbilityAnimalRoar">
+        <chanceFromHearingCurve>
+          <points>
+            <li>(0.0, 0.0)</li>
+            <li>(0.8, 1.0)</li>
+          </points>
+        </chanceFromHearingCurve>
+      </li>
+      <li Class="CompProperties_AbilityEffecterOnCaster">
+        <effecterDef>WarTrumpet</effecterDef>
+        <maintainTicks>20</maintainTicks>
+        <!-- Long enough for the "2nd wave" to spawn -->
+      </li>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>SW_BeastRoar</hediffDef>
+        <durationSecondsOverride>20~30</durationSecondsOverride>
+      </li>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_Calamity</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_BeastRoar</defName>
+    <label>terrifying roar</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>This creature has been shaken by the powerful roar of a colossal creature.</description>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.9</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.7</postFactor>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <postFactor>0.25</postFactor>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Calamity</defName>
+    <label>calamity</label>
+    <description>Command the creature to emit a beastly roar to create calamity and fear in nearby enemies.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_Calamity</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_ForceScream</defName>
+    <label>force scream</label>
+    <description>Release a powerful force amplified scream which has a chance to cause hostile humans and animals to tremble in fear, reducing their movement speed and manipulation.</description>
+    <iconPath>UI/Abilities/Ability_AnimalForceScream</iconPath>
+    <cooldownTicksRange>7500</cooldownTicksRange>
+    <!-- 3 hours -->
+    <stunTargetWhileCasting>True</stunTargetWhileCasting>
+    <targetRequired>false</targetRequired>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <statBases>
+      <Ability_EffectRadius>19.9</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8.9</range>
+      <warmupTime>0.5</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>Ability_ForceScream</soundCast>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetEntities>False</canTargetEntities>
+        <canTargetSubhumans>False</canTargetSubhumans>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityEffect">
+        <compClass>CompAbilityEffect_OnlyTargetHostiles</compClass>
+      </li>
+      <li Class="CompProperties_AbilityGiveMentalState">
+        <compClass>CompAbilityEffect_GiveMentalState</compClass>
+        <stateDef>Terror</stateDef>
+      </li>
+      <li Class="CompProperties_AbilityAnimalRoar">
+        <chanceFromHearingCurve>
+          <points>
+            <li>(0.0, 0.0)</li>
+            <li>(0.8, 1.0)</li>
+          </points>
+        </chanceFromHearingCurve>
+      </li>
+      <li Class="CompProperties_AbilityEffecterOnCaster">
+        <effecterDef>WarTrumpet</effecterDef>
+        <maintainTicks>20</maintainTicks>
+        <!-- Long enough for the "2nd wave" to spawn -->
+      </li>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_ForceScream</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+    </comps>
+  </AbilityDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_ForceScream</defName>
+    <label>force scream</label>
+    <description>Command the creature to emit a force amplified scream to create a sense of fear in nearby enemies.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_ForceScream</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>SW_GoldForage</defName>
+    <label>gold forage</label>
+    <description>This creature has a unique ability to sniff out small quanities of precious gold that have usually been left behind by deep drilling.</description>
+    <iconPath>UI/Abilities/Ability_AnimalGoldForage</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <!-- 24 hours -->
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <statBases>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <range>2.9</range>
+      <soundCast>Pawn_Wildboar_Call</soundCast>
+      <targetParams>
+        <canTargetHumans>False</canTargetHumans>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetEntities>False</canTargetEntities>
+        <canTargetSubhumans>False</canTargetSubhumans>
+        <canTargetAnimals>False</canTargetAnimals>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySpawn">
+        <thingDef>Gold</thingDef>
+      </li>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_GoldForage</trainableDef>
+        <aiCanCastWithoutTrainable>false</aiCanCastWithoutTrainable>
+      </li>
+    </comps>
+  </AbilityDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>SW_GoldForage</defName>
+    <label>gold forage</label>
+    <description>Command the creature to sniff out a small quanity of gold hidden near the surface.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_GoldForage</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>SW_ForceChaosSkip</defName>
+    <label>force chaos skip</label>
+    <description>This creature can access a Force dimension to teleport a target to a random position near where it started. Objects above a certain size cannot be teleported.</description>
+    <iconPath>UI/Abilities/Ability_AnimalForceChaosSkip</iconPath>
+    <cooldownTicksRange>20000</cooldownTicksRange>
+    <!-- 8 hours -->
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <statBases>
+      <Ability_EffectRadius>0</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <range>24.9</range>
+      <soundCast>Ability_Force</soundCast>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetItems>True</canTargetItems>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityTeleport">
+        <compClass>CompAbilityEffect_Teleport</compClass>
+        <destination>RandomInRange</destination>
+        <randomRange>6.9~24.9</randomRange>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>10</clamorRadius>
+        <destClamorType>Ability</destClamorType>
+        <destClamorRadius>10</destClamorRadius>
+        <stunTicks>70~120</stunTicks>
+        <goodwillImpact>-15</goodwillImpact>
+        <applyGoodwillImpactToLodgers>False</applyGoodwillImpactToLodgers>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_ForceChaosSkip</trainableDef>
+        <aiCanCastWithoutTrainable>false</aiCanCastWithoutTrainable>
+      </li>
+    </comps>
+  </AbilityDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>SW_ForceChaosSkip</defName>
+    <label>force chaos skip</label>
+    <description>Command the creature to teleport an object via the another reality to a random location nearby.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_ForceChaosSkip</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_ForceFocus</defName>
+    <label>force focus</label>
+    <description>The creatures can use it's instinctual pack mentality and innate connection with the Force to strengthen theirs or anothers senses. This state lasts for 3 hours.</description>
+    <iconPath>UI/Abilities/Ability_AnimalForceFocus</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <!-- 24 hours -->
+    <targetRequired>true</targetRequired>
+    <displayOrder>200</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <warmupStartSound>Ability_ForceFocus_Warmup</warmupStartSound>
+    <statBases>
+      <Ability_Duration>120</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>24.9</range>
+      <warmupTime>0.5</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>Ability_Force</soundCast>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetPawns>True</canTargetPawns>
+        <canTargetAnimals>True</canTargetAnimals>
+        <canTargetHumans>True</canTargetHumans>
+        <canTargetLocations>False</canTargetLocations>
+        <canTargetEntities>False</canTargetEntities>
+        <canTargetSubhumans>False</canTargetSubhumans>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetBuildings>False</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_ForceFocus</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>SW_ForceFocus</hediffDef>
+        <replaceExisting>true</replaceExisting>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_ForceFocus</defName>
+    <label>force focus</label>
+    <description>A heightened awareness generated by an animals pack instinct and innate connection to the Force.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.25</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.25</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>0.25</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <isBad>false</isBad>
+  </HediffDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_ForceFocus</defName>
+    <label>force focus</label>
+    <description>Command the creature use it's innate connection to the Force to heighten it's own or anothers senses.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_ForceFocus</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Spur</defName>
+    <label>spur</label>
+    <description>The creatures goes into a heightened physical state fueled by adrenaline. This makes them faster for approximately 3 hours.</description>
+    <iconPath>UI/Abilities/Ability_AnimalSpur</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <!-- 24 hours -->
+    <targetRequired>false</targetRequired>
+    <displayOrder>200</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <statBases>
+      <Ability_Duration>280</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>Ability_Spur</soundCast>
+      <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_Spur</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>SW_Spur</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Spur</defName>
+    <label>spurred</label>
+    <description>Triggering it's own "fight or fligh" instincts this creature has driven itself into a adrenlaline fuelled rush. It will move and breath twice as effectively as usual.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>1.0</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>1.0</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <CaravanRidingSpeedFactor>2.0</CaravanRidingSpeedFactor>
+        </statOffsets>
+      </li>
+    </stages>
+    <isBad>false</isBad>
+  </HediffDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Spur</defName>
+    <label>spur</label>
+    <description>Command the creature to go into a heightened physical state making it move faster for a while.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_Spur</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Spit</defName>
+    <label>spit</label>
+    <description>Make the creature launch a glob of icky spit, stunning a target. Disgusting.</description>
+    <iconPath>UI/Abilities/Ability_AnimalSpit</iconPath>
+    <cooldownTicksRange>2500</cooldownTicksRange>
+    <!-- 1 hours -->
+    <displayOrder>200</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <warmupStartSound>Ability_Spit_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8.9</range>
+      <warmupTime>0.5</warmupTime>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>Ability_Spit</soundCast>
+      <targetParams>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetLocations>false</canTargetLocations>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetEntities>true</canTargetEntities>
+        <canTargetSubhumans>False</canTargetSubhumans>
+        <canTargetMechs>true</canTargetMechs>
+        <canTargetSelf>false</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_Spit</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>SW_Spat</hediffDef>
+        <replaceExisting>true</replaceExisting>
+      </li>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>SW_Spitprojectile</projectileDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>SW_Spitprojectile</defName>
+    <label>spit</label>
+    <graphicData>
+      <texPath>UI/Abilities/Spit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <stoppingPower>0.1</stoppingPower>
+      <speed>55</speed>
+      <filth>Filth_Slime</filth>
+      <filthCount>1</filthCount>
+      <filthChance>0.25</filthChance>
+    </projectile>
+  </ThingDef>
+  <HediffDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Spat</defName>
+    <label>spat on</label>
+    <description>This person has been spat on by a creature.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>2500</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_RecoveryThought">
+        <thought>SpatOn</thought>
+      </li>
+    </comps>
+  </HediffDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_Spit</defName>
+    <label>spit</label>
+    <description>Command the creature to spit a glob of saliva at a target.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>1</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_Spit</enablesAbility>
+  </TrainableDef>
+  <AbilityDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_SootheSong</defName>
+    <label>soothing song</label>
+    <description>Release a calming song which can boost the mood nearby humans.</description>
+    <iconPath>UI/Abilities/Ability_AnimalSootheSong</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+    <!-- 24 hours -->
+    <stunTargetWhileCasting>True</stunTargetWhileCasting>
+    <targetRequired>false</targetRequired>
+    <displayOrder>300</displayOrder>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <statBases>
+      <Ability_EffectRadius>23.9</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8.9</range>
+      <warmupTime>0.5</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>Ability_SootheSong</soundCast>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetLocations>false</canTargetLocations>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetEntities>False</canTargetEntities>
+        <canTargetSubhumans>False</canTargetSubhumans>
+        <canTargetMechs>false</canTargetMechs>
+        <neverTargetHostileFaction>True</neverTargetHostileFaction>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityAnimalRoar">
+        <chanceFromHearingCurve>
+          <points>
+            <li>(0.0, 0.0)</li>
+            <li>(0.8, 1.0)</li>
+          </points>
+        </chanceFromHearingCurve>
+      </li>
+      <li Class="CompProperties_AbilityEffecterOnCaster">
+        <effecterDef>WarTrumpet</effecterDef>
+        <maintainTicks>20</maintainTicks>
+        <!-- Long enough for the "2nd wave" to spawn -->
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>SW_SootheSong</hediffDef>
+        <replaceExisting>true</replaceExisting>
+      </li>
+      <li Class="CompProperties_AbilityRequiresTrainable">
+        <trainableDef>SW_SootheSong</trainableDef>
+        <aiCanCastWithoutTrainable>true</aiCanCastWithoutTrainable>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_SootheSong</defName>
+    <label>soothing song</label>
+    <description>This person has been heard the beautiful call of a majestic creature.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>30000~60000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_RecoveryThought">
+        <thought>SoothingSong</thought>
+      </li>
+    </comps>
+  </HediffDef>
+  <TrainableDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SW_SootheSong</defName>
+    <label>soothe song</label>
+    <description>Command the creature to emit a soothing song to calm nearby colonists.</description>
+    <listPriority>0</listPriority>
+    <difficulty>200</difficulty>
+    <steps>2</steps>
+    <specialTrainable>true</specialTrainable>
+    <enablesAbility>SW_SootheSong</enablesAbility>
+  </TrainableDef>
+</Defs>

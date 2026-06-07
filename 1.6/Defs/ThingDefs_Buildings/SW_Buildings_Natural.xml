@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName MayRequire="Ludeon.RimWorld.Odyssey">SarlaccPit</defName>
+    <label>sarlacc pit</label>
+    <description>The gaping maw of a juvenile sarlacc creature. The endlessly hungry sarlacc can be used to quickly get rid of various organic corpses and so such sites are popular with various criminal enterprises. It will occasionally regurgitate a small amount indigestible scrap metal; no doubt leftover from some unlucky "prey".</description>
+    <size>(9,6)</size>
+    <useHitPoints>false</useHitPoints>
+    <thingClass>Building_WorkTable</thingClass>
+    <rotatable>false</rotatable>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <canOverlapZones>false</canOverlapZones>
+    <castEdgeShadows>false</castEdgeShadows>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <fillPercent>1</fillPercent>
+    <blockWind>false</blockWind>
+    <holdsRoof>false</holdsRoof>
+    <passability>Impassable</passability>
+    <destroyable>true</destroyable>
+    <blockPlants>true</blockPlants>
+    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>swbuildings/Sarlacc</texPath>
+      <drawSize>(10,10)</drawSize>
+    </graphicData>
+    <building>
+      <deconstructible>false</deconstructible>
+      <isTargetable>false</isTargetable>
+      <isInert>true</isInert>
+      <claimable>false</claimable>
+      <expandHomeArea>false</expandHomeArea>
+      <destroySound>Pawn_Sarlacc_Wounded</destroySound>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Beauty>-50</Beauty>
+      <BeautyOutdoors>-50</BeautyOutdoors>
+      <Flammability>0</Flammability>
+    </statBases>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-3)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <soundImpactDefault>Pawn_Sarlacc_Death</soundImpactDefault>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <recipes>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">FeedCorpse</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Spawner">
+        <thingToSpawn>ChunkSlagSteel</thingToSpawn>
+        <spawnCount>1</spawnCount>
+        <spawnIntervalRange>300000~600000</spawnIntervalRange>
+        <spawnMaxAdjacent>1</spawnMaxAdjacent>
+      </li>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Morbid</li>
+        </focusTypes>
+      </li>
+      <li Class="CompProperties_AmbientSound">
+        <sound>Pawn_Sarlacc_Call_Ambient</sound>
+      </li>
+      <li Class="CompProperties_SpawnEffecterOnDestroy">
+        <effect>CocoonDestroyed</effect>
+      </li>
+    </comps>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <costList>
+      <SarlacciSpore>1</SarlacciSpore>
+      <Silica_Meat>300</Silica_Meat>
+    </costList>
+    <killedLeavings>
+      <SarlacciSpore>1</SarlacciSpore>
+    </killedLeavings>
+  </ThingDef>
+  <RecipeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>FeedCorpse</defName>
+    <label>dump corpse in sarlacc</label>
+    <description>Feed a corpse to the sarlacc to completely destroy it.</description>
+    <jobString>Dumping corpse.</jobString>
+    <workAmount>90</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Pawn_Sarlacc_Butchered</soundWorking>
+    <autoStripCorpses>false</autoStripCorpses>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">CorpsesDrone</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Human</li>
+      </thingDefs>
+      <specialFiltersToAllow>
+        <li>AllowCorpsesColonist</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">AllowCorpsesSlave</li>
+        <li>AllowCorpsesStranger</li>
+      </specialFiltersToAllow>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <WorkGiverDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>DoBillsFeedSarlacc</defName>
+    <label>dumping corpse</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>40</priorityInType>
+    <fixedBillGiverDefs>
+      <li>SarlaccPit</li>
+    </fixedBillGiverDefs>
+    <verb>dump corpse at</verb>
+    <gerund>dumping at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName MayRequire="Ludeon.RimWorld.Odyssey">DeadSarlacc</defName>
+    <label>dead sarlacc</label>
+    <description>The remnant of a dead sarlacc creature. Perhaps disease, starvation, predation from burrowing insects or maybe even old age has killed it leaving behind a cavern that it's body once filled.</description>
+    <size>(12,9)</size>
+    <useHitPoints>false</useHitPoints>
+    <thingClass>MapPortal</thingClass>
+    <rotatable>false</rotatable>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <canOverlapZones>false</canOverlapZones>
+    <graphicData>
+      <texPath>swbuildings/Sarlacc_Dead/Sarlacc_Dead</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(15,15)</drawSize>
+    </graphicData>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <fillPercent>0</fillPercent>
+    <passability>Impassable</passability>
+    <holdsRoof>true</holdsRoof>
+    <destroyable>true</destroyable>
+    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <building>
+      <isEdifice>true</isEdifice>
+      <deconstructible>false</deconstructible>
+      <isTargetable>false</isTargetable>
+      <isInert>true</isInert>
+      <claimable>false</claimable>
+      <expandHomeArea>false</expandHomeArea>
+    </building>
+    <portal>
+      <pocketMapGenerator>SarlaccCavity</pocketMapGenerator>
+      <exitDef>CaveExit</exitDef>
+      <enteredLetterLabel>Sarlacc Grave</enteredLetterLabel>
+      <enteredLetterText>In the depths of a dead Sarlacc. Not much here but rocks and rubble and dead flesh. Quite the morbid tourist attraction!</enteredLetterText>
+      <enteredLetterDef>PositiveEvent</enteredLetterDef>
+    </portal>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Beauty>-50</Beauty>
+      <BeautyOutdoors>-50</BeautyOutdoors>
+      <Flammability>0</Flammability>
+    </statBases>
+    <inspectorTabs>
+      <li>ITab_ContentsMapPortal</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Sealable">
+        <sealTexPath>UI/Commands/FillInCaveEntrance</sealTexPath>
+        <sealCommandLabel>Collapse sarlacc cavity</sealCommandLabel>
+        <sealCommandDesc>Choose a colonist to permanently collapse the sarlacc cavity entrance. Anything or anyone left below will be lost forever.</sealCommandDesc>
+        <cannotSealLabel>Cannot collapse</cannotSealLabel>
+        <confirmSealText>Collapsing the sarlacc cavity is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue?</confirmSealText>
+        <destroyPortal>true</destroyPortal>
+      </li>
+      <li Class="CompProperties_LeaveFilthOnDestroyed">
+        <filthDef>Filth_Slime</filthDef>
+        <thickness>2</thickness>
+      </li>
+    </comps>
+    <costList>
+      <SarlacciSpore>1</SarlacciSpore>
+    </costList>
+    <killedLeavings>
+      <SarlacciSpore>1</SarlacciSpore>
+    </killedLeavings>
+  </ThingDef>
+  <MapGeneratorDef Name="Undercave">
+    <defName MayRequire="Ludeon.RimWorld.Odyssey">SarlaccCavity</defName>
+    <label>sarlacc cavity</label>
+    <isUnderground>true</isUnderground>
+    <forceCaves>true</forceCaves>
+    <ignoreAreaRevealedLetter>true</ignoreAreaRevealedLetter>
+    <disableCallAid>true</disableCallAid>
+    <customMapComponents>
+      <li>UndercaveMapComponent</li>
+    </customMapComponents>
+    <pocketMapProperties>
+      <biome>Underground</biome>
+      <temperature>15</temperature>
+      <tileMutators>
+        <li>UndergroundCave</li>
+      </tileMutators>
+    </pocketMapProperties>
+    <genSteps>
+      <li>ElevationFertility</li>
+      <li>MutatorPostElevationFertility</li>
+      <li>Underground_RocksFromGrid</li>
+      <li>Terrain</li>
+      <li>Plants</li>
+      <li>MutatorPostTerrain</li>
+      <li>MutatorCriticalStructures</li>
+      <li>MutatorNonCriticalStructures</li>
+      <li>RockChunks</li>
+      <li>Plants</li>
+      <li>PlaceCaveExit</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Fleshbulbs</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Fleshmass</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">FleshSacks</li>
+      <li>MutatorFinal</li>
+      <li>Fog</li>
+    </genSteps>
+  </MapGeneratorDef>
+  <!--=========================== Landmarks ==============================-->
+  <LandmarkDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>sw_Sarlacc</defName>
+    <nameMaker>SWNamerLandmark_Sarlacc</nameMaker>
+    <label>sarlacc pit</label>
+    <iconTexturePath>World/Landmarks/Landmark_Sarlacc</iconTexturePath>
+    <atlasSize>(2, 2)</atlasSize>
+    <commonality>0.1</commonality>
+    <nameMaker>SWNamerLandmark_Sarlacc</nameMaker>
+    <mutatorChances>
+      <sw_SarlaccLair Required="True" />
+      <Pollution_Increased MayRequire="Ludeon.RimWorld.Biotech">0.02</Pollution_Increased>
+      <Junkyard MayRequire="Ludeon.RimWorld.Ideology">0.05</Junkyard>
+      <ArcheanTrees>0.01</ArcheanTrees>
+      <MineralRich>0.03</MineralRich>
+      <MixedBiome>0.5</MixedBiome>
+      <AncientUplink>0.02</AncientUplink>
+      <Stockpile>0.05</Stockpile>
+      <AnimalLife_Decreased>0.15</AnimalLife_Decreased>
+      <Sandy>0.05</Sandy>
+      <DryGround>0.05</DryGround>
+      <MineralRich>0.05</MineralRich>
+      <InsectMegahive>0.02</InsectMegahive>
+      <FoggyMutator>0.05</FoggyMutator>
+      <WildGalacticPlants>0.05</WildGalacticPlants>
+      <WildRylothPlants>0.05</WildRylothPlants>
+      <WildTattooinePlants>0.05</WildTattooinePlants>
+      <WildNabooPlants>0.05</WildNabooPlants>
+      <WildDantooinePlants>0.05</WildDantooinePlants>
+      <WildAlderaanPlants>0.03</WildAlderaanPlants>
+      <WildFelucianPlants>0.03</WildFelucianPlants>
+    </mutatorChances>
+    <comboLandmarkMutators>
+      <Dunes>0.05</Dunes>
+      <Sandy>0.02</Sandy>
+      <Hollow>0.02</Hollow>
+      <Chasm>0.02</Chasm>
+      <Valley>0.01</Valley>
+      <Cavern>0.01</Cavern>
+    </comboLandmarkMutators>
+  </LandmarkDef>
+  <TileMutatorDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>sw_SarlaccLair</defName>
+    <label>sarlacc pit</label>
+    <description>This area hosts a juvenile sarlacc creature. These sessile creatures are known to have millenia long lifespans, the circular maws on the surface are supported by a massive undergorund body.</description>
+    <biomeBlacklist>
+      <li>SeaIce</li>
+      <li>IceSheet</li>
+      <li>GlacialPlain</li>
+    </biomeBlacklist>
+    <maxHilliness>Mountainous</maxHilliness>
+    <extraGenSteps>
+      <li>sw_SarlaccPit</li>
+    </extraGenSteps>
+  </TileMutatorDef>
+  <GenStepDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>sw_SarlaccPit</defName>
+    <order>950</order>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>SarlaccPit</thingDef>
+      <createUsedRect>true</createUsedRect>
+      <allowInWaterBiome>false</allowInWaterBiome>
+      <skipRoofed>true</skipRoofed>
+      <countPer10kCellsRange>1~1</countPer10kCellsRange>
+      <clearSpaceSize>10</clearSpaceSize>
+      <terrainValidationDisallowed>
+        <li>Road</li>
+      </terrainValidationDisallowed>
+      <count>1</count>
+      <warnOnFail>false</warnOnFail>
+    </genStep>
+  </GenStepDef>
+  <LandmarkDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>sw_DeadSarlacc</defName>
+    <label>dead Sarlacc</label>
+    <iconTexturePath>World/Landmarks/Landmark_DeadSarlacc</iconTexturePath>
+    <atlasSize>(2, 2)</atlasSize>
+    <commonality>0.1</commonality>
+    <mutatorChances>
+      <sw_DeadSarlaccCave Required="True" />
+      <Pollution_Increased MayRequire="Ludeon.RimWorld.Biotech">0.02</Pollution_Increased>
+      <Junkyard MayRequire="Ludeon.RimWorld.Ideology">0.05</Junkyard>
+      <ArcheanTrees>0.01</ArcheanTrees>
+      <MineralRich>0.03</MineralRich>
+      <MixedBiome>0.5</MixedBiome>
+      <AncientUplink>0.02</AncientUplink>
+      <Stockpile>0.05</Stockpile>
+      <AnimalLife_Increased>0.05</AnimalLife_Increased>
+      <AnimalHabitat>0.15</AnimalHabitat>
+      <PlantLife_Increased>0.03</PlantLife_Increased>
+      <Fertile>0.05</Fertile>
+      <Sandy>0.05</Sandy>
+      <DryGround>0.05</DryGround>
+      <MineralRich>0.05</MineralRich>
+      <InsectMegahive>0.04</InsectMegahive>
+      <FoggyMutator>0.05</FoggyMutator>
+      <WildGalacticPlants>0.05</WildGalacticPlants>
+      <WildRylothPlants>0.05</WildRylothPlants>
+      <WildTattooinePlants>0.05</WildTattooinePlants>
+      <WildNabooPlants>0.05</WildNabooPlants>
+      <WildDantooinePlants>0.05</WildDantooinePlants>
+      <WildAlderaanPlants>0.03</WildAlderaanPlants>
+      <WildFelucianPlants>0.03</WildFelucianPlants>
+    </mutatorChances>
+    <comboLandmarkMutators>
+      <Dunes>0.05</Dunes>
+      <Sandy>0.02</Sandy>
+      <Hollow>0.02</Hollow>
+      <Chasm>0.02</Chasm>
+      <Valley>0.01</Valley>
+      <Cavern>0.01</Cavern>
+    </comboLandmarkMutators>
+  </LandmarkDef>
+  <TileMutatorDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>sw_DeadSarlaccCave</defName>
+    <label>a dead sarlacc</label>
+    <description>This area hosts a dead sarlacc creature. These sessile creatures are known to have millenia long lifespans, but are ultimately mortal. Whether from disease, starvation, burrowing insectoids or even old age they eventually die and leave a cavern where the bulk of their corpse has rotted away.</description>
+    <biomeBlacklist>
+      <li>SeaIce</li>
+      <li>IceSheet</li>
+      <li>GlacialPlain</li>
+    </biomeBlacklist>
+    <maxHilliness>Mountainous</maxHilliness>
+    <extraGenSteps>
+      <li>sw_DeadSarlaccPit</li>
+    </extraGenSteps>
+  </TileMutatorDef>
+  <GenStepDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>sw_DeadSarlaccPit</defName>
+    <order>950</order>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>DeadSarlacc</thingDef>
+      <createUsedRect>true</createUsedRect>
+      <allowInWaterBiome>false</allowInWaterBiome>
+      <skipRoofed>true</skipRoofed>
+      <countPer10kCellsRange>1~1</countPer10kCellsRange>
+      <clearSpaceSize>10</clearSpaceSize>
+      <terrainValidationDisallowed>
+        <li>Road</li>
+      </terrainValidationDisallowed>
+      <count>1</count>
+      <warnOnFail>false</warnOnFail>
+    </genStep>
+  </GenStepDef>
+</Defs>

@@ -18,7 +18,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2006670799
 [b]The release of RimWorld 1.6 added improved support for [url=https://github.com/emipa606/AssetBuilder/blob/main/README.md]Asset Bundles[/url][/b].
 To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2903582351]here[/url].
 
-If you want to set what dinos can spawn in each biome, please use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2564042934]Choose Wild Animal Spawns[/url]
+If you want to set what animals can spawn in each biome, please use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2564042934]Choose Wild Animal Spawns[/url]
 
 [h2]Very large update![/h2]
 Thanks to the excellent work of Delta this update brings alot of new animals to the mod.
@@ -27,7 +27,8 @@ If you have Vanilla Expanded Framework active, some animals have added behaviors
 There are also added resources, like leathers, wool, meat, eggs and drugs; as well as skulls for trophies to collect.
 Enjoy!
 
-[h3]Updated creature list[/h3]
+[h3]Updated content[/h3]
+[b]Animals[/b]
 [list]
 [*]Acklay
 [*]Aiwha
@@ -49,21 +50,27 @@ Enjoy!
 [*]Bursa
 [*]Can-Cell
 [*]Cannok
+[*]Chrysalide Rancor
+[*]Clodhopper
 [*]Convor
 [*]Corellian Hound
 [*]Corinathoth
 [*]Dactillion
 [*]Dalgo
+[*]Devourer
 [*]Dewback
 [*]Dianoga
+[*]Dragonsnake
 [*]Drexl
 [*]Energy Spider
 [*]Eopie
 [*]Falumpaset
 [*]Fambaa
+[*]Fanback
 [*]Feral Grazer
 [*]Feral Nerf
-[*]FrogDog
+[*]Frilled Gorg
+[*]Frog Dog
 [*]Gelagrub
 [*]Gizka
 [*]Gorg
@@ -71,22 +78,30 @@ Enjoy!
 [*]Granite Slug
 [*]Grank
 [*]Grazer
+[*]Greater Krayt Dragon
 [*]Gualaar
 [*]Gullipud
 [*]Gundark
 [*]Gutkurr
 [*]Harvester Beetle
 [*]Hawkbat
+[*]Horax
+[*]Hrumph
 [*]Hssiss
+[*]Igitz
 [*]Insectomorph
 [*]Iriaz
 [*]Iridonian Reek
 [*]Ithorian Reek
 [*]Jakobeast
 [*]Jamel
+[*]Jimvu
+[*]JungleRancor
 [*]Kaadu
 [*]Katarn
+[*]Kell Dragon
 [*]Kinrath
+[*]K'lor'slug
 [*]Kowakian Monkey Lizard
 [*]Krayt Dragon
 [*]Kreetle
@@ -102,15 +117,20 @@ Enjoy!
 [*]Lylek
 [*]Maalraas
 [*]Manka
+[*]Marsh Haunt
 [*]Massiff
 [*]Mastiff Phalone
 [*]Mastmot
+[*]Mawvorr
 [*]Mott
+[*]Mudhorn
 [*]Mynock
 [*]Narglatch
+[*]Neebray
 [*]Nerf
 [*]Nexu
 [*]Nuna
+[*]Ollopom
 [*]Orray
 [*]Painted Spat
 [*]Peko-Peko
@@ -119,6 +139,7 @@ Enjoy!
 [*]Pufferpig
 [*]Qormot
 [*]Rancor
+[*]Raxshir
 [*]Reek
 [*]Rikknit
 [*]Roggwart
@@ -129,16 +150,28 @@ Enjoy!
 [*]Scurrier
 [*]Shaak
 [*]Shiro
+[*]Shiro-Trap
 [*]Shyrack
 [*]Silooth
 [*]Skalder
+[*]Sketto
+[*]Snoruuk
+[*]Squall
 [*]Stintaril
 [*]Strill
+[*]Tach
 [*]Taozin
 [*]Tauntaun
-[*]TeeMuss
+[*]Tee-Muss
+[*]Tet'niss Crab
 [*]Thranta
+[*]Tibidee
+[*]Tooke
+[*]Torton
 [*]Tukata
+[*]Tusk Cat
+[*]Urusai
+[*]Uvak
 [*]Vapaad
 [*]Varactyl
 [*]Veermok
@@ -146,14 +179,56 @@ Enjoy!
 [*]Vornskyr
 [*]Vulptex
 [*]Wampa
+[*]War Wyrm
 [*]Warbird
 [*]Whisperbird
-[*]WompRat
+[*]Womp Rat
 [*]Woolamander
 [*]Worrt
 [*]Wraid
+[*]Wyyyschokk
+[*]Yobshrimp
 [*]Zakkeg
 [*]Zeer
+[/list]
+
+[b]Plants[/b]
+[list]
+[*]Bloddle
+[*]Bubble Spore
+[*]Chakroot
+[*]Dantuber
+[*]Felucian Glowbulb
+[*]Hubba Gourd
+[*]Hydenock
+[*]Jogan Tree
+[*]Manax Fungus
+[*]Meiloorun
+[*]Muja Fruit
+[*]Munch-Fungus
+[*]Nysllin
+[*]Tooke-trap
+[/list]
+
+[b]Fish (Odyssey Resource)[/b]
+[list]
+[*]Burra
+[*]Dactopus
+[*]Daggert
+[*]Doshian Jelly
+[*]Faa
+[*]Fleek Eel
+[*]Laa
+[*]Nyork
+[*]Paddy Frog
+[*]Ray
+[*]See
+[*]Sink-Crab
+[/list]
+
+[b]Special (Odyssey Landmark)[/b]
+[list]
+[*]Sarlacc
 [/list]
 
 [img]https://img.litet.net/logos/Notice.png[/img]
@@ -207,5 +282,5 @@ Also drop some comments about balancing and let me know what animal you would li
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3497316713][img]https://img.shields.io/github/v/release/emipa606/StarWarsAnimalCollection?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: animals, collection</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.4</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.5</modVersion>
 </ModMetaData>

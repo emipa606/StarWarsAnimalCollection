@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make ji rikknit -->
+  <MakeJiRikknit.label>Make ji rikknit</MakeJiRikknit.label>
+  <!-- EN: Make ji rikknit. -->
+  <MakeJiRikknit.description>Make ji rikknit.</MakeJiRikknit.description>
+  <!-- EN: Making ji rikknit. -->
+  <MakeJiRikknit.jobString>Making ji rikknit.</MakeJiRikknit.jobString>
+  <!-- EN: Make ji rikknit x4 -->
+  <MakeJiRikknitBulk.label>Make ji rikknit x4</MakeJiRikknitBulk.label>
+  <!-- EN: Make bulk ji rikknit. -->
+  <MakeJiRikknitBulk.description>Make bulk ji rikknit.</MakeJiRikknitBulk.description>
+  <!-- EN: Making bulk ji rikknit. -->
+  <MakeJiRikknitBulk.jobString>Making bulk ji rikknit.</MakeJiRikknitBulk.jobString>
+</LanguageData>

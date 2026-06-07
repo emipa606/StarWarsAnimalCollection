@@ -6,12 +6,13 @@
     <label>dewback egg (fert.)</label>
     <description>Fertilized Dewback egg.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggSaurian</texPath>
       <color>(206,181,140)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>40.0</MarketValue>
+      <Nutrition>0.5</Nutrition>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
@@ -25,12 +26,13 @@
     <label>dewback egg (unfert.)</label>
     <description>An unfertilized dewback egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggSaurian</texPath>
       <color>(206,181,140)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>40.0</MarketValue>
+      <Nutrition>0.5</Nutrition>
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
@@ -38,11 +40,12 @@
     <label>rancor egg (fert.)</label>
     <description>Fertilized Rancor egg.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggRough</texPath>
+      <texPath>swresource/EggRough</texPath>
       <color>(150,100,50)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>140.0</MarketValue>
     </statBases>
     <comps>
@@ -57,11 +60,12 @@
     <label>rancor egg (unfert.)</label>
     <description>Unfertilized Rancor egg.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggRough</texPath>
+      <texPath>swresource/EggRough</texPath>
       <color>(150,100,50)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>140.0</MarketValue>
     </statBases>
   </ThingDef>
@@ -70,12 +74,13 @@
     <label>acklay roe (fert.)</label>
     <description>Fertilized Acklay egg.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggRoe</texPath>
+      <texPath>swresource/EggRoe</texPath>
       <color>(100,175,150)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>80.0</MarketValue>
+      <Nutrition>0.5</Nutrition>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
@@ -89,22 +94,30 @@
     <label>acklay roe (unfert.)</label>
     <description>Unfertilized Acklay egg.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggRoe</texPath>
+      <texPath>swresource/EggRoe</texPath>
       <color>(100,175,150)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>80.0</MarketValue>
+      <Nutrition>0.5</Nutrition>
     </statBases>
+    <ingestible>
+      <joy>0.12</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteCrustapodRoe</tasteThought>
+      <specialThoughtAsIngredient>AteCrustapodRoe</specialThoughtAsIngredient>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggKraytDragonFertilized</defName>
     <label>krayt dragon egg (fert.)</label>
     <description>Fertilized Krayt Dragon egg.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpiked</texPath>
+      <texPath>swresource/EggSpiked</texPath>
       <color>(156,148,125)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>140.0</MarketValue>
@@ -121,12 +134,13 @@
     <label>krayt dragon egg (unfert.)</label>
     <description>Unfertilized Krayt Dragon egg.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpiked</texPath>
+      <texPath>swresource/EggSpiked</texPath>
       <color>(156,148,125)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>140.0</MarketValue>
+      <Nutrition>0.5</Nutrition>
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
@@ -134,12 +148,13 @@
     <label>gizka egg (fert.)</label>
     <description>Fertilized Gizka egg.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpotted</texPath>
+      <texPath>swresource/EggSpotted</texPath>
       <color>(245,245,225)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>6</MarketValue>
+      <Nutrition>0.5</Nutrition>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
@@ -153,7 +168,7 @@
     <label>gizka egg (unfert.)</label>
     <description>Unfertilized Gizka egg.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpotted</texPath>
+      <texPath>swresource/EggSpotted</texPath>
       <color>(245,245,225)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
@@ -166,7 +181,7 @@
     <label>porg egg (fert.)</label>
     <description>Fertilized Porg egg.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggMammavian</texPath>
+      <texPath>swresource/EggMammavian</texPath>
       <color>(245,245,245)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
@@ -185,7 +200,7 @@
     <label>porg egg (unfert.)</label>
     <description>Unfertilized Porg egg.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggMammavian</texPath>
+      <texPath>swresource/EggMammavian</texPath>
       <color>(245,245,245)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
@@ -199,6 +214,7 @@
     <label>bantha wool</label>
     <description>Soft, light and provides very good insulation. Wool clothes can keep the body warm even in extreme conditions.</description>
     <graphicData>
+      <texPath>swresource/Leather_Wool/Leather_Wool</texPath>
       <color>(69,39,32)</color>
     </graphicData>
     <statBases>
@@ -216,7 +232,8 @@
     <label>nerf wool</label>
     <description>Soft, light and provides very good insulation. Wool clothes can keep the body warm even in extreme conditions.</description>
     <graphicData>
-      <color>(69,39,32)</color>
+      <texPath>swresource/Leather_Wool/Leather_Wool</texPath>
+      <color>(150,150,150)</color>
     </graphicData>
     <statBases>
       <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
@@ -225,7 +242,7 @@
       <StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
     </statBases>
     <stuffProps>
-      <color>(69,39,32)</color>
+      <color>(150,150,150)</color>
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="WoolBase">
@@ -237,6 +254,7 @@
       <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
     </statBases>
     <graphicData>
+      <texPath>swresource/Leather_Wool/Leather_Wool</texPath>
       <color>(255,255,245)</color>
     </graphicData>
     <stuffProps>
@@ -252,6 +270,7 @@
       <StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
     </statBases>
     <graphicData>
+      <texPath>swresource/Leather_Wool/Leather_Wool</texPath>
       <color>(100,50,0)</color>
     </graphicData>
     <stuffProps>
@@ -260,9 +279,11 @@
   </ThingDef>
   <ThingDef ParentName="WoolBase">
     <defName>WoolTaozin</defName>
-    <label>taozin silk-wool</label>
+    <label>taozin silk</label>
     <description>Sticky insectoid silk-wool squeezed from a taozins labial glands, it offers reasonable insulation and unusually decreases ones "connection to the force".</description>
     <statBases>
+      <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Heat>1.0</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
     </statBases>
@@ -271,6 +292,7 @@
       <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">-0.2</PsychicEntropyRecoveryRate>
     </equippedStatOffsets>
     <graphicData>
+      <texPath>swresource/Leather_Wool/Leather_Wool</texPath>
       <color>(75,100,50)</color>
     </graphicData>
     <stuffProps>
@@ -281,139 +303,27 @@
       </statFactors>
     </stuffProps>
   </ThingDef>
-  <!-- ====== TROPHIES ====== -->
-  <ThingDef ParentName="ResourceVerbBase">
-    <defName>BanthaHorn</defName>
-    <label>bantha horn</label>
-    <description>A bantha's horn. Good enough to fend off some enemies. Comes as at least a pair, so not as valuable as other horns out there.</description>
-    <graphicData>
-      <texPath>swanimals/Resource/BanthaHorn</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <equippedAngleOffset>-20</equippedAngleOffset>
+  <ThingDef ParentName="WoolBase">
+    <defName>WoolWyyyschokk</defName>
+    <label>wyyyschokk silk</label>
+    <description>Sticky insectoid silk-wool squeezed from a wyyyschokk labial glands, it offers reasonable insulation and is resilient.</description>
     <statBases>
-      <MarketValue>150</MarketValue>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Mass>4</Mass>
-      <Flammability>.4</Flammability>
-      <DeteriorationRate>0.3</DeteriorationRate>
+      <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Heat>2.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>35</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
     </statBases>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <stackLimit>10</stackLimit>
-    <relicChance>2</relicChance>
-    <comps>
-      <li Class="CompProperties_Styleable">
-      </li>
-    </comps>
-    <tools>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Scratch</li>
-          <li>Stab</li>
-        </capacities>
-        <power>7</power>
-        <cooldownTime>1.85</cooldownTime>
-      </li>
-      <li>
-        <label>base</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>5</power>
-        <cooldownTime>1.85</cooldownTime>
-      </li>
-    </tools>
-    <thingCategories>
-      <li>ItemsMisc</li>
-    </thingCategories>
-    <tradeTags>
-      <li>ExoticMisc</li>
-    </tradeTags>
-    <thingSetMakerTags>
-      <li>AnimalPart</li>
-    </thingSetMakerTags>
-  </ThingDef>
-  <ThingDef ParentName="ResourceVerbBase">
-    <defName>KraytDragonHorn</defName>
-    <label>krayt dragon horn</label>
-    <description>A krayt dragon's horn. Good enough to fend off some enemies. Comes as at least a pair, so not as valuable as other horns out there.</description>
     <graphicData>
-      <texPath>swanimals/Resource/KraytDragonHorn</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>swresource/Leather_Wool/Leather_Wool</texPath>
+      <color>(200,255,255)</color>
     </graphicData>
-    <equippedAngleOffset>-20</equippedAngleOffset>
-    <statBases>
-      <MarketValue>1150</MarketValue>
-      <MaxHitPoints>150</MaxHitPoints>
-      <Mass>4</Mass>
-      <Flammability>0.4</Flammability>
-      <DeteriorationRate>0.3</DeteriorationRate>
-    </statBases>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <stackLimit>10</stackLimit>
-    <relicChance>2</relicChance>
-    <comps>
-      <li Class="CompProperties_Styleable">
-      </li>
-    </comps>
-    <tools>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Scratch</li>
-          <li>Stab</li>
-        </capacities>
-        <power>28</power>
-        <cooldownTime>1.85</cooldownTime>
-      </li>
-      <li>
-        <label>base</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>8</power>
-        <cooldownTime>1.85</cooldownTime>
-      </li>
-    </tools>
-    <thingCategories>
-      <li>ItemsMisc</li>
-    </thingCategories>
-    <tradeTags>
-      <li>ExoticMisc</li>
-    </tradeTags>
-    <thingSetMakerTags>
-      <li>AnimalPart</li>
-    </thingSetMakerTags>
-  </ThingDef>
-  <ThingDef ParentName="ResourceBase">
-    <defName>RancorSkull</defName>
-    <label>rancor skull</label>
-    <description>A rancor skull. Not only is it intimidating and beautiful at the same time, it speaks volumes .</description>
-    <graphicData>
-      <texPath>swanimals/Resource/RancorSkull</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>1500</MarketValue>
-      <MaxHitPoints>150</MaxHitPoints>
-      <Mass>4</Mass>
-      <Flammability>1</Flammability>
-      <DeteriorationRate>0.3</DeteriorationRate>
-    </statBases>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <stackLimit>10</stackLimit>
-    <relicChance>2</relicChance>
-    <comps>
-      <li Class="CompProperties_Styleable">
-      </li>
-    </comps>
-    <thingCategories>
-      <li>ItemsMisc</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Exotic</li>
-    </tradeTags>
+    <stuffProps>
+      <color>(200,255,255)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <Beauty>2.0</Beauty>
+      </statFactors>
+    </stuffProps>
   </ThingDef>
   <!-- ====== FOOD ====== -->
   <ThingDef ParentName="OrganicProductBase">
@@ -421,7 +331,7 @@
     <label>blue milk</label>
     <description>Blue milk from a bantha.</description>
     <graphicData>
-      <texPath>swanimals/Resource/BlueMilk</texPath>
+      <texPath>swresource/AnimalProduct/BlueMilk</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -452,7 +362,7 @@
     <label>green milk</label>
     <description>Green milk from a reek. The high tannin content makes this milk quite bitter, but it can be cooked to remove the taste.</description>
     <graphicData>
-      <texPath>swanimals/Resource/GreenMilk</texPath>
+      <texPath>swresource/AnimalProduct/GreenMilk</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -483,11 +393,11 @@
     <label>rikknit ovum</label>
     <description>The raw ovum sac of a rikknit creature. These are considered a delicacy when eaten, but they can be processed into an addictive substance called ji rikknit.</description>
     <graphicData>
-      <texPath>swanimals/Resource/RikknitOvum</texPath>
+      <texPath>swresource/AnimalProduct/RikknitOvum</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
-      <MarketValue>15.0</MarketValue>
+      <MarketValue>25.0</MarketValue>
       <Mass>0.1</Mass>
       <DeteriorationRate>4</DeteriorationRate>
       <MaxHitPoints>60</MaxHitPoints>
@@ -507,6 +417,8 @@
       <tasteThought>AteRikknitOvum</tasteThought>
       <specialThoughtAsIngredient>AteRikknitOvum</specialThoughtAsIngredient>
       <preferability>RawTasty</preferability>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
       <foodType>AnimalProduct</foodType>
       <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
     </ingestible>
@@ -514,12 +426,200 @@
       <li>AnimalProductRaw</li>
     </thingCategories>
   </ThingDef>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>AcklayClaw</defName>
+    <label>acklay claw</label>
+    <description>The raw claws of an acklay creature. These claws are noted to be quite delicious when eaten cooked.</description>
+    <graphicData>
+      <texPath>swresource/AnimalProduct/AcklayClaw</texPath>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>25.0</MarketValue>
+      <Mass>0.1</Mass>
+      <DeteriorationRate>4</DeteriorationRate>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Nutrition>1.0</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <joy>0.12</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteAcklayClaw</tasteThought>
+      <specialThoughtAsIngredient>AteAcklayClaw</specialThoughtAsIngredient>
+      <preferability>RawTasty</preferability>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <foodType>AnimalProduct</foodType>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>NexuTongue</defName>
+    <label>nexu tongue</label>
+    <description>The raw tongue of a nexu creature. These tongues are considered an exotic delicacy when eaten cooked.</description>
+    <graphicData>
+      <texPath>swresource/AnimalProduct/NexuTongue</texPath>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>25.0</MarketValue>
+      <Mass>0.1</Mass>
+      <DeteriorationRate>4</DeteriorationRate>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Nutrition>1.0</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <joy>0.12</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteNexuTongue</tasteThought>
+      <specialThoughtAsIngredient>AteNexuTongue</specialThoughtAsIngredient>
+      <preferability>RawTasty</preferability>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <foodType>AnimalProduct</foodType>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>TachGland</defName>
+    <label>tach gland</label>
+    <description>The raw gland extracted from the brain of a tach creature. They should generally not be eaten (but can be cooked) but instead they are can be used to produce tarisian ale.</description>
+    <graphicData>
+      <texPath>swresource/AnimalProduct/TachGland</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>50.0</MarketValue>
+      <Mass>0.1</Mass>
+      <DeteriorationRate>4</DeteriorationRate>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Nutrition>0.25</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.08</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <tasteThought>AteTachGland</tasteThought>
+      <preferability>DesperateOnly</preferability>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <foodType>AnimalProduct</foodType>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>ChrysalideHeart</defName>
+    <label>chrysalide heart</label>
+    <description>The raw heart of an chrysalide creature. These heart when eaten often empowers the consumer and gives a sense of elevated euphoria.</description>
+    <graphicData>
+      <texPath>swresource/AnimalProduct/ChrysalideHeart</texPath>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>75.0</MarketValue>
+      <Mass>1.0</Mass>
+      <DeteriorationRate>4</DeteriorationRate>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Nutrition>2.0</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.04</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <joy>0.24</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteChrysalideHeart</tasteThought>
+      <specialThoughtAsIngredient>AteChrysalideHeart</specialThoughtAsIngredient>
+      <preferability>RawTasty</preferability>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <foodType>AnimalProduct</foodType>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>sw_ChrysalideHeart</hediffDef>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+  </ThingDef>
+  <HediffDef>
+    <defName>sw_ChrysalideHeart</defName>
+    <label>ate chrysalide heart</label>
+    <description>Ingesting a chrysalide rancor heart has unusual properties, the alchemical hormones makes the consumer feel reduced pain, they won't be slowed when taking damage and have a general sense of euphoria.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>20000</disappearsAfterTicks>
+        <!-- 8 hours -->
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.5</painFactor>
+        <statOffsets>
+          <StaggerDurationFactor>0</StaggerDurationFactor>
+          <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.25</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <isBad>false</isBad>
+  </HediffDef>
   <!-- ====== Leather ====== -->
   <ThingDef ParentName="LeatherBase">
     <defName>Leather_Insectile</defName>
     <label>insectile hide</label>
     <description>Tanned, dried, insectile skin. It is suprisingly tough but insulates poorly.</description>
     <graphicData>
+      <texPath>swresource/Leather_Insectile</texPath>
       <color>(134,130,69)</color>
     </graphicData>
     <statBases>
@@ -542,6 +642,7 @@
     <label>reptavian hide</label>
     <description>Tanned, dried, skin. It is tough and somewhat beautiful.</description>
     <graphicData>
+      <texPath>swresource/Leather_Reptavian</texPath>
       <color>(100,69,134)</color>
     </graphicData>
     <statBases>
@@ -565,6 +666,7 @@
     <label>reptomammal hide</label>
     <description>Tanned, dried, skin. It is tough and insulative.</description>
     <graphicData>
+      <texPath>swresource/Leather_Reptomammal</texPath>
       <color>(134,69,69)</color>
     </graphicData>
     <statBases>
@@ -588,6 +690,7 @@
     <label>reptomammal fur</label>
     <description>Tanned, dried, reptomammal fur. Smells bad but at least it insulates against the cold.</description>
     <graphicData>
+      <texPath>swresource/Leather_Fur</texPath>
       <color>(255,255,255)</color>
     </graphicData>
     <statBases>
@@ -610,6 +713,7 @@
     <label>mammavian hide</label>
     <description>Tanned, dried, skin. It is quite insulative.</description>
     <graphicData>
+      <texPath>swresource/Leather_Mammavian</texPath>
       <color>(125,125,75)</color>
     </graphicData>
     <statBases>
@@ -631,7 +735,7 @@
     <label>crustapod chitin</label>
     <description>Tanned, dried, crustapod chitin. Durable, but lacks insulation.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Leather_Chitin</texPath>
+      <texPath>swresource/Leather_Chitin</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(100,175,175)</color>
     </graphicData>
@@ -651,10 +755,57 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Felinoid</defName>
+    <label>felinoid fur</label>
+    <description>Tanned, dried, felinoid fur. Soft and beautiful.</description>
+    <graphicData>
+      <texPath>swresource/Leather_ShortFur</texPath>
+      <color>(236,142,70)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.0</MarketValue>
+      <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(236,142,70)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+        <Beauty>2.5</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_SoftFur</defName>
+    <label>soft fur</label>
+    <description>Tanned, dried, soft fur. Soft, insulating and beautiful.</description>
+    <graphicData>
+      <texPath>swresource/Leather_ShortFur</texPath>
+      <color>(250,250,200)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>5.0</MarketValue>
+      <StuffPower_Insulation_Cold>50</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(250,250,200)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+        <Beauty>3.0</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
     <defName>Leather_Tough</defName>
     <label>heavy hide</label>
     <description>Tanned, dried, skin. It won't keep you warm but it is reasonably durable.</description>
     <graphicData>
+      <texPath>swresource/Leather_Tough</texPath>
       <color>(179,81,44)</color>
     </graphicData>
     <statBases>
@@ -676,6 +827,7 @@
     <label>saurian hide</label>
     <description>Tanned, dried, saurian skin. It has an unusual beauty.</description>
     <graphicData>
+      <texPath>swresource/Leather_Scaled</texPath>
       <color>(118,134,69)</color>
     </graphicData>
     <statBases>
@@ -698,6 +850,7 @@
     <label>dark hide</label>
     <description>The pelt of an creature typically associated with the "darkside". This tough skin protects very well and is believed to increase ones "connection to the force".</description>
     <graphicData>
+      <texPath>swresource/Leather_Tough</texPath>
       <color>(50,50,75)</color>
     </graphicData>
     <statBases>
@@ -725,6 +878,7 @@
     <label>bright fur</label>
     <description>The pelt of an creature typically associated with the "lightside". This beautiful fur protects very well and is believed to increase ones "connection to the force".</description>
     <graphicData>
+      <texPath>swresource/Leather_Fur</texPath>
       <color>(250,250,225)</color>
     </graphicData>
     <statBases>
@@ -748,10 +902,126 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Rancor</defName>
+    <label>rancor hide</label>
+    <description>Tanned, dried, Rancor hide. Strong, durable and pricey.</description>
+    <graphicData>
+      <texPath>swresource/Leather_Heavy</texPath>
+      <color>(106,66,41)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>15.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>2.0</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(106,66,41)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Bantha</defName>
+    <label>bantha fur</label>
+    <description>Tanned, dried, bantha fur. Not the toughest material, but very insulative against the heat.</description>
+    <graphicData>
+      <texPath>swresource/Leather_Fur</texPath>
+      <color>(69,39,32)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.5</MarketValue>
+      <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.25</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(69,39,32)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_KraytDragon</defName>
+    <label>krayt hide</label>
+    <description>Tanned, dried, krayt dragon scales. Exceptionally strong and commands a hefty price.</description>
+    <graphicData>
+      <texPath>swresource/Leather_Scaled</texPath>
+      <color>(104,85,52)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>20.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.3</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>2.5</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(104,85,52)</color>
+      <commonality>0.015</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Nerf</defName>
+    <label>nerf hide</label>
+    <description>Tanned, dried, nerf hide. A popular clothing textile.</description>
+    <graphicData>
+      <texPath>swresource/Leather_Tough</texPath>
+      <color>(69,39,32)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(69,39,32)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Wampa</defName>
+    <label>wampa pelt</label>
+    <description>Tanned, dried, wampa pelt. Reasonable protection and keeps you warm.</description>
+    <graphicData>
+      <texPath>swresource/Leather_Fur</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.4</MarketValue>
+      <StuffPower_Armor_Sharp>1.20</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.20</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(255,255,255)</color>
+      <commonality>0.1</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
     <defName>Leather_Fambaa</defName>
     <label>fambaa hide</label>
     <description>The pelt of an Fambaa. Harvested from a large, hardy animal. This thick skin protects very well.</description>
     <graphicData>
+      <texPath>swresource/Leather_Scaled</texPath>
       <color>(50,75,50)</color>
     </graphicData>
     <statBases>
@@ -772,6 +1042,7 @@
     <label>gundark pelt</label>
     <description>The pelt of a Gundark. Harvested from a large, predatory animal. This hide protects reasonably well and is quite beautiful.</description>
     <graphicData>
+      <texPath>swresource/Leather_Reptomammal</texPath>
       <color>(150,0,0)</color>
     </graphicData>
     <statBases>
@@ -791,13 +1062,36 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Horax</defName>
+    <label>horax hide</label>
+    <description>Tanned, dried, Horax hide. Strong, durable and pricey.</description>
+    <graphicData>
+      <texPath>swresource/Leather_Heavy</texPath>
+      <color>(0,76,156)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>15.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.2</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>2.4</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(0,76,156)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
     <defName>Leather_LavaFlea</defName>
     <label>lava flea chitin</label>
     <description>The shell of a Lava Flea. It is exceptionally resistant to high temperature, but only provide average protection.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Leather_Chitin</texPath>
+      <texPath>swresource/Leather_Chitin</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <color>(225,150,200)</color>
+      <color>(100,100,100)</color>
     </graphicData>
     <statBases>
       <MarketValue>4.0</MarketValue>
@@ -818,7 +1112,7 @@
     <label>vapaad chitin</label>
     <description>The shell of a Vapaad. It is exceptionally resistant to high temperature and provides decent protection.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Leather_Chitin</texPath>
+      <texPath>swresource/Leather_Chitin</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(50,75,80)</color>
     </graphicData>
@@ -837,10 +1131,58 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Testudine</defName>
+    <label>testudine chitin</label>
+    <description>The shell of a testudine. It provides excellent protection but does not insulate well.</description>
+    <graphicData>
+      <texPath>swresource/Leather_Chitin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(100,100,0)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>15.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>2.0</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(100,100,0)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Insectine</defName>
+    <label>insectine chitin</label>
+    <description>The shell of a insectine. It provides decent protection and insulates well against the cold.</description>
+    <graphicData>
+      <texPath>swresource/Leather_Chitin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(250,250,200)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>5.0</MarketValue>
+      <StuffPower_Armor_Sharp>1.6</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.6</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>50</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(250,250,2000)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
     <defName>Leather_Roggwart</defName>
     <label>roggwart hide</label>
     <description>The pelt of a Roggwart. Harvested from a large, predatory animal. This hide protects reasonably well and is heat resistant.</description>
     <graphicData>
+      <texPath>swresource/Leather_Heavy</texPath>
       <color>(50,50,50)</color>
     </graphicData>
     <statBases>
@@ -862,6 +1204,7 @@
     <label>ronto hide</label>
     <description>The pelt of an Ronto. Harvested from a large, hardy animal. This thick skin protects very well.</description>
     <graphicData>
+      <texPath>swresource/Leather_Tough</texPath>
       <color>(100,75,55)</color>
     </graphicData>
     <statBases>
@@ -881,9 +1224,10 @@
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
     <defName>Leather_Rycrit</defName>
-    <label>Rycrit hide</label>
+    <label>rycrit hide</label>
     <description>The hide of an Rycrit. Known for it's insulative properties above it protective ones.</description>
     <graphicData>
+      <texPath>swresource/Leather_ShortFur</texPath>
       <color>(125,100,75)</color>
     </graphicData>
     <statBases>
@@ -906,6 +1250,7 @@
     <label>wraidskin</label>
     <description>The hide of an Wraid. Harvested from a large, hardy animal. This thick skin protects well and command a decent price.</description>
     <graphicData>
+      <texPath>swresource/Leather_Scaled</texPath>
       <color>(175,175,50)</color>
     </graphicData>
     <statBases>
@@ -927,6 +1272,7 @@
     <label>zakkeg hide</label>
     <description>The pelt of a Zakkeg. Harvested from a large, predatory animal. This hide protects very well but isn't insulative.</description>
     <graphicData>
+      <texPath>swresource/Leather_Scaled</texPath>
       <color>(50,50,50)</color>
     </graphicData>
     <statBases>
@@ -973,7 +1319,7 @@
     <label>gornt meat</label>
     <description>A piece of meat from a gornt. It is reputed to taste exceptional and commands a price that matches the fact.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Meat_Gornt</texPath>
+      <texPath>swresource/Meat_Gornt</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -993,7 +1339,7 @@
     <label>rycrit meat</label>
     <description>A piece of meat from a rycrit. It is reputed to taste great and is a staple of Rylothian cuisine.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Meat_Rycrit</texPath>
+      <texPath>swresource/Meat_Rycrit</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -1013,7 +1359,7 @@
     <label>gorg meat</label>
     <description>A piece of meat from an amphibian.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Meat_Gorg</texPath>
+      <texPath>swresource/Meat_Gorg</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -1025,7 +1371,7 @@
     <label>insectile meat</label>
     <description>A piece of meat from an insectile.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Meat_Insectile</texPath>
+      <texPath>swresource/Meat_Insectile</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -1037,7 +1383,7 @@
     <label>reptavian meat</label>
     <description>A piece of meat from a reptavian.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Meat_Reptavian</texPath>
+      <texPath>swresource/Meat_Reptavian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -1049,7 +1395,7 @@
     <label>mammavian meat</label>
     <description>A piece of meat from a mammavian.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Meat_Mammavian</texPath>
+      <texPath>swresource/Meat_Mammavian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -1061,7 +1407,7 @@
     <label>reptomammal meat</label>
     <description>A piece of meat from a reptomammal.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Meat_Reptomammal</texPath>
+      <texPath>swresource/Meat_Reptomammal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -1073,7 +1419,7 @@
     <label>crustapod meat</label>
     <description>A piece of meat from a crustapod.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Meat_Crustapod</texPath>
+      <texPath>swresource/Meat_Crustapod</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -1085,42 +1431,186 @@
     <label>silica meat</label>
     <description>A piece of meat from a silicon based life form.</description>
     <graphicData>
-      <texPath>swanimals/Resource/Meat_Silica</texPath>
+      <texPath>swresource/Meat_Silica</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>1.0</MarketValue>
     </statBases>
   </ThingDef>
-  <!-- ====== Eggs ====== -->
-  <ThingDef ParentName="EggUnfertBase">
-    <defName>EggHawkbatUnfertilized</defName>
-    <label>hawkbat egg (unfert.)</label>
-    <description>An unfertilized hawkbat egg. It is both valuable and delicious. It can be eaten raw or cooked.</description>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Anthropoid_Meat</defName>
+    <label>anthropoid meat</label>
+    <description>A piece of meat from a anthropoid creature.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggPod</texPath>
-      <color>(125,150,100)</color>
+      <texPath>swresource/Meat_Anthropoid</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>25.0</MarketValue>
+      <MarketValue>1.5</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Bantha_Meat</defName>
+    <label>bantha meat</label>
+    <description>A piece of meat from a bantha.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Bantha</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Cameloid_Meat</defName>
+    <label>cameloid meat</label>
+    <description>A piece of meat from a cameloid.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Cameloid</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Felinoid_Meat</defName>
+    <label>felinoid meat</label>
+    <description>A piece of meat from a felinoid.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Felinoid</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Krayt_Meat</defName>
+    <label>krayt meat</label>
+    <description>A piece of meat from a large reptiloid.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Krayt</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Nerf_Meat</defName>
+    <label>nerf meat</label>
+    <description>A piece of meat from a nerf.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Nerf</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Pachydermoid_Meat</defName>
+    <label>pachydermoid meat</label>
+    <description>A piece of meat from a pachydermoid.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Pachydermoid</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Rancor_Meat</defName>
+    <label>rancor meat</label>
+    <description>A piece of meat from a rancor.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Rancor</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Rodentia_Meat</defName>
+    <label>rodentia meat</label>
+    <description>A piece of meat from a rodent.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Rodentia</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Ronto_Meat</defName>
+    <label>ronto meat</label>
+    <description>A piece of meat from a ronto.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Ronto</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Saurian_Meat</defName>
+    <label>saurian meat</label>
+    <description>A piece of meat from a saurian.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Saurian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Tender_Meat</defName>
+    <label>tender meat</label>
+    <description>A piece of tender, fatty meat from a generally sedentary creature.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Tender</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
     </statBases>
     <ingestible>
-      <joy>0.12</joy>
-      <joyKind>Gluttonous</joyKind>
-      <tasteThought>AteHawkbatEgg</tasteThought>
-      <specialThoughtAsIngredient>AteHawkbatEgg</specialThoughtAsIngredient>
+      <tasteThought>AteTenderMeat</tasteThought>
+      <specialThoughtAsIngredient>AteTenderMeat</specialThoughtAsIngredient>
       <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
     </ingestible>
-    <allowedArchonexusCount>10</allowedArchonexusCount>
   </ThingDef>
+  <ThingDef ParentName="SWanimals_RawMeatBase">
+    <defName>Tough_Meat</defName>
+    <label>tough meat</label>
+    <description>A piece of tough, chewy meat from a generally active creature.</description>
+    <graphicData>
+      <texPath>swresource/Meat_Tough</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+    </statBases>
+    <ingestible>
+      <tasteThought>AteToughMeat</tasteThought>
+      <specialThoughtAsIngredient>AteToughMeat</specialThoughtAsIngredient>
+      <optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  <!-- ====== Eggs ====== -->
   <ThingDef ParentName="EggUnfertBase">
     <defName>EggAmphispawnUnfertilized</defName>
     <label>amphispawn egg (unfert.)</label>
     <description>An unfertilized "jelly"-like amphispawn egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggAmphispawn</texPath>
+      <texPath>swresource/EggAmphispawn</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
@@ -1133,7 +1623,7 @@
     <label>pod egg (unfert.)</label>
     <description>An unfertilized "pod"-like egg with a leathery shell. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggPod</texPath>
+      <texPath>swresource/EggPod</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(245,245,245)</color>
       <drawSize>1.0</drawSize>
@@ -1147,7 +1637,7 @@
     <label>insectile egg (unfert.)</label>
     <description>An unfertilized insectile egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggInsectile</texPath>
+      <texPath>swresource/EggInsectile</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
@@ -1160,7 +1650,7 @@
     <label>reptavian egg (unfert.)</label>
     <description>An unfertilized reptavian egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <texPath>swresource/EggReptavian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
@@ -1173,7 +1663,7 @@
     <label>crustapod roe (unfert.)</label>
     <description>Unfertilized crustapod roe. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggRoe</texPath>
+      <texPath>swresource/EggRoe</texPath>
       <color>(255,125,0)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>0.75</drawSize>
@@ -1194,7 +1684,7 @@
     <label>Mammavian egg (unfert.)</label>
     <description>Unfertilized mammavian egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggMammavian</texPath>
+      <texPath>swresource/EggMammavian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
@@ -1208,7 +1698,7 @@
     <description>A fertilized akk egg. If all goes well, it should hatch into a baby akk. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggScaled</texPath>
+      <texPath>swresource/EggScaled</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(200,75,75)</color>
       <drawSize>0.75</drawSize>
@@ -1229,7 +1719,7 @@
     <label>akk egg (unfert.)</label>
     <description>An unfertilized akk egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggScaled</texPath>
+      <texPath>swresource/EggScaled</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(200,75,75)</color>
       <drawSize>0.75</drawSize>
@@ -1245,13 +1735,13 @@
     <description>A fertilized beldon egg. If all goes well, it should hatch into a baby beldon. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpore</texPath>
+      <texPath>swresource/EggSpore</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(250,100,250)</color>
       <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>40.0</MarketValue>
     </statBases>
     <comps>
@@ -1266,13 +1756,13 @@
     <label>beldon egg (unfert.)</label>
     <description>An unfertilized beldon egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpore</texPath>
+      <texPath>swresource/EggSpore</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(250,100,250)</color>
       <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>40.0</MarketValue>
     </statBases>
   </ThingDef>
@@ -1282,13 +1772,13 @@
     <description>A fertilized blixus egg. If all goes well, it should hatch into a baby blixus. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggRoe</texPath>
+      <texPath>swresource/EggRoe</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(100,175,250)</color>
       <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>50.0</MarketValue>
     </statBases>
     <comps>
@@ -1303,15 +1793,22 @@
     <label>blixus roe (unfert.)</label>
     <description>An unfertilized blixus egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggRoe</texPath>
+      <texPath>swresource/EggRoe</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(100,175,250)</color>
       <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>50.0</MarketValue>
     </statBases>
+    <ingestible>
+      <joy>0.12</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteCrustapodRoe</tasteThought>
+      <specialThoughtAsIngredient>AteCrustapodRoe</specialThoughtAsIngredient>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggBlurrgFertilized</defName>
@@ -1319,9 +1816,8 @@
     <description>A fertilized blurrg egg. If all goes well, it should hatch into a baby blurrg. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggSaurian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <color>(245,245,245)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
@@ -1340,9 +1836,8 @@
     <label>blurrg egg (unfert.)</label>
     <description>An unfertilized blurrg egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggSaurian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <color>(245,245,245)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
@@ -1356,7 +1851,7 @@
     <description>A fertilized bogwing egg. If all goes well, it should hatch into a baby bogwing. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <texPath>swresource/EggWiggly</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(150,175,175)</color>
       <drawSize>0.5</drawSize>
@@ -1377,7 +1872,7 @@
     <label>bogwing egg (unfert.)</label>
     <description>An unfertilized bogwing egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <texPath>swresource/EggWiggly</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(150,175,175)</color>
       <drawSize>0.5</drawSize>
@@ -1393,10 +1888,10 @@
     <description>A fertilized bolotaur egg. If all goes well, it should hatch into a baby bolotaur. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggSaurian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(100,150,0)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1414,10 +1909,10 @@
     <label>bolotaur egg (unfert.)</label>
     <description>An unfertilized bolotaur egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggSaurian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(100,150,0)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1430,10 +1925,10 @@
     <description>A fertilized boma egg. If all goes well, it should hatch into a baby boma. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpotted</texPath>
+      <texPath>swresource/EggDapple</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(250,250,200)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1451,10 +1946,10 @@
     <label>boma egg (unfert.)</label>
     <description>An unfertilized boma egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpotted</texPath>
+      <texPath>swresource/EggDapple</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(250,250,200)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1467,10 +1962,10 @@
     <description>A fertilized brezak egg. If all goes well, it should hatch into a baby brezak. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <texPath>swresource/EggWiggly</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <color>(250,200,125)</color>
-      <drawSize>1.0</drawSize>
+      <color>(255,215,0)</color>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1488,10 +1983,10 @@
     <label>brezak egg (unfert.)</label>
     <description>An unfertilized brezak egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <texPath>swresource/EggWiggly</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <color>(250,200,125)</color>
-      <drawSize>1.0</drawSize>
+      <color>(255,215,0)</color>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1504,7 +1999,7 @@
     <description>A fertilized can-cell egg. If all goes well, it should hatch into a baby can-cell. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggInsectile</texPath>
+      <texPath>swresource/EggInsectile</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0,255,175)</color>
       <drawSize>0.75</drawSize>
@@ -1525,7 +2020,7 @@
     <label>can-cell egg (unfert.)</label>
     <description>An unfertilized can-cell egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggInsectile</texPath>
+      <texPath>swresource/EggInsectile</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0,255,175)</color>
       <drawSize>0.75</drawSize>
@@ -1536,12 +2031,44 @@
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
+    <defName>EggClodhopperFertilized</defName>
+    <label>clodhopper egg (fert.)</label>
+    <description>Fertilized clodhopper egg.</description>
+    <graphicData>
+      <texPath>swresource/EggSpeckled</texPath>
+      <color>(204,102,0)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>4</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>2</hatcherDaystoHatch>
+        <hatcherPawn>Clodhopper</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggClodhopperUnFertilized</defName>
+    <label>clodhopper egg (unfert.)</label>
+    <description>An unfertilized clodhopper egg. It can be eaten raw, but it's much better cooked</description>
+    <graphicData>
+      <texPath>swresource/EggSpeckled</texPath>
+      <color>(204,102,0)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>4</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
     <defName>EggConvorFertilized</defName>
     <label>convor egg (fert.)</label>
     <description>A fertilized convor egg. If all goes well, it should hatch into a baby convor. It can be eaten raw, but it's much better cooked..</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggMammavian</texPath>
+      <texPath>swresource/EggSwirl</texPath>
       <color>(225,255,255)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
@@ -1558,9 +2085,9 @@
   <ThingDef ParentName="EggUnfertBase">
     <defName>EggConvorUnFertilized</defName>
     <label>convor egg (unfert.)</label>
-    <description>An unfertilized convor egg. It can be eaten raw, but it's much better cooked..</description>
+    <description>An unfertilized convor egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggMammavian</texPath>
+      <texPath>swresource/EggSwirl</texPath>
       <color>(225,255,255)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
@@ -1569,15 +2096,49 @@
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
+    <defName>EggChrysalideRancorFertilized</defName>
+    <label>chrysalide rancor egg (fert.)</label>
+    <description>A fertilized chrysalide rancor egg. If all goes well, it should hatch into a baby chrysalide rancor. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggRough</texPath>
+      <color>(137,147,100)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <MarketValue>200.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>ChrysalideRancor</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggChrysalideRancorUnFertilized</defName>
+    <label>chrysalide rancor egg (unfert.)</label>
+    <description>An unfertilized chrysalide rancor egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggRough</texPath>
+      <color>(137,147,100)</color>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <MarketValue>175.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
     <defName>EggDactillionFertilized</defName>
     <label>dactillion egg (fert.)</label>
     <description>A fertilized dactillion egg. If all goes well, it should hatch into a baby dactillion. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <texPath>swresource/EggWiggly</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(250,150,250)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1595,14 +2156,51 @@
     <label>dactillion egg (unfert.)</label>
     <description>An unfertilized dactillion egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <texPath>swresource/EggWiggly</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(250,150,250)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
       <MarketValue>40.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggDragonsnakeFertilized</defName>
+    <label>dragonsnake egg (fert.)</label>
+    <description>A fertilized dragonsnake egg. If all goes well, it should hatch into a baby dragonsnake. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggSaurian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(100,100,0)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>80.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>15</hatcherDaystoHatch>
+        <hatcherPawn>Dragonsnake</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggDragonsnakeUnFertilized</defName>
+    <label>dragonsnake egg (unfert.)</label>
+    <description>An unfertilized dragonsnake egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggSaurian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(100,100,0)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>80.0</MarketValue>
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
@@ -1611,13 +2209,13 @@
     <description>A fertilized drexl egg. If all goes well, it should hatch into a baby drexl. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggShark</texPath>
+      <texPath>swresource/EggShark</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(100,50,150)</color>
       <drawSize>1.25</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>140.0</MarketValue>
     </statBases>
     <comps>
@@ -1632,13 +2230,13 @@
     <label>drexl egg (unfert.)</label>
     <description>An unfertilized drexl egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggShark</texPath>
+      <texPath>swresource/EggShark</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(100,50,150)</color>
       <drawSize>1.25</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>140.0</MarketValue>
     </statBases>
   </ThingDef>
@@ -1648,10 +2246,10 @@
     <description>A fertilized energy spider egg. If all goes well, it should hatch into a baby energy spider. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpore</texPath>
+      <texPath>swresource/EggSpore</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(250,150,0)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1674,10 +2272,10 @@
     <label>energy spider egg (unfert.)</label>
     <description>An unfertilized energy spider egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpore</texPath>
+      <texPath>swresource/EggSpore</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(250,150,0)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1690,13 +2288,13 @@
     <description>A fertilized fambaa egg. If all goes well, it should hatch into a baby fambaa. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggAmphispawn</texPath>
+      <texPath>swresource/EggSlime</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(200,250,150)</color>
       <drawSize>1.25</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>60.0</MarketValue>
     </statBases>
     <comps>
@@ -1711,14 +2309,159 @@
     <label>fambaa egg (unfert.)</label>
     <description>An unfertilized fambaa egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggAmphispawn</texPath>
+      <texPath>swresource/EggSlime</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(200,250,150)</color>
       <drawSize>1.25</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>60.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggFanbackFertilized</defName>
+    <label>fanback egg (fert.)</label>
+    <description>A fertilized fanback egg. If all goes well, it should hatch into a baby fanback. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggSpeckled</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(255,255,200)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>20.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherPawn>Fanback</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggFanbackUnFertilized</defName>
+    <label>fanback egg (unfert.)</label>
+    <description>An unfertilized fanback egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggSpeckled</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(255,255,200)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>20.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggFrilledGorgFertilized</defName>
+    <label>frilled gorg egg (fert.)</label>
+    <description>A fertilized frilled gorg egg. If all goes well, it should hatch into a baby frilled gorg. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggPod</texPath>
+      <color>(100,75,100)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>3</hatcherDaystoHatch>
+        <hatcherPawn>FrilledGorg</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggFrilledGorgUnFertilized</defName>
+    <label>frilled gorg egg (unfert.)</label>
+    <description>An unfertilized frilled gorg egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggPod</texPath>
+      <color>(100,75,100)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggHoraxFertilized</defName>
+    <label>horax egg (fert.)</label>
+    <description>A fertilized horax egg. If all goes well, it should hatch into a baby horax. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggDapple</texPath>
+      <color>(0,75,150)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <MarketValue>140.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>15</hatcherDaystoHatch>
+        <hatcherPawn>Horax</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggHoraxUnFertilized</defName>
+    <label>horax egg (unfert.)</label>
+    <description>An unfertilized frilled horax egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggDapple</texPath>
+      <color>(0,75,150)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <MarketValue>140.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggIgitzFertilized</defName>
+    <label>igitz egg (fert.)</label>
+    <description>A fertilized igitz egg. If all goes well, it should hatch into a baby igitz. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggAmphispawn</texPath>
+      <color>(0,150,150)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherPawn>Igitz</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggIgitzUnFertilized</defName>
+    <label>igitz egg (unfert.)</label>
+    <description>An unfertilized igitz egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggAmphispawn</texPath>
+      <color>(0,150,150)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>7.0</MarketValue>
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
@@ -1727,10 +2470,10 @@
     <description>A fertilized gelagrub egg. If all goes well, it should hatch into a baby gelagrub. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpore</texPath>
+      <texPath>swresource/EggSpore</texPath>
       <color>(0,225,250)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1748,10 +2491,10 @@
     <label>gelagrub egg (unfert.)</label>
     <description>An unfertilized gelagrub egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpore</texPath>
+      <texPath>swresource/EggSpore</texPath>
       <color>(0,225,250)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1764,10 +2507,10 @@
     <description>A fertilized gorg egg. If all goes well, it should hatch into a baby gorg. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggPod</texPath>
+      <texPath>swresource/EggPod</texPath>
       <color>(100,100,175)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.75</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1785,14 +2528,48 @@
     <label>gorg egg (unfert.)</label>
     <description>An unfertilized gorg egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggPod</texPath>
+      <texPath>swresource/EggPod</texPath>
       <color>(100,100,175)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.75</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
       <MarketValue>7.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggGreaterKraytDragonFertilized</defName>
+    <label>greater krayt dragon egg (fert.)</label>
+    <description>A fertilized greater krayt dragon egg. If all goes well, it should hatch into a baby greater krayt dragon. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggSpiked</texPath>
+      <color>(250,250,150)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <MarketValue>250.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>15</hatcherDaystoHatch>
+        <hatcherPawn>GreaterKraytDragon</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggGreaterKraytDragonUnFertilized</defName>
+    <label>greater krayt dragon egg (unfert.)</label>
+    <description>An unfertilized greater krayt dragon egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggSpiked</texPath>
+      <color>(250,250,150)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <MarketValue>250.0</MarketValue>
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
@@ -1801,7 +2578,7 @@
     <description>A fertilized gullipud egg. If all goes well, it should hatch into a baby gullipud. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggAmphispawn</texPath>
+      <texPath>swresource/EggAmphispawn</texPath>
       <color>(250,250,0)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>0.5</drawSize>
@@ -1822,7 +2599,7 @@
     <label>gullipud egg (unfert.)</label>
     <description>An unfertilized gullipud egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggAmphispawn</texPath>
+      <texPath>swresource/EggAmphispawn</texPath>
       <color>(250,250,0)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>0.5</drawSize>
@@ -1838,10 +2615,10 @@
     <description>A fertilized gutkurr egg. If all goes well, it should hatch into a baby gutkurr. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggInsectile</texPath>
+      <texPath>swresource/EggInsectile</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(255,125,0)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1859,10 +2636,10 @@
     <label>gutkurr egg (unfert.)</label>
     <description>A fertilized gutkurr egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggInsectile</texPath>
+      <texPath>swresource/EggInsectile</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(255,125,0)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1875,10 +2652,10 @@
     <description>A fertilized harvester beetle egg. If all goes well, it should hatch into a baby harvester beetle. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggBeetle</texPath>
+      <texPath>swresource/EggBeetle</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(50,175,175)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1896,10 +2673,10 @@
     <label>harvester beetle egg (unfert.)</label>
     <description>An unfertilized harvester beetle egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggBeetle</texPath>
+      <texPath>swresource/EggBeetle</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(50,175,175)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1911,9 +2688,10 @@
     <label>hawkbat egg (fert.)</label>
     <description>A fertilized hawkbat egg. If all goes well, it should hatch into a baby hawkbat. It can be eaten raw or cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggPod</texPath>
+      <texPath>swresource/EggPod</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
+      <color>(125,150,100)</color>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1938,9 +2716,10 @@
     <label>hawkbat egg (unfert.)</label>
     <description>An unfertilized hawkbat egg. It can be eaten raw or cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggPod</texPath>
+      <texPath>swresource/EggPod</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
+      <color>(125,150,100)</color>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1960,10 +2739,10 @@
     <description>A fertilized hssiss egg. If all goes well, it should hatch into a baby hssiss. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggScaled</texPath>
+      <texPath>swresource/EggScaled</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(150,125,0)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1981,10 +2760,10 @@
     <label>hssiss egg (unfert.)</label>
     <description>An unfertilized hssiss egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggScaled</texPath>
+      <texPath>swresource/EggScaled</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(150,125,0)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -1992,14 +2771,48 @@
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
+    <defName>EggJungleRancorFertilized</defName>
+    <label>jungle rancor egg (fert.)</label>
+    <description>A fertilized jungle rancor egg. If all goes well, it should hatch into a baby jungle rancor. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggRough</texPath>
+      <color>(100,225,225)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <MarketValue>200.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>15</hatcherDaystoHatch>
+        <hatcherPawn>JungleRancor</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggJungleRancorUnFertilized</defName>
+    <label>jungle rancor egg (unfert.)</label>
+    <description>An unfertilized jungle rancor egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggRough</texPath>
+      <color>(100,225,225)</color>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <MarketValue>200.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
     <defName>EggKaaduFertilized</defName>
     <label>kaadu egg (fert.)</label>
     <description>A fertilized kaadu egg. If all goes well, it should hatch into a baby kaadu. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <texPath>swresource/EggSpeckled</texPath>
       <color>(125,100,150)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2017,14 +2830,46 @@
     <label>kaadu egg (unfert.)</label>
     <description>An unfertilized kaadu egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <texPath>swresource/EggSpeckled</texPath>
       <color>(125,100,150)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
       <MarketValue>25.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggKellDragonFertilized</defName>
+    <label>kell dragon egg (fert.)</label>
+    <description>A fertilized kell dragon egg. If all goes well, it should hatch into a baby kell dragon. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggSpiked</texPath>
+      <color>(50,50,0)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>45.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>KellDragon</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggKellDragonUnFertilized</defName>
+    <label>kell dragon egg (unfert.)</label>
+    <description>An unfertilized kell dragon egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggSpiked</texPath>
+      <color>(50,50,0)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>45.0</MarketValue>
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
@@ -2033,10 +2878,10 @@
     <description>A fertilized kinrath egg. If all goes well, it should hatch into a baby kinrath. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggNodule</texPath>
+      <texPath>swresource/EggNodule</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(150,150,100)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2054,14 +2899,51 @@
     <label>kinrath egg (unfert.)</label>
     <description>An unfertilized kinrath egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggNodule</texPath>
+      <texPath>swresource/EggNodule</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(150,150,100)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
       <MarketValue>30.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggKlorslugFertilized</defName>
+    <label>k'lor'slug egg (fert.)</label>
+    <description>A fertilized k'lor'slug egg. If all goes well, it should hatch into a baby k'lor'slug. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggSlick</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(200,200,0)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>50.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherPawn>Klorslug</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggKlorslugUnFertilized</defName>
+    <label>k'lor'slug egg (unfert.)</label>
+    <description>An unfertilized k'lor'slug egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggSlick</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(200,200,0)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>50.0</MarketValue>
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
@@ -2070,9 +2952,9 @@
     <description>A fertilized kinrath egg. If all goes well, it should hatch into a baby krykna. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggNodule</texPath>
+      <texPath>swresource/EggNodule</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2090,9 +2972,9 @@
     <label>krykna egg (unfert.)</label>
     <description>An unfertilized kinrath egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggNodule</texPath>
+      <texPath>swresource/EggNodule</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2104,12 +2986,12 @@
     <label>kwazel maw egg (fert.)</label>
     <description>A fertilized kwazel maw egg. If all goes well, it should hatch into a baby kwazel maw. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSlime</texPath>
+      <texPath>swresource/EggSlime</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.25</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>50.0</MarketValue>
     </statBases>
     <comps>
@@ -2124,12 +3006,12 @@
     <label>kwazel maw egg (unfert.)</label>
     <description>An unfertilized kwazel maw egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSlime</texPath>
+      <texPath>swresource/EggSlime</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.25</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>50.0</MarketValue>
     </statBases>
   </ThingDef>
@@ -2139,10 +3021,10 @@
     <description>A fertilized kwi egg. If all goes well, it should hatch into a baby kwi. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggSaurian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(50,100,150)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2160,10 +3042,10 @@
     <label>kwi egg (unfert.)</label>
     <description>An unfertilized kwi egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggSaurian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(50,100,150)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2175,7 +3057,7 @@
     <label>lava flea egg (fert.)</label>
     <description>A fertilized glava flea egg. If all goes well, it should hatch into a baby lava flea. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggBeetle</texPath>
+      <texPath>swresource/EggBeetle</texPath>
       <color>(100,75,75)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.0</drawSize>
@@ -2201,7 +3083,7 @@
     <label>lava flea egg (unfert.)</label>
     <description>A unfertilized glava flea egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggBeetle</texPath>
+      <texPath>swresource/EggBeetle</texPath>
       <color>(100,75,75)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.0</drawSize>
@@ -2217,13 +3099,13 @@
     <description>A fertilized lylek egg. If all goes well, it should hatch into a baby lylek. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSlick</texPath>
+      <texPath>swresource/EggSlick</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(200,255,0)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>140.0</MarketValue>
     </statBases>
     <comps>
@@ -2243,13 +3125,13 @@
     <label>lylek egg (unfert.)</label>
     <description>An unfertilized lylek egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSlick</texPath>
+      <texPath>swresource/EggSlick</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(200,255,0)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>140.0</MarketValue>
     </statBases>
   </ThingDef>
@@ -2259,10 +3141,10 @@
     <description>A fertilized longtail gorg egg. If all goes well, it should hatch into a baby longtail gorg. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggPod</texPath>
+      <texPath>swresource/EggPod</texPath>
       <color>(75,150,75)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.75</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2280,10 +3162,10 @@
     <label>longtail gorg egg (unfert.)</label>
     <description>An unfertilized longtail gorg egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggPod</texPath>
+      <texPath>swresource/EggPod</texPath>
       <color>(75,150,75)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.75</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2291,14 +3173,64 @@
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
+    <defName>EggMudhornFertilized</defName>
+    <label>mudhorn egg (fert.)</label>
+    <description>A fertilized mudhorn egg. If all goes well, it should hatch into a baby mudhorn. It can be eaten raw or cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggFurry</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+      <color>(100,50,0)</color>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <MarketValue>100.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>15</hatcherDaystoHatch>
+        <hatcherPawn>Mudhorn</hatcherPawn>
+      </li>
+    </comps>
+    <ingestible>
+      <joy>0.12</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteMudhornEgg</tasteThought>
+      <specialThoughtAsIngredient>AteMudhornEgg</specialThoughtAsIngredient>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggMudhornUnFertilized</defName>
+    <label>mudhorn egg (unfert.)</label>
+    <description>An unfertilized mudhorn egg. It can be eaten raw or cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggFurry</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+      <color>(100,50,0)</color>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <MarketValue>100.0</MarketValue>
+    </statBases>
+    <ingestible>
+      <joy>0.12</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteMudhornEgg</tasteThought>
+      <specialThoughtAsIngredient>AteMudhornEgg</specialThoughtAsIngredient>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
     <defName>EggPekopekoFertilized</defName>
     <label>peko-peko egg (fert.)</label>
     <description>A fertilized peko-peko egg. If all goes well, it should hatch into a baby peko-peko. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <texPath>swresource/EggReptavian</texPath>
       <color>(25,100,250)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.75</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2316,10 +3248,10 @@
     <label>peko-peko egg (unfert.)</label>
     <description>An unfertilized peko-peko egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <texPath>swresource/EggReptavian</texPath>
       <color>(25,100,250)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.75</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2331,9 +3263,9 @@
     <label>nuna egg (fert.)</label>
     <description>A fertilized nuna egg. If all goes well, it should hatch into a baby nuna. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggEaster</texPath>
+      <texPath>swresource/EggEaster</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2351,9 +3283,9 @@
     <label>nuna egg (unfert.)</label>
     <description>An unfertilized nuna egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggEaster</texPath>
+      <texPath>swresource/EggEaster</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2366,10 +3298,10 @@
     <description>A fertilized mastiff phalone egg. If all goes well, it should hatch into a baby mastiff phalone. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggMammavian</texPath>
+      <texPath>swresource/EggMammavian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(150,150,150)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2387,10 +3319,10 @@
     <label>mastiff phalone egg (unfert.)</label>
     <description>An unfertilized mastiff phalone egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggMammavian</texPath>
+      <texPath>swresource/EggMammavian</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(150,150,150)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2402,10 +3334,10 @@
     <label>painted spat egg (fert.)</label>
     <description>A fertilized painted spat egg. If all goes well, it should hatch into a baby painted spat. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <texPath>swresource/EggSpeckled</texPath>
       <color>(205,180,103)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2423,10 +3355,10 @@
     <label>painted spat egg (unfert.)</label>
     <description>An unfertilized painted spat egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <texPath>swresource/EggSpeckled</texPath>
       <color>(205,180,103)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2438,7 +3370,7 @@
     <label>pikobis egg (fert.)</label>
     <description>A fertilized pikobis egg. If all goes well, it should hatch into a baby pikobis. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <texPath>swresource/EggReptavian</texPath>
       <color>(255,255,155)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>0.5</drawSize>
@@ -2459,7 +3391,7 @@
     <label>pikobis egg (unfert.)</label>
     <description>An unfertilized pikobis egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggReptavian</texPath>
+      <texPath>swresource/EggReptavian</texPath>
       <color>(255,255,155)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>0.5</drawSize>
@@ -2475,7 +3407,7 @@
     <description>A fertilized rikknit egg. If all goes well, it should hatch into a baby rikknit. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggRoe</texPath>
+      <texPath>swresource/EggRoe</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(175,25,75)</color>
       <drawSize>0.5</drawSize>
@@ -2496,7 +3428,7 @@
     <label>rikknit roe (unfert.)</label>
     <description>An unfertilized rikknit egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggRoe</texPath>
+      <texPath>swresource/EggRoe</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(175,25,75)</color>
       <drawSize>0.5</drawSize>
@@ -2505,6 +3437,13 @@
       <Nutrition>0.25</Nutrition>
       <MarketValue>40.0</MarketValue>
     </statBases>
+    <ingestible>
+      <joy>0.12</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteCrustapodRoe</tasteThought>
+      <specialThoughtAsIngredient>AteCrustapodRoe</specialThoughtAsIngredient>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
     <defName>EggShiroFertilized</defName>
@@ -2512,7 +3451,7 @@
     <description>A fertilized shiro egg. If all goes well, it should hatch into a baby shiro. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpotted</texPath>
+      <texPath>swresource/EggSpotted</texPath>
       <color>(225,250,255)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
@@ -2532,7 +3471,7 @@
     <label>shiro egg (unfert.)</label>
     <description>An unfertilized shiro egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpotted</texPath>
+      <texPath>swresource/EggSpotted</texPath>
       <color>(225,250,255)</color>
       <drawSize>0.75</drawSize>
     </graphicData>
@@ -2542,12 +3481,49 @@
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
+    <defName>EggShiroTrapFertilized</defName>
+    <label>shiro-trap egg (fert.)</label>
+    <description>A fertilized shiro-trap egg. If all goes well, it should develop into a baby shiro-trap. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggFungi</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(250,100,100)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>30.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>4</hatcherDaystoHatch>
+        <hatcherPawn>ShiroTrap</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggShiroTrapUnFertilized</defName>
+    <label>shiro-trap egg (unfert.)</label>
+    <description>An unfertilized shiro-trap egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggFungi</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(250,100,100)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>30.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
     <defName>EggShyrackFertilized</defName>
     <label>shyrack egg (fert.)</label>
     <description>A fertilized shyrack egg. If all goes well, it should hatch into a baby shyrack. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggInsectile</texPath>
+      <texPath>swresource/EggInsectile</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(200,50,50)</color>
       <drawSize>0.75</drawSize>
@@ -2568,7 +3544,7 @@
     <label>shyrack egg (unfert.)</label>
     <description>An unfertilized shyrack egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggInsectile</texPath>
+      <texPath>swresource/EggInsectile</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(200,50,50)</color>
       <drawSize>0.75</drawSize>
@@ -2579,15 +3555,52 @@
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
+    <defName>EggSnoruukFertilized</defName>
+    <label>snoruuk spore (fert.)</label>
+    <description>A fertilized snoruuk spore. If all goes well, it should develop into a baby snoruuk. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggFungi</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(150,150,0)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>6.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>3</hatcherDaystoHatch>
+        <hatcherPawn>Snoruuk</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggSnoruukUnFertilized</defName>
+    <label>snoruuk spore (unfert.)</label>
+    <description>An unfertilized snoruuk spore. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggFungi</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(150,150,0)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>6.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
     <defName>EggSiloothFertilized</defName>
     <label>Silooth egg (fert.)</label>
     <description>A fertilized silooth egg. If all goes well, it should hatch into a baby silooth. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggBeetle</texPath>
+      <texPath>swresource/EggBeetle</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(255,150,0)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2605,10 +3618,10 @@
     <label>Silooth egg (unfert.)</label>
     <description>An unfertilized silooth egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggBeetle</texPath>
+      <texPath>swresource/EggBeetle</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(255,150,0)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2616,15 +3629,59 @@
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
+    <defName>EggTetnissCrabFertilized</defName>
+    <label>tet'niss crab roe (fert.)</label>
+    <description>A fertilized tet'niss crab egg. If all goes well, it should hatch into a baby tet'niss crab. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggRoe</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(0,75,150)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.25</Nutrition>
+      <MarketValue>20.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherPawn>TetnissCrab</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggTetnissCrabUnFertilized</defName>
+    <label>tet'niss crab roe (unfert.)</label>
+    <description>An unfertilized tet'niss crab egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggRoe</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(0,75,150)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.25</Nutrition>
+      <MarketValue>20.0</MarketValue>
+    </statBases>
+    <ingestible>
+      <joy>0.12</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteCrustapodRoe</tasteThought>
+      <specialThoughtAsIngredient>AteCrustapodRoe</specialThoughtAsIngredient>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
     <defName>EggThrantaFertilized</defName>
     <label>thranta egg (fert.)</label>
     <description>A fertilized thranta egg. If all goes well, it should hatch into a baby thranta. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggDimple</texPath>
+      <texPath>swresource/EggDimple</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(75,150,250)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2646,10 +3703,10 @@
     <label>thranta egg (unfert.)</label>
     <description>An unfertilized thranta egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggDimple</texPath>
+      <texPath>swresource/EggDimple</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(75,150,250)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2662,13 +3719,13 @@
     <description>A fertilized taozin egg. If all goes well, it should hatch into a baby taozin. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSilk</texPath>
+      <texPath>swresource/EggSilk</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(75,100,50)</color>
       <drawSize>1.25</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>140.0</MarketValue>
     </statBases>
     <comps>
@@ -2683,14 +3740,125 @@
     <label>taozin egg (unfert.)</label>
     <description>An unfertilized taozin egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSilk</texPath>
+      <texPath>swresource/EggSilk</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(75,100,50)</color>
       <drawSize>1.25</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>140.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggTortonFertilized</defName>
+    <label>torton egg (fert.)</label>
+    <description>A fertilized torton egg. If all goes well, it should hatch into a baby torton. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggSaurian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(255,255,200)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>60.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>Torton</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggTortonUnFertilized</defName>
+    <label>torton egg (unfert.)</label>
+    <description>An unfertilized torton egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggSaurian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(255,255,200)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>60.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggUrusaiFertilized</defName>
+    <label>urusai egg (fert.)</label>
+    <description>A fertilized urusai egg. If all goes well, it should hatch into a baby urusai. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggMammavian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(200,150,250)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>15.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>4</hatcherDaystoHatch>
+        <hatcherPawn>Urusai</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggUrusaiUnFertilized</defName>
+    <label>urusai egg (unfert.)</label>
+    <description>An unfertilized urusai egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggMammavian</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(200,150,250)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>15.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggUvakFertilized</defName>
+    <label>uvak egg (fert.)</label>
+    <description>A fertilized uvak egg. If all goes well, it should hatch into a baby uvak. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggWiggly</texPath>
+      <color>(250,100,100)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>40.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>15</hatcherDaystoHatch>
+        <hatcherPawn>Uvak</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggUvakUnFertilized</defName>
+    <label>uvak egg (unfert.)</label>
+    <description>An unfertilized uvak egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggWiggly</texPath>
+      <color>(250,100,100)</color>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>40.0</MarketValue>
     </statBases>
   </ThingDef>
   <ThingDef ParentName="EggFertBase">
@@ -2699,10 +3867,10 @@
     <description>A fertilized varactyl egg. If all goes well, it should hatch into a baby varactyl. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggScaled</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <color>(250,150,250)</color>
-      <drawSize>1.0</drawSize>
+      <color>(255,215,0)</color>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2720,10 +3888,10 @@
     <label>varactyl egg (unfert.)</label>
     <description>A fertilized varactyl egg. If all goes well, it should hatch into a baby varactyl. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggScaled</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <color>(250,150,250)</color>
-      <drawSize>1.0</drawSize>
+      <color>(255,215,0)</color>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2736,13 +3904,13 @@
     <description>A fertilized warbird egg. If all goes well, it should hatch into a baby warbird. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <texPath>swresource/EggSpeckled</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(150,250,75)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>120.0</MarketValue>
     </statBases>
     <comps>
@@ -2761,13 +3929,13 @@
     <label>warbird egg (unfert.)</label>
     <description>An unfertilized warbird egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <texPath>swresource/EggSpeckled</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(150,250,75)</color>
-      <drawSize>1.25</drawSize>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <statBases>
-      <Nutrition>0.5</Nutrition>
+      <Nutrition>1.0</Nutrition>
       <MarketValue>120.0</MarketValue>
     </statBases>
   </ThingDef>
@@ -2777,7 +3945,7 @@
     <description>A fertilized whisperbird egg. If all goes well, it should hatch into a baby whisperbird. It can be eaten raw, but it's much better cooked..</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <texPath>swresource/EggSpeckled</texPath>
       <drawSize>0.5</drawSize>
       <color>(0,255,200)</color>
     </graphicData>
@@ -2796,7 +3964,7 @@
     <label>whisperbird egg (unfert.)</label>
     <description>An unfertilized whisperbird egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSpeckled</texPath>
+      <texPath>swresource/EggSpeckled</texPath>
       <drawSize>0.5</drawSize>
       <color>(0,255,200)</color>
     </graphicData>
@@ -2809,10 +3977,10 @@
     <label>worrt egg (fert.)</label>
     <description>A fertilized worrt egg. If all goes well, it should hatch into a baby worrt. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggAmphispawn</texPath>
-      <color>(250,200,150)</color>
+      <texPath>swresource/EggAmphispawn</texPath>
+      <color>(255,165,0)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.5</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2830,10 +3998,10 @@
     <label>worrt egg (unfert.)</label>
     <description>An unfertilized worrt egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggAmphispawn</texPath>
-      <color>(250,200,150)</color>
+      <texPath>swresource/EggAmphispawn</texPath>
+      <color>(255,165,0)</color>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.5</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <Nutrition>0.5</Nutrition>
@@ -2845,9 +4013,9 @@
     <label>wraid egg (fert.)</label>
     <description>A fertilized wraid egg. If all goes well, it should hatch into a baby wraid. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggSaurian</texPath>
       <color>(150, 25, 25)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>80.0</MarketValue>
@@ -2864,29 +4032,245 @@
     <label>wraid egg (unfert.)</label>
     <description>An unfertilized wraid egg. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <texPath>swanimals/Resource/EggSaurian</texPath>
+      <texPath>swresource/EggSaurian</texPath>
       <color>(150, 25, 25)</color>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>80.0</MarketValue>
     </statBases>
   </ThingDef>
-  <!-- ====== Trophies ====== -->
-  <ThingDef ParentName="ResourceBase">
-    <defName>KraytDragonSkull</defName>
-    <label>krayt dragon skull</label>
-    <description>A krayt dragon skull. Not only is it intimidating but its presence tells of a great hunt.</description>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggWyyyschokkFertilized</defName>
+    <label>wyyyschokk egg (fert.)</label>
+    <description>A fertilized wyyyschokk egg. If all goes well, it should hatch into a baby wyyyschokk. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>swanimals/Resource/KraytDragonSkull</texPath>
+      <texPath>swresource/EggSilk</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(255,255,200)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>70.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherPawn>Wyyyschokk</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggWyyyschokkUnFertilized</defName>
+    <label>wyyyschokk egg (unfert.)</label>
+    <description>An unfertilized wyyyschokk egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggSilk</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(255,255,200)</color>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>70.0</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggYobshrimpFertilized</defName>
+    <label>yobshrimp roe (fert.)</label>
+    <description>A fertilized yobshrimp egg. If all goes well, it should hatch into a baby yobshrimp. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>swresource/EggRoe</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(100,00,200)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.25</Nutrition>
+      <MarketValue>10.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>3</hatcherDaystoHatch>
+        <hatcherPawn>Yobshrimp</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>EggYobshrimpUnFertilized</defName>
+    <label>yobshrimp roe (unfert.)</label>
+    <description>An unfertilized yobshrimp egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>swresource/EggRoe</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(100,00,200)</color>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.25</Nutrition>
+      <MarketValue>10.0</MarketValue>
+    </statBases>
+    <ingestible>
+      <joy>0.12</joy>
+      <joyKind>Gluttonous</joyKind>
+      <tasteThought>AteCrustapodRoe</tasteThought>
+      <specialThoughtAsIngredient>AteCrustapodRoe</specialThoughtAsIngredient>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  <!-- ====== TROPHIES ====== -->
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>BanthaHorn</defName>
+    <label>bantha horn</label>
+    <description>A bantha's horn. Good enough to fend off some enemies. Comes as at least a pair, so not as valuable as other horns out there.</description>
+    <graphicData>
+      <texPath>swresource/Trophies/BanthaHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>3.0</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.3</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <relicChance>2</relicChance>
+    <comps>
+      <li Class="CompProperties_Styleable">
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.85</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.85</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>RancorSkull</defName>
+    <label>rancor skull</label>
+    <description>A rancor skull. Not only is it intimidating and beautiful at the same time, it speaks volumes .</description>
+    <graphicData>
+      <texPath>swresource/Trophies/RancorSkull</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>2300</MarketValue>
+      <MarketValue>1500</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-      <Mass>4</Mass>
-      <Flammability>1</Flammability>
+      <Mass>6.0</Mass>
+      <Flammability>0.1</Flammability>
       <DeteriorationRate>0.3</DeteriorationRate>
+      <Beauty>100</Beauty>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <relicChance>2</relicChance>
+    <comps>
+      <li Class="CompProperties_Styleable">
+      </li>
+    </comps>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>RancorTooth</defName>
+    <label>rancor tooth</label>
+    <description>A rancors tooth. Good enough to fend off some enemies.  A valuable and potentially useful weapon if needed.</description>
+    <graphicData>
+      <texPath>swresource/Trophies/RancorTooth</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>1150</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.3</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <relicChance>2</relicChance>
+    <comps>
+      <li Class="CompProperties_Styleable">
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>1.85</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.85</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>KraytPearl</defName>
+    <label>krayt pearl</label>
+    <description>A krayt pearl from the stomach of a greater krayt dragon. This is a relic of a truly legendary hunt.</description>
+    <graphicData>
+      <texPath>swresource/Trophies/KraytPearl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>4000</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>4.0</Mass>
+      <Flammability>0.0</Flammability>
+      <DeteriorationRate>0.3</DeteriorationRate>
+      <Beauty>400</Beauty>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
@@ -2903,18 +4287,99 @@
     </tradeTags>
   </ThingDef>
   <ThingDef ParentName="ResourceBase">
+    <defName>KraytDragonSkull</defName>
+    <label>krayt dragon skull</label>
+    <description>A krayt dragon skull. Not only is it intimidating but its presence tells of a great hunt.</description>
+    <graphicData>
+      <texPath>swresource/Trophies/KraytDragonSkull</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2300</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>6.0</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.3</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <relicChance>2</relicChance>
+    <comps>
+      <li Class="CompProperties_Styleable">
+      </li>
+    </comps>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>KraytDragonHorn</defName>
+    <label>krayt dragon horn</label>
+    <description>A krayt dragon's horn. Good enough to fend off some enemies. A valuable and potentially useful weapon if needed.</description>
+    <graphicData>
+      <texPath>swresource/Trophies/KraytDragonHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>1150</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.3</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <relicChance>2</relicChance>
+    <comps>
+      <li Class="CompProperties_Styleable">
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>1.85</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.85</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
     <defName>GundarkSkull</defName>
     <label>gundark skull</label>
     <description>A gundark skull. These fearsome trophies were often displayed to show-off hunting prowess.</description>
     <graphicData>
-      <texPath>swanimals/Resource/GundarkSkull</texPath>
+      <texPath>swresource/Trophies/GundarkSkull</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>750</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>2</Mass>
-      <Flammability>1</Flammability>
+      <Flammability>0.1</Flammability>
       <DeteriorationRate>0.3</DeteriorationRate>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -2936,14 +4401,14 @@
     <label>wampa skull</label>
     <description>A wampa skull. These fearsome trophies were often displayed to show-off hunting prowess.</description>
     <graphicData>
-      <texPath>swanimals/Resource/WampaSkull</texPath>
+      <texPath>swresource/Trophies/WampaSkull</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>500</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>2</Mass>
-      <Flammability>1</Flammability>
+      <Flammability>0.1</Flammability>
       <DeteriorationRate>0.3</DeteriorationRate>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -2965,15 +4430,73 @@
     <label>behemoth skull</label>
     <description>A behemoth skull. These fearsome trophies were often displayed to show-off hunting prowess.</description>
     <graphicData>
-      <texPath>swanimals/Resource/BehemothSkull</texPath>
+      <texPath>swresource/Trophies/BehemothSkull</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>1000</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-      <Mass>4</Mass>
-      <Flammability>1</Flammability>
+      <Mass>6.0</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.3</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <relicChance>2</relicChance>
+    <comps>
+      <li Class="CompProperties_Styleable">
+      </li>
+    </comps>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>MudhornSkull</defName>
+    <label>mudhorn skull</label>
+    <description>A mudhorn skull. These fearsome trophies were often displayed to show-off hunting prowess.</description>
+    <graphicData>
+      <texPath>swresource/Trophies/MudhornSkull</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>4.0</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.3</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <relicChance>2</relicChance>
+    <comps>
+      <li Class="CompProperties_Styleable">
+      </li>
+    </comps>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>HoraxMaw</defName>
+    <label>horax maw</label>
+    <description>The upper maw and horn of a mighty Horax. It holds great significance in Nelvaanian culture as its presence tells of a successful Horax hunt.</description>
+    <graphicData>
+      <texPath>swresource/Trophies/HoraxMaw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>4.0</Mass>
+      <Flammability>0.1</Flammability>
       <DeteriorationRate>0.3</DeteriorationRate>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -2995,7 +4518,7 @@
     <label>taozin nodule</label>
     <description>A Taozin nodule is a piece of carapace with unusual properties. This rare curiosity has the ability make the holder "difficult to percieve in the force".</description>
     <graphicData>
-      <texPath>swanimals/Resource/TaozinNodule</texPath>
+      <texPath>swresource/Trophies/TaozinNodule</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedStatOffsets>
@@ -3006,7 +4529,7 @@
       <MarketValue>750</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>1.0</Mass>
-      <Flammability>1</Flammability>
+      <Flammability>0.1</Flammability>
       <DeteriorationRate>0.3</DeteriorationRate>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -3028,7 +4551,7 @@
     <label>mastmot tusk</label>
     <description>An mastmot tusk. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
     <graphicData>
-      <texPath>swanimals/Resource/MastmotTusk</texPath>
+      <texPath>swresource/Trophies/MastmotTusk</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>20</equippedAngleOffset>
@@ -3036,7 +4559,7 @@
       <MarketValue>600</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>2.0</Mass>
-      <Flammability>0.9</Flammability>
+      <Flammability>0.1</Flammability>
       <DeteriorationRate>0.5</DeteriorationRate>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -3085,7 +4608,7 @@
     <label>skalder tusk</label>
     <description>A skalder tusk. While somewhat unwieldy as a melee weapon, it can still be deadly.</description>
     <graphicData>
-      <texPath>swanimals/Resource/SkalderTusk</texPath>
+      <texPath>swresource/Trophies/SkalderTusk</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>20</equippedAngleOffset>
@@ -3093,7 +4616,7 @@
       <MarketValue>100</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>2.0</Mass>
-      <Flammability>0.9</Flammability>
+      <Flammability>0.1</Flammability>
       <DeteriorationRate>0.5</DeteriorationRate>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -3142,7 +4665,7 @@
     <label>nerf horn</label>
     <description>A horn from a Nerf, can be used as a weapon or sold for profit.</description>
     <graphicData>
-      <texPath>swanimals/Resource/NerfHorn</texPath>
+      <texPath>swresource/Trophies/NerfHorn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>-20</equippedAngleOffset>
@@ -3150,7 +4673,7 @@
       <MarketValue>30</MarketValue>
       <MaxHitPoints>120</MaxHitPoints>
       <Mass>1.5</Mass>
-      <Flammability>0.9</Flammability>
+      <Flammability>0.1</Flammability>
       <DeteriorationRate>0.5</DeteriorationRate>
     </statBases>
     <tools>
@@ -3195,7 +4718,7 @@
     <label>manka tooth</label>
     <description>A manka cats tooth. While not ideal as a melee weapon, it's true value comes in the strange curative properties experienced when held.</description>
     <graphicData>
-      <texPath>swanimals/Resource/MankaTooth</texPath>
+      <texPath>swresource/Trophies/MankaTooth</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>20</equippedAngleOffset>
@@ -3208,7 +4731,7 @@
       <MarketValue>750</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>1.0</Mass>
-      <Flammability>0.9</Flammability>
+      <Flammability>0.1</Flammability>
       <DeteriorationRate>0.5</DeteriorationRate>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -3257,7 +4780,7 @@
     <label>jakobeast horn</label>
     <description>A horn from a Jakobeast. While somewhat unwieldy as a melee weapon, it is beautiful and sells for a decent price due to it's "mysterious properties".</description>
     <graphicData>
-      <texPath>swanimals/Resource/JakobeastHorn</texPath>
+      <texPath>swresource/Trophies/JakobeastHorn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>20</equippedAngleOffset>
@@ -3271,7 +4794,7 @@
       <Mass>2.0</Mass>
       <Flammability>0.9</Flammability>
       <DeteriorationRate>0.5</DeteriorationRate>
-      <Beauty>2.0</Beauty>
+      <Beauty>50.0</Beauty>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
@@ -3319,15 +4842,15 @@
     <label>tuk'ata tail spike</label>
     <description>The poisonous tail spike of a Tuk'ata. Good enough to fend off most living enemies.</description>
     <graphicData>
-      <texPath>swanimals/Resource/TukataSpike</texPath>
+      <texPath>swresource/Trophies/TukataSpike</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>-20</equippedAngleOffset>
     <statBases>
       <MarketValue>750</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-      <Mass>4</Mass>
-      <Flammability>0.4</Flammability>
+      <Mass>4.0</Mass>
+      <Flammability>0.1</Flammability>
       <DeteriorationRate>0.3</DeteriorationRate>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -3368,5 +4891,64 @@
     <thingSetMakerTags>
       <li>AnimalPart</li>
     </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>SarlacciSpore</defName>
+    <label>sarlacci spore</label>
+    <description>The spore of a sarlacc creature. It appears dormant and whilst ugly, it is no less valuable as a naturally occuring curiosity.</description>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>4.0</Mass>
+      <Beauty>-2.0</Beauty>
+      <MarketValue>750</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>swresource/Trophies/SarlacciSpore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5, 1.5)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <relicChance>2</relicChance>
+    <comps>
+      <li Class="CompProperties_Styleable">
+      </li>
+    </comps>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>WarWyrmSkull</defName>
+    <label>war wyrm skull</label>
+    <description>A war wyrm skull. This is a relic of a truly legendary hunt.</description>
+    <graphicData>
+      <texPath>swresource/Trophies/WarWyrmSkull</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>8.0</Mass>
+      <Flammability>0.0</Flammability>
+      <DeteriorationRate>0.3</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <relicChance>2</relicChance>
+    <comps>
+      <li Class="CompProperties_Styleable">
+      </li>
+    </comps>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
   </ThingDef>
 </Defs>

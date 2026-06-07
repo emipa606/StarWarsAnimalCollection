@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>MunchFungusBread</defName>
+    <label>munch-fungus bread</label>
+    <description>Regarded as tasty, munch-fungus bread was lightweight and could be kept in reserve for many days without spoiling and it can still deteriorate if left outside. Great for traveling.</description>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>swresource/MunchFungusBread</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>26</MarketValue>
+      <Mass>0.15</Mass>
+      <WorkToMake>700</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <preferability>MealFine</preferability>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+      <optimalityOffsetHumanlikes>6</optimalityOffsetHumanlikes>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+      <defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
+      <tasteThought>AteMunchFungusBread</tasteThought>
+    </ingestible>
+    <tickerType>Rare</tickerType>
+    <tradeability>Buyable</tradeability>
+    <allowedArchonexusCount>30</allowedArchonexusCount>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>35</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>ProcessMunchFungus</defName>
+    <label>Make munch-fungus bread x4</label>
+    <description>Produces 4 munch-fungus bread from munch-fungus and wort.</description>
+    <jobString>Baking munch-fungus.</jobString>
+    <workAmount>700</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <researchPrerequisite>Brewing</researchPrerequisite>
+    <displayPriority>2000</displayPriority>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawMunchFungus</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wort</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawMunchFungus</li>
+        <li>Wort</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MunchFungusBread>4</MunchFungusBread>
+    </products>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>ProcessMunchFungusBulk</defName>
+    <label>Make munch-fungus bread x12</label>
+    <description>Produces 12 munch-fungus bread from munch-fungus and wort.</description>
+    <jobString>Baking bulk munch-fungus.</jobString>
+    <workAmount>1400</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <researchPrerequisite>Brewing</researchPrerequisite>
+    <displayPriority>2000</displayPriority>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawMunchFungus</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wort</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawMunchFungus</li>
+        <li>Wort</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MunchFungusBread>12</MunchFungusBread>
+    </products>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

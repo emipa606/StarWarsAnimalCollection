@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_Burra</defName>
+    <label>burra</label>
+    <description>Burra fish were a species of bottom feeding predatory fish native to the planet of Dathomir. Their large size means they provide more nutrition than most fish.</description>
+    <graphicData>
+      <texPath>swfish/Burra</texPath>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <Mass>1.5</Mass>
+      <MarketValue>32</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_Dactopus</defName>
+    <label>dactopus</label>
+    <description>Dactopus were a cephalopod native to the planet Dac (homeworld of the Mon Calamari and Quarren people). Their small size meant they were used as an accompliment ingredient in several dishes.</description>
+    <graphicData>
+      <texPath>swfish/Dactopus</texPath>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+      <MarketValue>15</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_Daggert</defName>
+    <label>daggert</label>
+    <description>The 'mee' (also known as a 'daggert') were a poisonous scalefish native to the waters of the planet of Naboo. The mee was rotund yet flat, with black-and-yellow scales and a set of poisonous spines that protruded from its centerline. With its diagonal striping pattern, it could camouflage itself and blend into its surroundings, such as sea grasses and reeds.</description>
+    <graphicData>
+      <texPath>swfish/Daggert</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <FoodPoisonChanceFixedHuman>0.04</FoodPoisonChanceFixedHuman>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_Doshianjelly</defName>
+    <label>doshian jelly</label>
+    <description>'Doshian jelly' or 'Doshian jellyfish' were marine invertebrates native to the planet Trandosha. They were widely considered to be the Trandoshan's favorite food but were nutritionally poor.</description>
+    <graphicData>
+      <texPath>swfish/DoshianJelly</texPath>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+      <MarketValue>25</MarketValue>
+    </statBases>
+    <ingestible>
+      <specialThoughtAsIngredient>AteDoshianJelly</specialThoughtAsIngredient>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_Faa</defName>
+    <label>faa</label>
+    <description>The 'faa' (or 'faynaa' as they were known to the Gungan species), were fast-moving, predatory scalefish native to the oceans and swamps of the planets Naboo and Manaan.</description>
+    <graphicData>
+      <texPath>swfish/Faa</texPath>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <Mass>0.5</Mass>
+      <MarketValue>28</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_FleekEel</defName>
+    <label>fleek eel</label>
+    <description>The fleek eels were a species of eel with gray skin, a defined dorsal ridge and a pink, fleshy opening to their buccal tunnel. Most species considered it a delicacy. They could be found in the oceans of the planet Corellia and were caught by the fishermen of Coronet City, where they were a staple of the city's fishmarkets. They were also fished in the Hocekureem Sea on Falleen.</description>
+    <graphicData>
+      <texPath>swfish/FleekEel</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>40</MarketValue>
+    </statBases>
+    <ingestible>
+      <specialThoughtAsIngredient>AteFleekEel</specialThoughtAsIngredient>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_Laa</defName>
+    <label>Laa</label>
+    <description>The laa was a scalefish native to the oceans of the planet Naboo. The typical laa was a green-scaled fish with a long snout and a broad tail. The laa also had a long, thin dorsal fin tipped with a bio-luminescent bulb. This bulb helped attract the favorite prey of the laa, the yobshrimp.</description>
+    <graphicData>
+      <texPath>swfish/Laa</texPath>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.75</Nutrition>
+      <MarketValue>45</MarketValue>
+      <Mass>1.0</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_Nyork</defName>
+    <label>nyork</label>
+    <description>The nyork was a small, hard-shelled, carnivorous clam native to the swamps of the planet Naboo. They "nipped" with their mouths located inside their shells, and would jump out of the water at whatever seemed to be prey to them.</description>
+    <graphicData>
+      <texPath>swfish/Nyork</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <Mass>1.0</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_PaddyFrog</defName>
+    <label>paddy frog</label>
+    <description>The paddy frog (or 'Klatooine paddy frog') was a species of aggressive aquatic frog from the planet Klatooine. It possessed external tentacle-like gills to aid it in breathing underwater and were a popular dietary favourite of the Hutt species.</description>
+    <graphicData>
+      <texPath>swfish/PaddyFrog</texPath>
+    </graphicData>
+    <ingestible>
+      <specialThoughtAsIngredient>AtePaddyFrog</specialThoughtAsIngredient>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_Ray</defName>
+    <label>ray</label>
+    <description>The ray were a large predatory scalefish native to the oceans of the planet Naboo (and after being introduced there, Naboo's moon Ohma-D'un). Rays were considered fast swimmers and impressive leapers due to a pronounced crescent-shaped caudal fin located at the back of their bodies.</description>
+    <graphicData>
+      <texPath>swfish/Ray</texPath>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <Mass>1.5</Mass>
+      <MarketValue>55</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_See</defName>
+    <label>see</label>
+    <description>The 'see' (also known as a 'binocular fish') was a predatory scalefish native to the oceans of the planet Naboo. It was a long thin fish that possessed large blue eyes and a stomach that could distend to accommodate larger meals. With these eyes, the see was capable of binocular vision.</description>
+    <graphicData>
+      <texPath>swfish/See</texPath>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>25</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>swfish_SinkCrab</defName>
+    <label>sink-crab</label>
+    <description>The sink-crab was an aquatic crustacean native to the oceans of the planet Bestine IV. It used bladders on it's back that filled with air to float and propel itself through the water; allowing easy grazing on algae or kelp columns. Their large size and shells made them heavy when carried outside of water.</description>
+    <graphicData>
+      <texPath>swfish/SinkCrab</texPath>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <Mass>2.0</Mass>
+      <MarketValue>25</MarketValue>
+    </statBases>
+  </ThingDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>PaddyFrogAttack</defName>
+    <fishType>swfish_PaddyFrog</fishType>
+    <letterLabel>Thrashing paddy frog</letterLabel>
+    <letterText>While fishing, {PAWN_nameDef} was suddenly hit by a paddy frog leaping out of the water. This caused {PAWN_objective} to lose {PAWN_possessive} catch.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <damageDef>Blunt</damageDef>
+    <damageAmountRange>2~3</damageAmountRange>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>NyorkBite</defName>
+    <fishType>swfish_Nyork</fishType>
+    <letterLabel>Nyork nip</letterLabel>
+    <letterText>While fishing, {PAWN_nameDef} got too close to the water and was attacked by a snapping nyork!\n\nThe clam managed to escape..</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <damageDef>Bite</damageDef>
+    <damageAmountRange>2~3</damageAmountRange>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>DactopusAttack</defName>
+    <fishType>swfish_Dactopus</fishType>
+    <letterLabel>Dactopus attack</letterLabel>
+    <letterText>While fishing, {PAWN_nameDef} got too close to the water and was attacked by a leaping dactopus!\n\nThe cephalapod squirted it's ink and managed to escape.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <damageDef>Blunt</damageDef>
+    <damageAmountRange>2~3</damageAmountRange>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>BurraEscape</defName>
+    <fishType>swfish_Burra</fishType>
+    <letterLabel>Burra escape</letterLabel>
+    <letterText>While reeling in a burra, {PAWN_nameDef} nearly bitten by the thrashing creature.\n\nThe fish escaped in the confusion.</letterText>
+    <letterDef>NeutralEvent</letterDef>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>BurraBite</defName>
+    <fishType>swfish_Burra</fishType>
+    <letterLabel>Burra bite</letterLabel>
+    <letterText>While fishing, {PAWN_nameDef} got too close to the water and was bitten by an angry burra!\n\nThe fish escaped.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <damageDef>Bite</damageDef>
+    <damageAmountRange>4~6</damageAmountRange>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>FaaEscape</defName>
+    <fishType>swfish_Faa</fishType>
+    <letterLabel>Faa escape</letterLabel>
+    <letterText>While reeling in a faa, {PAWN_nameDef} nearly bitten by the thrashing creature.\n\nThe fish escaped in the confusion.</letterText>
+    <letterDef>NeutralEvent</letterDef>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>FleekEelEscape</defName>
+    <fishType>swfish_FleekEel</fishType>
+    <letterLabel>Fleek eel escape</letterLabel>
+    <letterText>While attempting to wrangle a fleek eel, {PAWN_nameDef} stumbled and lost the slipper eel in the murky waters.</letterText>
+    <letterDef>NeutralEvent</letterDef>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>DoshianjellySting</defName>
+    <fishType>swfish_Doshianjelly</fishType>
+    <letterLabel>Doshian jelly stinger</letterLabel>
+    <letterText>While handling a doshian jelly, {PAWN_nameDef} was stung by one of the invertebrates's toxic stingers, causing {PAWN_objective} to drop the creature.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <damageDef>Stab</damageDef>
+    <damageAmountRange>1~2</damageAmountRange>
+    <addsHediff>ToxicBuildup</addsHediff>
+    <hediffSeverity>0.1</hediffSeverity>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>DaggertSpine</defName>
+    <fishType>swfish_Daggert</fishType>
+    <letterLabel>Daggert spine</letterLabel>
+    <letterText>While handling a daggert, {PAWN_nameDef} was stung by one of the fish's toxic dorsal spines, causing {PAWN_objective} to drop the fish.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <damageDef>Stab</damageDef>
+    <damageAmountRange>1~2</damageAmountRange>
+    <addsHediff>ToxicBuildup</addsHediff>
+    <hediffSeverity>0.1</hediffSeverity>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SeeEscape</defName>
+    <fishType>swfish_See</fishType>
+    <letterLabel>See escape</letterLabel>
+    <letterText>While attempting to catch a see, {PAWN_nameDef} fumbled the thin slippery fish, allowing it to escape.</letterText>
+    <letterDef>NeutralEvent</letterDef>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>LaaEscape</defName>
+    <fishType>swfish_Laa</fishType>
+    <letterLabel>Laa escape</letterLabel>
+    <letterText>While attempting to reel in a laa, {PAWN_nameDef}'s line tangled, causing {PAWN_objective} to lose the catch.</letterText>
+    <letterDef>NeutralEvent</letterDef>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>LaaBite</defName>
+    <fishType>swfish_Laa</fishType>
+    <letterLabel>Laa attack</letterLabel>
+    <letterText>While fishing, {PAWN_nameDef} got too close to the water and was attacked by a the snapping jaws of a laa!\n\nThe fish managed to escape..</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <damageDef>Bite</damageDef>
+    <damageAmountRange>4~6</damageAmountRange>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SinkCrabPinch</defName>
+    <fishType>swfish_SinkCrab</fishType>
+    <letterLabel>Sink crab pinch</letterLabel>
+    <letterText>While fishing, {PAWN_nameDef} got too close to the water and was attacked by a the frenzied pincers of a sink crab!\n\nThe crab managed to escape..</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <damageDef>Bite</damageDef>
+    <damageAmountRange>6~15</damageAmountRange>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>SinkCrabEscape</defName>
+    <fishType>swfish_SinkCrab</fishType>
+    <letterLabel>Giant crustacean</letterLabel>
+    <letterText>While fishing, {PAWN_nameDef} saw the shadow of a massive crustacean beneath the water. The shadow startled {PAWN_nameDef}, causing {PAWN_objective} to lose {PAWN_possessive} catch.</letterText>
+    <letterDef>NeutralEvent</letterDef>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>RayEscape</defName>
+    <fishType>swfish_Ray</fishType>
+    <letterLabel>Ray escape</letterLabel>
+    <letterText>While attempting to reel in a ray, {PAWN_nameDef}'s line snapped, causing {PAWN_objective} to lose the catch.</letterText>
+    <letterDef>NeutralEvent</letterDef>
+  </NegativeFishingOutcomeDef>
+  <NegativeFishingOutcomeDef MayRequire="Ludeon.RimWorld.Odyssey">
+    <defName>RayAttack</defName>
+    <fishType>swfish_Ray</fishType>
+    <letterLabel>Ray attack</letterLabel>
+    <letterText>While fishing, {PAWN_nameDef} was attacked by a ray and was slashed by its serrated tail fin. The fish escaped.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <damageDef>Stab</damageDef>
+    <damageAmountRange>6~12</damageAmountRange>
+  </NegativeFishingOutcomeDef>
+</Defs>

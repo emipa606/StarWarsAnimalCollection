@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ji rikknit addiction -->
+  <JiRikknitAddiction.label>ji rikknit addiction</JiRikknitAddiction.label>
+  <!-- EN: A chemical addiction to ji rikknit. Long-term presence of ji rikknit has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.\n\nWithout regular doses of ji rikknit, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction. -->
+  <JiRikknitAddiction.description>A chemical addiction to ji rikknit. Long-term presence of ji rikknit has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+
+Without regular doses of ji rikknit, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</JiRikknitAddiction.description>
+  <!-- EN: withdrawal -->
+  <JiRikknitAddiction.stages.withdrawal.label>withdrawal</JiRikknitAddiction.stages.withdrawal.label>
+  <!-- EN: high on ji rikknit -->
+  <JiRikknitHigh.label>high on ji rikknit</JiRikknitHigh.label>
+  <!-- EN: ji rikknit in the bloodstream. It gives a strong sense of euphoria. -->
+  <JiRikknitHigh.description>ji rikknit in the bloodstream. It gives a strong sense of euphoria.</JiRikknitHigh.description>
+  <!-- EN: a ji rikknit high -->
+  <JiRikknitHigh.labelNoun>a ji rikknit high</JiRikknitHigh.labelNoun>
+  <!-- EN: ji rikknit tolerance -->
+  <JiRikknitTolerance.label>ji rikknit tolerance</JiRikknitTolerance.label>
+  <!-- EN: A built-up tolerance to ji rikknit. The more severe this tolerance is, the more ji rikknit it takes to get the same effect. -->
+  <JiRikknitTolerance.description>A built-up tolerance to ji rikknit. The more severe this tolerance is, the more ji rikknit it takes to get the same effect.</JiRikknitTolerance.description>
+  <!-- EN: small -->
+  <JiRikknitTolerance.stages.small.label>small</JiRikknitTolerance.stages.small.label>
+  <!-- EN: large -->
+  <JiRikknitTolerance.stages.large.label>large</JiRikknitTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <JiRikknitTolerance.stages.massive.label>massive</JiRikknitTolerance.stages.massive.label>
+</LanguageData>

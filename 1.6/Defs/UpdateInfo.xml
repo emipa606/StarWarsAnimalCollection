@@ -25,4 +25,17 @@ Various bug-fixes
 Mod now includes over 1200 custom textures!
 Enjoy!</content>
   </TabulaRasa.UpdateDef>
+	<TabulaRasa.UpdateDef ParentName="StarWarsAnimalCollection_UpdateInfoBase" MayRequire="neronix17.toolbox">
+		<defName>StarWarsAnimalCollection_1_6_4</defName>
+		<date>2026/6/8</date>
+		<content>New large addition to the mod!
+90 new animals added
+14 new plants
+11 new fish (Odyssey only)
+Also a landmark (Odyssey only)
+Flying animations and some more compatibility patches
+
+Note that for some of the content like the landmark it will require a new save.</content>
+	</TabulaRasa.UpdateDef>
 </Defs>
+

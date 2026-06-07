@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="DrugBase">
+    <defName>TarisianAle</defName>
+    <label>tarisian ale</label>
+    <description>Tarisian ale is an extremely strong alcoholic beverage brewed on the planet Taris. It was one of the planet's main exports and commanded a high price. The ale was made from the glands of a tach, and because of the need for this ingredient there were substantial imports of tach glands from Kashyyyk. Consuming just one was enough to intoxicate, or even incapacitate, inexperienced drinkers or even experienced drinkers who were having their first Tarisian ale.</description>
+    <descriptionHyperlinks>
+      <HediffDef>AlcoholHigh</HediffDef>
+      <HediffDef>AlcoholTolerance</HediffDef>
+      <HediffDef>Hangover</HediffDef>
+      <HediffDef>AlcoholAddiction</HediffDef>
+      <HediffDef>Cirrhosis</HediffDef>
+      <HediffDef>ChemicalDamageModerate</HediffDef>
+    </descriptionHyperlinks>
+    <possessionCount>3</possessionCount>
+    <graphicData>
+      <texPath>swresource/TarisianAle</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <MarketValue>100</MarketValue>
+      <Mass>0.3</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <ingestible>
+      <foodType>Fluid, Processed, Liquor</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.32</joy>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <chairSearchRadius>25</chairSearchRadius>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+      <tableDesired>false</tableDesired>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholHigh</hediffDef>
+          <severity>0.6</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholTolerance</hediffDef>
+          <toleranceChemical>Alcohol</toleranceChemical>
+          <severity>0.064</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <equipmentType>Primary</equipmentType>
+    <techLevel>Neolithic</techLevel>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Alcohol</chemical>
+        <addictiveness>0.010</addictiveness>
+        <minToleranceToAddict>0.25</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>1.0</needLevelOffset>
+        <listOrder>10</listOrder>
+      </li>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+    <weaponClasses>
+      <li>Melee</li>
+      <li>MeleeBlunt</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>bottle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>neck</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <allowedArchonexusCount>25</allowedArchonexusCount>
+  </ThingDef>
+  <!-- Tarisian Ale Crafting -->
+  <RecipeDef>
+    <defName>MakeTarisianAle</defName>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <label>Make tarisian ale x5</label>
+    <description>Make tarisian ale.</description>
+    <jobString>Making tarisian ale.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <researchPrerequisite>Brewing</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>TachGland</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Beer</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <TarisianAle>5</TarisianAle>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>TachGland</li>
+        <li>Beer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <displayPriority>2000</displayPriority>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeTarisianAleBulk</defName>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <label>Make tarisian ale x25</label>
+    <description>Make bulk tarisian ale.</description>
+    <jobString>Make bulk tarisian ale.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <researchPrerequisite>Brewing</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>TachGland</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Beer</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <products>
+      <TarisianAle>25</TarisianAle>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>TachGland</li>
+        <li>Beer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <displayPriority>2000</displayPriority>
+  </RecipeDef>
+</Defs>

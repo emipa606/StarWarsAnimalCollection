@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: acid spew -->
+  <SW_AcidSpew.label>acid spew</SW_AcidSpew.label>
+  <!-- EN: Spray offensive stomach acid all over the target area. The acid will stick to targets and burn them. -->
+  <SW_AcidSpew.description>Spray offensive stomach acid all over the target area. The acid will stick to targets and burn them.</SW_AcidSpew.description>
+  <!-- EN: calamity -->
+  <SW_Calamity.label>calamity</SW_Calamity.label>
+  <!-- EN: Release a powerful roar which has a chance to cause hostile humans and animals to tremble in fear, reducing their movement speed and manipulation; usually resulting in calamity on the battlefield. -->
+  <SW_Calamity.description>Release a powerful roar which has a chance to cause hostile humans and animals to tremble in fear, reducing their movement speed and manipulation; usually resulting in calamity on the battlefield.</SW_Calamity.description>
+  <!-- EN: force chaos skip -->
+  <SW_ForceChaosSkip.label>force chaos skip</SW_ForceChaosSkip.label>
+  <!-- EN: This creature can access a Force dimension to teleport a target to a random position near where it started. Objects above a certain size cannot be teleported. -->
+  <SW_ForceChaosSkip.description>This creature can access a Force dimension to teleport a target to a random position near where it started. Objects above a certain size cannot be teleported.</SW_ForceChaosSkip.description>
+  <!-- EN: force focus -->
+  <SW_ForceFocus.label>force focus</SW_ForceFocus.label>
+  <!-- EN: The creatures can use it's instinctual pack mentality and innate connection with the Force to strengthen theirs or anothers senses. This state lasts for 3 hours. -->
+  <SW_ForceFocus.description>The creatures can use it's instinctual pack mentality and innate connection with the Force to strengthen theirs or anothers senses. This state lasts for 3 hours.</SW_ForceFocus.description>
+  <!-- EN: force invisibility -->
+  <SW_ForceInvisibility.label>force invisibility</SW_ForceInvisibility.label>
+  <!-- EN: This creature can use the force to manipulate the visual centers of everyone nearby, rendering them unable to perceived for a short time. -->
+  <SW_ForceInvisibility.description>This creature can use the force to manipulate the visual centers of everyone nearby, rendering them unable to perceived for a short time.</SW_ForceInvisibility.description>
+  <!-- EN: force push blast -->
+  <SW_ForcePush.label>force push blast</SW_ForcePush.label>
+  <!-- EN: Use the creatures innate force connection to send a blast of force energy, damaging and stunning a target. -->
+  <SW_ForcePush.description>Use the creatures innate force connection to send a blast of force energy, damaging and stunning a target.</SW_ForcePush.description>
+  <!-- EN: force scream -->
+  <SW_ForceScream.label>force scream</SW_ForceScream.label>
+  <!-- EN: Release a powerful force amplified scream which has a chance to cause hostile humans and animals to tremble in fear, reducing their movement speed and manipulation. -->
+  <SW_ForceScream.description>Release a powerful force amplified scream which has a chance to cause hostile humans and animals to tremble in fear, reducing their movement speed and manipulation.</SW_ForceScream.description>
+  <!-- EN: gold forage -->
+  <SW_GoldForage.label>gold forage</SW_GoldForage.label>
+  <!-- EN: This creature has a unique ability to sniff out small quanities of precious gold that have usually been left behind by deep drilling. -->
+  <SW_GoldForage.description>This creature has a unique ability to sniff out small quanities of precious gold that have usually been left behind by deep drilling.</SW_GoldForage.description>
+  <!-- EN: animal leap -->
+  <SW_Leap.label>animal leap</SW_Leap.label>
+  <!-- EN: Jump to a distant location using strong hind legs. -->
+  <SW_Leap.description>Jump to a distant location using strong hind legs.</SW_Leap.description>
+  <!-- EN: leap -->
+  <SW_Leap.verbProperties.label>leap</SW_Leap.verbProperties.label>
+  <!-- EN: rampage -->
+  <SW_Rampage.label>rampage</SW_Rampage.label>
+  <!-- EN: The creatures goes into a heightened physical state fueled by adrenaline. This strengthens them past normal limits but makes them go manhunter and will attack anyone. This state will last for 3 hours. -->
+  <SW_Rampage.description>The creatures goes into a heightened physical state fueled by adrenaline. This strengthens them past normal limits but makes them go manhunter and will attack anyone. This state will last for 3 hours.</SW_Rampage.description>
+  <!-- EN: soothing song -->
+  <SW_SootheSong.label>soothing song</SW_SootheSong.label>
+  <!-- EN: Release a calming song which can boost the mood nearby humans. -->
+  <SW_SootheSong.description>Release a calming song which can boost the mood nearby humans.</SW_SootheSong.description>
+  <!-- EN: spit -->
+  <SW_Spit.label>spit</SW_Spit.label>
+  <!-- EN: Make the creature launch a glob of icky spit, stunning a target. Disgusting. -->
+  <SW_Spit.description>Make the creature launch a glob of icky spit, stunning a target. Disgusting.</SW_Spit.description>
+  <!-- EN: spur -->
+  <SW_Spur.label>spur</SW_Spur.label>
+  <!-- EN: The creatures goes into a heightened physical state fueled by adrenaline. This makes them faster for approximately 3 hours. -->
+  <SW_Spur.description>The creatures goes into a heightened physical state fueled by adrenaline. This makes them faster for approximately 3 hours.</SW_Spur.description>
+  <!-- EN: swarm call -->
+  <SW_SwarmCall.label>swarm call</SW_SwarmCall.label>
+  <!-- EN: This creature can cause nearby animal to temporarily turn manhunter by directing a subsonic Force imbued screech at them. This mental state will last for 3 hours. -->
+  <SW_SwarmCall.description>This creature can cause nearby animal to temporarily turn manhunter by directing a subsonic Force imbued screech at them. This mental state will last for 3 hours.</SW_SwarmCall.description>
+  <!-- EN: defensive vomiting -->
+  <SW_ToxicSpew.label>defensive vomiting</SW_ToxicSpew.label>
+  <!-- EN: Launch the contents of a creatures toxic stomach cavity. Upon impact, the vomit will combust and release tox gas for several seconds. -->
+  <SW_ToxicSpew.description>Launch the contents of a creatures toxic stomach cavity. Upon impact, the vomit will combust and release tox gas for several seconds.</SW_ToxicSpew.description>
+  <!-- EN: web shot -->
+  <SW_WebShot.label>web shot</SW_WebShot.label>
+  <!-- EN: Use the creatures spinneret to launch a blob of hardened webbing, damaging and stunning a target. -->
+  <SW_WebShot.description>Use the creatures spinneret to launch a blob of hardened webbing, damaging and stunning a target.</SW_WebShot.description>
+</LanguageData>

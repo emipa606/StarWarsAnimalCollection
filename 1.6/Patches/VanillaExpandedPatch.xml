@@ -7,7 +7,7 @@
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/ThingDef[defName="Bogwing" or defName="CanCell" or defName="Dactillion" or defName="Hawkbat" or defName="Beldon" or defName="Convor" or defName="PekoPeko" or defName="Shyrack" or defName="Thranta" or defName="Whisperbird" or defName="Drexl"]/comps</xpath>
+          <xpath>Defs/ThingDef[defName="Bogwing" or defName="Aiwha" or defName="Brezak" or defName="CanCell" or defName="Dactillion" or defName="Hawkbat" or defName="Beldon" or defName="Convor" or defName="Mynock" or defName="PekoPeko"or defName="Porg" or defName="Shyrack" or defName="Thranta" or defName="Whisperbird" or defName="Drexl" or defName="Tibidee"or defName="Uvak"or defName="Sketto"or defName="Urusai"or defName="Neebray"]/comps</xpath>
           <value>
             <li Class="VEF.AnimalBehaviours.CompProperties_Floating" />
           </value>
@@ -66,21 +66,6 @@
               </customThingsToDig>
               <customAmountsToDig>
                 <li>10</li>
-              </customAmountsToDig>
-              <spawnForbidden>true</spawnForbidden>
-              <digOnlyOnGrowingSeason>false</digOnlyOnGrowingSeason>
-            </li>
-          </value>
-        </li>
-        <li Class="PatchOperationAdd">
-          <xpath>Defs/ThingDef[defName="Pufferpig"]/comps</xpath>
-          <value>
-            <li Class="VEF.AnimalBehaviours.CompProperties_DigWhenHungry">
-              <customThingsToDig>
-                <li>Gold</li>
-              </customThingsToDig>
-              <customAmountsToDig>
-                <li>5</li>
               </customAmountsToDig>
               <spawnForbidden>true</spawnForbidden>
               <digOnlyOnGrowingSeason>false</digOnlyOnGrowingSeason>

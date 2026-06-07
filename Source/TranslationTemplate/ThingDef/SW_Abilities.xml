@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: toxic vomit -->
+  <Bullet_AnimalToxbomb.label>toxic vomit</Bullet_AnimalToxbomb.label>
+  <!-- EN: force blast -->
+  <SW_ForcePushprojectile.label>force blast</SW_ForcePushprojectile.label>
+  <!-- EN: spit -->
+  <SW_Spitprojectile.label>spit</SW_Spitprojectile.label>
+  <!-- EN: shot web -->
+  <SW_WebShotprojectile.label>shot web</SW_WebShotprojectile.label>
+</LanguageData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: wild plants -->
+  <WildAlderaanPlants.label>wild plants</WildAlderaanPlants.label>
+  <!-- EN: This area can grow a large number of {0}s. -->
+  <WildAlderaanPlants.description>This area can grow a large number of {0}s.</WildAlderaanPlants.description>
+  <!-- EN: wild plants -->
+  <WildDantooinePlants.label>wild plants</WildDantooinePlants.label>
+  <!-- EN: When enough light is available, this area can grow a large number of {0}s. -->
+  <WildDantooinePlants.description>When enough light is available, this area can grow a large number of {0}s.</WildDantooinePlants.description>
+  <!-- EN: wild plants -->
+  <WildFelucianPlants.label>wild plants</WildFelucianPlants.label>
+  <!-- EN: This area can grow a large number of {0}s. -->
+  <WildFelucianPlants.description>This area can grow a large number of {0}s.</WildFelucianPlants.description>
+  <!-- EN: wild plants -->
+  <WildGalacticPlants.label>wild plants</WildGalacticPlants.label>
+  <!-- EN: This area can grow a large number of {0}s. -->
+  <WildGalacticPlants.description>This area can grow a large number of {0}s.</WildGalacticPlants.description>
+  <!-- EN: wild plants -->
+  <WildNabooPlants.label>wild plants</WildNabooPlants.label>
+  <!-- EN: When enough spores have settled, this area can grow a large number of {0}s. -->
+  <WildNabooPlants.description>When enough spores have settled, this area can grow a large number of {0}s.</WildNabooPlants.description>
+  <!-- EN: wild plants -->
+  <WildRylothPlants.label>wild plants</WildRylothPlants.label>
+  <!-- EN: When enough spores have settled, this area can grow a large number of {0}s. -->
+  <WildRylothPlants.description>When enough spores have settled, this area can grow a large number of {0}s.</WildRylothPlants.description>
+  <!-- EN: wild plants -->
+  <WildTattooinePlants.label>wild plants</WildTattooinePlants.label>
+  <!-- EN: When enough moisture condenses, this area can grow a large number of {0}s. -->
+  <WildTattooinePlants.description>When enough moisture condenses, this area can grow a large number of {0}s.</WildTattooinePlants.description>
+</LanguageData>

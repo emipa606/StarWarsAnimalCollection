@@ -29,20 +29,26 @@
             <Bursa>0.0</Bursa>
             <CanCell>0.04</CanCell>
             <Cannok>0.0</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.01</Clodhopper>
             <Convor>0.04</Convor>
             <CorellianHound>0.0</CorellianHound>
             <Corinathoth>0.08</Corinathoth>
             <Dactillion>0.01</Dactillion>
             <Dalgo>0.01</Dalgo>
+            <Devourers>0.0</Devourers>
             <Dewback>0.0</Dewback>
             <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
             <Drexl>0.0</Drexl>
             <EnergySpider>0.0</EnergySpider>
             <Eopie>0.0</Eopie>
             <Falumpaset>0.06</Falumpaset>
             <Fambaa>0.0</Fambaa>
+            <Fanback>0.0</Fanback>
             <FeralGrazer>0.03</FeralGrazer>
             <FeralNerf>0.06</FeralNerf>
+            <FrilledGorg>0.01</FrilledGorg>
             <FrogDog>0.0</FrogDog>
             <Gelagrub>0.03</Gelagrub>
             <Gizka>0.01</Gizka>
@@ -51,22 +57,30 @@
             <GraniteSlug>0.01</GraniteSlug>
             <Grank>0.0</Grank>
             <Grazer>0.0</Grazer>
+            <GreaterKraytDragon>0.0</GreaterKraytDragon>
             <Gualaar>0.08</Gualaar>
             <Gullipud>0.04</Gullipud>
             <Gundark>0.0</Gundark>
             <Gutkurr>0.0</Gutkurr>
             <HarvesterBeetle>0.06</HarvesterBeetle>
             <Hawkbat>0.01</Hawkbat>
+            <Horax>0.0</Horax>
+            <Hrumph>0.04</Hrumph>
             <Hssiss>0.0</Hssiss>
+            <Igitz>0.0</Igitz>
             <Insectomorph>0.01</Insectomorph>
             <Iriaz>0.06</Iriaz>
             <IridonianReek>0.0</IridonianReek>
             <IthorianReek>0.08</IthorianReek>
             <Jakobeast>0.08</Jakobeast>
             <Jamel>0.04</Jamel>
+            <Jimvu>0.04</Jimvu>
+            <JungleRancor>0.0</JungleRancor>
             <Kaadu>0.04</Kaadu>
             <Katarn>0.0</Katarn>
+            <KellDragon>0.02</KellDragon>
             <Kinrath>0.0</Kinrath>
+            <Klorslug>0.0</Klorslug>
             <KowakianMonkeyLizard>0.0</KowakianMonkeyLizard>
             <KraytDragon>0.0</KraytDragon>
             <Kreetle>0.01</Kreetle>
@@ -82,23 +96,29 @@
             <Lylek>0.0</Lylek>
             <Maalraas>0.0</Maalraas>
             <Manka>0.01</Manka>
+            <MarshHaunt>0.0</MarshHaunt>
             <Massiff>0.0</Massiff>
             <MastiffPhalone>0.0</MastiffPhalone>
             <Mastmot>0.01</Mastmot>
+            <Mawvorr>0.0</Mawvorr>
             <Mott>0.02</Mott>
+            <Mudhorn>0.0</Mudhorn>
             <Mynock>0.01</Mynock>
             <Narglatch>0.0</Narglatch>
+            <Neebray>0.08</Neebray>
             <Nerf>0.0</Nerf>
             <Nexu>0.01</Nexu>
             <Nuna>0.06</Nuna>
+            <Ollopom>0.0</Ollopom>
             <Orray>0.0</Orray>
             <PaintedSpat>0.0</PaintedSpat>
             <PekoPeko>0.02</PekoPeko>
             <Pikobis>0.01</Pikobis>
-            <Porg>0.0</Porg>
+            <Porg>0.02</Porg>
             <Pufferpig>0.0</Pufferpig>
             <Qormot>0.06</Qormot>
             <Rancor>0.01</Rancor>
+            <Raxshir>0.0</Raxshir>
             <Reek>0.0</Reek>
             <Rikknit>0.0</Rikknit>
             <Roggwart>0.0</Roggwart>
@@ -109,16 +129,28 @@
             <Scurrier>0.01</Scurrier>
             <Shaak>0.08</Shaak>
             <Shiro>0.01</Shiro>
+            <ShiroTrap>0.0</ShiroTrap>
             <Shyrack>0.0</Shyrack>
             <Silooth>0.0</Silooth>
             <Skalder>0.0</Skalder>
+            <Sketto>0.0</Sketto>
+            <Snoruuk>0.01</Snoruuk>
+            <Squall>0.08</Squall>
             <Stintaril>0.0</Stintaril>
             <Strill>0.0</Strill>
+            <Tach>0.0</Tach>
             <Taozin>0.0</Taozin>
             <Tauntaun>0.0</Tauntaun>
             <TeeMuss>0.06</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
             <Thranta>0.08</Thranta>
+            <Tibidee>0.01</Tibidee>
+            <Tooke>0.08</Tooke>
+            <Torton>0.0</Torton>
             <Tukata>0.0</Tukata>
+            <TuskCat>0.0</TuskCat>
+            <Urusai>0.02</Urusai>
+            <Uvak>0.0</Uvak>
             <Vapaad>0.0</Vapaad>
             <Varactyl>0.0</Varactyl>
             <Veermok>0.0</Veermok>
@@ -126,12 +158,15 @@
             <Vornskyr>0.0</Vornskyr>
             <Vulptex>0.0</Vulptex>
             <Wampa>0.0</Wampa>
+            <WarWyrm>0.0</WarWyrm>
             <Warbird>0.0</Warbird>
             <Whisperbird>0.02</Whisperbird>
             <WompRat>0.01</WompRat>
             <Woolamander>0.02</Woolamander>
             <Worrt>0.0</Worrt>
             <Wraid>0.0</Wraid>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Yobshrimp>0.0</Yobshrimp>
             <Zakkeg>0.0</Zakkeg>
             <Zeer>0.01</Zeer>
           </value>
@@ -159,20 +194,26 @@
             <Bursa>0.0</Bursa>
             <CanCell>0.02</CanCell>
             <Cannok>0.0</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.0</Clodhopper>
             <Convor>0.01</Convor>
             <CorellianHound>0.0</CorellianHound>
             <Corinathoth>0.04</Corinathoth>
             <Dactillion>0.04</Dactillion>
             <Dalgo>0.02</Dalgo>
+            <Devourers>0.0</Devourers>
             <Dewback>0.06</Dewback>
             <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.01</Dragonsnake>
             <Drexl>0.0</Drexl>
             <EnergySpider>0.0</EnergySpider>
             <Eopie>0.02</Eopie>
             <Falumpaset>0.0</Falumpaset>
             <Fambaa>0.0</Fambaa>
+            <Fanback>0.01</Fanback>
             <FeralGrazer>0.06</FeralGrazer>
             <FeralNerf>0.04</FeralNerf>
+            <FrilledGorg>0.08</FrilledGorg>
             <FrogDog>0.0</FrogDog>
             <Gelagrub>0.0</Gelagrub>
             <Gizka>0.01</Gizka>
@@ -181,22 +222,30 @@
             <GraniteSlug>0.01</GraniteSlug>
             <Grank>0.02</Grank>
             <Grazer>0.0</Grazer>
+            <GreaterKraytDragon>0.001</GreaterKraytDragon>
             <Gualaar>0.0</Gualaar>
             <Gullipud>0.01</Gullipud>
             <Gundark>0.01</Gundark>
             <Gutkurr>0.0</Gutkurr>
             <HarvesterBeetle>0.0</HarvesterBeetle>
             <Hawkbat>0.01</Hawkbat>
+            <Horax>0.0</Horax>
+            <Hrumph>0.0</Hrumph>
             <Hssiss>0.08</Hssiss>
+            <Igitz>0.08</Igitz>
             <Insectomorph>0.0</Insectomorph>
             <Iriaz>0.02</Iriaz>
             <IridonianReek>0.02</IridonianReek>
             <IthorianReek>0.0</IthorianReek>
             <Jakobeast>0.0</Jakobeast>
             <Jamel>0.06</Jamel>
+            <Jimvu>0.0</Jimvu>
+            <JungleRancor>0.0</JungleRancor>
             <Kaadu>0.02</Kaadu>
             <Katarn>0.0</Katarn>
+            <KellDragon>0.0</KellDragon>
             <Kinrath>0.0</Kinrath>
+            <Klorslug>0.0</Klorslug>
             <KowakianMonkeyLizard>0.0</KowakianMonkeyLizard>
             <KraytDragon>0.00</KraytDragon>
             <Kreetle>0.0</Kreetle>
@@ -212,15 +261,20 @@
             <Lylek>0.0</Lylek>
             <Maalraas>0.0</Maalraas>
             <Manka>0.0</Manka>
+            <MarshHaunt>0.0</MarshHaunt>
             <Massiff>0.01</Massiff>
             <MastiffPhalone>0.0</MastiffPhalone>
             <Mastmot>0.0</Mastmot>
+            <Mawvorr>0.0</Mawvorr>
             <Mott>0.02</Mott>
+            <Mudhorn>0.0</Mudhorn>
             <Mynock>0.01</Mynock>
             <Narglatch>0.0</Narglatch>
+            <Neebray>0.02</Neebray>
             <Nerf>0.0</Nerf>
             <Nexu>0.0</Nexu>
             <Nuna>0.0</Nuna>
+            <Ollopom>0.08</Ollopom>
             <Orray>0.01</Orray>
             <PaintedSpat>0.02</PaintedSpat>
             <PekoPeko>0.06</PekoPeko>
@@ -229,6 +283,7 @@
             <Pufferpig>0.0</Pufferpig>
             <Qormot>0.04</Qormot>
             <Rancor>0.01</Rancor>
+            <Raxshir>0.0</Raxshir>
             <Reek>0.01</Reek>
             <Rikknit>0.08</Rikknit>
             <Roggwart>0.0</Roggwart>
@@ -239,16 +294,28 @@
             <Scurrier>0.08</Scurrier>
             <Shaak>0.0</Shaak>
             <Shiro>0.04</Shiro>
+            <ShiroTrap>0.02</ShiroTrap>
             <Shyrack>0.0</Shyrack>
             <Silooth>0.0</Silooth>
             <Skalder>0.0</Skalder>
+            <Sketto>0.08</Sketto>
+            <Snoruuk>0.0</Snoruuk>
+            <Squall>0.06</Squall>
             <Stintaril>0.0</Stintaril>
             <Strill>0.0</Strill>
+            <Tach>0.0</Tach>
             <Taozin>0.0</Taozin>
             <Tauntaun>0.0</Tauntaun>
             <TeeMuss>0.02</TeeMuss>
+            <TetnissCrab>0.08</TetnissCrab>
             <Thranta>0.08</Thranta>
+            <Tibidee>0.001</Tibidee>
+            <Tooke>0.01</Tooke>
+            <Torton>0.01</Torton>
             <Tukata>0.0</Tukata>
+            <TuskCat>0.0</TuskCat>
+            <Urusai>0.01</Urusai>
+            <Uvak>0.0</Uvak>
             <Vapaad>0.0</Vapaad>
             <Varactyl>0.0</Varactyl>
             <Veermok>0.0</Veermok>
@@ -256,12 +323,15 @@
             <Vornskyr>0.0</Vornskyr>
             <Vulptex>0.04</Vulptex>
             <Wampa>0.0</Wampa>
+            <WarWyrm>0.0</WarWyrm>
             <Warbird>0.0</Warbird>
             <Whisperbird>0.0</Whisperbird>
             <WompRat>0.02</WompRat>
             <Woolamander>0.0</Woolamander>
             <Worrt>0.01</Worrt>
             <Wraid>0.02</Wraid>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Yobshrimp>0.08</Yobshrimp>
             <Zakkeg>0.0</Zakkeg>
             <Zeer>0.0</Zeer>
           </value>
@@ -289,20 +359,26 @@
             <Bursa>0.0</Bursa>
             <CanCell>0.01</CanCell>
             <Cannok>0.01</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.0</Clodhopper>
             <Convor>0.0</Convor>
             <CorellianHound>0.0</CorellianHound>
             <Corinathoth>0.01</Corinathoth>
             <Dactillion>0.01</Dactillion>
             <Dalgo>0.04</Dalgo>
+            <Devourers>0.0</Devourers>
             <Dewback>0.08</Dewback>
             <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
             <Drexl>0.01</Drexl>
             <EnergySpider>0.0</EnergySpider>
             <Eopie>0.08</Eopie>
             <Falumpaset>0.0</Falumpaset>
             <Fambaa>0.0</Fambaa>
+            <Fanback>0.01</Fanback>
             <FeralGrazer>0.0</FeralGrazer>
             <FeralNerf>0.0</FeralNerf>
+            <FrilledGorg>0.04</FrilledGorg>
             <FrogDog>0.0</FrogDog>
             <Gelagrub>0.0</Gelagrub>
             <Gizka>0.01</Gizka>
@@ -311,22 +387,30 @@
             <GraniteSlug>0.01</GraniteSlug>
             <Grank>0.0</Grank>
             <Grazer>0.0</Grazer>
+            <GreaterKraytDragon>0.001</GreaterKraytDragon>
             <Gualaar>0.0</Gualaar>
             <Gullipud>0.0</Gullipud>
             <Gundark>0.01</Gundark>
             <Gutkurr>0.06</Gutkurr>
             <HarvesterBeetle>0.0</HarvesterBeetle>
             <Hawkbat>0.0</Hawkbat>
+            <Horax>0.0</Horax>
+            <Hrumph>0.02</Hrumph>
             <Hssiss>0.08</Hssiss>
+            <Igitz>0.0</Igitz>
             <Insectomorph>0.02</Insectomorph>
             <Iriaz>0.0</Iriaz>
             <IridonianReek>0.08</IridonianReek>
             <IthorianReek>0.0</IthorianReek>
             <Jakobeast>0.0</Jakobeast>
             <Jamel>0.08</Jamel>
+            <Jimvu>0.02</Jimvu>
+            <JungleRancor>0.0</JungleRancor>
             <Kaadu>0.0</Kaadu>
             <Katarn>0.0</Katarn>
+            <KellDragon>0.01</KellDragon>
             <Kinrath>0.01</Kinrath>
+            <Klorslug>0.01</Klorslug>
             <KowakianMonkeyLizard>0.0</KowakianMonkeyLizard>
             <KraytDragon>0.01</KraytDragon>
             <Kreetle>0.06</Kreetle>
@@ -342,15 +426,20 @@
             <Lylek>0.01</Lylek>
             <Maalraas>0.0</Maalraas>
             <Manka>0.01</Manka>
+            <MarshHaunt>0.01</MarshHaunt>
             <Massiff>0.02</Massiff>
             <MastiffPhalone>0.0</MastiffPhalone>
             <Mastmot>0.0</Mastmot>
+            <Mawvorr>0.01</Mawvorr>
             <Mott>0.0</Mott>
+            <Mudhorn>0.02</Mudhorn>
             <Mynock>0.01</Mynock>
             <Narglatch>0.0</Narglatch>
+            <Neebray>0.01</Neebray>
             <Nerf>0.0</Nerf>
             <Nexu>0.01</Nexu>
             <Nuna>0.0</Nuna>
+            <Ollopom>0.0</Ollopom>
             <Orray>0.04</Orray>
             <PaintedSpat>0.02</PaintedSpat>
             <PekoPeko>0.0</PekoPeko>
@@ -359,6 +448,7 @@
             <Pufferpig>0.0</Pufferpig>
             <Qormot>0.0</Qormot>
             <Rancor>0.01</Rancor>
+            <Raxshir>0.0</Raxshir>
             <Reek>0.01</Reek>
             <Rikknit>0.0</Rikknit>
             <Roggwart>0.01</Roggwart>
@@ -369,16 +459,28 @@
             <Scurrier>0.08</Scurrier>
             <Shaak>0.0</Shaak>
             <Shiro>0.0</Shiro>
+            <ShiroTrap>0.0</ShiroTrap>
             <Shyrack>0.01</Shyrack>
             <Silooth>0.01</Silooth>
             <Skalder>0.08</Skalder>
+            <Sketto>0.08</Sketto>
+            <Snoruuk>0.0</Snoruuk>
+            <Squall>0.0</Squall>
             <Stintaril>0.0</Stintaril>
             <Strill>0.0</Strill>
+            <Tach>0.0</Tach>
             <Taozin>0.0</Taozin>
             <Tauntaun>0.0</Tauntaun>
             <TeeMuss>0.01</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
             <Thranta>0.02</Thranta>
+            <Tibidee>0.001</Tibidee>
+            <Tooke>0.0</Tooke>
+            <Torton>0.0</Torton>
             <Tukata>0.01</Tukata>
+            <TuskCat>0.0</TuskCat>
+            <Urusai>0.08</Urusai>
+            <Uvak>0.0</Uvak>
             <Vapaad>0.01</Vapaad>
             <Varactyl>0.0</Varactyl>
             <Veermok>0.0</Veermok>
@@ -386,12 +488,15 @@
             <Vornskyr>0.0</Vornskyr>
             <Vulptex>0.04</Vulptex>
             <Wampa>0.0</Wampa>
+            <WarWyrm>0.0</WarWyrm>
             <Warbird>0.0</Warbird>
             <Whisperbird>0.0</Whisperbird>
             <WompRat>0.06</WompRat>
             <Woolamander>0.0</Woolamander>
             <Worrt>0.04</Worrt>
             <Wraid>0.08</Wraid>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Yobshrimp>0.0</Yobshrimp>
             <Zakkeg>0.0</Zakkeg>
             <Zeer>0.08</Zeer>
           </value>
@@ -419,20 +524,26 @@
             <Bursa>0.01</Bursa>
             <CanCell>0.01</CanCell>
             <Cannok>0.06</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.06</Clodhopper>
             <Convor>0.0</Convor>
             <CorellianHound>0.0</CorellianHound>
             <Corinathoth>0.0</Corinathoth>
             <Dactillion>0.02</Dactillion>
             <Dalgo>0.08</Dalgo>
+            <Devourers>0.0</Devourers>
             <Dewback>0.01</Dewback>
             <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
             <Drexl>0.01</Drexl>
             <EnergySpider>0.0</EnergySpider>
             <Eopie>0.02</Eopie>
             <Falumpaset>0.01</Falumpaset>
             <Fambaa>0.08</Fambaa>
+            <Fanback>0.0</Fanback>
             <FeralGrazer>0.08</FeralGrazer>
             <FeralNerf>0.08</FeralNerf>
+            <FrilledGorg>0.04</FrilledGorg>
             <FrogDog>0.0</FrogDog>
             <Gelagrub>0.0</Gelagrub>
             <Gizka>0.08</Gizka>
@@ -441,22 +552,30 @@
             <GraniteSlug>0.01</GraniteSlug>
             <Grank>0.04</Grank>
             <Grazer>0.0</Grazer>
+            <GreaterKraytDragon>0.0</GreaterKraytDragon>
             <Gualaar>0.0</Gualaar>
             <Gullipud>0.0</Gullipud>
             <Gundark>0.02</Gundark>
             <Gutkurr>0.08</Gutkurr>
             <HarvesterBeetle>0.0</HarvesterBeetle>
             <Hawkbat>0.01</Hawkbat>
+            <Horax>0.0</Horax>
+            <Hrumph>0.08</Hrumph>
             <Hssiss>0.0</Hssiss>
+            <Igitz>0.0</Igitz>
             <Insectomorph>0.08</Insectomorph>
             <Iriaz>0.08</Iriaz>
             <IridonianReek>0.01</IridonianReek>
             <IthorianReek>0.08</IthorianReek>
             <Jakobeast>0.08</Jakobeast>
             <Jamel>0.08</Jamel>
+            <Jimvu>0.08</Jimvu>
+            <JungleRancor>0.0</JungleRancor>
             <Kaadu>0.01</Kaadu>
             <Katarn>0.01</Katarn>
+            <KellDragon>0.0</KellDragon>
             <Kinrath>0.04</Kinrath>
+            <Klorslug>0.0</Klorslug>
             <KowakianMonkeyLizard>0.01</KowakianMonkeyLizard>
             <KraytDragon>0.0</KraytDragon>
             <Kreetle>0.08</Kreetle>
@@ -472,15 +591,20 @@
             <Lylek>0.0</Lylek>
             <Maalraas>0.06</Maalraas>
             <Manka>0.08</Manka>
+            <MarshHaunt>0.0</MarshHaunt>
             <Massiff>0.01</Massiff>
             <MastiffPhalone>0.08</MastiffPhalone>
             <Mastmot>0.01</Mastmot>
+            <Mawvorr>0.02</Mawvorr>
             <Mott>0.01</Mott>
+            <Mudhorn>0.0</Mudhorn>
             <Mynock>0.08</Mynock>
             <Narglatch>0.06</Narglatch>
+            <Neebray>0.08</Neebray>
             <Nerf>0.0</Nerf>
             <Nexu>0.08</Nexu>
             <Nuna>0.06</Nuna>
+            <Ollopom>0.0</Ollopom>
             <Orray>0.04</Orray>
             <PaintedSpat>0.08</PaintedSpat>
             <PekoPeko>0.01</PekoPeko>
@@ -489,6 +613,7 @@
             <Pufferpig>0.0</Pufferpig>
             <Qormot>0.0</Qormot>
             <Rancor>0.08</Rancor>
+            <Raxshir>0.08</Raxshir>
             <Reek>0.08</Reek>
             <Rikknit>0.0</Rikknit>
             <Roggwart>0.0</Roggwart>
@@ -499,16 +624,28 @@
             <Scurrier>0.01</Scurrier>
             <Shaak>0.08</Shaak>
             <Shiro>0.01</Shiro>
+            <ShiroTrap>0.01</ShiroTrap>
             <Shyrack>0.0</Shyrack>
             <Silooth>0.0</Silooth>
             <Skalder>0.02</Skalder>
+            <Sketto>0.04</Sketto>
+            <Snoruuk>0.0</Snoruuk>
+            <Squall>0.08</Squall>
             <Stintaril>0.0</Stintaril>
             <Strill>0.01</Strill>
+            <Tach>0.01</Tach>
             <Taozin>0.0</Taozin>
             <Tauntaun>0.0</Tauntaun>
             <TeeMuss>0.04</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
             <Thranta>0.01</Thranta>
+            <Tibidee>0.001</Tibidee>
+            <Tooke>0.08</Tooke>
+            <Torton>0.0</Torton>
             <Tukata>0.0</Tukata>
+            <TuskCat>0.08</TuskCat>
+            <Urusai>0.04</Urusai>
+            <Uvak>0.01</Uvak>
             <Vapaad>0.01</Vapaad>
             <Varactyl>0.02</Varactyl>
             <Veermok>0.06</Veermok>
@@ -516,12 +653,15 @@
             <Vornskyr>0.08</Vornskyr>
             <Vulptex>0.01</Vulptex>
             <Wampa>0.0</Wampa>
+            <WarWyrm>0.0</WarWyrm>
             <Warbird>0.01</Warbird>
             <Whisperbird>0.0</Whisperbird>
             <WompRat>0.01</WompRat>
             <Woolamander>0.0</Woolamander>
             <Worrt>0.01</Worrt>
             <Wraid>0.01</Wraid>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Yobshrimp>0.0</Yobshrimp>
             <Zakkeg>0.0</Zakkeg>
             <Zeer>0.08</Zeer>
           </value>
@@ -549,20 +689,26 @@
             <Bursa>0.08</Bursa>
             <CanCell>0.08</CanCell>
             <Cannok>0.08</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.0</Clodhopper>
             <Convor>0.02</Convor>
             <CorellianHound>0.0</CorellianHound>
             <Corinathoth>0.0</Corinathoth>
             <Dactillion>0.0</Dactillion>
             <Dalgo>0.0</Dalgo>
+            <Devourers>0.01</Devourers>
             <Dewback>0.0</Dewback>
             <Dianoga>0.08</Dianoga>
+            <Dragonsnake>0.08</Dragonsnake>
             <Drexl>0.0</Drexl>
             <EnergySpider>0.0</EnergySpider>
             <Eopie>0.0</Eopie>
             <Falumpaset>0.0</Falumpaset>
             <Fambaa>0.08</Fambaa>
+            <Fanback>0.08</Fanback>
             <FeralGrazer>0.0</FeralGrazer>
             <FeralNerf>0.01</FeralNerf>
+            <FrilledGorg>0.01</FrilledGorg>
             <FrogDog>0.0</FrogDog>
             <Gelagrub>0.08</Gelagrub>
             <Gizka>0.08</Gizka>
@@ -571,22 +717,30 @@
             <GraniteSlug>0.01</GraniteSlug>
             <Grank>0.0</Grank>
             <Grazer>0.0</Grazer>
+            <GreaterKraytDragon>0.0</GreaterKraytDragon>
             <Gualaar>0.0</Gualaar>
             <Gullipud>0.08</Gullipud>
             <Gundark>0.0</Gundark>
             <Gutkurr>0.0</Gutkurr>
             <HarvesterBeetle>0.0</HarvesterBeetle>
             <Hawkbat>0.0</Hawkbat>
+            <Horax>0.0</Horax>
+            <Hrumph>0.0</Hrumph>
             <Hssiss>0.08</Hssiss>
+            <Igitz>0.08</Igitz>
             <Insectomorph>0.0</Insectomorph>
             <Iriaz>0.0</Iriaz>
             <IridonianReek>0.0</IridonianReek>
             <IthorianReek>0.0</IthorianReek>
             <Jakobeast>0.0</Jakobeast>
             <Jamel>0.0</Jamel>
+            <Jimvu>0.0</Jimvu>
+            <JungleRancor>0.01</JungleRancor>
             <Kaadu>0.06</Kaadu>
             <Katarn>0.0</Katarn>
+            <KellDragon>0.0</KellDragon>
             <Kinrath>0.02</Kinrath>
+            <Klorslug>0.02</Klorslug>
             <KowakianMonkeyLizard>0.02</KowakianMonkeyLizard>
             <KraytDragon>0.0</KraytDragon>
             <Kreetle>0.01</Kreetle>
@@ -602,15 +756,20 @@
             <Lylek>0.0</Lylek>
             <Maalraas>0.0</Maalraas>
             <Manka>0.0</Manka>
+            <MarshHaunt>0.08</MarshHaunt>
             <Massiff>0.0</Massiff>
             <MastiffPhalone>0.0</MastiffPhalone>
             <Mastmot>0.0</Mastmot>
+            <Mawvorr>0.0</Mawvorr>
             <Mott>0.08</Mott>
+            <Mudhorn>0.0</Mudhorn>
             <Mynock>0.01</Mynock>
             <Narglatch>0.04</Narglatch>
+            <Neebray>0.0</Neebray>
             <Nerf>0.0</Nerf>
             <Nexu>0.01</Nexu>
             <Nuna>0.08</Nuna>
+            <Ollopom>0.0</Ollopom>
             <Orray>0.0</Orray>
             <PaintedSpat>0.0</PaintedSpat>
             <PekoPeko>0.0</PekoPeko>
@@ -619,6 +778,7 @@
             <Pufferpig>0.0</Pufferpig>
             <Qormot>0.0</Qormot>
             <Rancor>0.01</Rancor>
+            <Raxshir>0.0</Raxshir>
             <Reek>0.01</Reek>
             <Rikknit>0.08</Rikknit>
             <Roggwart>0.0</Roggwart>
@@ -629,16 +789,28 @@
             <Scurrier>0.01</Scurrier>
             <Shaak>0.0</Shaak>
             <Shiro>0.04</Shiro>
+            <ShiroTrap>0.0</ShiroTrap>
             <Shyrack>0.0</Shyrack>
             <Silooth>0.08</Silooth>
             <Skalder>0.0</Skalder>
+            <Sketto>0.02</Sketto>
+            <Snoruuk>0.01</Snoruuk>
+            <Squall>0.0</Squall>
             <Stintaril>0.02</Stintaril>
             <Strill>0.0</Strill>
+            <Tach>0.0</Tach>
             <Taozin>0.01</Taozin>
             <Tauntaun>0.0</Tauntaun>
             <TeeMuss>0.01</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
             <Thranta>0.02</Thranta>
+            <Tibidee>0.0</Tibidee>
+            <Tooke>0.0</Tooke>
+            <Torton>0.01</Torton>
             <Tukata>0.0</Tukata>
+            <TuskCat>0.0</TuskCat>
+            <Urusai>0.0</Urusai>
+            <Uvak>0.0</Uvak>
             <Vapaad>0.01</Vapaad>
             <Varactyl>0.01</Varactyl>
             <Veermok>0.08</Veermok>
@@ -646,12 +818,15 @@
             <Vornskyr>0.0</Vornskyr>
             <Vulptex>0.0</Vulptex>
             <Wampa>0.0</Wampa>
+            <WarWyrm>0.001</WarWyrm>
             <Warbird>0.0</Warbird>
             <Whisperbird>0.06</Whisperbird>
             <WompRat>0.0</WompRat>
             <Woolamander>0.04</Woolamander>
             <Worrt>0.04</Worrt>
             <Wraid>0.0</Wraid>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Yobshrimp>0.08</Yobshrimp>
             <Zakkeg>0.0</Zakkeg>
             <Zeer>0.0</Zeer>
           </value>
@@ -679,20 +854,26 @@
             <Bursa>0.08</Bursa>
             <CanCell>0.06</CanCell>
             <Cannok>0.04</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.0</Clodhopper>
             <Convor>0.08</Convor>
             <CorellianHound>0.0</CorellianHound>
             <Corinathoth>0.06</Corinathoth>
             <Dactillion>0.08</Dactillion>
             <Dalgo>0.0</Dalgo>
+            <Devourers>0.01</Devourers>
             <Dewback>0.01</Dewback>
             <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
             <Drexl>0.01</Drexl>
             <EnergySpider>0.0</EnergySpider>
             <Eopie>0.01</Eopie>
             <Falumpaset>0.08</Falumpaset>
             <Fambaa>0.0</Fambaa>
+            <Fanback>0.0</Fanback>
             <FeralGrazer>0.04</FeralGrazer>
             <FeralNerf>0.06</FeralNerf>
+            <FrilledGorg>0.01</FrilledGorg>
             <FrogDog>0.0</FrogDog>
             <Gelagrub>0.01</Gelagrub>
             <Gizka>0.01</Gizka>
@@ -701,22 +882,30 @@
             <GraniteSlug>0.01</GraniteSlug>
             <Grank>0.0</Grank>
             <Grazer>0.0</Grazer>
+            <GreaterKraytDragon>0.0</GreaterKraytDragon>
             <Gualaar>0.08</Gualaar>
             <Gullipud>0.0</Gullipud>
             <Gundark>0.02</Gundark>
             <Gutkurr>0.0</Gutkurr>
             <HarvesterBeetle>0.02</HarvesterBeetle>
             <Hawkbat>0.04</Hawkbat>
+            <Horax>0.01</Horax>
+            <Hrumph>0.0</Hrumph>
             <Hssiss>0.0</Hssiss>
+            <Igitz>0.08</Igitz>
             <Insectomorph>0.0</Insectomorph>
             <Iriaz>0.0</Iriaz>
             <IridonianReek>0.0</IridonianReek>
             <IthorianReek>0.04</IthorianReek>
             <Jakobeast>0.08</Jakobeast>
             <Jamel>0.0</Jamel>
+            <Jimvu>0.0</Jimvu>
+            <JungleRancor>0.01</JungleRancor>
             <Kaadu>0.0</Kaadu>
             <Katarn>0.08</Katarn>
+            <KellDragon>0.0</KellDragon>
             <Kinrath>0.01</Kinrath>
+            <Klorslug>0.0</Klorslug>
             <KowakianMonkeyLizard>0.0</KowakianMonkeyLizard>
             <KraytDragon>0.0</KraytDragon>
             <Kreetle>0.01</Kreetle>
@@ -732,15 +921,20 @@
             <Lylek>0.01</Lylek>
             <Maalraas>0.0</Maalraas>
             <Manka>0.06</Manka>
+            <MarshHaunt>0.01</MarshHaunt>
             <Massiff>0.0</Massiff>
             <MastiffPhalone>0.0</MastiffPhalone>
             <Mastmot>0.06</Mastmot>
+            <Mawvorr>0.06</Mawvorr>
             <Mott>0.0</Mott>
+            <Mudhorn>0.0</Mudhorn>
             <Mynock>0.01</Mynock>
             <Narglatch>0.04</Narglatch>
+            <Neebray>0.08</Neebray>
             <Nerf>0.0</Nerf>
             <Nexu>0.04</Nexu>
             <Nuna>0.08</Nuna>
+            <Ollopom>0.08</Ollopom>
             <Orray>0.0</Orray>
             <PaintedSpat>0.0</PaintedSpat>
             <PekoPeko>0.04</PekoPeko>
@@ -749,6 +943,7 @@
             <Pufferpig>0.01</Pufferpig>
             <Qormot>0.01</Qormot>
             <Rancor>0.01</Rancor>
+            <Raxshir>0.01</Raxshir>
             <Reek>0.01</Reek>
             <Rikknit>0.02</Rikknit>
             <Roggwart>0.0</Roggwart>
@@ -759,16 +954,28 @@
             <Scurrier>0.01</Scurrier>
             <Shaak>0.02</Shaak>
             <Shiro>0.01</Shiro>
+            <ShiroTrap>0.01</ShiroTrap>
             <Shyrack>0.08</Shyrack>
             <Silooth>0.0</Silooth>
             <Skalder>0.01</Skalder>
+            <Sketto>0.0</Sketto>
+            <Snoruuk>0.08</Snoruuk>
+            <Squall>0.06</Squall>
             <Stintaril>0.01</Stintaril>
             <Strill>0.01</Strill>
+            <Tach>0.08</Tach>
             <Taozin>0.0</Taozin>
             <Tauntaun>0.01</Tauntaun>
             <TeeMuss>0.04</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
             <Thranta>0.08</Thranta>
+            <Tibidee>0.0</Tibidee>
+            <Tooke>0.0</Tooke>
+            <Torton>0.01</Torton>
             <Tukata>0.0</Tukata>
+            <TuskCat>0.0</TuskCat>
+            <Urusai>0.0</Urusai>
+            <Uvak>0.0</Uvak>
             <Vapaad>0.01</Vapaad>
             <Varactyl>0.08</Varactyl>
             <Veermok>0.0</Veermok>
@@ -776,12 +983,15 @@
             <Vornskyr>0.01</Vornskyr>
             <Vulptex>0.04</Vulptex>
             <Wampa>0.01</Wampa>
+            <WarWyrm>0.0</WarWyrm>
             <Warbird>0.0</Warbird>
             <Whisperbird>0.08</Whisperbird>
             <WompRat>0.01</WompRat>
             <Woolamander>0.0</Woolamander>
             <Worrt>0.01</Worrt>
             <Wraid>0.01</Wraid>
+            <Wyyyschokk>0.01</Wyyyschokk>
+            <Yobshrimp>0.0</Yobshrimp>
             <Zakkeg>0.01</Zakkeg>
             <Zeer>0.0</Zeer>
           </value>
@@ -809,20 +1019,26 @@
             <Bursa>0.0</Bursa>
             <CanCell>0.01</CanCell>
             <Cannok>0.0</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.0</Clodhopper>
             <Convor>0.0</Convor>
             <CorellianHound>0.0</CorellianHound>
             <Corinathoth>0.0</Corinathoth>
             <Dactillion>0.01</Dactillion>
             <Dalgo>0.0</Dalgo>
+            <Devourers>0.0</Devourers>
             <Dewback>0.0</Dewback>
             <Dianoga>0.01</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
             <Drexl>0.0</Drexl>
             <EnergySpider>0.0</EnergySpider>
             <Eopie>0.0</Eopie>
             <Falumpaset>0.0</Falumpaset>
             <Fambaa>0.01</Fambaa>
+            <Fanback>0.08</Fanback>
             <FeralGrazer>0.0</FeralGrazer>
             <FeralNerf>0.0</FeralNerf>
+            <FrilledGorg>0.01</FrilledGorg>
             <FrogDog>0.0</FrogDog>
             <Gelagrub>0.0</Gelagrub>
             <Gizka>0.01</Gizka>
@@ -831,22 +1047,30 @@
             <GraniteSlug>0.01</GraniteSlug>
             <Grank>0.0</Grank>
             <Grazer>0.0</Grazer>
+            <GreaterKraytDragon>0.0</GreaterKraytDragon>
             <Gualaar>0.0</Gualaar>
             <Gullipud>0.01</Gullipud>
             <Gundark>0.0</Gundark>
             <Gutkurr>0.0</Gutkurr>
             <HarvesterBeetle>0.0</HarvesterBeetle>
             <Hawkbat>0.01</Hawkbat>
+            <Horax>0.0</Horax>
+            <Hrumph>0.0</Hrumph>
             <Hssiss>0.01</Hssiss>
+            <Igitz>0.08</Igitz>
             <Insectomorph>0.01</Insectomorph>
             <Iriaz>0.0</Iriaz>
             <IridonianReek>0.0</IridonianReek>
             <IthorianReek>0.0</IthorianReek>
             <Jakobeast>0.0</Jakobeast>
             <Jamel>0.01</Jamel>
+            <Jimvu>0.0</Jimvu>
+            <JungleRancor>0.0</JungleRancor>
             <Kaadu>0.01</Kaadu>
             <Katarn>0.0</Katarn>
+            <KellDragon>0.0</KellDragon>
             <Kinrath>0.0</Kinrath>
+            <Klorslug>0.01</Klorslug>
             <KowakianMonkeyLizard>0.0</KowakianMonkeyLizard>
             <KraytDragon>0.0</KraytDragon>
             <Kreetle>0.01</Kreetle>
@@ -862,15 +1086,20 @@
             <Lylek>0.0</Lylek>
             <Maalraas>0.0</Maalraas>
             <Manka>0.0</Manka>
+            <MarshHaunt>0.0</MarshHaunt>
             <Massiff>0.0</Massiff>
             <MastiffPhalone>0.0</MastiffPhalone>
             <Mastmot>0.0</Mastmot>
+            <Mawvorr>0.0</Mawvorr>
             <Mott>0.01</Mott>
+            <Mudhorn>0.0</Mudhorn>
             <Mynock>0.01</Mynock>
             <Narglatch>0.0</Narglatch>
+            <Neebray>0.08</Neebray>
             <Nerf>0.0</Nerf>
             <Nexu>0.0</Nexu>
             <Nuna>0.01</Nuna>
+            <Ollopom>0.08</Ollopom>
             <Orray>0.0</Orray>
             <PaintedSpat>0.0</PaintedSpat>
             <PekoPeko>0.01</PekoPeko>
@@ -879,6 +1108,7 @@
             <Pufferpig>0.0</Pufferpig>
             <Qormot>0.0</Qormot>
             <Rancor>0.0</Rancor>
+            <Raxshir>0.0</Raxshir>
             <Reek>0.0</Reek>
             <Rikknit>0.04</Rikknit>
             <Roggwart>0.0</Roggwart>
@@ -889,16 +1119,28 @@
             <Scurrier>0.0</Scurrier>
             <Shaak>0.0</Shaak>
             <Shiro>0.01</Shiro>
+            <ShiroTrap>0.0</ShiroTrap>
             <Shyrack>0.0</Shyrack>
             <Silooth>0.0</Silooth>
             <Skalder>0.0</Skalder>
+            <Sketto>0.01</Sketto>
+            <Snoruuk>0.0</Snoruuk>
+            <Squall>0.0</Squall>
             <Stintaril>0.0</Stintaril>
             <Strill>0.0</Strill>
+            <Tach>0.0</Tach>
             <Taozin>0.0</Taozin>
             <Tauntaun>0.0</Tauntaun>
             <TeeMuss>0.0</TeeMuss>
+            <TetnissCrab>0.08</TetnissCrab>
             <Thranta>0.08</Thranta>
+            <Tibidee>0.001</Tibidee>
+            <Tooke>0.0</Tooke>
+            <Torton>0.0</Torton>
             <Tukata>0.0</Tukata>
+            <TuskCat>0.0</TuskCat>
+            <Urusai>0.01</Urusai>
+            <Uvak>0.01</Uvak>
             <Vapaad>0.0</Vapaad>
             <Varactyl>0.0</Varactyl>
             <Veermok>0.0</Veermok>
@@ -906,12 +1148,15 @@
             <Vornskyr>0.0</Vornskyr>
             <Vulptex>0.01</Vulptex>
             <Wampa>0.0</Wampa>
+            <WarWyrm>0.0</WarWyrm>
             <Warbird>0.0</Warbird>
             <Whisperbird>0.0</Whisperbird>
             <WompRat>0.01</WompRat>
             <Woolamander>0.0</Woolamander>
             <Worrt>0.01</Worrt>
             <Wraid>0.0</Wraid>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Yobshrimp>0.08</Yobshrimp>
             <Zakkeg>0.0</Zakkeg>
             <Zeer>0.0</Zeer>
           </value>
@@ -939,20 +1184,26 @@
             <Bursa>0.0</Bursa>
             <CanCell>0.0</CanCell>
             <Cannok>0.01</Cannok>
+            <ChrysalideRancor>0.01</ChrysalideRancor>
+            <Clodhopper>0.01</Clodhopper>
             <Convor>0.0</Convor>
             <CorellianHound>0.0</CorellianHound>
             <Corinathoth>0.01</Corinathoth>
             <Dactillion>0.01</Dactillion>
             <Dalgo>0.0</Dalgo>
+            <Devourers>0.0</Devourers>
             <Dewback>0.01</Dewback>
             <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
             <Drexl>0.01</Drexl>
             <EnergySpider>0.01</EnergySpider>
             <Eopie>0.01</Eopie>
             <Falumpaset>0.0</Falumpaset>
             <Fambaa>0.0</Fambaa>
+            <Fanback>0.0</Fanback>
             <FeralGrazer>0.0</FeralGrazer>
             <FeralNerf>0.0</FeralNerf>
+            <FrilledGorg>0.01</FrilledGorg>
             <FrogDog>0.0</FrogDog>
             <Gelagrub>0.0</Gelagrub>
             <Gizka>0.01</Gizka>
@@ -961,22 +1212,30 @@
             <GraniteSlug>0.08</GraniteSlug>
             <Grank>0.01</Grank>
             <Grazer>0.0</Grazer>
+            <GreaterKraytDragon>0.001</GreaterKraytDragon>
             <Gualaar>0.0</Gualaar>
             <Gullipud>0.0</Gullipud>
             <Gundark>0.0</Gundark>
             <Gutkurr>0.06</Gutkurr>
             <HarvesterBeetle>0.0</HarvesterBeetle>
             <Hawkbat>0.0</Hawkbat>
+            <Horax>0.0</Horax>
+            <Hrumph>0.0</Hrumph>
             <Hssiss>0.0</Hssiss>
+            <Igitz>0.0</Igitz>
             <Insectomorph>0.0</Insectomorph>
             <Iriaz>0.01</Iriaz>
             <IridonianReek>0.08</IridonianReek>
             <IthorianReek>0.0</IthorianReek>
             <Jakobeast>0.0</Jakobeast>
             <Jamel>0.0</Jamel>
+            <Jimvu>0.08</Jimvu>
+            <JungleRancor>0.0</JungleRancor>
             <Kaadu>0.0</Kaadu>
             <Katarn>0.01</Katarn>
+            <KellDragon>0.06</KellDragon>
             <Kinrath>0.06</Kinrath>
+            <Klorslug>0.0</Klorslug>
             <KowakianMonkeyLizard>0.0</KowakianMonkeyLizard>
             <KraytDragon>0.01</KraytDragon>
             <Kreetle>0.08</Kreetle>
@@ -992,15 +1251,20 @@
             <Lylek>0.08</Lylek>
             <Maalraas>0.01</Maalraas>
             <Manka>0.01</Manka>
+            <MarshHaunt>0.0</MarshHaunt>
             <Massiff>0.06</Massiff>
             <MastiffPhalone>0.0</MastiffPhalone>
             <Mastmot>0.0</Mastmot>
+            <Mawvorr>0.01</Mawvorr>
             <Mott>0.0</Mott>
+            <Mudhorn>0.08</Mudhorn>
             <Mynock>0.08</Mynock>
             <Narglatch>0.0</Narglatch>
+            <Neebray>0.01</Neebray>
             <Nerf>0.0</Nerf>
             <Nexu>0.01</Nexu>
             <Nuna>0.0</Nuna>
+            <Ollopom>0.0</Ollopom>
             <Orray>0.01</Orray>
             <PaintedSpat>0.0</PaintedSpat>
             <PekoPeko>0.0</PekoPeko>
@@ -1009,6 +1273,7 @@
             <Pufferpig>0.0</Pufferpig>
             <Qormot>0.0</Qormot>
             <Rancor>0.01</Rancor>
+            <Raxshir>0.0</Raxshir>
             <Reek>0.01</Reek>
             <Rikknit>0.0</Rikknit>
             <Roggwart>0.0</Roggwart>
@@ -1019,16 +1284,28 @@
             <Scurrier>0.08</Scurrier>
             <Shaak>0.0</Shaak>
             <Shiro>0.08</Shiro>
+            <ShiroTrap>0.08</ShiroTrap>
             <Shyrack>0.06</Shyrack>
             <Silooth>0.01</Silooth>
             <Skalder>0.01</Skalder>
+            <Sketto>0.08</Sketto>
+            <Snoruuk>0.0</Snoruuk>
+            <Squall>0.01</Squall>
             <Stintaril>0.0</Stintaril>
             <Strill>0.0</Strill>
+            <Tach>0.0</Tach>
             <Taozin>0.01</Taozin>
             <Tauntaun>0.0</Tauntaun>
             <TeeMuss>0.0</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
             <Thranta>0.01</Thranta>
+            <Tibidee>0.001</Tibidee>
+            <Tooke>0.04</Tooke>
+            <Torton>0.01</Torton>
             <Tukata>0.0</Tukata>
+            <TuskCat>0.0</TuskCat>
+            <Urusai>0.08</Urusai>
+            <Uvak>0.0</Uvak>
             <Vapaad>0.0</Vapaad>
             <Varactyl>0.01</Varactyl>
             <Veermok>0.0</Veermok>
@@ -1036,12 +1313,15 @@
             <Vornskyr>0.0</Vornskyr>
             <Vulptex>0.08</Vulptex>
             <Wampa>0.0</Wampa>
+            <WarWyrm>0.0</WarWyrm>
             <Warbird>0.0</Warbird>
             <Whisperbird>0.0</Whisperbird>
             <WompRat>0.08</WompRat>
             <Woolamander>0.0</Woolamander>
             <Worrt>0.08</Worrt>
             <Wraid>0.0</Wraid>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Yobshrimp>0.0</Yobshrimp>
             <Zakkeg>0.01</Zakkeg>
             <Zeer>0.0</Zeer>
           </value>
@@ -1069,20 +1349,26 @@
             <Bursa>0.01</Bursa>
             <CanCell>0.0</CanCell>
             <Cannok>0.0</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.0</Clodhopper>
             <Convor>0.01</Convor>
             <CorellianHound>0.0</CorellianHound>
             <Corinathoth>0.0</Corinathoth>
             <Dactillion>0.0</Dactillion>
             <Dalgo>0.0</Dalgo>
+            <Devourers>0.0</Devourers>
             <Dewback>0.0</Dewback>
             <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
             <Drexl>0.0</Drexl>
             <EnergySpider>0.0</EnergySpider>
             <Eopie>0.0</Eopie>
             <Falumpaset>0.0</Falumpaset>
             <Fambaa>0.0</Fambaa>
+            <Fanback>0.0</Fanback>
             <FeralGrazer>0.08</FeralGrazer>
             <FeralNerf>0.06</FeralNerf>
+            <FrilledGorg>0.0</FrilledGorg>
             <FrogDog>0.0</FrogDog>
             <Gelagrub>0.0</Gelagrub>
             <Gizka>0.0</Gizka>
@@ -1091,22 +1377,30 @@
             <GraniteSlug>0.01</GraniteSlug>
             <Grank>0.0</Grank>
             <Grazer>0.0</Grazer>
+            <GreaterKraytDragon>0.0</GreaterKraytDragon>
             <Gualaar>0.06</Gualaar>
             <Gullipud>0.0</Gullipud>
             <Gundark>0.0</Gundark>
             <Gutkurr>0.0</Gutkurr>
             <HarvesterBeetle>0.0</HarvesterBeetle>
             <Hawkbat>0.0</Hawkbat>
+            <Horax>0.0</Horax>
+            <Hrumph>0.01</Hrumph>
             <Hssiss>0.0</Hssiss>
+            <Igitz>0.0</Igitz>
             <Insectomorph>0.0</Insectomorph>
             <Iriaz>0.0</Iriaz>
             <IridonianReek>0.0</IridonianReek>
             <IthorianReek>0.0</IthorianReek>
             <Jakobeast>0.08</Jakobeast>
             <Jamel>0.0</Jamel>
+            <Jimvu>0.0</Jimvu>
+            <JungleRancor>0.0</JungleRancor>
             <Kaadu>0.0</Kaadu>
             <Katarn>0.0</Katarn>
+            <KellDragon>0.0</KellDragon>
             <Kinrath>0.0</Kinrath>
+            <Klorslug>0.0</Klorslug>
             <KowakianMonkeyLizard>0.0</KowakianMonkeyLizard>
             <KraytDragon>0.0</KraytDragon>
             <Kreetle>0.0</Kreetle>
@@ -1122,15 +1416,20 @@
             <Lylek>0.0</Lylek>
             <Maalraas>0.0</Maalraas>
             <Manka>0.0</Manka>
+            <MarshHaunt>0.0</MarshHaunt>
             <Massiff>0.0</Massiff>
             <MastiffPhalone>0.0</MastiffPhalone>
             <Mastmot>0.08</Mastmot>
+            <Mawvorr>0.0</Mawvorr>
             <Mott>0.0</Mott>
+            <Mudhorn>0.04</Mudhorn>
             <Mynock>0.01</Mynock>
             <Narglatch>0.08</Narglatch>
+            <Neebray>0.0</Neebray>
             <Nerf>0.0</Nerf>
             <Nexu>0.04</Nexu>
             <Nuna>0.0</Nuna>
+            <Ollopom>0.0</Ollopom>
             <Orray>0.0</Orray>
             <PaintedSpat>0.0</PaintedSpat>
             <PekoPeko>0.0</PekoPeko>
@@ -1139,6 +1438,7 @@
             <Pufferpig>0.0</Pufferpig>
             <Qormot>0.0</Qormot>
             <Rancor>0.01</Rancor>
+            <Raxshir>0.01</Raxshir>
             <Reek>0.0</Reek>
             <Rikknit>0.0</Rikknit>
             <Roggwart>0.0</Roggwart>
@@ -1149,16 +1449,28 @@
             <Scurrier>0.0</Scurrier>
             <Shaak>0.0</Shaak>
             <Shiro>0.0</Shiro>
+            <ShiroTrap>0.0</ShiroTrap>
             <Shyrack>0.0</Shyrack>
             <Silooth>0.0</Silooth>
             <Skalder>0.0</Skalder>
+            <Sketto>0.0</Sketto>
+            <Snoruuk>0.0</Snoruuk>
+            <Squall>0.01</Squall>
             <Stintaril>0.0</Stintaril>
             <Strill>0.0</Strill>
+            <Tach>0.0</Tach>
             <Taozin>0.0</Taozin>
             <Tauntaun>0.08</Tauntaun>
             <TeeMuss>0.01</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
             <Thranta>0.01</Thranta>
+            <Tibidee>0.0</Tibidee>
+            <Tooke>0.0</Tooke>
+            <Torton>0.0</Torton>
             <Tukata>0.0</Tukata>
+            <TuskCat>0.0</TuskCat>
+            <Urusai>0.0</Urusai>
+            <Uvak>0.0</Uvak>
             <Vapaad>0.0</Vapaad>
             <Varactyl>0.0</Varactyl>
             <Veermok>0.0</Veermok>
@@ -1166,14 +1478,560 @@
             <Vornskyr>0.0</Vornskyr>
             <Vulptex>0.01</Vulptex>
             <Wampa>0.08</Wampa>
+            <WarWyrm>0.0</WarWyrm>
             <Warbird>0.0</Warbird>
             <Whisperbird>0.0</Whisperbird>
             <WompRat>0.0</WompRat>
             <Woolamander>0.0</Woolamander>
             <Worrt>0.0</Worrt>
             <Wraid>0.0</Wraid>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Yobshrimp>0.0</Yobshrimp>
             <Zakkeg>0.0</Zakkeg>
             <Zeer>0.0</Zeer>
+          </value>
+        </li>
+        <!-- POLLUTED BIOMES -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="ZBiome_AlpineMeadow"]/pollutionWildAnimals</xpath>
+          <value>
+            <Akk>0.0</Akk>
+            <Behemoth>0.15</Behemoth>
+            <Blixus>0.0</Blixus>
+            <Boma>0.0</Boma>
+            <Borcatu>0.01</Borcatu>
+            <Cannok>0.01</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.0</Clodhopper>
+            <Devourers>0.0</Devourers>
+            <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
+            <EnergySpider>0.0</EnergySpider>
+            <FrilledGorg>0.0</FrilledGorg>
+            <Gelagrub>0.0</Gelagrub>
+            <GraniteSlug>0.15</GraniteSlug>
+            <Grank>0.01</Grank>
+            <Gundark>0.01</Gundark>
+            <Gutkurr>0.0</Gutkurr>
+            <Hawkbat>0.0</Hawkbat>
+            <Hssiss>0.0</Hssiss>
+            <Insectomorph>0.0</Insectomorph>
+            <JungleRancor>0.0</JungleRancor>
+            <KellDragon>0.01</KellDragon>
+            <Kinrath>0.0</Kinrath>
+            <Klorslug>0.0</Klorslug>
+            <Kreetle>0.0</Kreetle>
+            <Krykna>0.08</Krykna>
+            <KwazelMaw>0.0</KwazelMaw>
+            <LavaFlea>0.0</LavaFlea>
+            <LongtailGorg>0.0</LongtailGorg>
+            <Lylek>0.0</Lylek>
+            <MarshHaunt>0.0</MarshHaunt>
+            <Mynock>0.15</Mynock>
+            <Neebray>0.15</Neebray>
+            <PaintedSpat>0.0</PaintedSpat>
+            <PekoPeko>0.0</PekoPeko>
+            <Rancor>0.01</Rancor>
+            <Roggwart>0.0</Roggwart>
+            <Scavrat>0.15</Scavrat>
+            <Scurrier>0.0</Scurrier>
+            <Shyrack>0.0</Shyrack>
+            <Silooth>0.0</Silooth>
+            <Skalder>0.0</Skalder>
+            <Snoruuk>0.0</Snoruuk>
+            <Stintaril>0.0</Stintaril>
+            <Strill>0.0</Strill>
+            <Taozin>0.0</Taozin>
+            <TeeMuss>0.15</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
+            <Tibidee>0.0</Tibidee>
+            <Tooke>0.15</Tooke>
+            <Tukata>0.0</Tukata>
+            <Urusai>0.0</Urusai>
+            <Vapaad>0.0</Vapaad>
+            <Veermok>0.0</Veermok>
+            <Vulptex>0.04</Vulptex>
+            <WarWyrm>0.0</WarWyrm>
+            <Warbird>0.08</Warbird>
+            <Whisperbird>0.0</Whisperbird>
+            <WompRat>0.0</WompRat>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Zakkeg>0.0</Zakkeg>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="ZBiome_CoastalDunes"]/pollutionWildAnimals</xpath>
+          <value>
+            <Akk>0.08</Akk>
+            <Behemoth>0.0</Behemoth>
+            <Blixus>0.0</Blixus>
+            <Boma>0.04</Boma>
+            <Borcatu>0.08</Borcatu>
+            <Cannok>0.04</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.15</Clodhopper>
+            <Devourers>0.0</Devourers>
+            <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
+            <EnergySpider>0.0</EnergySpider>
+            <FrilledGorg>0.08</FrilledGorg>
+            <Gelagrub>0.0</Gelagrub>
+            <Gorg>0.06</Gorg>
+            <GraniteSlug>0.15</GraniteSlug>
+            <Grank>0.08</Grank>
+            <Gundark>0.15</Gundark>
+            <Gutkurr>0.08</Gutkurr>
+            <Hawkbat>0.04</Hawkbat>
+            <Hssiss>0.0</Hssiss>
+            <Insectomorph>0.15</Insectomorph>
+            <JungleRancor>0.0</JungleRancor>
+            <KellDragon>0.01</KellDragon>
+            <Kinrath>0.08</Kinrath>
+            <Klorslug>0.0</Klorslug>
+            <Kreetle>0.15</Kreetle>
+            <Krykna>0.15</Krykna>
+            <KwazelMaw>0.0</KwazelMaw>
+            <LavaFlea>0.0</LavaFlea>
+            <LongtailGorg>0.0</LongtailGorg>
+            <Lylek>0.01</Lylek>
+            <MarshHaunt>0.0</MarshHaunt>
+            <Mynock>0.08</Mynock>
+            <Neebray>0.15</Neebray>
+            <PaintedSpat>0.15</PaintedSpat>
+            <PekoPeko>0.0</PekoPeko>
+            <Rancor>0.08</Rancor>
+            <Roggwart>0.01</Roggwart>
+            <Scavrat>0.15</Scavrat>
+            <Scurrier>0.15</Scurrier>
+            <Shyrack>0.04</Shyrack>
+            <Silooth>0.01</Silooth>
+            <Skalder>0.08</Skalder>
+            <Snoruuk>0.0</Snoruuk>
+            <Stintaril>0.0</Stintaril>
+            <Strill>0.0</Strill>
+            <Taozin>0.0</Taozin>
+            <TeeMuss>0.02</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
+            <Tibidee>0.0</Tibidee>
+            <Tooke>0.15</Tooke>
+            <Tukata>0.0</Tukata>
+            <Urusai>0.15</Urusai>
+            <Vapaad>0.01</Vapaad>
+            <Veermok>0.04</Veermok>
+            <Vulptex>0.04</Vulptex>
+            <WarWyrm>0.0</WarWyrm>
+            <Warbird>0.0</Warbird>
+            <Whisperbird>0.0</Whisperbird>
+            <WompRat>0.8</WompRat>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Zakkeg>0.04</Zakkeg>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="ZBiome_DesertOasis"]/pollutionWildAnimals</xpath>
+          <value>
+            <Akk>0.02</Akk>
+            <Behemoth>0.0</Behemoth>
+            <Blixus>0.0</Blixus>
+            <Boma>0.0</Boma>
+            <Borcatu>0.15</Borcatu>
+            <Cannok>0.0</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.0</Clodhopper>
+            <Devourers>0.0</Devourers>
+            <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
+            <EnergySpider>0.01</EnergySpider>
+            <FrilledGorg>0.0</FrilledGorg>
+            <Gelagrub>0.0</Gelagrub>
+            <Gorg>0.04</Gorg>
+            <GraniteSlug>0.15</GraniteSlug>
+            <Grank>0.01</Grank>
+            <Gundark>0.03</Gundark>
+            <Gutkurr>0.04</Gutkurr>
+            <Hawkbat>0.01</Hawkbat>
+            <Hssiss>0.0</Hssiss>
+            <Insectomorph>0.06</Insectomorph>
+            <JungleRancor>0.0</JungleRancor>
+            <KellDragon>0.04</KellDragon>
+            <Kinrath>0.01</Kinrath>
+            <Klorslug>0.0</Klorslug>
+            <Kreetle>0.15</Kreetle>
+            <Krykna>0.01</Krykna>
+            <KwazelMaw>0.0</KwazelMaw>
+            <LavaFlea>0.0</LavaFlea>
+            <LongtailGorg>0.0</LongtailGorg>
+            <Lylek>0.04</Lylek>
+            <MarshHaunt>0.0</MarshHaunt>
+            <Mynock>0.15</Mynock>
+            <Neebray>0.15</Neebray>
+            <PaintedSpat>0.01</PaintedSpat>
+            <PekoPeko>0.0</PekoPeko>
+            <Rancor>0.01</Rancor>
+            <Roggwart>0.0</Roggwart>
+            <Scavrat>0.15</Scavrat>
+            <Scurrier>0.15</Scurrier>
+            <Shyrack>0.08</Shyrack>
+            <Silooth>0.01</Silooth>
+            <Skalder>0.08</Skalder>
+            <Snoruuk>0.0</Snoruuk>
+            <Stintaril>0.0</Stintaril>
+            <Strill>0.0</Strill>
+            <Taozin>0.0</Taozin>
+            <TeeMuss>0.0</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
+            <Tibidee>0.0</Tibidee>
+            <Tooke>0.01</Tooke>
+            <Tukata>0.04</Tukata>
+            <Urusai>0.15</Urusai>
+            <Vapaad>0.01</Vapaad>
+            <Veermok>0.0</Veermok>
+            <Vulptex>0.03</Vulptex>
+            <WarWyrm>0.0</WarWyrm>
+            <Warbird>0.0</Warbird>
+            <Whisperbird>0.0</Whisperbird>
+            <WompRat>0.0</WompRat>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Zakkeg>0.0</Zakkeg>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="ZBiome_Sandbar_NoBeach"]/pollutionWildAnimals</xpath>
+          <value>
+            <Akk>0.0</Akk>
+            <Behemoth>0.0</Behemoth>
+            <Blixus>0.0</Blixus>
+            <Boma>0.0</Boma>
+            <Borcatu>0.01</Borcatu>
+            <Cannok>0.04</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.0</Clodhopper>
+            <Devourers>0.0</Devourers>
+            <Dianoga>0.03</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
+            <EnergySpider>0.0</EnergySpider>
+            <FrilledGorg>0.03</FrilledGorg>
+            <Gelagrub>0.0</Gelagrub>
+            <Gorg>0.03</Gorg>
+            <GraniteSlug>0.15</GraniteSlug>
+            <Grank>0.01</Grank>
+            <Gundark>0.0</Gundark>
+            <Gutkurr>0.0</Gutkurr>
+            <Hawkbat>0.0</Hawkbat>
+            <Hssiss>0.08</Hssiss>
+            <Insectomorph>0.0</Insectomorph>
+            <JungleRancor>0.0</JungleRancor>
+            <KellDragon>0.0</KellDragon>
+            <Kinrath>0.0</Kinrath>
+            <Klorslug>0.0</Klorslug>
+            <Kreetle>0.0</Kreetle>
+            <Krykna>0.015</Krykna>
+            <KwazelMaw>0.03</KwazelMaw>
+            <LavaFlea>0.0</LavaFlea>
+            <LongtailGorg>0.0</LongtailGorg>
+            <Lylek>0.0</Lylek>
+            <MarshHaunt>0.15</MarshHaunt>
+            <Mynock>0.15</Mynock>
+            <Neebray>0.0</Neebray>
+            <PaintedSpat>0.0</PaintedSpat>
+            <PekoPeko>0.0</PekoPeko>
+            <Rancor>0.0</Rancor>
+            <Roggwart>0.0</Roggwart>
+            <Scavrat>0.15</Scavrat>
+            <Scurrier>0.0</Scurrier>
+            <Shyrack>0.0</Shyrack>
+            <Silooth>0.03</Silooth>
+            <Skalder>0.0</Skalder>
+            <Snoruuk>0.0</Snoruuk>
+            <Stintaril>0.0</Stintaril>
+            <Strill>0.0</Strill>
+            <Taozin>0.0</Taozin>
+            <TeeMuss>0.08</TeeMuss>
+            <TetnissCrab>0.15</TetnissCrab>
+            <Tibidee>0.0</Tibidee>
+            <Tooke>0.0</Tooke>
+            <Tukata>0.0</Tukata>
+            <Urusai>0.0</Urusai>
+            <Vapaad>0.0</Vapaad>
+            <Veermok>0.0</Veermok>
+            <Vulptex>0.0</Vulptex>
+            <WarWyrm>0.0</WarWyrm>
+            <Warbird>0.0</Warbird>
+            <Whisperbird>0.0</Whisperbird>
+            <WompRat>0.0</WompRat>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Zakkeg>0.0</Zakkeg>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="ZBiome_CloudForest"]/pollutionWildAnimals</xpath>
+          <value>
+            <Akk>0.0</Akk>
+            <Behemoth>0.15</Behemoth>
+            <Blixus>0.0</Blixus>
+            <Boma>0.0</Boma>
+            <Borcatu>0.01</Borcatu>
+            <Cannok>0.01</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.0</Clodhopper>
+            <Devourers>0.0</Devourers>
+            <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
+            <EnergySpider>0.0</EnergySpider>
+            <FrilledGorg>0.0</FrilledGorg>
+            <Gelagrub>0.0</Gelagrub>
+            <GraniteSlug>0.15</GraniteSlug>
+            <Grank>0.01</Grank>
+            <Gundark>0.01</Gundark>
+            <Gutkurr>0.0</Gutkurr>
+            <Hawkbat>0.0</Hawkbat>
+            <Hssiss>0.0</Hssiss>
+            <Insectomorph>0.0</Insectomorph>
+            <JungleRancor>0.0</JungleRancor>
+            <KellDragon>0.01</KellDragon>
+            <Kinrath>0.0</Kinrath>
+            <Klorslug>0.0</Klorslug>
+            <Kreetle>0.0</Kreetle>
+            <Krykna>0.08</Krykna>
+            <KwazelMaw>0.0</KwazelMaw>
+            <LavaFlea>0.0</LavaFlea>
+            <LongtailGorg>0.0</LongtailGorg>
+            <Lylek>0.0</Lylek>
+            <MarshHaunt>0.0</MarshHaunt>
+            <Mynock>0.15</Mynock>
+            <Neebray>0.15</Neebray>
+            <PaintedSpat>0.0</PaintedSpat>
+            <PekoPeko>0.0</PekoPeko>
+            <Rancor>0.01</Rancor>
+            <Roggwart>0.0</Roggwart>
+            <Scavrat>0.15</Scavrat>
+            <Scurrier>0.0</Scurrier>
+            <Shyrack>0.0</Shyrack>
+            <Silooth>0.0</Silooth>
+            <Skalder>0.0</Skalder>
+            <Snoruuk>0.0</Snoruuk>
+            <Stintaril>0.0</Stintaril>
+            <Strill>0.0</Strill>
+            <Taozin>0.0</Taozin>
+            <TeeMuss>0.15</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
+            <Tibidee>0.0</Tibidee>
+            <Tooke>0.15</Tooke>
+            <Tukata>0.0</Tukata>
+            <Urusai>0.0</Urusai>
+            <Vapaad>0.0</Vapaad>
+            <Veermok>0.0</Veermok>
+            <Vulptex>0.04</Vulptex>
+            <WarWyrm>0.0</WarWyrm>
+            <Warbird>0.08</Warbird>
+            <Whisperbird>0.0</Whisperbird>
+            <WompRat>0.0</WompRat>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Zakkeg>0.0</Zakkeg>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="ZBiome_Badlands"]/pollutionWildAnimals</xpath>
+          <value>
+            <Akk>0.01</Akk>
+            <Behemoth>0.0</Behemoth>
+            <Blixus>0.0</Blixus>
+            <Boma>0.0</Boma>
+            <Borcatu>0.08</Borcatu>
+            <Cannok>0.01</Cannok>
+            <ChrysalideRancor>0.01</ChrysalideRancor>
+            <Clodhopper>0.04</Clodhopper>
+            <Devourers>0.0</Devourers>
+            <Dianoga>0.08</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
+            <EnergySpider>0.01</EnergySpider>
+            <FrilledGorg>0.0</FrilledGorg>
+            <Gelagrub>0.0</Gelagrub>
+            <Gorg>0.0</Gorg>
+            <GraniteSlug>0.15</GraniteSlug>
+            <Grank>0.01</Grank>
+            <Gundark>0.0</Gundark>
+            <Gutkurr>0.0</Gutkurr>
+            <Hawkbat>0.08</Hawkbat>
+            <Hssiss>0.0</Hssiss>
+            <Insectomorph>0.0</Insectomorph>
+            <JungleRancor>0.0</JungleRancor>
+            <KellDragon>0.0</KellDragon>
+            <Kinrath>0.08</Kinrath>
+            <Klorslug>0.01</Klorslug>
+            <Kreetle>0.15</Kreetle>
+            <Krykna>0.0</Krykna>
+            <KwazelMaw>0.0</KwazelMaw>
+            <LavaFlea>0.0</LavaFlea>
+            <LongtailGorg>0.0</LongtailGorg>
+            <Lylek>0.0</Lylek>
+            <MarshHaunt>0.0</MarshHaunt>
+            <Mynock>0.15</Mynock>
+            <Neebray>0.15</Neebray>
+            <PaintedSpat>0.0</PaintedSpat>
+            <PekoPeko>0.0</PekoPeko>
+            <Rancor>0.0</Rancor>
+            <Roggwart>0.0</Roggwart>
+            <Scavrat>0.15</Scavrat>
+            <Scurrier>0.01</Scurrier>
+            <Shyrack>0.0</Shyrack>
+            <Silooth>0.08</Silooth>
+            <Skalder>0.0</Skalder>
+            <Snoruuk>0.0</Snoruuk>
+            <Stintaril>0.0</Stintaril>
+            <Strill>0.0</Strill>
+            <Taozin>0.08</Taozin>
+            <TeeMuss>0.0</TeeMuss>
+            <TetnissCrab>0.15</TetnissCrab>
+            <Tibidee>0.0</Tibidee>
+            <Tooke>0.15</Tooke>
+            <Tukata>0.01</Tukata>
+            <Urusai>0.0</Urusai>
+            <Vapaad>0.0</Vapaad>
+            <Veermok>0.0</Veermok>
+            <Vulptex>0.0</Vulptex>
+            <WarWyrm>0.0</WarWyrm>
+            <Warbird>0.0</Warbird>
+            <Whisperbird>0.0</Whisperbird>
+            <WompRat>0.0</WompRat>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Zakkeg>0.0</Zakkeg>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="ZBiome_Grasslands"]/pollutionWildAnimals</xpath>
+          <value>
+            <Akk>0.08</Akk>
+            <Behemoth>0.0</Behemoth>
+            <Blixus>0.0</Blixus>
+            <Boma>0.0</Boma>
+            <Borcatu>0.15</Borcatu>
+            <Cannok>0.08</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.15</Clodhopper>
+            <Devourers>0.0</Devourers>
+            <Dianoga>0.0</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
+            <EnergySpider>0.0</EnergySpider>
+            <FrilledGorg>0.15</FrilledGorg>
+            <Gelagrub>0.0</Gelagrub>
+            <Gorg>0.15</Gorg>
+            <GraniteSlug>0.15</GraniteSlug>
+            <Grank>0.08</Grank>
+            <Gundark>0.01</Gundark>
+            <Gutkurr>0.01</Gutkurr>
+            <Hawkbat>0.0</Hawkbat>
+            <Hssiss>0.0</Hssiss>
+            <Insectomorph>0.15</Insectomorph>
+            <JungleRancor>0.0</JungleRancor>
+            <KellDragon>0.0</KellDragon>
+            <Kinrath>0.0</Kinrath>
+            <Klorslug>0.0</Klorslug>
+            <Kreetle>0.15</Kreetle>
+            <Krykna>0.04</Krykna>
+            <KwazelMaw>0.0</KwazelMaw>
+            <LavaFlea>0.0</LavaFlea>
+            <LongtailGorg>0.0</LongtailGorg>
+            <Lylek>0.0</Lylek>
+            <MarshHaunt>0.0</MarshHaunt>
+            <Mynock>0.15</Mynock>
+            <Neebray>0.15</Neebray>
+            <PaintedSpat>0.08</PaintedSpat>
+            <PekoPeko>0.0</PekoPeko>
+            <Rancor>0.01</Rancor>
+            <Roggwart>0.0</Roggwart>
+            <Scavrat>0.15</Scavrat>
+            <Scurrier>0.0</Scurrier>
+            <Shyrack>0.0</Shyrack>
+            <Silooth>0.0</Silooth>
+            <Skalder>0.0</Skalder>
+            <Snoruuk>0.0</Snoruuk>
+            <Stintaril>0.0</Stintaril>
+            <Strill>0.0</Strill>
+            <Taozin>0.0</Taozin>
+            <TeeMuss>0.15</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
+            <Tibidee>0.001</Tibidee>
+            <Tooke>0.15</Tooke>
+            <Tukata>0.0</Tukata>
+            <Urusai>0.0</Urusai>
+            <Vapaad>0.0</Vapaad>
+            <Veermok>0.0</Veermok>
+            <Vulptex>0.0</Vulptex>
+            <WarWyrm>0.0</WarWyrm>
+            <Warbird>0.01</Warbird>
+            <Whisperbird>0.0</Whisperbird>
+            <WompRat>0.0</WompRat>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Zakkeg>0.0</Zakkeg>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BiomeDef[defName="ZBiome_GlacialShield"]/pollutionWildAnimals</xpath>
+          <value>
+            <Akk>0.0</Akk>
+            <Behemoth>0.15</Behemoth>
+            <Blixus>0.0</Blixus>
+            <Boma>0.0</Boma>
+            <Borcatu>0.01</Borcatu>
+            <Cannok>0.01</Cannok>
+            <ChrysalideRancor>0.0</ChrysalideRancor>
+            <Clodhopper>0.0</Clodhopper>
+            <Devourers>0.0</Devourers>
+            <Dianoga>0.03</Dianoga>
+            <Dragonsnake>0.0</Dragonsnake>
+            <EnergySpider>0.0</EnergySpider>
+            <FrilledGorg>0.0</FrilledGorg>
+            <Gelagrub>0.0</Gelagrub>
+            <Gorg>0.0</Gorg>
+            <GraniteSlug>0.15</GraniteSlug>
+            <Grank>0.01</Grank>
+            <Gundark>0.0</Gundark>
+            <Gutkurr>0.0</Gutkurr>
+            <Hawkbat>0.0</Hawkbat>
+            <Hssiss>0.0</Hssiss>
+            <Insectomorph>0.0</Insectomorph>
+            <JungleRancor>0.0</JungleRancor>
+            <KellDragon>0.0</KellDragon>
+            <Kinrath>0.0</Kinrath>
+            <Klorslug>0.0</Klorslug>
+            <Kreetle>0.0</Kreetle>
+            <Krykna>0.15</Krykna>
+            <KwazelMaw>0.0</KwazelMaw>
+            <LavaFlea>0.0</LavaFlea>
+            <LongtailGorg>0.0</LongtailGorg>
+            <Lylek>0.0</Lylek>
+            <MarshHaunt>0.0</MarshHaunt>
+            <Mynock>0.15</Mynock>
+            <Neebray>0.0</Neebray>
+            <PaintedSpat>0.0</PaintedSpat>
+            <PekoPeko>0.0</PekoPeko>
+            <Rancor>0.01</Rancor>
+            <Roggwart>0.0</Roggwart>
+            <Scavrat>0.15</Scavrat>
+            <Scurrier>0.0</Scurrier>
+            <Shyrack>0.0</Shyrack>
+            <Silooth>0.0</Silooth>
+            <Skalder>0.0</Skalder>
+            <Snoruuk>0.0</Snoruuk>
+            <Stintaril>0.0</Stintaril>
+            <Strill>0.0</Strill>
+            <Taozin>0.0</Taozin>
+            <TeeMuss>0.08</TeeMuss>
+            <TetnissCrab>0.0</TetnissCrab>
+            <Tibidee>0.001</Tibidee>
+            <Tooke>0.15</Tooke>
+            <Tukata>0.0</Tukata>
+            <Urusai>0.0</Urusai>
+            <Vapaad>0.0</Vapaad>
+            <Veermok>0.0</Veermok>
+            <Vulptex>0.08</Vulptex>
+            <WarWyrm>0.0</WarWyrm>
+            <Warbird>0.08</Warbird>
+            <Whisperbird>0.0</Whisperbird>
+            <WompRat>0.0</WompRat>
+            <Wyyyschokk>0.0</Wyyyschokk>
+            <Zakkeg>0.0</Zakkeg>
           </value>
         </li>
       </operations>

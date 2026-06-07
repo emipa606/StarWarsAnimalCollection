@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make wort from bubble spore. -->
+  <ProcessBubblespore.label>Make wort from bubble spore.</ProcessBubblespore.label>
+  <!-- EN: Produces 25 wort from 25 bubble spore. -->
+  <ProcessBubblespore.description>Produces 25 wort from 25 bubble spore.</ProcessBubblespore.description>
+  <!-- EN: Processing bubble spore. -->
+  <ProcessBubblespore.jobString>Processing bubble spore.</ProcessBubblespore.jobString>
+</LanguageData>

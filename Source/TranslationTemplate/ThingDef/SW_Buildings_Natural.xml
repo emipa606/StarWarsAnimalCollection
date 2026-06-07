@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: dead sarlacc -->
+  <DeadSarlacc.label>dead sarlacc</DeadSarlacc.label>
+  <!-- EN: The remnant of a dead sarlacc creature. Perhaps disease, starvation, predation from burrowing insects or maybe even old age has killed it leaving behind a cavern that it's body once filled. -->
+  <DeadSarlacc.description>The remnant of a dead sarlacc creature. Perhaps disease, starvation, predation from burrowing insects or maybe even old age has killed it leaving behind a cavern that it's body once filled.</DeadSarlacc.description>
+  <!-- EN: Cannot collapse -->
+  <DeadSarlacc.comps.CompSealable.cannotSealLabel>Cannot collapse</DeadSarlacc.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Collapsing the sarlacc cavity is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <DeadSarlacc.comps.CompSealable.confirmSealText>Collapsing the sarlacc cavity is permanent. Anything or anyone left below will be lost forever.{0}
+
+Are you sure you want to continue?</DeadSarlacc.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently collapse the sarlacc cavity entrance. Anything or anyone left below will be lost forever. -->
+  <DeadSarlacc.comps.CompSealable.sealCommandDesc>Choose a colonist to permanently collapse the sarlacc cavity entrance. Anything or anyone left below will be lost forever.</DeadSarlacc.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Collapse sarlacc cavity -->
+  <DeadSarlacc.comps.CompSealable.sealCommandLabel>Collapse sarlacc cavity</DeadSarlacc.comps.CompSealable.sealCommandLabel>
+  <!-- EN: Sarlacc Grave -->
+  <DeadSarlacc.portal.enteredLetterLabel>Sarlacc Grave</DeadSarlacc.portal.enteredLetterLabel>
+  <!-- EN: In the depths of a dead Sarlacc. Not much here but rocks and rubble and dead flesh. Quite the morbid tourist attraction! -->
+  <DeadSarlacc.portal.enteredLetterText>In the depths of a dead Sarlacc. Not much here but rocks and rubble and dead flesh. Quite the morbid tourist attraction!</DeadSarlacc.portal.enteredLetterText>
+  <!-- EN: sarlacc pit -->
+  <SarlaccPit.label>sarlacc pit</SarlaccPit.label>
+  <!-- EN: The gaping maw of a juvenile sarlacc creature. The endlessly hungry sarlacc can be used to quickly get rid of various organic corpses and so such sites are popular with various criminal enterprises. It will occasionally regurgitate a small amount indigestible scrap metal; no doubt leftover from some unlucky "prey". -->
+  <SarlaccPit.description>The gaping maw of a juvenile sarlacc creature. The endlessly hungry sarlacc can be used to quickly get rid of various organic corpses and so such sites are popular with various criminal enterprises. It will occasionally regurgitate a small amount indigestible scrap metal; no doubt leftover from some unlucky "prey".</SarlaccPit.description>
+</LanguageData>

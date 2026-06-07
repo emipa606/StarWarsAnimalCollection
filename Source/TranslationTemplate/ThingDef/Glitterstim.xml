@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: glitterstim -->
+  <Glitterstim.label>glitterstim</Glitterstim.label>
+  <!-- EN: Glitterstim is a potent variety of the drug family "spice" that is created by the Energy Spiders of Kessel. It gave the user a brief, yet pleasurable, telepathic boost and heightened mental state. It is a very valuable spice and is known to crackle and spark when ingested. -->
+  <Glitterstim.description>Glitterstim is a potent variety of the drug family "spice" that is created by the Energy Spiders of Kessel. It gave the user a brief, yet pleasurable, telepathic boost and heightened mental state. It is a very valuable spice and is known to crackle and spark when ingested.</Glitterstim.description>
+  <!-- EN: Consume {0} -->
+  <Glitterstim.ingestible.ingestCommandString>Consume {0}</Glitterstim.ingestible.ingestCommandString>
+  <!-- EN: Consuming {0}. -->
+  <Glitterstim.ingestible.ingestReportString>Consuming {0}.</Glitterstim.ingestible.ingestReportString>
+</LanguageData>

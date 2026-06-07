@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: claw -->
+  <SW_Claw.label>claw</SW_Claw.label>
+  <!-- EN: claw -->
+  <SW_Claw.labelShort>claw</SW_Claw.labelShort>
+  <!-- EN: club -->
+  <SW_Club.label>club</SW_Club.label>
+  <!-- EN: dexterous tail -->
+  <SW_DexterousTail.label>dexterous tail</SW_DexterousTail.label>
+  <!-- EN: dorsal tentacle -->
+  <SW_DorsalTentacle.label>dorsal tentacle</SW_DorsalTentacle.label>
+  <!-- EN: front horn -->
+  <SW_FrontHorn.label>front horn</SW_FrontHorn.label>
+  <!-- EN: left claw -->
+  <SW_LeftClaw.label>left claw</SW_LeftClaw.label>
+  <!-- EN: left flipper -->
+  <SW_LeftFlipper.label>left flipper</SW_LeftFlipper.label>
+  <!-- EN: left horn -->
+  <SW_LeftHorn.label>left horn</SW_LeftHorn.label>
+  <!-- EN: left tentacle -->
+  <SW_LeftTentacle.label>left tentacle</SW_LeftTentacle.label>
+  <!-- EN: left wing -->
+  <SW_LeftWing.label>left wing</SW_LeftWing.label>
+  <!-- EN: right claw -->
+  <SW_RightClaw.label>right claw</SW_RightClaw.label>
+  <!-- EN: right flipper -->
+  <SW_RightFlipper.label>right flipper</SW_RightFlipper.label>
+  <!-- EN: right horn -->
+  <SW_RightHorn.label>right horn</SW_RightHorn.label>
+  <!-- EN: right tentacle -->
+  <SW_RightTentacle.label>right tentacle</SW_RightTentacle.label>
+  <!-- EN: right wing -->
+  <SW_RightWing.label>right wing</SW_RightWing.label>
+  <!-- EN: serpent tail -->
+  <SW_SerpentTail.label>serpent tail</SW_SerpentTail.label>
+  <!-- EN: spikes -->
+  <SW_Spikes.label>spikes</SW_Spikes.label>
+</LanguageData>

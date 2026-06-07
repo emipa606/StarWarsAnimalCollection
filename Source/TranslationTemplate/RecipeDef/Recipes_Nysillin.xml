@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: process nysyllin -->
+  <ProcessNysyllin.label>process nysyllin</ProcessNysyllin.label>
+  <!-- EN: Produces 25 herbal medicine from 25 nysillin. -->
+  <ProcessNysyllin.description>Produces 25 herbal medicine from 25 nysillin.</ProcessNysyllin.description>
+  <!-- EN: Processing nysillin. -->
+  <ProcessNysyllin.jobString>Processing nysillin.</ProcessNysyllin.jobString>
+</LanguageData>

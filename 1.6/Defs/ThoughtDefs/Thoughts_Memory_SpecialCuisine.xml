@@ -16,6 +16,20 @@
     </replaceThoughts>
   </ThoughtDef>
   <ThoughtDef>
+    <defName>AteMudhornEgg</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate mudhorn egg</label>
+        <description>Utini!</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+    <replaceThoughts>
+      <li>AteRawFood</li>
+    </replaceThoughts>
+  </ThoughtDef>
+  <ThoughtDef>
     <defName>AteRikknitOvum</defName>
     <durationDays>1</durationDays>
     <stages>
@@ -28,6 +42,17 @@
     <replaceThoughts>
       <li>AteRawFood</li>
     </replaceThoughts>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteManaxFungus</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate manax fungus</label>
+        <description>Incredible, the fungus flavour is so aromatic and poweful. No wonder they pay so much for this stuff!</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
   </ThoughtDef>
   <ThoughtDef>
     <defName>AteGorntMeat</defName>
@@ -52,13 +77,46 @@
     </stages>
   </ThoughtDef>
   <ThoughtDef>
+    <defName>AteAcklayClaw</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate acklay claw</label>
+        <description>These claws are so tender and sweet, the buttery flavour lingers on the tongue.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteNexuTongue</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate nexu tongue</label>
+        <description>Mmmm, this meat is delightfully chewy and has such an exotic texture.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteChrysalideHeart</defName>
+    <durationDays>0.3</durationDays>
+    <stages>
+      <li>
+        <label>ate rancor heart</label>
+        <description>There's something in that meat, I'm staring to feel...Strong!</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
     <defName>AteCrustapodRoe</defName>
     <durationDays>1</durationDays>
     <stages>
       <li>
-        <label>ate crustapod roe</label>
+        <label>ate roe</label>
         <description>How beautifully rich and creamy, quite the delicacy!</description>
-        <baseMoodEffect>3</baseMoodEffect>
+        <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
     <replaceThoughts>
@@ -84,6 +142,193 @@
         <label>drank green milk</label>
         <description>Sithspit! What karking thing made this?! It tastes like it's gone bad INSIDE the animal!</description>
         <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteBloddle</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate bloddle</label>
+        <description>Ah, you can't beat the aroma of cooked bloddle.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteChakroot</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate chak-root</label>
+        <description>What a flavour, there's no mistaking the tangy sweetness of chak-root.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteMeiloorun</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate meiloorun</label>
+        <description>So juicy and refreshing, meiloorun is such a nice treat.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteJoganFruit</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate jogan fruit</label>
+        <description>Sweet with a crisp texture, it has to be jogan fruit.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteMujaFruit</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate muja fruit</label>
+        <description>Simply sweet and delicious, muja fruit without a doubt.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteRawMunchFungus</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate raw much-fungus</label>
+        <description>Ixta! This munch-fungus is so spongy and bland. It needs preparing properly!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteMunchFungus</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate much-fungus</label>
+        <description>Munch-fungus has such a pleasant flavor when prepared correctly, it really is very versatile.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteMunchFungusBread</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate much-fungus bread</label>
+        <description>This Munch-fungus bread is so tasty and filling; just like Mal'aa used to make!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteDoshianJelly</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate doshian jelly</label>
+        <description>I can't tell if it's overly tangy or just stinging my mouth. Quite the sensation.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteFleekEel</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate fleek eel</label>
+        <description>This fleek eel flesh is so rich and fatty, quite the delicacy.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AtePaddyFrog</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate paddy frog</label>
+        <description>I swear by the Force the legs of that thing just kicked in my mouth. Made me feel like a Hutt!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteTachGland</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate tach gland</label>
+        <description>WHAT was I kriffing thinking?! Simian brains are bitter and disgusting...</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteToughMeat</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate tough meat</label>
+        <description>Ugh...That meat was too tough and chewy.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteTenderMeat</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate tender meat</label>
+        <description>That meat was very tender and fatty...yum!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>SpatOn</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>spat on</label>
+        <description>Schutta! That disgusting beast just spat on me!</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>Webbed</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>webbed</label>
+        <description>Ah! It's sticky! What is it?</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>SoothingSong</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>soothing song</label>
+        <description>That creature made such a calm and soothing sound, it almost felt like I was dreaming it.</description>
+        <baseMoodEffect>12</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

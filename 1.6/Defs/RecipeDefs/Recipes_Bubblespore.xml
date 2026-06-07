@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>ProcessBubblespore</defName>
+    <label>Make wort from bubble spore.</label>
+    <description>Produces 25 wort from 25 bubble spore.</description>
+    <jobString>Processing bubble spore.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <researchPrerequisite>Brewing</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBubblespore</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawBubblespore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Wort>25</Wort>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

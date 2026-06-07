@@ -11,7 +11,7 @@
       <HediffDef>ChemicalDamageSevere</HediffDef>
     </descriptionHyperlinks>
     <graphicData>
-      <texPath>swanimals/Resource/JiRikknit</texPath>
+      <texPath>swresource/JiRikknit</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>

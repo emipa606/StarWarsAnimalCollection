@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: a dead sarlacc -->
+  <sw_DeadSarlaccCave.label>a dead sarlacc</sw_DeadSarlaccCave.label>
+  <!-- EN: This area hosts a dead sarlacc creature. These sessile creatures are known to have millenia long lifespans, but are ultimately mortal. Whether from disease, starvation, burrowing insectoids or even old age they eventually die and leave a cavern where the bulk of their corpse has rotted away. -->
+  <sw_DeadSarlaccCave.description>This area hosts a dead sarlacc creature. These sessile creatures are known to have millenia long lifespans, but are ultimately mortal. Whether from disease, starvation, burrowing insectoids or even old age they eventually die and leave a cavern where the bulk of their corpse has rotted away.</sw_DeadSarlaccCave.description>
+  <!-- EN: sarlacc pit -->
+  <sw_SarlaccLair.label>sarlacc pit</sw_SarlaccLair.label>
+  <!-- EN: This area hosts a juvenile sarlacc creature. These sessile creatures are known to have millenia long lifespans, the circular maws on the surface are supported by a massive undergorund body. -->
+  <sw_SarlaccLair.description>This area hosts a juvenile sarlacc creature. These sessile creatures are known to have millenia long lifespans, the circular maws on the surface are supported by a massive undergorund body.</sw_SarlaccLair.description>
+</LanguageData>

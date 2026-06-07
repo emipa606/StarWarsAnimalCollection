@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ji rikknit -->
+  <JiRikknit.label>ji rikknit</JiRikknit.label>
+  <!-- EN: Ji rikknit is a primitive variety of the drug family "spice" that is created from the ovum sac of the Rikknit creature native to planet New Plymto. It gives the user a brief euphoria but was not as addictive as other "spice" varieties. -->
+  <JiRikknit.description>Ji rikknit is a primitive variety of the drug family "spice" that is created from the ovum sac of the Rikknit creature native to planet New Plymto. It gives the user a brief euphoria but was not as addictive as other "spice" varieties.</JiRikknit.description>
+  <!-- EN: Consume {0} -->
+  <JiRikknit.ingestible.ingestCommandString>Consume {0}</JiRikknit.ingestible.ingestCommandString>
+  <!-- EN: Consuming {0}. -->
+  <JiRikknit.ingestible.ingestReportString>Consuming {0}.</JiRikknit.ingestible.ingestReportString>
+</LanguageData>

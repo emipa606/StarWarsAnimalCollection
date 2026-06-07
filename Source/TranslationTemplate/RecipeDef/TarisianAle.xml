@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make tarisian ale x5 -->
+  <MakeTarisianAle.label>Make tarisian ale x5</MakeTarisianAle.label>
+  <!-- EN: Make tarisian ale. -->
+  <MakeTarisianAle.description>Make tarisian ale.</MakeTarisianAle.description>
+  <!-- EN: Making tarisian ale. -->
+  <MakeTarisianAle.jobString>Making tarisian ale.</MakeTarisianAle.jobString>
+  <!-- EN: Make tarisian ale x25 -->
+  <MakeTarisianAleBulk.label>Make tarisian ale x25</MakeTarisianAleBulk.label>
+  <!-- EN: Make bulk tarisian ale. -->
+  <MakeTarisianAleBulk.description>Make bulk tarisian ale.</MakeTarisianAleBulk.description>
+  <!-- EN: Make bulk tarisian ale. -->
+  <MakeTarisianAleBulk.jobString>Make bulk tarisian ale.</MakeTarisianAleBulk.jobString>
+</LanguageData>

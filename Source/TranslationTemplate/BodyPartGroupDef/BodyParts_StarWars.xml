@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: rancor heart -->
+  <RancorHeart.label>rancor heart</RancorHeart.label>
+  <!-- EN: tentacle -->
+  <SW_FirstTentacleBeldon.label>tentacle</SW_FirstTentacleBeldon.label>
+  <!-- EN: tentacle -->
+  <SW_FirstTentacleBlixus.label>tentacle</SW_FirstTentacleBlixus.label>
+  <!-- EN: tentacle -->
+  <SW_FirstTentacleLylek.label>tentacle</SW_FirstTentacleLylek.label>
+  <!-- EN: tentacle -->
+  <SW_SecondTentacleBeldon.label>tentacle</SW_SecondTentacleBeldon.label>
+  <!-- EN: tentacle -->
+  <SW_SecondTentacleBlixus.label>tentacle</SW_SecondTentacleBlixus.label>
+  <!-- EN: tentacle -->
+  <SW_SecondTentacleLylek.label>tentacle</SW_SecondTentacleLylek.label>
+  <!-- EN: tentacle -->
+  <SW_ThirdTentacleBeldon.label>tentacle</SW_ThirdTentacleBeldon.label>
+  <!-- EN: claws -->
+  <SWClaws.label>claws</SWClaws.label>
+  <!-- EN: horn -->
+  <SWHornAttackTool.label>horn</SWHornAttackTool.label>
+  <!-- EN: left claw -->
+  <SWLeftArmClawAttackTool.label>left claw</SWLeftArmClawAttackTool.label>
+  <!-- EN: left finger claw -->
+  <SWLeftFingerClaw.label>left finger claw</SWLeftFingerClaw.label>
+  <!-- EN: finger claw -->
+  <SWLeftFingerClaw.labelShort>finger claw</SWLeftFingerClaw.labelShort>
+  <!-- EN: raised hoof -->
+  <SWLeftHoof.label>raised hoof</SWLeftHoof.label>
+  <!-- EN: left leg -->
+  <SWLeftLeg.label>left leg</SWLeftLeg.label>
+  <!-- EN: left claw -->
+  <SWLeftLegClawAttackTool.label>left claw</SWLeftLegClawAttackTool.label>
+  <!-- EN: right claw -->
+  <SWRightArmClawAttackTool.label>right claw</SWRightArmClawAttackTool.label>
+  <!-- EN: right finger claw -->
+  <SWRightFingerClaw.label>right finger claw</SWRightFingerClaw.label>
+  <!-- EN: finger claw -->
+  <SWRightFingerClaw.labelShort>finger claw</SWRightFingerClaw.labelShort>
+  <!-- EN: raised hoof -->
+  <SWRightHoof.label>raised hoof</SWRightHoof.label>
+  <!-- EN: right leg -->
+  <SWRightLeg.label>right leg</SWRightLeg.label>
+  <!-- EN: right claw -->
+  <SWRightLegClawAttackTool.label>right claw</SWRightLegClawAttackTool.label>
+  <!-- EN: tail -->
+  <SWTailAttackTool.label>tail</SWTailAttackTool.label>
+  <!-- EN: thrashing tentacle -->
+  <SWTentacleAttackTool.label>thrashing tentacle</SWTentacleAttackTool.label>
+  <!-- EN: tentacle -->
+  <SWTentacleAttackTool.labelShort>tentacle</SWTentacleAttackTool.labelShort>
+  <!-- EN: poisonous appendage -->
+  <SWToxicAppendage.label>poisonous appendage</SWToxicAppendage.label>
+</LanguageData>

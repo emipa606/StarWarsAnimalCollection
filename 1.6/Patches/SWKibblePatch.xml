@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!-- Adds raw bubblewort to kibble recipe -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Make_Kibble"]/fixedIngredientFilter/thingDefs</xpath>
+    <value>
+      <li>RawBubblespore</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[defName="Make_Kibble"]/defaultIngredientFilter/disallowedThingDefs</xpath>
+    <value>
+      <li>RikknitOvum</li>
+      <li>AcklayClaw</li>
+      <li>NexuTongue</li>
+      <li>TachGland</li>
+      <li>ChrysalideHeart</li>
+    </value>
+  </Operation>
+  <!-- Removed animal products from meal recipe by default -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RecipeDef[@Name="CookMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
+    <value>
+      <li>RikknitOvum</li>
+      <li>AcklayClaw</li>
+      <li>NexuTongue</li>
+      <li>TachGland</li>
+      <li>ChrysalideHeart</li>
+    </value>
+  </Operation>
+</Patch>

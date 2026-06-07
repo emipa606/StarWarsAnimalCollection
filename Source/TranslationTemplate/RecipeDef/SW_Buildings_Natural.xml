@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: dump corpse in sarlacc -->
+  <FeedCorpse.label>dump corpse in sarlacc</FeedCorpse.label>
+  <!-- EN: Feed a corpse to the sarlacc to completely destroy it. -->
+  <FeedCorpse.description>Feed a corpse to the sarlacc to completely destroy it.</FeedCorpse.description>
+  <!-- EN: Dumping corpse. -->
+  <FeedCorpse.jobString>Dumping corpse.</FeedCorpse.jobString>
+</LanguageData>

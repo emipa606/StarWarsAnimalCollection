@@ -231,4 +231,54 @@
       <li>ManipulationLimbCore</li>
     </tags>
   </BodyPartDef>
+  <BodyPartGroupDef>
+    <defName>SW_FirstTentacleBeldon</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SW_SecondTentacleBeldon</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SW_ThirdTentacleBeldon</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SW_FirstTentacleBlixus</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SW_SecondTentacleBlixus</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SW_FirstTentacleLylek</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SW_SecondTentacleLylek</defName>
+    <label>tentacle</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>RancorHeart</defName>
+    <label>rancor heart</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartDef>
+    <defName>SW_SerpentTail</defName>
+    <label>serpent tail</label>
+    <hitPoints>30</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+    <executionPartPriority>500</executionPartPriority>
+  </BodyPartDef>
 </Defs>

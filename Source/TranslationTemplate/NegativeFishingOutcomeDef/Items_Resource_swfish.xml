@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Burra bite -->
+  <BurraBite.letterLabel>Burra bite</BurraBite.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} got too close to the water and was bitten by an angry burra!\n\nThe fish escaped. -->
+  <BurraBite.letterText>While fishing, {PAWN_nameDef} got too close to the water and was bitten by an angry burra!
+
+The fish escaped.</BurraBite.letterText>
+  <!-- EN: Burra escape -->
+  <BurraEscape.letterLabel>Burra escape</BurraEscape.letterLabel>
+  <!-- EN: While reeling in a burra, {PAWN_nameDef} nearly bitten by the thrashing creature.\n\nThe fish escaped in the confusion. -->
+  <BurraEscape.letterText>While reeling in a burra, {PAWN_nameDef} nearly bitten by the thrashing creature.
+
+The fish escaped in the confusion.</BurraEscape.letterText>
+  <!-- EN: Dactopus attack -->
+  <DactopusAttack.letterLabel>Dactopus attack</DactopusAttack.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} got too close to the water and was attacked by a leaping dactopus!\n\nThe cephalapod squirted it's ink and managed to escape. -->
+  <DactopusAttack.letterText>While fishing, {PAWN_nameDef} got too close to the water and was attacked by a leaping dactopus!
+
+The cephalapod squirted it's ink and managed to escape.</DactopusAttack.letterText>
+  <!-- EN: Daggert spine -->
+  <DaggertSpine.letterLabel>Daggert spine</DaggertSpine.letterLabel>
+  <!-- EN: While handling a daggert, {PAWN_nameDef} was stung by one of the fish's toxic dorsal spines, causing {PAWN_objective} to drop the fish. -->
+  <DaggertSpine.letterText>While handling a daggert, {PAWN_nameDef} was stung by one of the fish's toxic dorsal spines, causing {PAWN_objective} to drop the fish.</DaggertSpine.letterText>
+  <!-- EN: Doshian jelly stinger -->
+  <DoshianjellySting.letterLabel>Doshian jelly stinger</DoshianjellySting.letterLabel>
+  <!-- EN: While handling a doshian jelly, {PAWN_nameDef} was stung by one of the invertebrates's toxic stingers, causing {PAWN_objective} to drop the creature. -->
+  <DoshianjellySting.letterText>While handling a doshian jelly, {PAWN_nameDef} was stung by one of the invertebrates's toxic stingers, causing {PAWN_objective} to drop the creature.</DoshianjellySting.letterText>
+  <!-- EN: Faa escape -->
+  <FaaEscape.letterLabel>Faa escape</FaaEscape.letterLabel>
+  <!-- EN: While reeling in a faa, {PAWN_nameDef} nearly bitten by the thrashing creature.\n\nThe fish escaped in the confusion. -->
+  <FaaEscape.letterText>While reeling in a faa, {PAWN_nameDef} nearly bitten by the thrashing creature.
+
+The fish escaped in the confusion.</FaaEscape.letterText>
+  <!-- EN: Fleek eel escape -->
+  <FleekEelEscape.letterLabel>Fleek eel escape</FleekEelEscape.letterLabel>
+  <!-- EN: While attempting to wrangle a fleek eel, {PAWN_nameDef} stumbled and lost the slipper eel in the murky waters. -->
+  <FleekEelEscape.letterText>While attempting to wrangle a fleek eel, {PAWN_nameDef} stumbled and lost the slipper eel in the murky waters.</FleekEelEscape.letterText>
+  <!-- EN: Laa attack -->
+  <LaaBite.letterLabel>Laa attack</LaaBite.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} got too close to the water and was attacked by a the snapping jaws of a laa!\n\nThe fish managed to escape.. -->
+  <LaaBite.letterText>While fishing, {PAWN_nameDef} got too close to the water and was attacked by a the snapping jaws of a laa!
+
+The fish managed to escape..</LaaBite.letterText>
+  <!-- EN: Laa escape -->
+  <LaaEscape.letterLabel>Laa escape</LaaEscape.letterLabel>
+  <!-- EN: While attempting to reel in a laa, {PAWN_nameDef}'s line tangled, causing {PAWN_objective} to lose the catch. -->
+  <LaaEscape.letterText>While attempting to reel in a laa, {PAWN_nameDef}'s line tangled, causing {PAWN_objective} to lose the catch.</LaaEscape.letterText>
+  <!-- EN: Nyork nip -->
+  <NyorkBite.letterLabel>Nyork nip</NyorkBite.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} got too close to the water and was attacked by a snapping nyork!\n\nThe clam managed to escape.. -->
+  <NyorkBite.letterText>While fishing, {PAWN_nameDef} got too close to the water and was attacked by a snapping nyork!
+
+The clam managed to escape..</NyorkBite.letterText>
+  <!-- EN: Thrashing paddy frog -->
+  <PaddyFrogAttack.letterLabel>Thrashing paddy frog</PaddyFrogAttack.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} was suddenly hit by a paddy frog leaping out of the water. This caused {PAWN_objective} to lose {PAWN_possessive} catch. -->
+  <PaddyFrogAttack.letterText>While fishing, {PAWN_nameDef} was suddenly hit by a paddy frog leaping out of the water. This caused {PAWN_objective} to lose {PAWN_possessive} catch.</PaddyFrogAttack.letterText>
+  <!-- EN: Ray attack -->
+  <RayAttack.letterLabel>Ray attack</RayAttack.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} was attacked by a ray and was slashed by its serrated tail fin. The fish escaped. -->
+  <RayAttack.letterText>While fishing, {PAWN_nameDef} was attacked by a ray and was slashed by its serrated tail fin. The fish escaped.</RayAttack.letterText>
+  <!-- EN: Ray escape -->
+  <RayEscape.letterLabel>Ray escape</RayEscape.letterLabel>
+  <!-- EN: While attempting to reel in a ray, {PAWN_nameDef}'s line snapped, causing {PAWN_objective} to lose the catch. -->
+  <RayEscape.letterText>While attempting to reel in a ray, {PAWN_nameDef}'s line snapped, causing {PAWN_objective} to lose the catch.</RayEscape.letterText>
+  <!-- EN: See escape -->
+  <SeeEscape.letterLabel>See escape</SeeEscape.letterLabel>
+  <!-- EN: While attempting to catch a see, {PAWN_nameDef} fumbled the thin slippery fish, allowing it to escape. -->
+  <SeeEscape.letterText>While attempting to catch a see, {PAWN_nameDef} fumbled the thin slippery fish, allowing it to escape.</SeeEscape.letterText>
+  <!-- EN: Giant crustacean -->
+  <SinkCrabEscape.letterLabel>Giant crustacean</SinkCrabEscape.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} saw the shadow of a massive crustacean beneath the water. The shadow startled {PAWN_nameDef}, causing {PAWN_objective} to lose {PAWN_possessive} catch. -->
+  <SinkCrabEscape.letterText>While fishing, {PAWN_nameDef} saw the shadow of a massive crustacean beneath the water. The shadow startled {PAWN_nameDef}, causing {PAWN_objective} to lose {PAWN_possessive} catch.</SinkCrabEscape.letterText>
+  <!-- EN: Sink crab pinch -->
+  <SinkCrabPinch.letterLabel>Sink crab pinch</SinkCrabPinch.letterLabel>
+  <!-- EN: While fishing, {PAWN_nameDef} got too close to the water and was attacked by a the frenzied pincers of a sink crab!\n\nThe crab managed to escape.. -->
+  <SinkCrabPinch.letterText>While fishing, {PAWN_nameDef} got too close to the water and was attacked by a the frenzied pincers of a sink crab!
+
+The crab managed to escape..</SinkCrabPinch.letterText>
+</LanguageData>

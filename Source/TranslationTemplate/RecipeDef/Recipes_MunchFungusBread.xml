@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make munch-fungus bread x4 -->
+  <ProcessMunchFungus.label>Make munch-fungus bread x4</ProcessMunchFungus.label>
+  <!-- EN: Produces 4 munch-fungus bread from munch-fungus and wort. -->
+  <ProcessMunchFungus.description>Produces 4 munch-fungus bread from munch-fungus and wort.</ProcessMunchFungus.description>
+  <!-- EN: Baking munch-fungus. -->
+  <ProcessMunchFungus.jobString>Baking munch-fungus.</ProcessMunchFungus.jobString>
+  <!-- EN: Make munch-fungus bread x12 -->
+  <ProcessMunchFungusBulk.label>Make munch-fungus bread x12</ProcessMunchFungusBulk.label>
+  <!-- EN: Produces 12 munch-fungus bread from munch-fungus and wort. -->
+  <ProcessMunchFungusBulk.description>Produces 12 munch-fungus bread from munch-fungus and wort.</ProcessMunchFungusBulk.description>
+  <!-- EN: Baking bulk munch-fungus. -->
+  <ProcessMunchFungusBulk.jobString>Baking bulk munch-fungus.</ProcessMunchFungusBulk.jobString>
+</LanguageData>

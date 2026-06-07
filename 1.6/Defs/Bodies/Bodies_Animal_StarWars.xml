@@ -208,6 +208,9 @@
           <def>Heart</def>
           <coverage>0.03</coverage>
           <depth>Inside</depth>
+          <groups>
+            <li>RancorHeart</li>
+          </groups>
         </li>
         <li>
           <def>Lung</def>
@@ -3637,6 +3640,189 @@
     </corePart>
   </BodyDef>
   <BodyDef>
+    <defName>Clodhopper</defName>
+    <label>semi-bepedal avian animal</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <customLabel>chitinous osteoderms</customLabel>
+          <coverage>0.07</coverage>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Hump</def>
+          <customLabel>feathery mane</customLabel>
+          <coverage>0.03</coverage>
+          <height>Top</height>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.20</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.25</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>left ear</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>right ear</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>Nose</def>
+                  <coverage>0.1</coverage>
+                </li>
+                <li>
+                  <def>Beak</def>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front left paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontLeftPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front right paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontRightPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear left paw</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear right paw</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
     <defName>CorellianHound</defName>
     <label>stocky canidae animal</label>
     <corePart>
@@ -3815,6 +4001,334 @@
     </corePart>
   </BodyDef>
   <BodyDef>
+    <defName>Devourers</defName>
+    <label>large predatory anthropoid</label>
+    <corePart>
+      <def>Torso</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Clavicle</def>
+          <customLabel>left clavicle</customLabel>
+          <coverage>0.01</coverage>
+          <height>Top</height>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Clavicle</def>
+          <customLabel>right clavicle</customLabel>
+          <coverage>0.01</coverage>
+          <height>Top</height>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Ribcage</def>
+          <coverage>0.045</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Sternum</def>
+          <coverage>0.005</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Pelvis</def>
+          <coverage>0.01</coverage>
+          <height>Bottom</height>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Hump</def>
+          <customLabel>muscular scapula</customLabel>
+          <coverage>0.10</coverage>
+          <height>Top</height>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.10</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <coverage>0.72</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.18</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>left internal ear</customLabel>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>right internal ear</customLabel>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>AnimalJaw</def>
+                  <customLabel>spiked jaw</customLabel>
+                  <coverage>0.2</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Jowl</def>
+                  <coverage>0.1</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Shoulder</def>
+          <customLabel>left shoulder</customLabel>
+          <coverage>0.1</coverage>
+          <parts>
+            <li>
+              <def>Arm</def>
+              <customLabel>left arm</customLabel>
+              <coverage>0.85</coverage>
+              <parts>
+                <li>
+                  <def>Humerus</def>
+                  <customLabel>left humerus</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Radius</def>
+                  <customLabel>left radius</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Hand</def>
+                  <customLabel>left hand</customLabel>
+                  <coverage>0.25</coverage>
+                  <height>Bottom</height>
+                  <parts>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>left first clawed digit</customLabel>
+                      <coverage>0.30</coverage>
+                      <groups>
+                        <li>LeftHand</li>
+                        <li>MiddleFingers</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>left second clawed digit</customLabel>
+                      <coverage>0.30</coverage>
+                      <groups>
+                        <li>LeftHand</li>
+                      </groups>
+                    </li>
+                  </parts>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Shoulder</def>
+          <customLabel>right shoulder</customLabel>
+          <coverage>0.1</coverage>
+          <parts>
+            <li>
+              <def>Arm</def>
+              <customLabel>right arm</customLabel>
+              <coverage>0.85</coverage>
+              <parts>
+                <li>
+                  <def>Humerus</def>
+                  <customLabel>right humerus</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Radius</def>
+                  <customLabel>right radius</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Hand</def>
+                  <customLabel>right hand</customLabel>
+                  <coverage>0.25</coverage>
+                  <height>Bottom</height>
+                  <parts>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>right first clawed digit</customLabel>
+                      <coverage>0.30</coverage>
+                      <groups>
+                        <li>RightHand</li>
+                        <li>MiddleFingers</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>right second clawed digit</customLabel>
+                      <coverage>0.30</coverage>
+                      <groups>
+                        <li>RightHand</li>
+                      </groups>
+                    </li>
+                  </parts>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>left leg</customLabel>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Femur</def>
+              <customLabel>left femur</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Tibia</def>
+              <customLabel>left tibia</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Foot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.2</coverage>
+              <parts>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>left second clawed digit</customLabel>
+                  <coverage>0.30</coverage>
+                </li>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>left big clawed digit</customLabel>
+                  <coverage>0.30</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>right leg</customLabel>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Femur</def>
+              <customLabel>right femur</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Tibia</def>
+              <customLabel>right tibia</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Foot</def>
+              <customLabel>right foot</customLabel>
+              <coverage>0.2</coverage>
+              <parts>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>right second clawed digit</customLabel>
+                  <coverage>0.30</coverage>
+                </li>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>right big clawed digit</customLabel>
+                  <coverage>0.30</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
     <defName>Dianoga</defName>
     <label>cyclopean octupoda animal</label>
     <corePart>
@@ -3947,6 +4461,120 @@
           <customLabel>dorsal tentacle</customLabel>
           <coverage>0.06</coverage>
           <height>Bottom</height>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>Dragonsnake</defName>
+    <label>large serpent</label>
+    <corePart>
+      <def>SnakeBody</def>
+      <customLabel>mottled bioluminous body</customLabel>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <customLabel>serpentine tail</customLabel>
+          <coverage>0.10</coverage>
+          <parts>
+            <li>
+              <def>SW_Club</def>
+              <coverage>0.20</coverage>
+              <groups>
+                <li>SWTailAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Hump</def>
+          <customLabel>frilled serpentine hood</customLabel>
+          <coverage>0.10</coverage>
+          <height>Top</height>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>SnakeHead</def>
+          <coverage>0.20</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.30</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.50</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.10</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.10</coverage>
+            </li>
+            <li>
+              <def>Nose</def>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>SnakeMouth</def>
+              <customLabel>fanged reptilian jaw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Mouth</li>
+              </groups>
+            </li>
+          </parts>
         </li>
       </parts>
     </corePart>
@@ -4855,6 +5483,283 @@
     </corePart>
   </BodyDef>
   <BodyDef>
+    <defName>GreaterKraytDragon</defName>
+    <label>colossal decapod reptiloid creature</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <coverage>0.10</coverage>
+          <parts>
+            <li>
+              <def>SW_Spikes</def>
+              <coverage>0.20</coverage>
+              <groups>
+                <li>SWTailAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.2</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.25</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Nose</def>
+                  <coverage>0.1</coverage>
+                </li>
+                <li>
+                  <def>AnimalJaw</def>
+                  <coverage>0.26</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.02</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.02</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right foot</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>second front left leg</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>second front right leg</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right foot</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>middle left leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>middle right leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right foot</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>first rear left leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>first rear right leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right foot</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>second rear left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>second rear right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right foot</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
     <defName>Gundark</defName>
     <label>predatory hexapod animal</label>
     <corePart>
@@ -5270,6 +6175,430 @@
               <groups>
                 <li>Feet</li>
               </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>Horax</defName>
+    <label>thorny-tailed quadruped animal</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <customLabel>spiked tail</customLabel>
+          <coverage>0.10</coverage>
+          <parts>
+            <li>
+              <def>SW_Club</def>
+              <coverage>0.20</coverage>
+              <groups>
+                <li>SWTailAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Hump</def>
+          <customLabel>muscular bulbous carapace</customLabel>
+          <coverage>0.10</coverage>
+          <height>Top</height>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.18</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <customLabel>armoured head</customLabel>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.25</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>pointed left ear</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>pointed right ear</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>Nose</def>
+                  <customLabel>nose slits</customLabel>
+                  <coverage>0.1</coverage>
+                  <parts>
+                    <li>
+                      <def>Horn</def>
+                      <coverage>0.85</coverage>
+                      <groups>
+                        <li>HornAttackTool</li>
+                      </groups>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>AnimalJaw</def>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Hoof</def>
+              <customLabel>left front hoofed foot</customLabel>
+              <coverage>0.25</coverage>
+              <height>Bottom</height>
+              <groups>
+                <li>SWLeftHoof</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Hoof</def>
+              <customLabel>right front hoofed foot</customLabel>
+              <coverage>0.25</coverage>
+              <height>Bottom</height>
+              <groups>
+                <li>SWRightHoof</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Hoof</def>
+              <customLabel>left back hoofed foot</customLabel>
+              <coverage>0.25</coverage>
+              <height>Bottom</height>
+              <groups>
+                <li>SWLeftHoof</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Hoof</def>
+              <customLabel>right back hoofed foot</customLabel>
+              <coverage>0.25</coverage>
+              <height>Bottom</height>
+              <groups>
+                <li>SWRightHoof</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>Jimvu</defName>
+    <label>hexapod repto-ungulate animal</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <coverage>0.07</coverage>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.20</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.25</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>inner left ear</customLabel>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>inner right ear</customLabel>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Nose</def>
+                  <customLabel>proboscis</customLabel>
+                  <coverage>0.1</coverage>
+                </li>
+                <li>
+                  <def>AnimalJaw</def>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front left foot pad</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontLeftPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front right foot pad</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontRightPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>middle left leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>middle left foot pad</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontLeftPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>middle right leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>middle right foot pad</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontRightPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear left foot pad</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear right foot pad</customLabel>
+              <coverage>0.15</coverage>
             </li>
           </parts>
         </li>
@@ -6067,6 +7396,149 @@
     </corePart>
   </BodyDef>
   <BodyDef>
+    <defName>Klorslug</defName>
+    <label>poisonous vermiform animal</label>
+    <corePart>
+      <def>Shell</def>
+      <customLabel>chitinous worm-like carapace</customLabel>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <customLabel>poisonous tail stinger</customLabel>
+          <coverage>0.07</coverage>
+          <groups>
+            <li>SWToxicAppendage</li>
+          </groups>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>InsectHeart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Pronotum</def>
+          <coverage>0.18</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>InsectHead</def>
+              <customLabel>bulbous head</customLabel>
+              <coverage>0.65</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.2</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left ocellus</customLabel>
+                  <coverage>0.10</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right ocellus</customLabel>
+                  <coverage>0.10</coverage>
+                </li>
+                <li>
+                  <def>Nose</def>
+                  <customLabel>olfactory slit</customLabel>
+                  <coverage>0.1</coverage>
+                </li>
+                <li>
+                  <def>InsectMouth</def>
+                  <customLabel>toothy oral disc</customLabel>
+                  <coverage>0.10</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Arm</def>
+          <customLabel>front left arm</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Hand</def>
+              <customLabel>left dagger-like claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>SWLeftLegClawAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Arm</def>
+          <customLabel>front right arm</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Hand</def>
+              <customLabel>right dagger-like claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>SWRightLegClawAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>middle left leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>middle right leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.02</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.02</coverage>
+          <height>Bottom</height>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
     <defName>Krykna</defName>
     <label>bulbous arachnoid animal</label>
     <corePart>
@@ -6761,6 +8233,376 @@
     </corePart>
   </BodyDef>
   <BodyDef>
+    <defName>MarshHaunt</defName>
+    <label>argusoid bipedal creature</label>
+    <corePart>
+      <def>Torso</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Clavicle</def>
+          <customLabel>left clavicle</customLabel>
+          <coverage>0.01</coverage>
+          <height>Top</height>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Clavicle</def>
+          <customLabel>right clavicle</customLabel>
+          <coverage>0.01</coverage>
+          <height>Top</height>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Ribcage</def>
+          <coverage>0.045</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Sternum</def>
+          <coverage>0.005</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Pelvis</def>
+          <coverage>0.01</coverage>
+          <height>Bottom</height>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.10</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <coverage>0.72</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.18</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left primary eye cluster</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right primary eye cluster</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left secondary eye cluster</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right secondary eye cluster</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>internalised ear</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>internalised ear</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>Nose</def>
+                  <customLabel>olfactory tendrils</customLabel>
+                  <coverage>0.1</coverage>
+                </li>
+                <li>
+                  <def>AnimalJaw</def>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Shoulder</def>
+          <customLabel>left shoulder</customLabel>
+          <coverage>0.1</coverage>
+          <parts>
+            <li>
+              <def>Arm</def>
+              <customLabel>left arm</customLabel>
+              <coverage>0.85</coverage>
+              <parts>
+                <li>
+                  <def>Humerus</def>
+                  <customLabel>left humerus</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Radius</def>
+                  <customLabel>left radius</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Hand</def>
+                  <customLabel>left hand</customLabel>
+                  <coverage>0.25</coverage>
+                  <height>Bottom</height>
+                  <parts>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>left pinky digit</customLabel>
+                      <coverage>0.10</coverage>
+                      <groups>
+                        <li>LeftHand</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>left index digit</customLabel>
+                      <coverage>0.10</coverage>
+                      <groups>
+                        <li>LeftHand</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>left middle digit</customLabel>
+                      <coverage>0.10</coverage>
+                      <groups>
+                        <li>LeftHand</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>left thumb digit</customLabel>
+                      <coverage>0.10</coverage>
+                      <groups>
+                        <li>LeftHand</li>
+                      </groups>
+                    </li>
+                  </parts>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Shoulder</def>
+          <customLabel>right shoulder</customLabel>
+          <coverage>0.1</coverage>
+          <parts>
+            <li>
+              <def>Arm</def>
+              <customLabel>right arm</customLabel>
+              <coverage>0.85</coverage>
+              <parts>
+                <li>
+                  <def>Humerus</def>
+                  <customLabel>right humerus</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Radius</def>
+                  <customLabel>right radius</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Hand</def>
+                  <customLabel>right hand</customLabel>
+                  <coverage>0.25</coverage>
+                  <height>Bottom</height>
+                  <parts>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>right pinky digit</customLabel>
+                      <coverage>0.10</coverage>
+                      <groups>
+                        <li>RightHand</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>right middle finger digit</customLabel>
+                      <coverage>0.10</coverage>
+                      <groups>
+                        <li>RightHand</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>right index finger digit</customLabel>
+                      <coverage>0.10</coverage>
+                      <groups>
+                        <li>RightHand</li>
+                      </groups>
+                    </li>
+                    <li>
+                      <def>Finger</def>
+                      <customLabel>right thumb digit</customLabel>
+                      <coverage>0.10</coverage>
+                      <groups>
+                        <li>RightHand</li>
+                      </groups>
+                    </li>
+                  </parts>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>left leg</customLabel>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Femur</def>
+              <customLabel>left femur</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Tibia</def>
+              <customLabel>left tibia</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Foot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.2</coverage>
+              <parts>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>left little toe</customLabel>
+                  <coverage>0.10</coverage>
+                </li>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>left second toe</customLabel>
+                  <coverage>0.15</coverage>
+                </li>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>left big toe</customLabel>
+                  <coverage>0.16</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>right leg</customLabel>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Femur</def>
+              <customLabel>right femur</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Tibia</def>
+              <customLabel>right tibia</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Foot</def>
+              <customLabel>right foot</customLabel>
+              <coverage>0.2</coverage>
+              <parts>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>right little toe</customLabel>
+                  <coverage>0.11</coverage>
+                </li>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>right second toe</customLabel>
+                  <coverage>0.15</coverage>
+                </li>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>right big toe</customLabel>
+                  <coverage>0.16</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
     <defName>Massiff</defName>
     <label>spiny reptilian animal</label>
     <corePart>
@@ -7271,6 +9113,129 @@
     </corePart>
   </BodyDef>
   <BodyDef>
+    <defName>Neebray</defName>
+    <label>flying multi-eyed silica animal</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <customLabel>left forked tail</customLabel>
+          <coverage>0.035</coverage>
+        </li>
+        <li>
+          <def>Tail</def>
+          <customLabel>right forked tail</customLabel>
+          <coverage>0.035</coverage>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.20</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.25</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye cluster</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye cluster</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Beak</def>
+                  <customLabel>conical toothed jaw</customLabel>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>SW_LeftWing</def>
+          <customLabel>front left wing</customLabel>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>SW_RightWing</def>
+          <customLabel>front right wing</customLabel>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
     <defName>Nexu</defName>
     <label>four-eyed quadruped animal</label>
     <corePart>
@@ -7468,6 +9433,223 @@
             <li>
               <def>Paw</def>
               <customLabel>rear right clawed paw</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>Ollopom</defName>
+    <label>hexapod aquatic rodent animal</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <customLabel>fluked tail</customLabel>
+          <coverage>0.07</coverage>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Hump</def>
+          <customLabel>elipsical camouflage dewlap</customLabel>
+          <coverage>0.10</coverage>
+          <height>Top</height>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.20</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.25</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>inner left ear</customLabel>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>inner right ear</customLabel>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Nose</def>
+                  <coverage>0.1</coverage>
+                </li>
+                <li>
+                  <def>AnimalJaw</def>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front left paddle-like clawed paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontLeftPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front right paddle-like clawed paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontRightPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>middle left leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>middle left paddle-like clawed paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontLeftPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>middle right leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>middle right paddle-like clawed paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontRightPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear left paddle-like clawed paw</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear right paddle-like clawed paw</customLabel>
               <coverage>0.15</coverage>
             </li>
           </parts>
@@ -8439,6 +10621,98 @@
             <li>
               <def>Hoof</def>
               <customLabel>rear right hoof</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>Snoruuk</defName>
+    <label>mobile dikarya fungus</label>
+    <corePart>
+      <def>SnakeBody</def>
+      <customLabel>central hyphae structure</customLabel>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Stomach</def>
+          <customLabel>digestive enzyme sac</customLabel>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <customLabel>hymenium gland</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>fungal gill ring</customLabel>
+          <coverage>0.06</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>guttation regulator</customLabel>
+          <coverage>0.06</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <customLabel>filtration sponge</customLabel>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>SnakeHead</def>
+          <customLabel>scaled pileus</customLabel>
+          <coverage>0.20</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <customLabel>velum core</customLabel>
+              <coverage>0.30</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <customLabel>mycelial neural hyphae</customLabel>
+                  <coverage>0.50</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>primitive ocelli scale cluster</customLabel>
+              <coverage>0.2</coverage>
+            </li>
+            <li>
+              <def>SnakeMouth</def>
+              <customLabel>digestive radula</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Mouth</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>reflexory stipe</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>volva toed-foot</customLabel>
               <coverage>0.15</coverage>
             </li>
           </parts>
@@ -9620,6 +11894,7 @@
           <def>SW_LeftTentacle</def>
           <groups>
             <li>SWTentacleAttackTool</li>
+            <li>SW_FirstTentacleBeldon</li>
           </groups>
           <customLabel>front left lappet</customLabel>
           <coverage>0.03</coverage>
@@ -9629,6 +11904,7 @@
           <def>SW_RightTentacle</def>
           <groups>
             <li>SWTentacleAttackTool</li>
+            <li>SW_SecondTentacleBeldon</li>
           </groups>
           <customLabel>front right lappet</customLabel>
           <coverage>0.03</coverage>
@@ -9638,6 +11914,7 @@
           <def>SW_LeftTentacle</def>
           <groups>
             <li>SWTentacleAttackTool</li>
+            <li>SW_FirstTentacleBeldon</li>
           </groups>
           <customLabel>middle left lappet</customLabel>
           <coverage>0.03</coverage>
@@ -9647,6 +11924,7 @@
           <def>SW_RightTentacle</def>
           <groups>
             <li>SWTentacleAttackTool</li>
+            <li>SW_SecondTentacleBeldon</li>
           </groups>
           <customLabel>middle right lappet</customLabel>
           <coverage>0.03</coverage>
@@ -9666,7 +11944,10 @@
         </li>
         <li>
           <def>SW_DorsalTentacle</def>
-          <customLabel>dorsal rudder</customLabel>
+          <groups>
+            <li>SW_ThirdTentacleBeldon</li>
+          </groups>
+          <customLabel>dorsal rudder lappet</customLabel>
           <coverage>0.06</coverage>
           <height>Bottom</height>
         </li>
@@ -9768,6 +12049,7 @@
           <def>SW_LeftTentacle</def>
           <groups>
             <li>SWTentacleAttackTool</li>
+            <li>SW_FirstTentacleBlixus</li>
           </groups>
           <customLabel>front left tentacle</customLabel>
           <coverage>0.03</coverage>
@@ -9777,6 +12059,7 @@
           <def>SW_RightTentacle</def>
           <groups>
             <li>SWTentacleAttackTool</li>
+            <li>SW_SecondTentacleBlixus</li>
           </groups>
           <customLabel>front right tentacle</customLabel>
           <coverage>0.03</coverage>
@@ -10391,6 +12674,199 @@
     </corePart>
   </BodyDef>
   <BodyDef>
+    <defName>Fanback</defName>
+    <label>tusked dorsal sailed amphibian</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <coverage>0.1</coverage>
+          <groups>
+            <li>SWTailAttackTool</li>
+          </groups>
+        </li>
+        <li>
+          <def>Hump</def>
+          <customLabel>dorsal sail</customLabel>
+          <coverage>0.10</coverage>
+          <height>Top</height>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.3</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <customLabel>crocodilian head</customLabel>
+              <coverage>0.8</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Nose</def>
+                  <customLabel>reptilian nostrils</customLabel>
+                  <coverage>0.04</coverage>
+                </li>
+                <li>
+                  <def>AnimalJaw</def>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Tusk</def>
+                  <coverage>0.1</coverage>
+                  <customLabel>left tusk</customLabel>
+                  <groups>
+                    <li>TuskAttackTool</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Tusk</def>
+                  <coverage>0.1</coverage>
+                  <customLabel>right tusk</customLabel>
+                  <groups>
+                    <li>TuskAttackTool</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front left clawed paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontLeftPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front right clawed paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontRightPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear left clawed paw</customLabel>
+              <coverage>0.1</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear right clawed paw</customLabel>
+              <coverage>0.1</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
     <defName>FlyingAvian</defName>
     <label>flying beaked animal</label>
     <corePart>
@@ -10404,6 +12880,7 @@
           <parts>
             <li>
               <def>SW_Club</def>
+              <customLabel>tail tip</customLabel>
               <coverage>0.20</coverage>
               <groups>
                 <li>SWTailAttackTool</li>
@@ -11155,6 +13632,192 @@
               <groups>
                 <li>Feet</li>
               </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>Igitz</defName>
+    <label>amphibious crested quadrupredal animal</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <customLabel>left fin tail</customLabel>
+          <coverage>0.03</coverage>
+        </li>
+        <li>
+          <def>Tail</def>
+          <customLabel>right fin tail</customLabel>
+          <coverage>0.03</coverage>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.20</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <customLabel>crested ichthyic head</customLabel>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.25</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left bulbous eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right bulbous eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>left inner ear</customLabel>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>right inner ear</customLabel>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Nose</def>
+                  <coverage>0.1</coverage>
+                </li>
+                <li>
+                  <def>AnimalJaw</def>
+                  <customLabel>ichthyic jaw</customLabel>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front left webbed paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontLeftPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front right webbed paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontRightPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear left webbed paw</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear right webbed paw</customLabel>
+              <coverage>0.15</coverage>
             </li>
           </parts>
         </li>
@@ -12041,6 +14704,7 @@
           <def>SW_LeftTentacle</def>
           <groups>
             <li>SWTentacleAttackTool</li>
+            <li>SW_FirstTentacleLylek</li>
           </groups>
           <customLabel>front left tentacle</customLabel>
           <coverage>0.06</coverage>
@@ -12050,6 +14714,7 @@
           <def>SW_RightTentacle</def>
           <groups>
             <li>SWTentacleAttackTool</li>
+            <li>SW_SecondTentacleLylek</li>
           </groups>
           <customLabel>front right tentacle</customLabel>
           <coverage>0.06</coverage>
@@ -12322,7 +14987,7 @@
   </BodyDef>
   <BodyDef>
     <defName>MastiffPhalone</defName>
-    <label>quadrupedal aviann animal</label>
+    <label>quadrupedal avian animal</label>
     <corePart>
       <def>Body</def>
       <height>Middle</height>
@@ -12433,6 +15098,201 @@
                 </li>
                 <li>
                   <def>Beak</def>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front left paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontLeftPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front right paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontRightPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear left paw</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear right paw</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>Mawvorr</defName>
+    <label>plated mammalian animal</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <coverage>0.07</coverage>
+          <customLabel>segmented tail</customLabel>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Hump</def>
+          <customLabel>chitnous spinal plating</customLabel>
+          <coverage>0.10</coverage>
+          <height>Top</height>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.20</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.25</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>first left eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>second left eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>first right eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>secondright eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>left chitinous ear crest</customLabel>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>right chitinous ear crest</customLabel>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Nose</def>
+                  <coverage>0.1</coverage>
+                </li>
+                <li>
+                  <def>AnimalJaw</def>
                   <coverage>0.1</coverage>
                   <groups>
                     <li>Teeth</li>
@@ -13366,6 +16226,138 @@
     </corePart>
   </BodyDef>
   <BodyDef>
+    <defName>ShiroTrap</defName>
+    <label>turtle-like plant symbiote creature</label>
+    <corePart>
+      <def>TurtleShell</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Plastron</def>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Tail</def>
+          <coverage>0.05</coverage>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Hump</def>
+          <customLabel>tooke-trap symbiote</customLabel>
+          <coverage>0.10</coverage>
+          <height>Top</height>
+          <groups>
+            <li>TurtleBeakAttackTool</li>
+          </groups>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>HeadWithEarHoles</def>
+          <coverage>0.17</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Brain</def>
+              <coverage>0.18</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>Nose</def>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>TurtleBeak</def>
+              <coverage>0.20</coverage>
+              <groups>
+                <li>TurtleBeakAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
     <defName>Shyrack</defName>
     <label>flying insectoid animal</label>
     <corePart>
@@ -13747,6 +16739,256 @@
     </corePart>
   </BodyDef>
   <BodyDef>
+    <defName>TetnissCrab</defName>
+    <label>decapod crustaceous animal</label>
+    <corePart>
+      <def>Shell</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Elytra</def>
+          <customLabel>scrap-encrusted carapace</customLabel>
+          <coverage>0.1</coverage>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>InsectHeart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Pronotum</def>
+          <customLabel>neck</customLabel>
+          <coverage>0.18</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>InsectHead</def>
+              <customLabel>crustapod head</customLabel>
+              <coverage>0.65</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.2</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>first left eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>second left eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>first right eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>second right eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Antenna</def>
+                  <customLabel>left mandibular palp</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>Antenna</def>
+                  <customLabel>right mandibular palp</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>InsectNostril</def>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>InsectMouth</def>
+                  <coverage>0.08</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Arm</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>SW_LeftClaw</def>
+              <customLabel>front left pincer claw</customLabel>
+              <coverage>0.2</coverage>
+              <groups>
+                <li>SWLeftLegClawAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Arm</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>SW_LeftClaw</def>
+              <customLabel>front right pincer claw</customLabel>
+              <coverage>0.2</coverage>
+              <groups>
+                <li>SWRightLegClawAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left front claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right front claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>middle left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left middle claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>middle right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right middle claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left rear claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right rear claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>back left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left back claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>back right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right back claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
     <defName>Thranta</defName>
     <label>flying reptavian animal</label>
     <corePart>
@@ -13884,6 +17126,405 @@
           <customLabel>front right wing</customLabel>
           <coverage>0.09</coverage>
           <height>Bottom</height>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>Tibidee</defName>
+    <label>colossal flying silica animal</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Tail</def>
+          <coverage>0.07</coverage>
+          <parts>
+            <li>
+              <def>SW_Club</def>
+              <customLabel>fluked tail</customLabel>
+              <coverage>0.20</coverage>
+              <groups>
+                <li>SWTailAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.20</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.25</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Antenna</def>
+                  <customLabel>left antenna</customLabel>
+                  <coverage>0.04</coverage>
+                </li>
+                <li>
+                  <def>Antenna</def>
+                  <customLabel>right antenna</customLabel>
+                  <coverage>0.04</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>InsectMouth</def>
+                  <customLabel>leathery maw</customLabel>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>SW_LeftWing</def>
+          <customLabel>front left wing</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>SW_RightWing</def>
+          <customLabel>front right wing</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>front left arm</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left front claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>front right arm</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right front claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>middle left leg</customLabel>
+          <coverage>0.02</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left middle foot-pad</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>middle right leg</customLabel>
+          <coverage>0.02</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right middle foot-pad</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.01</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left rear foot-pad</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.01</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right rear foot-pad</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>Torton</defName>
+    <label>horned colossal estudine creature</label>
+    <corePart>
+      <def>TurtleShell</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Plastron</def>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Tail</def>
+          <coverage>0.05</coverage>
+        </li>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>HeadWithEarHoles</def>
+          <coverage>0.17</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Brain</def>
+              <coverage>0.18</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>Nose</def>
+              <coverage>0.15</coverage>
+              <parts>
+                <li>
+                  <def>Horn</def>
+                  <coverage>0.85</coverage>
+                  <groups>
+                    <li>HornAttackTool</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>TurtleBeak</def>
+              <coverage>0.20</coverage>
+              <groups>
+                <li>TurtleBeakAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front left paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontLeftPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>front right paw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>FrontRightPaw</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear left paw</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Paw</def>
+              <customLabel>rear right paw</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
         </li>
       </parts>
     </corePart>
@@ -14974,6 +18615,144 @@
               <def>RearClaw</def>
               <customLabel>rear right leg fourth claw</customLabel>
               <coverage>0.05</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>WarWyrm</defName>
+    <label>colossal serpentine creature</label>
+    <corePart>
+      <def>SnakeBody</def>
+      <customLabel>finned body</customLabel>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Hump</def>
+          <customLabel>spiny dorsal fin</customLabel>
+          <coverage>0.10</coverage>
+          <height>Top</height>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>SnakeHead</def>
+          <coverage>0.20</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.30</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.50</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.10</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.10</coverage>
+            </li>
+            <li>
+              <def>Ear</def>
+              <customLabel>fanged left vestigial appendage</customLabel>
+              <coverage>0.08</coverage>
+              <groups>
+                <li>SWToxicAppendage</li>
+              </groups>
+            </li>
+            <li>
+              <def>Ear</def>
+              <customLabel>fanged right vestigial appendage</customLabel>
+              <coverage>0.08</coverage>
+              <groups>
+                <li>SWToxicAppendage</li>
+              </groups>
+            </li>
+            <li>
+              <def>Nose</def>
+              <coverage>0.15</coverage>
+            </li>
+            <li>
+              <def>SnakeMouth</def>
+              <customLabel>fanged reptilian jaw</customLabel>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>Mouth</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>SW_SerpentTail</def>
+          <customLabel>frilled serpentine tail</customLabel>
+          <coverage>0.3</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>Tail</def>
+          <customLabel>serpentine tail tip</customLabel>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>SW_Club</def>
+              <customLabel>fanned tail</customLabel>
+              <coverage>0.20</coverage>
+              <groups>
+                <li>SWTailAttackTool</li>
+              </groups>
             </li>
           </parts>
         </li>
@@ -16143,6 +19922,404 @@
           <customLabel>back left proleg</customLabel>
           <coverage>0.01</coverage>
           <height>Bottom</height>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>Wyyyschokk</defName>
+    <label>large arachnoid animal</label>
+    <corePart>
+      <def>Shell</def>
+      <customLabel>bulbous abdominal sac</customLabel>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>InsectHeart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Pronotum</def>
+          <coverage>0.18</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>InsectHead</def>
+              <coverage>0.65</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.2</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.05</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.05</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left second eye</customLabel>
+                  <coverage>0.05</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right second eye</customLabel>
+                  <coverage>0.05</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left third eye</customLabel>
+                  <coverage>0.05</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right third eye</customLabel>
+                  <coverage>0.05</coverage>
+                </li>
+                <li>
+                  <def>InsectMouth</def>
+                  <customLabel>quad-fanged chelicerae</customLabel>
+                  <coverage>0.10</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Arm</def>
+          <customLabel>left clawed pedipalp</customLabel>
+          <coverage>0.02</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>SWLeftLegClawAttackTool</li>
+          </groups>
+        </li>
+        <li>
+          <def>Arm</def>
+          <customLabel>right clawed pedipalp</customLabel>
+          <coverage>0.02</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>SWRightLegClawAttackTool</li>
+          </groups>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>middle left leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>middle right leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>back left leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>back right leg</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <BodyDef>
+    <defName>Yobshrimp</defName>
+    <label>clawed crustaceous animal</label>
+    <corePart>
+      <def>Shell</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Elytra</def>
+          <customLabel>spiny carapace</customLabel>
+          <coverage>0.1</coverage>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>InsectHeart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Pronotum</def>
+          <customLabel>neck</customLabel>
+          <coverage>0.18</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>InsectHead</def>
+              <customLabel>crustapod head</customLabel>
+              <coverage>0.65</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.2</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>first left eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>second left eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>first right eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>second right eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Antenna</def>
+                  <customLabel>left crustapod antennae</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>Antenna</def>
+                  <customLabel>right crustapod antennae</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>InsectNostril</def>
+                  <customLabel>olfactory antennules</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>InsectMouth</def>
+                  <coverage>0.08</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Arm</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>SW_LeftClaw</def>
+              <customLabel>front left elongated pincer claw</customLabel>
+              <coverage>0.2</coverage>
+              <groups>
+                <li>SWLeftLegClawAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Arm</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>SW_LeftClaw</def>
+              <customLabel>front right elongated pincer claw</customLabel>
+              <coverage>0.2</coverage>
+              <groups>
+                <li>SWRightLegClawAttackTool</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left front claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right front claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>middle left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left middle claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>middle right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right middle claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left rear claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right rear claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>back left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>left back claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>back right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Foot</def>
+              <customLabel>right back claw</customLabel>
+              <coverage>0.3</coverage>
+              <groups>
+                <li>Feet</li>
+              </groups>
+            </li>
+          </parts>
         </li>
       </parts>
     </corePart>

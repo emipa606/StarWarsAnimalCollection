@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ate acklay claw -->
+  <AteAcklayClaw.stages.ate_acklay_claw.label>ate acklay claw</AteAcklayClaw.stages.ate_acklay_claw.label>
+  <!-- EN: These claws are so tender and sweet, the buttery flavour lingers on the tongue. -->
+  <AteAcklayClaw.stages.ate_acklay_claw.description>These claws are so tender and sweet, the buttery flavour lingers on the tongue.</AteAcklayClaw.stages.ate_acklay_claw.description>
+  <!-- EN: ate bloddle -->
+  <AteBloddle.stages.ate_bloddle.label>ate bloddle</AteBloddle.stages.ate_bloddle.label>
+  <!-- EN: Ah, you can't beat the aroma of cooked bloddle. -->
+  <AteBloddle.stages.ate_bloddle.description>Ah, you can't beat the aroma of cooked bloddle.</AteBloddle.stages.ate_bloddle.description>
+  <!-- EN: ate chak-root -->
+  <AteChakroot.stages.ate_chakroot.label>ate chak-root</AteChakroot.stages.ate_chakroot.label>
+  <!-- EN: What a flavour, there's no mistaking the tangy sweetness of chak-root. -->
+  <AteChakroot.stages.ate_chakroot.description>What a flavour, there's no mistaking the tangy sweetness of chak-root.</AteChakroot.stages.ate_chakroot.description>
+  <!-- EN: ate rancor heart -->
+  <AteChrysalideHeart.stages.ate_rancor_heart.label>ate rancor heart</AteChrysalideHeart.stages.ate_rancor_heart.label>
+  <!-- EN: There's something in that meat, I'm staring to feel...Strong! -->
+  <AteChrysalideHeart.stages.ate_rancor_heart.description>There's something in that meat, I'm staring to feel...Strong!</AteChrysalideHeart.stages.ate_rancor_heart.description>
+  <!-- EN: ate roe -->
+  <AteCrustapodRoe.stages.ate_roe.label>ate roe</AteCrustapodRoe.stages.ate_roe.label>
+  <!-- EN: How beautifully rich and creamy, quite the delicacy! -->
+  <AteCrustapodRoe.stages.ate_roe.description>How beautifully rich and creamy, quite the delicacy!</AteCrustapodRoe.stages.ate_roe.description>
+  <!-- EN: ate doshian jelly -->
+  <AteDoshianJelly.stages.ate_doshian_jelly.label>ate doshian jelly</AteDoshianJelly.stages.ate_doshian_jelly.label>
+  <!-- EN: I can't tell if it's overly tangy or just stinging my mouth. Quite the sensation. -->
+  <AteDoshianJelly.stages.ate_doshian_jelly.description>I can't tell if it's overly tangy or just stinging my mouth. Quite the sensation.</AteDoshianJelly.stages.ate_doshian_jelly.description>
+  <!-- EN: ate fleek eel -->
+  <AteFleekEel.stages.ate_fleek_eel.label>ate fleek eel</AteFleekEel.stages.ate_fleek_eel.label>
+  <!-- EN: This fleek eel flesh is so rich and fatty, quite the delicacy. -->
+  <AteFleekEel.stages.ate_fleek_eel.description>This fleek eel flesh is so rich and fatty, quite the delicacy.</AteFleekEel.stages.ate_fleek_eel.description>
+  <!-- EN: ate gornt meat -->
+  <AteGorntMeat.stages.ate_gornt_meat.label>ate gornt meat</AteGorntMeat.stages.ate_gornt_meat.label>
+  <!-- EN: That was a really tasty meat. Those Gornt taste great! -->
+  <AteGorntMeat.stages.ate_gornt_meat.description>That was a really tasty meat. Those Gornt taste great!</AteGorntMeat.stages.ate_gornt_meat.description>
+  <!-- EN: ate hawkbat egg -->
+  <AteHawkbatEgg.stages.ate_hawkbat_egg.label>ate hawkbat egg</AteHawkbatEgg.stages.ate_hawkbat_egg.label>
+  <!-- EN: That Hawkbat egg was astonishing. Truly a dish fit for an Emperor. -->
+  <AteHawkbatEgg.stages.ate_hawkbat_egg.description>That Hawkbat egg was astonishing. Truly a dish fit for an Emperor.</AteHawkbatEgg.stages.ate_hawkbat_egg.description>
+  <!-- EN: ate jogan fruit -->
+  <AteJoganFruit.stages.ate_jogan_fruit.label>ate jogan fruit</AteJoganFruit.stages.ate_jogan_fruit.label>
+  <!-- EN: Sweet with a crisp texture, it has to be jogan fruit. -->
+  <AteJoganFruit.stages.ate_jogan_fruit.description>Sweet with a crisp texture, it has to be jogan fruit.</AteJoganFruit.stages.ate_jogan_fruit.description>
+  <!-- EN: ate manax fungus -->
+  <AteManaxFungus.stages.ate_manax_fungus.label>ate manax fungus</AteManaxFungus.stages.ate_manax_fungus.label>
+  <!-- EN: Incredible, the fungus flavour is so aromatic and poweful. No wonder they pay so much for this stuff! -->
+  <AteManaxFungus.stages.ate_manax_fungus.description>Incredible, the fungus flavour is so aromatic and poweful. No wonder they pay so much for this stuff!</AteManaxFungus.stages.ate_manax_fungus.description>
+  <!-- EN: ate meiloorun -->
+  <AteMeiloorun.stages.ate_meiloorun.label>ate meiloorun</AteMeiloorun.stages.ate_meiloorun.label>
+  <!-- EN: So juicy and refreshing, meiloorun is such a nice treat. -->
+  <AteMeiloorun.stages.ate_meiloorun.description>So juicy and refreshing, meiloorun is such a nice treat.</AteMeiloorun.stages.ate_meiloorun.description>
+  <!-- EN: ate mudhorn egg -->
+  <AteMudhornEgg.stages.ate_mudhorn_egg.label>ate mudhorn egg</AteMudhornEgg.stages.ate_mudhorn_egg.label>
+  <!-- EN: Utini! -->
+  <AteMudhornEgg.stages.ate_mudhorn_egg.description>Utini!</AteMudhornEgg.stages.ate_mudhorn_egg.description>
+  <!-- EN: ate muja fruit -->
+  <AteMujaFruit.stages.ate_muja_fruit.label>ate muja fruit</AteMujaFruit.stages.ate_muja_fruit.label>
+  <!-- EN: Simply sweet and delicious, muja fruit without a doubt. -->
+  <AteMujaFruit.stages.ate_muja_fruit.description>Simply sweet and delicious, muja fruit without a doubt.</AteMujaFruit.stages.ate_muja_fruit.description>
+  <!-- EN: ate much-fungus -->
+  <AteMunchFungus.stages.ate_muchfungus.label>ate much-fungus</AteMunchFungus.stages.ate_muchfungus.label>
+  <!-- EN: Munch-fungus has such a pleasant flavor when prepared correctly, it really is very versatile. -->
+  <AteMunchFungus.stages.ate_muchfungus.description>Munch-fungus has such a pleasant flavor when prepared correctly, it really is very versatile.</AteMunchFungus.stages.ate_muchfungus.description>
+  <!-- EN: ate much-fungus bread -->
+  <AteMunchFungusBread.stages.ate_muchfungus_bread.label>ate much-fungus bread</AteMunchFungusBread.stages.ate_muchfungus_bread.label>
+  <!-- EN: This Munch-fungus bread is so tasty and filling; just like Mal'aa used to make! -->
+  <AteMunchFungusBread.stages.ate_muchfungus_bread.description>This Munch-fungus bread is so tasty and filling; just like Mal'aa used to make!</AteMunchFungusBread.stages.ate_muchfungus_bread.description>
+  <!-- EN: ate nexu tongue -->
+  <AteNexuTongue.stages.ate_nexu_tongue.label>ate nexu tongue</AteNexuTongue.stages.ate_nexu_tongue.label>
+  <!-- EN: Mmmm, this meat is delightfully chewy and has such an exotic texture. -->
+  <AteNexuTongue.stages.ate_nexu_tongue.description>Mmmm, this meat is delightfully chewy and has such an exotic texture.</AteNexuTongue.stages.ate_nexu_tongue.description>
+  <!-- EN: ate paddy frog -->
+  <AtePaddyFrog.stages.ate_paddy_frog.label>ate paddy frog</AtePaddyFrog.stages.ate_paddy_frog.label>
+  <!-- EN: I swear by the Force the legs of that thing just kicked in my mouth. Made me feel like a Hutt! -->
+  <AtePaddyFrog.stages.ate_paddy_frog.description>I swear by the Force the legs of that thing just kicked in my mouth. Made me feel like a Hutt!</AtePaddyFrog.stages.ate_paddy_frog.description>
+  <!-- EN: ate raw much-fungus -->
+  <AteRawMunchFungus.stages.ate_raw_muchfungus.label>ate raw much-fungus</AteRawMunchFungus.stages.ate_raw_muchfungus.label>
+  <!-- EN: Ixta! This munch-fungus is so spongy and bland. It needs preparing properly! -->
+  <AteRawMunchFungus.stages.ate_raw_muchfungus.description>Ixta! This munch-fungus is so spongy and bland. It needs preparing properly!</AteRawMunchFungus.stages.ate_raw_muchfungus.description>
+  <!-- EN: ate rikknit ovum -->
+  <AteRikknitOvum.stages.ate_rikknit_ovum.label>ate rikknit ovum</AteRikknitOvum.stages.ate_rikknit_ovum.label>
+  <!-- EN: Despite the pungent aroma, that Rikknit ovum was exquisite. -->
+  <AteRikknitOvum.stages.ate_rikknit_ovum.description>Despite the pungent aroma, that Rikknit ovum was exquisite.</AteRikknitOvum.stages.ate_rikknit_ovum.description>
+  <!-- EN: ate rycrit meat -->
+  <AteRycritMeat.stages.ate_rycrit_meat.label>ate rycrit meat</AteRycritMeat.stages.ate_rycrit_meat.label>
+  <!-- EN: That was some delicious meat, it can only have been Rycrit! -->
+  <AteRycritMeat.stages.ate_rycrit_meat.description>That was some delicious meat, it can only have been Rycrit!</AteRycritMeat.stages.ate_rycrit_meat.description>
+  <!-- EN: ate tach gland -->
+  <AteTachGland.stages.ate_tach_gland.label>ate tach gland</AteTachGland.stages.ate_tach_gland.label>
+  <!-- EN: WHAT was I kriffing thinking?! Simian brains are bitter and disgusting... -->
+  <AteTachGland.stages.ate_tach_gland.description>WHAT was I kriffing thinking?! Simian brains are bitter and disgusting...</AteTachGland.stages.ate_tach_gland.description>
+  <!-- EN: ate tender meat -->
+  <AteTenderMeat.stages.ate_tender_meat.label>ate tender meat</AteTenderMeat.stages.ate_tender_meat.label>
+  <!-- EN: That meat was very tender and fatty...yum! -->
+  <AteTenderMeat.stages.ate_tender_meat.description>That meat was very tender and fatty...yum!</AteTenderMeat.stages.ate_tender_meat.description>
+  <!-- EN: ate tough meat -->
+  <AteToughMeat.stages.ate_tough_meat.label>ate tough meat</AteToughMeat.stages.ate_tough_meat.label>
+  <!-- EN: Ugh...That meat was too tough and chewy. -->
+  <AteToughMeat.stages.ate_tough_meat.description>Ugh...That meat was too tough and chewy.</AteToughMeat.stages.ate_tough_meat.description>
+  <!-- EN: drank blue milk -->
+  <DrankBlueMilk.stages.drank_blue_milk.label>drank blue milk</DrankBlueMilk.stages.drank_blue_milk.label>
+  <!-- EN: Ah, can't argue with a bit of blue milk... -->
+  <DrankBlueMilk.stages.drank_blue_milk.description>Ah, can't argue with a bit of blue milk...</DrankBlueMilk.stages.drank_blue_milk.description>
+  <!-- EN: drank green milk -->
+  <DrankGreenMilk.stages.drank_green_milk.label>drank green milk</DrankGreenMilk.stages.drank_green_milk.label>
+  <!-- EN: Sithspit! What karking thing made this?! It tastes like it's gone bad INSIDE the animal! -->
+  <DrankGreenMilk.stages.drank_green_milk.description>Sithspit! What karking thing made this?! It tastes like it's gone bad INSIDE the animal!</DrankGreenMilk.stages.drank_green_milk.description>
+  <!-- EN: soothing song -->
+  <SoothingSong.stages.soothing_song.label>soothing song</SoothingSong.stages.soothing_song.label>
+  <!-- EN: That creature made such a calm and soothing sound, it almost felt like I was dreaming it. -->
+  <SoothingSong.stages.soothing_song.description>That creature made such a calm and soothing sound, it almost felt like I was dreaming it.</SoothingSong.stages.soothing_song.description>
+  <!-- EN: spat on -->
+  <SpatOn.stages.spat_on.label>spat on</SpatOn.stages.spat_on.label>
+  <!-- EN: Schutta! That disgusting beast just spat on me! -->
+  <SpatOn.stages.spat_on.description>Schutta! That disgusting beast just spat on me!</SpatOn.stages.spat_on.description>
+  <!-- EN: webbed -->
+  <Webbed.stages.webbed.label>webbed</Webbed.stages.webbed.label>
+  <!-- EN: Ah! It's sticky! What is it? -->
+  <Webbed.stages.webbed.description>Ah! It's sticky! What is it?</Webbed.stages.webbed.description>
+</LanguageData>

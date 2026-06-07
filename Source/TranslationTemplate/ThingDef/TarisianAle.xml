@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: tarisian ale -->
+  <TarisianAle.label>tarisian ale</TarisianAle.label>
+  <!-- EN: Tarisian ale is an extremely strong alcoholic beverage brewed on the planet Taris. It was one of the planet's main exports and commanded a high price. The ale was made from the glands of a tach, and because of the need for this ingredient there were substantial imports of tach glands from Kashyyyk. Consuming just one was enough to intoxicate, or even incapacitate, inexperienced drinkers or even experienced drinkers who were having their first Tarisian ale. -->
+  <TarisianAle.description>Tarisian ale is an extremely strong alcoholic beverage brewed on the planet Taris. It was one of the planet's main exports and commanded a high price. The ale was made from the glands of a tach, and because of the need for this ingredient there were substantial imports of tach glands from Kashyyyk. Consuming just one was enough to intoxicate, or even incapacitate, inexperienced drinkers or even experienced drinkers who were having their first Tarisian ale.</TarisianAle.description>
+  <!-- EN: Drink {0} -->
+  <TarisianAle.ingestible.ingestCommandString>Drink {0}</TarisianAle.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <TarisianAle.ingestible.ingestReportString>Drinking {0}.</TarisianAle.ingestible.ingestReportString>
+  <!-- EN: bottle -->
+  <TarisianAle.tools.bottle.label>bottle</TarisianAle.tools.bottle.label>
+  <!-- EN: neck -->
+  <TarisianAle.tools.neck.label>neck</TarisianAle.tools.neck.label>
+</LanguageData>

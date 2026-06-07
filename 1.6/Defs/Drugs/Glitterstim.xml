@@ -38,7 +38,7 @@
       <HediffDef>ChemicalDamageSevere</HediffDef>
     </descriptionHyperlinks>
     <graphicData>
-      <texPath>swanimals/Resource/Glitterstim</texPath>
+      <texPath>swresource/Glitterstim</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>

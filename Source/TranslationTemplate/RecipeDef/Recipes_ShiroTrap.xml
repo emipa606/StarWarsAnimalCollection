@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Process shiro-trap egg -->
+  <ProcessShiroEgg.label>Process shiro-trap egg</ProcessShiroEgg.label>
+  <!-- EN: Combine a shiro egg with a tooke trap to make a shiro-trap egg. Produces a shiro-trap egg from 1 fertilized shiro egg and 1 tooke-trap. -->
+  <ProcessShiroEgg.description>Combine a shiro egg with a tooke trap to make a shiro-trap egg. Produces a shiro-trap egg from 1 fertilized shiro egg and 1 tooke-trap.</ProcessShiroEgg.description>
+  <!-- EN: Processing shiro egg. -->
+  <ProcessShiroEgg.jobString>Processing shiro egg.</ProcessShiroEgg.jobString>
+</LanguageData>

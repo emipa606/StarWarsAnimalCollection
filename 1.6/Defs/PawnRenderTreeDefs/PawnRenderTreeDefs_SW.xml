@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnRenderTreeDef>
+    <defName>Beldon</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <debugLabel>Root</debugLabel>
+      <tagDef>Root</tagDef>
+      <children>
+        <li>
+          <debugLabel>Body</debugLabel>
+          <tagDef>Body</tagDef>
+          <useRottenColor>true</useRottenColor>
+          <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+          <children>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>TentacleA</debugLabel>
+              <texPath>swanimals/Beldon/Tentacles/BeldonTentacleA</texPath>
+              <drawSize>1.5</drawSize>
+              <useRottenColor>true</useRottenColor>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <linkedBodyPartsGroup>SW_FirstTentacleBeldon</linkedBodyPartsGroup>
+              <drawData>
+                <defaultData>
+                  <pivot>(0.5, 0.95)</pivot>
+                  <layer>-10</layer>
+                </defaultData>
+                <dataNorth>
+                  <offset>(0, 0, 0)</offset>
+                  <rotationOffset>-180</rotationOffset>
+                </dataNorth>
+                <dataEast>
+                  <offset>(0, 0, -0.75)</offset>
+                  <rotationOffset>-270</rotationOffset>
+                </dataEast>
+                <dataSouth>
+                  <offset>(0, 0, 0)</offset>
+                </dataSouth>
+                <dataWest>
+                  <offset>(-0.75, 0, -0.75)</offset>
+                  <rotationOffset>270</rotationOffset>
+                </dataWest>
+              </drawData>
+            </li>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>TentacleB</debugLabel>
+              <texPath>swanimals/Beldon/Tentacles/BeldonTentacleB</texPath>
+              <drawSize>1.5</drawSize>
+              <useRottenColor>true</useRottenColor>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <linkedBodyPartsGroup>SW_SecondTentacleBeldon</linkedBodyPartsGroup>
+              <drawData>
+                <defaultData>
+                  <pivot>(0.5, 0.95)</pivot>
+                  <layer>-9</layer>
+                </defaultData>
+                <dataNorth>
+                  <offset>(0, 0, 0)</offset>
+                  <rotationOffset>-180</rotationOffset>
+                </dataNorth>
+                <dataEast>
+                  <offset>(0.5, 0, -0.75)</offset>
+                  <rotationOffset>-270</rotationOffset>
+                </dataEast>
+                <dataSouth>
+                  <offset>(0, 0, 0)</offset>
+                </dataSouth>
+                <dataWest>
+                  <offset>(-0.5, 0, -0.75)</offset>
+                  <rotationOffset>270</rotationOffset>
+                </dataWest>
+              </drawData>
+            </li>
+            <li Class="PawnRenderNodeProperties_BulbfreakTentacle">
+              <debugLabel>TentacleC</debugLabel>
+              <drawSize>1.5</drawSize>
+              <texPath>swanimals/Beldon/Tentacles/BeldonTentacleC</texPath>
+              <useRottenColor>true</useRottenColor>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <linkedBodyPartsGroup>SW_ThirdTentacleBeldon</linkedBodyPartsGroup>
+              <drawData>
+                <defaultData>
+                  <pivot>(0.5, 0.95)</pivot>
+                  <layer>-8</layer>
+                </defaultData>
+                <dataNorth>
+                  <offset>(0, 0, 0)</offset>
+                  <rotationOffset>-180</rotationOffset>
+                </dataNorth>
+                <dataEast>
+                  <offset>(0.25, 0, -0.75)</offset>
+                  <rotationOffset>-270</rotationOffset>
+                </dataEast>
+                <dataSouth>
+                  <offset>(0, 0, 0)</offset>
+                </dataSouth>
+                <dataWest>
+                  <offset>(-0.75, 0, -0.75)</offset>
+                  <rotationOffset>270</rotationOffset>
+                </dataWest>
+              </drawData>
+            </li>
+            <li>
+              <debugLabel>Wounds</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>10</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Firefoam</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>20</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li Class="PawnRenderNodeProperties_Carried">
+          <debugLabel>Carried thing</debugLabel>
+          <workerClass>PawnRenderNodeWorker_Carried</workerClass>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+  <PawnRenderTreeDef>
+    <defName>Lylek</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <debugLabel>Root</debugLabel>
+      <tagDef>Root</tagDef>
+      <children>
+        <li>
+          <debugLabel>Body</debugLabel>
+          <tagDef>Body</tagDef>
+          <useRottenColor>true</useRottenColor>
+          <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+          <children>
+            <li Class="PawnRenderNodeProperties_Spastic">
+              <debugLabel>TentacleA</debugLabel>
+              <linkedBodyPartsGroup>SW_FirstTentacleLylek</linkedBodyPartsGroup>
+              <texPath>swanimals/Lylek/Tentacles/LylekTentacleA</texPath>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-5~5</rotationRange>
+              <durationTicksRange>10~35</durationTicksRange>
+              <nextSpasmTicksRange>10~50</nextSpasmTicksRange>
+              <drawSize>2.0</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <offset>(0.50, 0, 0.35)</offset>
+                  <rotationOffset>-10</rotationOffset>
+                  <layer>-10</layer>
+                  <flip>true</flip>
+                </dataNorth>
+                <dataEast>
+                  <offset>(0.30, 0, 0.05)</offset>
+                </dataEast>
+                <dataSouth>
+                  <offset>(-0.75, 0, -0.05)</offset>
+                  <rotationOffset>55</rotationOffset>
+                  <flip>true</flip>
+                </dataSouth>
+                <dataWest>
+                  <offset>(-0.20, 0, 0.20)</offset>
+                  <layer>-5</layer>
+                  <flip>true</flip>
+                </dataWest>
+              </drawData>
+            </li>
+            <li Class="PawnRenderNodeProperties_Spastic">
+              <debugLabel>TentacleB</debugLabel>
+              <linkedBodyPartsGroup>SW_SecondTentacleLylek</linkedBodyPartsGroup>
+              <texPath>swanimals/Lylek/Tentacles/LylekTentacleA</texPath>
+              <rotDrawMode>Fresh, Rotting</rotDrawMode>
+              <rotateFacing>false</rotateFacing>
+              <rotationRange>-5~5</rotationRange>
+              <durationTicksRange>10~35</durationTicksRange>
+              <nextSpasmTicksRange>10~50</nextSpasmTicksRange>
+              <drawSize>2.0</drawSize>
+              <baseLayer>10</baseLayer>
+              <useRottenColor>true</useRottenColor>
+              <drawData>
+                <dataNorth>
+                  <offset>(-0.50, 0, 0.35)</offset>
+                  <rotationOffset>-10</rotationOffset>
+                  <layer>-10</layer>
+                </dataNorth>
+                <dataEast>
+                  <offset>(0.30, 0, 0.05)</offset>
+                  <layer>-5</layer>
+                </dataEast>
+                <dataSouth>
+                  <offset>(0.70, 0, 0.05)</offset>
+                  <rotationOffset>45</rotationOffset>
+                </dataSouth>
+                <dataWest>
+                  <offset>(-0.35, 0, 0.05)</offset>
+                  <flip>true</flip>
+                </dataWest>
+              </drawData>
+            </li>
+            <li>
+              <debugLabel>Wounds</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>10</baseLayer>
+            </li>
+            <li>
+              <debugLabel>Firefoam</debugLabel>
+              <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+              <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+              <overlayLayer>Body</overlayLayer>
+              <useGraphic>false</useGraphic>
+              <baseLayer>20</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li Class="PawnRenderNodeProperties_Carried">
+          <debugLabel>Carried thing</debugLabel>
+          <workerClass>PawnRenderNodeWorker_Carried</workerClass>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+</Defs>

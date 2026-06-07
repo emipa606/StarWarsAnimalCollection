@@ -1,5 +1,12 @@
 # Changelog for StarWarsAnimalCollection
 
+1.6.5 - 90 new animals added
+14 new plants
+11 new fish
+1 new landmark
+All by Delta
+
+
 1.6.4 - Added missing Royalty requirement on stats, thanks Halicade
 
 

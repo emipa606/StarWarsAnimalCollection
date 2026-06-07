@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: acid spew -->
+  <SW_AcidSpew.label>acid spew</SW_AcidSpew.label>
+  <!-- EN: Command the creature to spray an acidic at a target. Once trained, the creature will spew acid on command. -->
+  <SW_AcidSpew.description>Command the creature to spray an acidic at a target. Once trained, the creature will spew acid on command.</SW_AcidSpew.description>
+  <!-- EN: calamity -->
+  <SW_Calamity.label>calamity</SW_Calamity.label>
+  <!-- EN: Command the creature to emit a beastly roar to create calamity and fear in nearby enemies. -->
+  <SW_Calamity.description>Command the creature to emit a beastly roar to create calamity and fear in nearby enemies.</SW_Calamity.description>
+  <!-- EN: force chaos skip -->
+  <SW_ForceChaosSkip.label>force chaos skip</SW_ForceChaosSkip.label>
+  <!-- EN: Command the creature to teleport an object via the another reality to a random location nearby. -->
+  <SW_ForceChaosSkip.description>Command the creature to teleport an object via the another reality to a random location nearby.</SW_ForceChaosSkip.description>
+  <!-- EN: force focus -->
+  <SW_ForceFocus.label>force focus</SW_ForceFocus.label>
+  <!-- EN: Command the creature use it's innate connection to the Force to heighten it's own or anothers senses. -->
+  <SW_ForceFocus.description>Command the creature use it's innate connection to the Force to heighten it's own or anothers senses.</SW_ForceFocus.description>
+  <!-- EN: force invisibility -->
+  <SW_ForceInvisibility.label>force invisibility</SW_ForceInvisibility.label>
+  <!-- EN: Command the creature to harness their innate force connection turn themselves invisible for a short time. -->
+  <SW_ForceInvisibility.description>Command the creature to harness their innate force connection turn themselves invisible for a short time.</SW_ForceInvisibility.description>
+  <!-- EN: force push -->
+  <SW_ForcePush.label>force push</SW_ForcePush.label>
+  <!-- EN: Command the creature to shoot a force energy blast at a target. -->
+  <SW_ForcePush.description>Command the creature to shoot a force energy blast at a target.</SW_ForcePush.description>
+  <!-- EN: force scream -->
+  <SW_ForceScream.label>force scream</SW_ForceScream.label>
+  <!-- EN: Command the creature to emit a force amplified scream to create a sense of fear in nearby enemies. -->
+  <SW_ForceScream.description>Command the creature to emit a force amplified scream to create a sense of fear in nearby enemies.</SW_ForceScream.description>
+  <!-- EN: gold forage -->
+  <SW_GoldForage.label>gold forage</SW_GoldForage.label>
+  <!-- EN: Command the creature to sniff out a small quanity of gold hidden near the surface. -->
+  <SW_GoldForage.description>Command the creature to sniff out a small quanity of gold hidden near the surface.</SW_GoldForage.description>
+  <!-- EN: animal leap -->
+  <SW_Leap.label>animal leap</SW_Leap.label>
+  <!-- EN: Command the creature to jump to a distant location using strong hind legs. -->
+  <SW_Leap.description>Command the creature to jump to a distant location using strong hind legs.</SW_Leap.description>
+  <!-- EN: rampage -->
+  <SW_Rampage.label>rampage</SW_Rampage.label>
+  <!-- EN: Command the creature to go into a heightened physical state. -->
+  <SW_Rampage.description>Command the creature to go into a heightened physical state.</SW_Rampage.description>
+  <!-- EN: soothe song -->
+  <SW_SootheSong.label>soothe song</SW_SootheSong.label>
+  <!-- EN: Command the creature to emit a soothing song to calm nearby colonists. -->
+  <SW_SootheSong.description>Command the creature to emit a soothing song to calm nearby colonists.</SW_SootheSong.description>
+  <!-- EN: spit -->
+  <SW_Spit.label>spit</SW_Spit.label>
+  <!-- EN: Command the creature to spit a glob of saliva at a target. -->
+  <SW_Spit.description>Command the creature to spit a glob of saliva at a target.</SW_Spit.description>
+  <!-- EN: spur -->
+  <SW_Spur.label>spur</SW_Spur.label>
+  <!-- EN: Command the creature to go into a heightened physical state making it move faster for a while. -->
+  <SW_Spur.description>Command the creature to go into a heightened physical state making it move faster for a while.</SW_Spur.description>
+  <!-- EN: swarm call -->
+  <SW_SwarmCall.label>swarm call</SW_SwarmCall.label>
+  <!-- EN: Command the creature to emit a swarm call that turns a single target manhunter. -->
+  <SW_SwarmCall.description>Command the creature to emit a swarm call that turns a single target manhunter.</SW_SwarmCall.description>
+  <!-- EN: defensive vomiting -->
+  <SW_ToxicSpew.label>defensive vomiting</SW_ToxicSpew.label>
+  <!-- EN: Command the creature to vomit a toxic gas bolus on an area. -->
+  <SW_ToxicSpew.description>Command the creature to vomit a toxic gas bolus on an area.</SW_ToxicSpew.description>
+  <!-- EN: web shot -->
+  <SW_WebShot.label>web shot</SW_WebShot.label>
+  <!-- EN: Command the creature to shoot a blob of hardened silk webbing at a target. -->
+  <SW_WebShot.description>Command the creature to shoot a blob of hardened silk webbing at a target.</SW_WebShot.description>
+</LanguageData>

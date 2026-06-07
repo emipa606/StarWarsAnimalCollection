@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>SWNamerLandmark_Sarlacc</defName>
+    <include>
+      <li>WorldFeatureNamerCommon</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=0.3)->Pit of [NamePerson]</li>
+        <li>r_name(p=0.2)->The [dread] [terrain_word]</li>
+        <li>r_name(p=0.1)->The [terrain_word]</li>
+        <li>r_name(p=0.05)->Sarlacc Pit</li>
+        <li>terrain_word->sarlacc</li>
+        <li>terrain_word->sarlacci burrow</li>
+        <li>terrain_word->creature</li>
+        <li>dread->dreaded</li>
+        <li>dread->grim</li>
+        <li>dread->vile</li>
+        <li>dread->dark</li>
+        <li>dread->great</li>
+        <li>dread->mighty</li>
+        <li>dread->eternal</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

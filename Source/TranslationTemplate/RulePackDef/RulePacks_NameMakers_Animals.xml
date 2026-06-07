@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN:
+    <li>name->[a]</li>
+  -->
+  <SWAnimalNamerFemale.rulePack.rulesStrings>
+    <li>name->[a]</li>
+  </SWAnimalNamerFemale.rulePack.rulesStrings>
+  <!-- EN:
+    <li>name->[a]</li>
+  -->
+  <SWAnimalNamerMale.rulePack.rulesStrings>
+    <li>name->[a]</li>
+  </SWAnimalNamerMale.rulePack.rulesStrings>
+</LanguageData>

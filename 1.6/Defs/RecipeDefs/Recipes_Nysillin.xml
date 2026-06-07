@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>ProcessNysyllin</defName>
+    <label>process nysyllin</label>
+    <description>Produces 25 herbal medicine from 25 nysillin.</description>
+    <jobString>Processing nysillin.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawNysyllin</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawNysyllin</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MedicineHerbal>25</MedicineHerbal>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+      <li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>
