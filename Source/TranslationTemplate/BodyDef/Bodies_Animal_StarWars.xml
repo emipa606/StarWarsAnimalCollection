@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: hexapod crustaceous animal -->
   <Acklay.label>hexapod crustaceous animal</Acklay.label>
   <!-- EN: leathery carapace -->
@@ -47,7 +46,6 @@
   <Acklay.corePart.parts.rear_right_leg.customLabel>rear right leg</Acklay.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: right rear support claw -->
   <Acklay.corePart.parts.rear_right_leg.parts.right_rear_support_claw.customLabel>right rear support claw</Acklay.corePart.parts.rear_right_leg.parts.right_rear_support_claw.customLabel>
-  
   <!-- EN: flying cetaceous animal -->
   <Aiwha.label>flying cetaceous animal</Aiwha.label>
   <!-- EN: left lung -->
@@ -76,7 +74,6 @@
   <Aiwha.corePart.parts.rear_left_flipper.customLabel>rear left flipper</Aiwha.corePart.parts.rear_left_flipper.customLabel>
   <!-- EN: rear right flipper -->
   <Aiwha.corePart.parts.rear_right_flipper.customLabel>rear right flipper</Aiwha.corePart.parts.rear_right_flipper.customLabel>
-  
   <!-- EN: akk -->
   <Akk.label>akk</Akk.label>
   <!-- EN: left lung -->
@@ -111,7 +108,6 @@
   <Akk.corePart.parts.rear_right_leg.customLabel>rear right leg</Akk.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Akk.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Akk.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: beaked mammal animal -->
   <Anooba.label>beaked mammal animal</Anooba.label>
   <!-- EN: left lung -->
@@ -148,7 +144,6 @@
   <Anooba.corePart.parts.rear_right_leg.customLabel>rear right leg</Anooba.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Anooba.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Anooba.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: armoured shaggy quadruped animal -->
   <Behemoth.label>armoured shaggy quadruped animal</Behemoth.label>
   <!-- EN: left lung -->
@@ -193,7 +188,6 @@
   <Behemoth.corePart.parts.rear_right_leg.customLabel>rear right leg</Behemoth.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right hoof -->
   <Behemoth.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>rear right hoof</Behemoth.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>
-  
   <!-- EN: floating gas filled animal -->
   <Beldon.label>floating gas filled animal</Beldon.label>
   <!-- EN: stomach sac -->
@@ -234,7 +228,6 @@
   <Beldon.corePart.parts.rear_right_lappet.customLabel>rear right lappet</Beldon.corePart.parts.rear_right_lappet.customLabel>
   <!-- EN: dorsal rudder lappet -->
   <Beldon.corePart.parts.dorsal_rudder_lappet.customLabel>dorsal rudder lappet</Beldon.corePart.parts.dorsal_rudder_lappet.customLabel>
-  
   <!-- EN: amphibious blubbery animal -->
   <Blarth.label>amphibious blubbery animal</Blarth.label>
   <!-- EN: left lung -->
@@ -269,7 +262,6 @@
   <Blarth.corePart.parts.rear_right_leg.customLabel>rear right leg</Blarth.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right webbed paw -->
   <Blarth.corePart.parts.rear_right_leg.parts.rear_right_webbed_paw.customLabel>rear right webbed paw</Blarth.corePart.parts.rear_right_leg.parts.rear_right_webbed_paw.customLabel>
-  
   <!-- EN: armoured octupoda animal -->
   <Blixus.label>armoured octupoda animal</Blixus.label>
   <!-- EN: vascularized gas bladder -->
@@ -322,7 +314,6 @@
   <Blixus.corePart.parts.back_right_leg.customLabel>back right leg</Blixus.corePart.parts.back_right_leg.customLabel>
   <!-- EN: right back support claw -->
   <Blixus.corePart.parts.back_right_leg.parts.right_back_support_claw.customLabel>right back support claw</Blixus.corePart.parts.back_right_leg.parts.right_back_support_claw.customLabel>
-  
   <!-- EN: bipedal reptillian animal -->
   <Blurrg.label>bipedal reptillian animal</Blurrg.label>
   <!-- EN: left lung -->
@@ -371,7 +362,6 @@
   <Blurrg.corePart.parts.rear_right_leg.customLabel>rear right leg</Blurrg.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Blurrg.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Blurrg.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: flying reptavian animal -->
   <Bogwing.label>flying reptavian animal</Bogwing.label>
   <!-- EN: left lung -->
@@ -412,7 +402,6 @@
   <Bogwing.corePart.parts.rear_right_leg.customLabel>rear right leg</Bogwing.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Bogwing.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Bogwing.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: tusked horned quadrapedal animal -->
   <Boma.label>tusked horned quadrapedal animal</Boma.label>
   <!-- EN: left lung -->
@@ -445,7 +434,6 @@
   <Boma.corePart.parts.rear_right_leg.customLabel>rear right leg</Boma.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Boma.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Boma.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: plated quadruped animal -->
   <Borcatu.label>plated quadruped animal</Borcatu.label>
   <!-- EN: spiny tail -->
@@ -482,7 +470,6 @@
   <Borcatu.corePart.parts.rear_right_leg.customLabel>rear right leg</Borcatu.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Borcatu.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Borcatu.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: gliding reptilian quadruped animal -->
   <Brezak.label>gliding reptilian quadruped animal</Brezak.label>
   <!-- EN: rudder tail -->
@@ -551,7 +538,6 @@
   <Brezak.corePart.parts.rear_right_leg.parts.rear_right_leg_fourth_claw.customLabel>rear right leg fourth claw</Brezak.corePart.parts.rear_right_leg.parts.rear_right_leg_fourth_claw.customLabel>
   <!-- EN: rear right leg fifth claw -->
   <Brezak.corePart.parts.rear_right_leg.parts.rear_right_leg_fifth_claw.customLabel>rear right leg fifth claw</Brezak.corePart.parts.rear_right_leg.parts.rear_right_leg_fifth_claw.customLabel>
-  
   <!-- EN: winged insectile -->
   <CanCell.label>winged insectile</CanCell.label>
   <!-- EN: left first insect wing -->
@@ -582,7 +568,6 @@
   <CanCell.corePart.parts.rear_left_leg.customLabel>rear left leg</CanCell.corePart.parts.rear_left_leg.customLabel>
   <!-- EN: rear right leg -->
   <CanCell.corePart.parts.rear_right_leg.customLabel>rear right leg</CanCell.corePart.parts.rear_right_leg.customLabel>
-  
   <!-- EN: spiny reptillian animal -->
   <Cannok.label>spiny reptillian animal</Cannok.label>
   <!-- EN: short stubby tail -->
@@ -623,7 +608,6 @@
   <Cannok.corePart.parts.rear_right_leg.customLabel>rear right leg</Cannok.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right tridactyl foot -->
   <Cannok.corePart.parts.rear_right_leg.parts.rear_right_tridactyl_foot.customLabel>rear right tridactyl foot</Cannok.corePart.parts.rear_right_leg.parts.rear_right_tridactyl_foot.customLabel>
-  
   <!-- EN: semi-bepedal avian animal -->
   <Clodhopper.label>semi-bepedal avian animal</Clodhopper.label>
   <!-- EN: chitinous osteoderms -->
@@ -662,7 +646,6 @@
   <Clodhopper.corePart.parts.rear_right_leg.customLabel>rear right leg</Clodhopper.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Clodhopper.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Clodhopper.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: stocky canidae animal -->
   <CorellianHound.label>stocky canidae animal</CorellianHound.label>
   <!-- EN: left lung -->
@@ -697,7 +680,6 @@
   <CorellianHound.corePart.parts.rear_right_leg.customLabel>rear right leg</CorellianHound.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <CorellianHound.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</CorellianHound.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: large predatory anthropoid -->
   <Devourers.label>large predatory anthropoid</Devourers.label>
   <!-- EN: left clavicle -->
@@ -776,7 +758,6 @@
   <Devourers.corePart.parts.right_leg.parts.right_foot.parts.right_second_clawed_digit.customLabel>right second clawed digit</Devourers.corePart.parts.right_leg.parts.right_foot.parts.right_second_clawed_digit.customLabel>
   <!-- EN: right big clawed digit -->
   <Devourers.corePart.parts.right_leg.parts.right_foot.parts.right_big_clawed_digit.customLabel>right big clawed digit</Devourers.corePart.parts.right_leg.parts.right_foot.parts.right_big_clawed_digit.customLabel>
-  
   <!-- EN: large quadrapedal reptilian animal -->
   <Dewback.label>large quadrapedal reptilian animal</Dewback.label>
   <!-- EN: left lung -->
@@ -807,7 +788,6 @@
   <Dewback.corePart.parts.rear_right_leg.customLabel>rear right leg</Dewback.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Dewback.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Dewback.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: cyclopean octupoda animal -->
   <Dianoga.label>cyclopean octupoda animal</Dianoga.label>
   <!-- EN: vascularized gas bladder -->
@@ -836,7 +816,6 @@
   <Dianoga.corePart.parts.rear_right_tentacle.customLabel>rear right tentacle</Dianoga.corePart.parts.rear_right_tentacle.customLabel>
   <!-- EN: dorsal tentacle -->
   <Dianoga.corePart.parts.dorsal_tentacle.customLabel>dorsal tentacle</Dianoga.corePart.parts.dorsal_tentacle.customLabel>
-  
   <!-- EN: large serpent -->
   <Dragonsnake.label>large serpent</Dragonsnake.label>
   <!-- EN: mottled bioluminous body -->
@@ -859,7 +838,6 @@
   <Dragonsnake.corePart.parts.SnakeHead.parts.right_eye.customLabel>right eye</Dragonsnake.corePart.parts.SnakeHead.parts.right_eye.customLabel>
   <!-- EN: fanged reptilian jaw -->
   <Dragonsnake.corePart.parts.SnakeHead.parts.fanged_reptilian_jaw.customLabel>fanged reptilian jaw</Dragonsnake.corePart.parts.SnakeHead.parts.fanged_reptilian_jaw.customLabel>
-  
   <!-- EN: flying reptavian animal -->
   <Drexl.label>flying reptavian animal</Drexl.label>
   <!-- EN: cerated tail-tip -->
@@ -910,7 +888,6 @@
   <Drexl.corePart.parts.rear_right_wing.customLabel>rear right wing</Drexl.corePart.parts.rear_right_wing.customLabel>
   <!-- EN: right wing claw -->
   <Drexl.corePart.parts.rear_right_wing.parts.right_wing_claw.customLabel>right wing claw</Drexl.corePart.parts.rear_right_wing.parts.right_wing_claw.customLabel>
-  
   <!-- EN: large arachnid -->
   <EnergySpider.label>large arachnid</EnergySpider.label>
   <!-- EN: cephalothorax -->
@@ -961,7 +938,6 @@
   <EnergySpider.corePart.parts.rear_upper_left_leg.customLabel>rear upper left leg</EnergySpider.corePart.parts.rear_upper_left_leg.customLabel>
   <!-- EN: rear upper right leg -->
   <EnergySpider.corePart.parts.rear_upper_right_leg.customLabel>rear upper right leg</EnergySpider.corePart.parts.rear_upper_right_leg.customLabel>
-  
   <!-- EN: trunk-nosed quadruped animal -->
   <Eopie.label>trunk-nosed quadruped animal</Eopie.label>
   <!-- EN: left lung -->
@@ -996,7 +972,6 @@
   <Eopie.corePart.parts.rear_right_leg.customLabel>rear right leg</Eopie.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right padded foot -->
   <Eopie.corePart.parts.rear_right_leg.parts.rear_right_padded_foot.customLabel>rear right padded foot</Eopie.corePart.parts.rear_right_leg.parts.rear_right_padded_foot.customLabel>
-  
   <!-- EN: tusked dorsal sailed amphibian -->
   <Fanback.label>tusked dorsal sailed amphibian</Fanback.label>
   <!-- EN: dorsal sail -->
@@ -1037,7 +1012,6 @@
   <Fanback.corePart.parts.rear_right_leg.customLabel>rear right leg</Fanback.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right clawed paw -->
   <Fanback.corePart.parts.rear_right_leg.parts.rear_right_clawed_paw.customLabel>rear right clawed paw</Fanback.corePart.parts.rear_right_leg.parts.rear_right_clawed_paw.customLabel>
-  
   <!-- EN: flying beaked animal -->
   <FlyingAvian.label>flying beaked animal</FlyingAvian.label>
   <!-- EN: tail tip -->
@@ -1070,7 +1044,6 @@
   <FlyingAvian.corePart.parts.right_leg.customLabel>right leg</FlyingAvian.corePart.parts.right_leg.customLabel>
   <!-- EN: right foot -->
   <FlyingAvian.corePart.parts.right_leg.parts.right_foot.customLabel>right foot</FlyingAvian.corePart.parts.right_leg.parts.right_foot.customLabel>
-  
   <!-- EN: bipedal amphibicanoid animal -->
   <FrogDog.label>bipedal amphibicanoid animal</FrogDog.label>
   <!-- EN: left lung -->
@@ -1095,7 +1068,6 @@
   <FrogDog.corePart.parts.right_leg.customLabel>right leg</FrogDog.corePart.parts.right_leg.customLabel>
   <!-- EN: right foot -->
   <FrogDog.corePart.parts.right_leg.parts.right_foot.customLabel>right foot</FrogDog.corePart.parts.right_leg.parts.right_foot.customLabel>
-  
   <!-- EN: caterpillar-like animal -->
   <Gelagrub.label>caterpillar-like animal</Gelagrub.label>
   <!-- EN: leathery carapace -->
@@ -1132,7 +1104,6 @@
   <Gelagrub.corePart.parts.rear_secong_left_proleg.customLabel>rear secong left proleg</Gelagrub.corePart.parts.rear_secong_left_proleg.customLabel>
   <!-- EN: rear second right proleg -->
   <Gelagrub.corePart.parts.rear_second_right_proleg.customLabel>rear second right proleg</Gelagrub.corePart.parts.rear_second_right_proleg.customLabel>
-  
   <!-- EN: bidpedal reptilian animal -->
   <Gizka.label>bidpedal reptilian animal</Gizka.label>
   <!-- EN: left lung -->
@@ -1155,7 +1126,6 @@
   <Gizka.corePart.parts.rear_right_digitigrade_leg.customLabel>rear right digitigrade leg</Gizka.corePart.parts.rear_right_digitigrade_leg.customLabel>
   <!-- EN: right foot -->
   <Gizka.corePart.parts.rear_right_digitigrade_leg.parts.right_foot.customLabel>right foot</Gizka.corePart.parts.rear_right_digitigrade_leg.parts.right_foot.customLabel>
-  
   <!-- EN: four-eyed amphibian animal -->
   <Gorg.label>four-eyed amphibian animal</Gorg.label>
   <!-- EN: left lung -->
@@ -1192,7 +1162,6 @@
   <Gorg.corePart.parts.rear_right_leg.customLabel>rear right leg</Gorg.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right webbed-paw -->
   <Gorg.corePart.parts.rear_right_leg.parts.rear_right_webbedpaw.customLabel>rear right webbed-paw</Gorg.corePart.parts.rear_right_leg.parts.rear_right_webbedpaw.customLabel>
-  
   <!-- EN: horned squat reptomammal animal -->
   <Gornt.label>horned squat reptomammal animal</Gornt.label>
   <!-- EN: left lung -->
@@ -1229,7 +1198,6 @@
   <Gornt.corePart.parts.rear_right_leg.customLabel>rear right leg</Gornt.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Gornt.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Gornt.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: slug-like -->
   <GraniteSlug.label>slug-like</GraniteSlug.label>
   <!-- EN: slimy frilled carapace -->
@@ -1258,7 +1226,6 @@
   <GraniteSlug.corePart.parts.single_gastropod_foot.customLabel>single gastropod foot</GraniteSlug.corePart.parts.single_gastropod_foot.customLabel>
   <!-- EN: suction pseudopod -->
   <GraniteSlug.corePart.parts.suction_pseudopod.customLabel>suction pseudopod</GraniteSlug.corePart.parts.suction_pseudopod.customLabel>
-  
   <!-- EN: colossal decapod reptiloid creature -->
   <GreaterKraytDragon.label>colossal decapod reptiloid creature</GreaterKraytDragon.label>
   <!-- EN: left lung -->
@@ -1313,7 +1280,6 @@
   <GreaterKraytDragon.corePart.parts.second_rear_right_leg.customLabel>second rear right leg</GreaterKraytDragon.corePart.parts.second_rear_right_leg.customLabel>
   <!-- EN: right foot -->
   <GreaterKraytDragon.corePart.parts.second_rear_right_leg.parts.right_foot.customLabel>right foot</GreaterKraytDragon.corePart.parts.second_rear_right_leg.parts.right_foot.customLabel>
-  
   <!-- EN: inflatable amphibian animal -->
   <Gullipud.label>inflatable amphibian animal</Gullipud.label>
   <!-- EN: left lung -->
@@ -1350,7 +1316,6 @@
   <Gullipud.corePart.parts.rear_right_leg.customLabel>rear right leg</Gullipud.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right clawed-paw -->
   <Gullipud.corePart.parts.rear_right_leg.parts.rear_right_clawedpaw.customLabel>rear right clawed-paw</Gullipud.corePart.parts.rear_right_leg.parts.rear_right_clawedpaw.customLabel>
-  
   <!-- EN: predatory hexapod animal -->
   <Gundark.label>predatory hexapod animal</Gundark.label>
   <!-- EN: left lung -->
@@ -1409,7 +1374,6 @@
   <Gundark.corePart.parts.right_leg.customLabel>right leg</Gundark.corePart.parts.right_leg.customLabel>
   <!-- EN: bottom right toe-claw -->
   <Gundark.corePart.parts.right_leg.parts.bottom_right_toeclaw.customLabel>bottom right toe-claw</Gundark.corePart.parts.right_leg.parts.bottom_right_toeclaw.customLabel>
-  
   <!-- EN: bipedal insectile animal -->
   <Gutkurr.label>bipedal insectile animal</Gutkurr.label>
   <!-- EN: spiky carapaced tail -->
@@ -1464,7 +1428,6 @@
   <Gutkurr.corePart.parts.back_right_leg.customLabel>back right leg</Gutkurr.corePart.parts.back_right_leg.customLabel>
   <!-- EN: left back support claw -->
   <Gutkurr.corePart.parts.back_right_leg.parts.left_back_support_claw.customLabel>left back support claw</Gutkurr.corePart.parts.back_right_leg.parts.left_back_support_claw.customLabel>
-  
   <!-- EN: bat-like reptavian animal -->
   <Hawkbat.label>bat-like reptavian animal</Hawkbat.label>
   <!-- EN: left lung -->
@@ -1493,7 +1456,6 @@
   <Hawkbat.corePart.parts.right_leg.customLabel>right leg</Hawkbat.corePart.parts.right_leg.customLabel>
   <!-- EN: right talon -->
   <Hawkbat.corePart.parts.right_leg.parts.right_talon.customLabel>right talon</Hawkbat.corePart.parts.right_leg.parts.right_talon.customLabel>
-  
   <!-- EN: thorny-tailed quadruped animal -->
   <Horax.label>thorny-tailed quadruped animal</Horax.label>
   <!-- EN: spiked tail -->
@@ -1536,7 +1498,6 @@
   <Horax.corePart.parts.rear_right_leg.customLabel>rear right leg</Horax.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: right back hoofed foot -->
   <Horax.corePart.parts.rear_right_leg.parts.right_back_hoofed_foot.customLabel>right back hoofed foot</Horax.corePart.parts.rear_right_leg.parts.right_back_hoofed_foot.customLabel>
-  
   <!-- EN: tusked frilled archosaurian -->
   <Hssiss.label>tusked frilled archosaurian</Hssiss.label>
   <!-- EN: left lung -->
@@ -1575,7 +1536,6 @@
   <Hssiss.corePart.parts.rear_right_leg.customLabel>rear right leg</Hssiss.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right clawed paw -->
   <Hssiss.corePart.parts.rear_right_leg.parts.rear_right_clawed_paw.customLabel>rear right clawed paw</Hssiss.corePart.parts.rear_right_leg.parts.rear_right_clawed_paw.customLabel>
-  
   <!-- EN: amphibious crested quadrupredal animal -->
   <Igitz.label>amphibious crested quadrupredal animal</Igitz.label>
   <!-- EN: left fin tail -->
@@ -1618,7 +1578,6 @@
   <Igitz.corePart.parts.rear_right_leg.customLabel>rear right leg</Igitz.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right webbed paw -->
   <Igitz.corePart.parts.rear_right_leg.parts.rear_right_webbed_paw.customLabel>rear right webbed paw</Igitz.corePart.parts.rear_right_leg.parts.rear_right_webbed_paw.customLabel>
-  
   <!-- EN: digitigrade quadrapedal insectile -->
   <Insectomorph.label>digitigrade quadrapedal insectile</Insectomorph.label>
   <!-- EN: left lung -->
@@ -1651,7 +1610,6 @@
   <Insectomorph.corePart.parts.rear_right_digitigrade_leg.customLabel>rear right digitigrade leg</Insectomorph.corePart.parts.rear_right_digitigrade_leg.customLabel>
   <!-- EN: rear right paw -->
   <Insectomorph.corePart.parts.rear_right_digitigrade_leg.parts.rear_right_paw.customLabel>rear right paw</Insectomorph.corePart.parts.rear_right_digitigrade_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: tusked horn quadrapedal animal -->
   <Jakobeast.label>tusked horn quadrapedal animal</Jakobeast.label>
   <!-- EN: tail paw -->
@@ -1692,7 +1650,6 @@
   <Jakobeast.corePart.parts.rear_right_leg.customLabel>rear right leg</Jakobeast.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Jakobeast.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Jakobeast.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: hexapod repto-ungulate animal -->
   <Jimvu.label>hexapod repto-ungulate animal</Jimvu.label>
   <!-- EN: left lung -->
@@ -1737,7 +1694,6 @@
   <Jimvu.corePart.parts.rear_right_leg.customLabel>rear right leg</Jimvu.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right foot pad -->
   <Jimvu.corePart.parts.rear_right_leg.parts.rear_right_foot_pad.customLabel>rear right foot pad</Jimvu.corePart.parts.rear_right_leg.parts.rear_right_foot_pad.customLabel>
-  
   <!-- EN: bipedal reptavian animal -->
   <Kaadu.label>bipedal reptavian animal</Kaadu.label>
   <!-- EN: left lung -->
@@ -1764,7 +1720,6 @@
   <Kaadu.corePart.parts.right_leg.customLabel>right leg</Kaadu.corePart.parts.right_leg.customLabel>
   <!-- EN: right blunt foot -->
   <Kaadu.corePart.parts.right_leg.parts.right_blunt_foot.customLabel>right blunt foot</Kaadu.corePart.parts.right_leg.parts.right_blunt_foot.customLabel>
-  
   <!-- EN: horned quadrapedal reptomammal animal -->
   <Katarn.label>horned quadrapedal reptomammal animal</Katarn.label>
   <!-- EN: arboreal tail -->
@@ -1803,7 +1758,6 @@
   <Katarn.corePart.parts.rear_right_leg.customLabel>rear right leg</Katarn.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right arboreal paw -->
   <Katarn.corePart.parts.rear_right_leg.parts.rear_right_arboreal_paw.customLabel>rear right arboreal paw</Katarn.corePart.parts.rear_right_leg.parts.rear_right_arboreal_paw.customLabel>
-  
   <!-- EN: pentapod insectoid animal -->
   <Kinrath.label>pentapod insectoid animal</Kinrath.label>
   <!-- EN: left thermal tri-ocelli -->
@@ -1822,7 +1776,6 @@
   <Kinrath.corePart.parts.rear_left_leg.customLabel>rear left leg</Kinrath.corePart.parts.rear_left_leg.customLabel>
   <!-- EN: rear right leg -->
   <Kinrath.corePart.parts.rear_right_leg.customLabel>rear right leg</Kinrath.corePart.parts.rear_right_leg.customLabel>
-  
   <!-- EN: poisonous vermiform animal -->
   <Klorslug.label>poisonous vermiform animal</Klorslug.label>
   <!-- EN: chitinous worm-like carapace -->
@@ -1859,7 +1812,6 @@
   <Klorslug.corePart.parts.rear_left_leg.customLabel>rear left leg</Klorslug.corePart.parts.rear_left_leg.customLabel>
   <!-- EN: rear right leg -->
   <Klorslug.corePart.parts.rear_right_leg.customLabel>rear right leg</Klorslug.corePart.parts.rear_right_leg.customLabel>
-  
   <!-- EN: beaked primate animal -->
   <KowakianMonkeyLizard.label>beaked primate animal</KowakianMonkeyLizard.label>
   <!-- EN: left clavicle -->
@@ -1942,7 +1894,6 @@
   <KowakianMonkeyLizard.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe_claw.customLabel>right second toe claw</KowakianMonkeyLizard.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe_claw.customLabel>
   <!-- EN: right big toe claw -->
   <KowakianMonkeyLizard.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe_claw.customLabel>right big toe claw</KowakianMonkeyLizard.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe_claw.customLabel>
-  
   <!-- EN: krayt dragon -->
   <KraytDragon.label>krayt dragon</KraytDragon.label>
   <!-- EN: left lung -->
@@ -1973,7 +1924,6 @@
   <KraytDragon.corePart.parts.rear_right_leg.customLabel>rear right leg</KraytDragon.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <KraytDragon.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</KraytDragon.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: large-jawed beetle animal -->
   <Kreetle.label>large-jawed beetle animal</Kreetle.label>
   <!-- EN: front carapace -->
@@ -2000,7 +1950,6 @@
   <Kreetle.corePart.parts.rear_left_leg.customLabel>rear left leg</Kreetle.corePart.parts.rear_left_leg.customLabel>
   <!-- EN: rear right leg -->
   <Kreetle.corePart.parts.rear_right_leg.customLabel>rear right leg</Kreetle.corePart.parts.rear_right_leg.customLabel>
-  
   <!-- EN: bulbous arachnoid animal -->
   <Krykna.label>bulbous arachnoid animal</Krykna.label>
   <!-- EN: bulbous abdominal sac -->
@@ -2029,7 +1978,6 @@
   <Krykna.corePart.parts.rear_left_leg.customLabel>rear left leg</Krykna.corePart.parts.rear_left_leg.customLabel>
   <!-- EN: rear right leg -->
   <Krykna.corePart.parts.rear_right_leg.customLabel>rear right leg</Krykna.corePart.parts.rear_right_leg.customLabel>
-  
   <!-- EN: slug-like animal -->
   <KwazelMaw.label>slug-like animal</KwazelMaw.label>
   <!-- EN: leathery carapace -->
@@ -2072,7 +2020,6 @@
   <KwazelMaw.corePart.parts.rear_secong_left_proleg.customLabel>rear secong left proleg</KwazelMaw.corePart.parts.rear_secong_left_proleg.customLabel>
   <!-- EN: rear second right proleg -->
   <KwazelMaw.corePart.parts.rear_second_right_proleg.customLabel>rear second right proleg</KwazelMaw.corePart.parts.rear_second_right_proleg.customLabel>
-  
   <!-- EN: bipedal saurian animal -->
   <Kwi.label>bipedal saurian animal</Kwi.label>
   <!-- EN: left lung -->
@@ -2121,7 +2068,6 @@
   <Kwi.corePart.parts.rear_right_leg.customLabel>rear right leg</Kwi.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear clawed foot -->
   <Kwi.corePart.parts.rear_right_leg.parts.rear_clawed_foot.customLabel>rear clawed foot</Kwi.corePart.parts.rear_right_leg.parts.rear_clawed_foot.customLabel>
-  
   <!-- EN: bipedal hoofed animal -->
   <Kybuck.label>bipedal hoofed animal</Kybuck.label>
   <!-- EN: left lung -->
@@ -2168,7 +2114,6 @@
   <Kybuck.corePart.parts.rear_right_leg.customLabel>rear right leg</Kybuck.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right hoof -->
   <Kybuck.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>rear right hoof</Kybuck.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>
-  
   <!-- EN: flea-like animal -->
   <LavaFlea.label>flea-like animal</LavaFlea.label>
   <!-- EN: chitinous shell -->
@@ -2189,7 +2134,6 @@
   <LavaFlea.corePart.parts.rear_left_leg.customLabel>rear left leg</LavaFlea.corePart.parts.rear_left_leg.customLabel>
   <!-- EN: rear right leg -->
   <LavaFlea.corePart.parts.rear_right_leg.customLabel>rear right leg</LavaFlea.corePart.parts.rear_right_leg.customLabel>
-  
   <!-- EN: hexapod insectoid with tentacle limbs -->
   <Lylek.label>hexapod insectoid with tentacle limbs</Lylek.label>
   <!-- EN: thorax -->
@@ -2220,7 +2164,6 @@
   <Lylek.corePart.parts.rear_right_leg.customLabel>rear right leg</Lylek.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: poisonous retractable appendage -->
   <Lylek.corePart.parts.poisonous_retractable_appendage.customLabel>poisonous retractable appendage</Lylek.corePart.parts.poisonous_retractable_appendage.customLabel>
-  
   <!-- EN: tusked feline animal -->
   <Manka.label>tusked feline animal</Manka.label>
   <!-- EN: tuft tail -->
@@ -2269,7 +2212,6 @@
   <Manka.corePart.parts.rear_right_leg.customLabel>rear right leg</Manka.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Manka.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Manka.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: argusoid bipedal creature -->
   <MarshHaunt.label>argusoid bipedal creature</MarshHaunt.label>
   <!-- EN: left clavicle -->
@@ -2362,7 +2304,6 @@
   <MarshHaunt.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>right second toe</MarshHaunt.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
   <!-- EN: right big toe -->
   <MarshHaunt.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>right big toe</MarshHaunt.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>
-  
   <!-- EN: spiny reptilian animal -->
   <Massiff.label>spiny reptilian animal</Massiff.label>
   <!-- EN: vestigial tail stump -->
@@ -2401,7 +2342,6 @@
   <Massiff.corePart.parts.rear_right_leg.customLabel>rear right leg</Massiff.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Massiff.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Massiff.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: quadrupedal avian animal -->
   <MastiffPhalone.label>quadrupedal avian animal</MastiffPhalone.label>
   <!-- EN: fanned tail -->
@@ -2440,7 +2380,6 @@
   <MastiffPhalone.corePart.parts.rear_right_leg.customLabel>rear right leg</MastiffPhalone.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <MastiffPhalone.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</MastiffPhalone.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: woolly horned quadruped animal -->
   <Mastmot.label>woolly horned quadruped animal</Mastmot.label>
   <!-- EN: left lung -->
@@ -2479,7 +2418,6 @@
   <Mastmot.corePart.parts.rear_right_leg.customLabel>rear right leg</Mastmot.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Mastmot.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Mastmot.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: plated mammalian animal -->
   <Mawvorr.label>plated mammalian animal</Mawvorr.label>
   <!-- EN: segmented tail -->
@@ -2522,7 +2460,6 @@
   <Mawvorr.corePart.parts.rear_right_leg.customLabel>rear right leg</Mawvorr.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Mawvorr.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Mawvorr.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: flying silica animal -->
   <Mynock.label>flying silica animal</Mynock.label>
   <!-- EN: left lung -->
@@ -2543,7 +2480,6 @@
   <Mynock.corePart.parts.front_left_wing.customLabel>front left wing</Mynock.corePart.parts.front_left_wing.customLabel>
   <!-- EN: front right wing -->
   <Mynock.corePart.parts.front_right_wing.customLabel>front right wing</Mynock.corePart.parts.front_right_wing.customLabel>
-  
   <!-- EN: flying multi-eyed silica animal -->
   <Neebray.label>flying multi-eyed silica animal</Neebray.label>
   <!-- EN: left forked tail -->
@@ -2568,7 +2504,6 @@
   <Neebray.corePart.parts.front_left_wing.customLabel>front left wing</Neebray.corePart.parts.front_left_wing.customLabel>
   <!-- EN: front right wing -->
   <Neebray.corePart.parts.front_right_wing.customLabel>front right wing</Neebray.corePart.parts.front_right_wing.customLabel>
-  
   <!-- EN: four-eyed quadruped animal -->
   <Nexu.label>four-eyed quadruped animal</Nexu.label>
   <!-- EN: two-pronged prehensile tail -->
@@ -2613,7 +2548,6 @@
   <Nexu.corePart.parts.rear_right_leg.customLabel>rear right leg</Nexu.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right clawed paw -->
   <Nexu.corePart.parts.rear_right_leg.parts.rear_right_clawed_paw.customLabel>rear right clawed paw</Nexu.corePart.parts.rear_right_leg.parts.rear_right_clawed_paw.customLabel>
-  
   <!-- EN: hexapod aquatic rodent animal -->
   <Ollopom.label>hexapod aquatic rodent animal</Ollopom.label>
   <!-- EN: fluked tail -->
@@ -2660,7 +2594,6 @@
   <Ollopom.corePart.parts.rear_right_leg.customLabel>rear right leg</Ollopom.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paddle-like clawed paw -->
   <Ollopom.corePart.parts.rear_right_leg.parts.rear_right_paddlelike_clawed_paw.customLabel>rear right paddle-like clawed paw</Ollopom.corePart.parts.rear_right_leg.parts.rear_right_paddlelike_clawed_paw.customLabel>
-  
   <!-- EN: quadruped reptomammal animal -->
   <Orray.label>quadruped reptomammal animal</Orray.label>
   <!-- EN: left lung -->
@@ -2699,7 +2632,6 @@
   <Orray.corePart.parts.rear_right_leg.customLabel>rear right leg</Orray.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Orray.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Orray.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: bipedal reptavian animal -->
   <Pikobis.label>bipedal reptavian animal</Pikobis.label>
   <!-- EN: left lung -->
@@ -2748,7 +2680,6 @@
   <Pikobis.corePart.parts.bottom_right_leg.customLabel>bottom right leg</Pikobis.corePart.parts.bottom_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Pikobis.corePart.parts.bottom_right_leg.parts.rear_right_paw.customLabel>rear right paw</Pikobis.corePart.parts.bottom_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: quadrupedal cyclopean animal -->
   <Qormot.label>quadrupedal cyclopean animal</Qormot.label>
   <!-- EN: crooked tail -->
@@ -2785,7 +2716,6 @@
   <Qormot.corePart.parts.rear_right_leg.customLabel>rear right leg</Qormot.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right tridactyl paw -->
   <Qormot.corePart.parts.rear_right_leg.parts.rear_right_tridactyl_paw.customLabel>rear right tridactyl paw</Qormot.corePart.parts.rear_right_leg.parts.rear_right_tridactyl_paw.customLabel>
-  
   <!-- EN: giant predatory reptomammal animal -->
   <Rancor.label>giant predatory reptomammal animal</Rancor.label>
   <!-- EN: stubby tail -->
@@ -2890,7 +2820,6 @@
   <Rancor.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>right second toe</Rancor.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
   <!-- EN: right third toe -->
   <Rancor.corePart.parts.right_leg.parts.right_foot.parts.right_third_toe.customLabel>right third toe</Rancor.corePart.parts.right_leg.parts.right_foot.parts.right_third_toe.customLabel>
-  
   <!-- EN: reek -->
   <Reek.label>reek</Reek.label>
   <!-- EN: left lung -->
@@ -2921,7 +2850,6 @@
   <Reek.corePart.parts.rear_right_leg.customLabel>rear right leg</Reek.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right two-toed hoof -->
   <Reek.corePart.parts.rear_right_leg.parts.rear_right_twotoed_hoof.customLabel>rear right two-toed hoof</Reek.corePart.parts.rear_right_leg.parts.rear_right_twotoed_hoof.customLabel>
-  
   <!-- EN: arboreal crustacean animal -->
   <Rikknit.label>arboreal crustacean animal</Rikknit.label>
   <!-- EN: carapace -->
@@ -2974,7 +2902,6 @@
   <Rikknit.corePart.parts.back_left_leg.customLabel>back left leg</Rikknit.corePart.parts.back_left_leg.customLabel>
   <!-- EN: back right leg -->
   <Rikknit.corePart.parts.back_right_leg.customLabel>back right leg</Rikknit.corePart.parts.back_right_leg.customLabel>
-  
   <!-- EN: bipedal horned saurian animal -->
   <Roggwart.label>bipedal horned saurian animal</Roggwart.label>
   <!-- EN: trident-tipped tail -->
@@ -3029,7 +2956,6 @@
   <Roggwart.corePart.parts.rear_right_leg.customLabel>rear right leg</Roggwart.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear clawed foot -->
   <Roggwart.corePart.parts.rear_right_leg.parts.rear_clawed_foot.customLabel>rear clawed foot</Roggwart.corePart.parts.rear_right_leg.parts.rear_clawed_foot.customLabel>
-  
   <!-- EN: quadnostriled ungulate animal -->
   <Rycrit.label>quadnostriled ungulate animal</Rycrit.label>
   <!-- EN: left lung -->
@@ -3068,7 +2994,6 @@
   <Rycrit.corePart.parts.rear_right_leg.customLabel>rear right leg</Rycrit.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right sharp cloven hoof -->
   <Rycrit.corePart.parts.rear_right_leg.parts.rear_right_sharp_cloven_hoof.customLabel>rear right sharp cloven hoof</Rycrit.corePart.parts.rear_right_leg.parts.rear_right_sharp_cloven_hoof.customLabel>
-  
   <!-- EN: bipedal quadeared rodent animal -->
   <Scavrat.label>bipedal quadeared rodent animal</Scavrat.label>
   <!-- EN: left tail -->
@@ -3123,7 +3048,6 @@
   <Scavrat.corePart.parts.rear_right_leg.customLabel>rear right leg</Scavrat.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Scavrat.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Scavrat.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: bipedal rodent animal -->
   <Scurrier.label>bipedal rodent animal</Scurrier.label>
   <!-- EN: left lung -->
@@ -3172,7 +3096,6 @@
   <Scurrier.corePart.parts.bottom_right_leg.customLabel>bottom right leg</Scurrier.corePart.parts.bottom_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Scurrier.corePart.parts.bottom_right_leg.parts.rear_right_paw.customLabel>rear right paw</Scurrier.corePart.parts.bottom_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: rotund trunk-nosed animal -->
   <Shaak.label>rotund trunk-nosed animal</Shaak.label>
   <!-- EN: left lung -->
@@ -3207,7 +3130,6 @@
   <Shaak.corePart.parts.rear_right_leg.customLabel>rear right leg</Shaak.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right hoof -->
   <Shaak.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>rear right hoof</Shaak.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>
-  
   <!-- EN: turtle-like plant symbiote creature -->
   <ShiroTrap.label>turtle-like plant symbiote creature</ShiroTrap.label>
   <!-- EN: left lung -->
@@ -3232,7 +3154,6 @@
   <ShiroTrap.corePart.parts.rear_left_leg.customLabel>rear left leg</ShiroTrap.corePart.parts.rear_left_leg.customLabel>
   <!-- EN: rear right leg -->
   <ShiroTrap.corePart.parts.rear_right_leg.customLabel>rear right leg</ShiroTrap.corePart.parts.rear_right_leg.customLabel>
-  
   <!-- EN: flying insectoid animal -->
   <Shyrack.label>flying insectoid animal</Shyrack.label>
   <!-- EN: Serrated paddled tail -->
@@ -3279,7 +3200,6 @@
   <Shyrack.corePart.parts.front_left_wing.customLabel>front left wing</Shyrack.corePart.parts.front_left_wing.customLabel>
   <!-- EN: front right wing -->
   <Shyrack.corePart.parts.front_right_wing.customLabel>front right wing</Shyrack.corePart.parts.front_right_wing.customLabel>
-  
   <!-- EN: horned-beetle animal -->
   <Silooth.label>horned-beetle animal</Silooth.label>
   <!-- EN: pronotum carapace -->
@@ -3316,7 +3236,6 @@
   <Silooth.corePart.parts.rear_left_leg.customLabel>rear left leg</Silooth.corePart.parts.rear_left_leg.customLabel>
   <!-- EN: rear right leg -->
   <Silooth.corePart.parts.rear_right_leg.customLabel>rear right leg</Silooth.corePart.parts.rear_right_leg.customLabel>
-  
   <!-- EN: tusked quadruped with trunk animal -->
   <Skalder.label>tusked quadruped with trunk animal</Skalder.label>
   <!-- EN: left lung -->
@@ -3351,7 +3270,6 @@
   <Skalder.corePart.parts.rear_right_leg.customLabel>rear right leg</Skalder.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right hoof -->
   <Skalder.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>rear right hoof</Skalder.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>
-  
   <!-- EN: mobile dikarya fungus -->
   <Snoruuk.label>mobile dikarya fungus</Snoruuk.label>
   <!-- EN: central hyphae structure -->
@@ -3380,7 +3298,6 @@
   <Snoruuk.corePart.parts.reflexory_stipe.customLabel>reflexory stipe</Snoruuk.corePart.parts.reflexory_stipe.customLabel>
   <!-- EN: volva toed-foot -->
   <Snoruuk.corePart.parts.reflexory_stipe.parts.volva_toedfoot.customLabel>volva toed-foot</Snoruuk.corePart.parts.reflexory_stipe.parts.volva_toedfoot.customLabel>
-  
   <!-- EN: hexapod gliding canidae animal -->
   <Strill.label>hexapod gliding canidae animal</Strill.label>
   <!-- EN: whip-like tail -->
@@ -3431,7 +3348,6 @@
   <Strill.corePart.parts.rear_right_leg_with_gliding_flap.customLabel>rear right leg with gliding flap</Strill.corePart.parts.rear_right_leg_with_gliding_flap.customLabel>
   <!-- EN: rear right paw -->
   <Strill.corePart.parts.rear_right_leg_with_gliding_flap.parts.rear_right_paw.customLabel>rear right paw</Strill.corePart.parts.rear_right_leg_with_gliding_flap.parts.rear_right_paw.customLabel>
-  
   <!-- EN: centipedal grub animal -->
   <Taozin.label>centipedal grub animal</Taozin.label>
   <!-- EN: spiked-tail -->
@@ -3502,7 +3418,6 @@
   <Taozin.corePart.parts.back_right_proleg.customLabel>back right proleg</Taozin.corePart.parts.back_right_proleg.customLabel>
   <!-- EN: back left proleg -->
   <Taozin.corePart.parts.back_left_proleg.customLabel>back left proleg</Taozin.corePart.parts.back_left_proleg.customLabel>
-  
   <!-- EN: tauntaun -->
   <Tauntaun.label>tauntaun</Tauntaun.label>
   <!-- EN: left lung -->
@@ -3525,7 +3440,6 @@
   <Tauntaun.corePart.parts.right_leg.customLabel>right leg</Tauntaun.corePart.parts.right_leg.customLabel>
   <!-- EN: right foot -->
   <Tauntaun.corePart.parts.right_leg.parts.right_foot.customLabel>right foot</Tauntaun.corePart.parts.right_leg.parts.right_foot.customLabel>
-  
   <!-- EN: decapod crustaceous animal -->
   <TetnissCrab.label>decapod crustaceous animal</TetnissCrab.label>
   <!-- EN: scrap-encrusted carapace -->
@@ -3586,7 +3500,6 @@
   <TetnissCrab.corePart.parts.back_right_leg.customLabel>back right leg</TetnissCrab.corePart.parts.back_right_leg.customLabel>
   <!-- EN: right back claw -->
   <TetnissCrab.corePart.parts.back_right_leg.parts.right_back_claw.customLabel>right back claw</TetnissCrab.corePart.parts.back_right_leg.parts.right_back_claw.customLabel>
-  
   <!-- EN: flying reptavian animal -->
   <Thranta.label>flying reptavian animal</Thranta.label>
   <!-- EN: hypocercal fin tail -->
@@ -3611,7 +3524,6 @@
   <Thranta.corePart.parts.front_left_wing.customLabel>front left wing</Thranta.corePart.parts.front_left_wing.customLabel>
   <!-- EN: front right wing -->
   <Thranta.corePart.parts.front_right_wing.customLabel>front right wing</Thranta.corePart.parts.front_right_wing.customLabel>
-  
   <!-- EN: colossal flying silica animal -->
   <Tibidee.label>colossal flying silica animal</Tibidee.label>
   <!-- EN: fluked tail -->
@@ -3662,7 +3574,6 @@
   <Tibidee.corePart.parts.rear_right_leg.customLabel>rear right leg</Tibidee.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: right rear foot-pad -->
   <Tibidee.corePart.parts.rear_right_leg.parts.right_rear_footpad.customLabel>right rear foot-pad</Tibidee.corePart.parts.rear_right_leg.parts.right_rear_footpad.customLabel>
-  
   <!-- EN: horned colossal estudine creature -->
   <Torton.label>horned colossal estudine creature</Torton.label>
   <!-- EN: left lung -->
@@ -3693,7 +3604,6 @@
   <Torton.corePart.parts.rear_right_leg.customLabel>rear right leg</Torton.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Torton.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Torton.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: large poisonous quadrapedal animal -->
   <Tukata.label>large poisonous quadrapedal animal</Tukata.label>
   <!-- EN: spiked tail -->
@@ -3732,7 +3642,6 @@
   <Tukata.corePart.parts.rear_right_leg.customLabel>rear right leg</Tukata.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right clawed paw -->
   <Tukata.corePart.parts.rear_right_leg.parts.rear_right_clawed_paw.customLabel>rear right clawed paw</Tukata.corePart.parts.rear_right_leg.parts.rear_right_clawed_paw.customLabel>
-  
   <!-- EN: tripod animal -->
   <Vapaad.label>tripod animal</Vapaad.label>
   <!-- EN: gastric pouch -->
@@ -3753,7 +3662,6 @@
   <Vapaad.corePart.parts.front_right_leg.customLabel>front right leg</Vapaad.corePart.parts.front_right_leg.customLabel>
   <!-- EN: middle back leg -->
   <Vapaad.corePart.parts.middle_back_leg.customLabel>middle back leg</Vapaad.corePart.parts.middle_back_leg.customLabel>
-  
   <!-- EN: crested reptavian quadruped animal -->
   <Varactyl.label>crested reptavian quadruped animal</Varactyl.label>
   <!-- EN: left lung -->
@@ -3786,7 +3694,6 @@
   <Varactyl.corePart.parts.rear_right_leg.customLabel>rear right leg</Varactyl.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Varactyl.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Varactyl.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: large predatory primate -->
   <Veermok.label>large predatory primate</Veermok.label>
   <!-- EN: left clavicle -->
@@ -3873,7 +3780,6 @@
   <Veermok.corePart.parts.right_leg.parts.right_foot.parts.right_second_clawed_toe.customLabel>right second clawed toe</Veermok.corePart.parts.right_leg.parts.right_foot.parts.right_second_clawed_toe.customLabel>
   <!-- EN: right big clawed toe -->
   <Veermok.corePart.parts.right_leg.parts.right_foot.parts.right_big_clawed_toe.customLabel>right big clawed toe</Veermok.corePart.parts.right_leg.parts.right_foot.parts.right_big_clawed_toe.customLabel>
-  
   <!-- EN: octuped animal -->
   <Voorpak.label>octuped animal</Voorpak.label>
   <!-- EN: left lung -->
@@ -3924,7 +3830,6 @@
   <Voorpak.corePart.parts.rear_right_leg.customLabel>rear right leg</Voorpak.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right paw -->
   <Voorpak.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>rear right paw</Voorpak.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
-  
   <!-- EN: medium poisonous quadrapedal animal -->
   <Vornskyr.label>medium poisonous quadrapedal animal</Vornskyr.label>
   <!-- EN: whip-like tail -->
@@ -3995,7 +3900,6 @@
   <Vornskyr.corePart.parts.rear_right_leg.parts.rear_right_leg_fourth_claw.customLabel>rear right leg fourth claw</Vornskyr.corePart.parts.rear_right_leg.parts.rear_right_leg_fourth_claw.customLabel>
   <!-- EN: rear right leg fifth claw -->
   <Vornskyr.corePart.parts.rear_right_leg.parts.rear_right_leg_fifth_claw.customLabel>rear right leg fifth claw</Vornskyr.corePart.parts.rear_right_leg.parts.rear_right_leg_fifth_claw.customLabel>
-  
   <!-- EN: wampa -->
   <Wampa.label>wampa</Wampa.label>
   <!-- EN: left lung -->
@@ -4114,7 +4018,6 @@
   <Wampa.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>right second toe</Wampa.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
   <!-- EN: right big toe -->
   <Wampa.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>right big toe</Wampa.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>
-  
   <!-- EN: bipedal avian predatory animal -->
   <Warbird.label>bipedal avian predatory animal</Warbird.label>
   <!-- EN: fanned feathery tail -->
@@ -4179,7 +4082,6 @@
   <Warbird.corePart.parts.rear_right_leg.parts.rear_right_leg_third_claw.customLabel>rear right leg third claw</Warbird.corePart.parts.rear_right_leg.parts.rear_right_leg_third_claw.customLabel>
   <!-- EN: rear right leg fourth claw -->
   <Warbird.corePart.parts.rear_right_leg.parts.rear_right_leg_fourth_claw.customLabel>rear right leg fourth claw</Warbird.corePart.parts.rear_right_leg.parts.rear_right_leg_fourth_claw.customLabel>
-  
   <!-- EN: colossal serpentine creature -->
   <WarWyrm.label>colossal serpentine creature</WarWyrm.label>
   <!-- EN: finned body -->
@@ -4210,7 +4112,6 @@
   <WarWyrm.corePart.parts.serpentine_tail_tip.customLabel>serpentine tail tip</WarWyrm.corePart.parts.serpentine_tail_tip.customLabel>
   <!-- EN: fanned tail -->
   <WarWyrm.corePart.parts.serpentine_tail_tip.parts.fanned_tail.customLabel>fanned tail</WarWyrm.corePart.parts.serpentine_tail_tip.parts.fanned_tail.customLabel>
-  
   <!-- EN: scaley amphibian animal -->
   <Worrt.label>scaley amphibian animal</Worrt.label>
   <!-- EN: left lung -->
@@ -4247,7 +4148,6 @@
   <Worrt.corePart.parts.rear_right_leg.customLabel>rear right leg</Worrt.corePart.parts.rear_right_leg.customLabel>
   <!-- EN: rear right four-rayed hand -->
   <Worrt.corePart.parts.rear_right_leg.parts.rear_right_fourrayed_hand.customLabel>rear right four-rayed hand</Worrt.corePart.parts.rear_right_leg.parts.rear_right_fourrayed_hand.customLabel>
-  
   <!-- EN: large arachnoid animal -->
   <Wyyyschokk.label>large arachnoid animal</Wyyyschokk.label>
   <!-- EN: bulbous abdominal sac -->
@@ -4286,7 +4186,6 @@
   <Wyyyschokk.corePart.parts.back_left_leg.customLabel>back left leg</Wyyyschokk.corePart.parts.back_left_leg.customLabel>
   <!-- EN: back right leg -->
   <Wyyyschokk.corePart.parts.back_right_leg.customLabel>back right leg</Wyyyschokk.corePart.parts.back_right_leg.customLabel>
-  
   <!-- EN: clawed crustaceous animal -->
   <Yobshrimp.label>clawed crustaceous animal</Yobshrimp.label>
   <!-- EN: spiny carapace -->
@@ -4349,7 +4248,6 @@
   <Yobshrimp.corePart.parts.back_right_leg.customLabel>back right leg</Yobshrimp.corePart.parts.back_right_leg.customLabel>
   <!-- EN: right back claw -->
   <Yobshrimp.corePart.parts.back_right_leg.parts.right_back_claw.customLabel>right back claw</Yobshrimp.corePart.parts.back_right_leg.parts.right_back_claw.customLabel>
-  
   <!-- EN: armoured reptilian quadruped animal -->
   <Zakkeg.label>armoured reptilian quadruped animal</Zakkeg.label>
   <!-- EN: left lung -->
@@ -4406,5 +4304,4 @@
   <Zakkeg.corePart.parts.rear_right_leg.parts.rear_right_leg_second_talon.customLabel>rear right leg second talon</Zakkeg.corePart.parts.rear_right_leg.parts.rear_right_leg_second_talon.customLabel>
   <!-- EN: rear right leg third talon -->
   <Zakkeg.corePart.parts.rear_right_leg.parts.rear_right_leg_third_talon.customLabel>rear right leg third talon</Zakkeg.corePart.parts.rear_right_leg.parts.rear_right_leg_third_talon.customLabel>
-  
 </LanguageData>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_name(p=0.3)->Pit of [NamePerson]</li>
     <li>r_name(p=0.2)->The [dread] [terrain_word]</li>
@@ -33,5 +32,4 @@
     <li>dread->mighty</li>
     <li>dread->eternal</li>
   </SWNamerLandmark_Sarlacc.rulePack.rulesStrings>
-  
 </LanguageData>

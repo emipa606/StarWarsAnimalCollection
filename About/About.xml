@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Star Wars Animal Collection (Continued)</name>
+  <name>[1.6] Star Wars Animal Collection (Continued)</name>
   <packageId>Mlie.StarWarsAnimalCollection</packageId>
   <author>Beasstmann</author>
   <url>https://github.com/emipa606/StarWarsAnimalCollection</url>
@@ -15,8 +15,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1342364585
 based on the continuation by Guy
 https://steamcommunity.com/sharedfiles/filedetails/?id=2006670799
 
-[b]The release of RimWorld 1.6 added improved support for [url=https://github.com/emipa606/AssetBuilder/blob/main/README.md]Asset Bundles[/url][/b].
-To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2903582351]here[/url].
+[b]The release of RimWorld 1.7 added a system where assets like textures and sounds can be cached to improve performance[/b].
+To avoid doubling the size of the mod, it was re-released with only this cache included, you can find the new version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3821001977]here[/url].
+This version will not receive any further updates.
 
 If you want to set what animals can spawn in each biome, please use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2564042934]Choose Wild Animal Spawns[/url]
 
@@ -236,7 +237,7 @@ Enjoy!
 [table]
     [tr]
         [td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/StarWarsAnimalCollection][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/StarWarsAnimalCollection/tree/assetbundles][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
         [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
@@ -281,6 +282,6 @@ Also drop some comments about balancing and let me know what animal you would li
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3497316713][img]https://img.shields.io/github/v/release/emipa606/StarWarsAnimalCollection?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: animals, collection</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.5</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3497316713][img]https://img.shields.io/github/v/release/emipa606/StarWarsAnimalCollection?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | animals, collection</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.6</modVersion>
 </ModMetaData>

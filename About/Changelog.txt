@@ -1,5 +1,8 @@
 # Changelog for StarWarsAnimalCollection
 
+1.6.6 - Last update of the AssetBundle version of the mod
+
+
 1.6.5 - 90 new animals added
 14 new plants
 11 new fish
